@@ -14,7 +14,8 @@ Zuletzt aktualisiert: 2026-10-06
 | Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 00:30 |
 | Zeiten Acts | TŌ YŌ: Get-in 17:00, Soundcheck 17:30, Show 22:45. Natalí: Get-in 18:30, Soundcheck 19:00, Show 21:30 |
 | Sprache Kommunikation mit Act | TŌ YŌ Englisch |
-| Abendverantwortung | Dällen (Orga-App) |
+| Abendverantwortung | Dällen (AV), Ambar (BV) |
+| Team (Protokoll 28.09.) | Mike ab 18:00, Laurin nicht da. Technik-Support: Dällen. Licht: Yves. Kochen: Mike organisiert jemanden. Gästezimmer vorbereiten: Ambar |
 
 Laut Alain ist in der Orga-App alles vollständig (2026-10-06).
 

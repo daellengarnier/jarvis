@@ -12,6 +12,11 @@ Zuletzt aktualisiert: 2026-10-06
 - Alain filmt und schneidet Konzerte.
 - Geplant: Rinde als Deko ausserhalb der Clubfläche.
 
+### Aus den Sitzungsprotokollen 2026
+
+- Lautstärke: nach The Macks (Jan.) zu laut. Schon beim Soundcheck darauf achten, Ton-Person hinweisen, Ohropax am Eingang oder an der Bar anbieten.
+- Licht macht meist Yves. Laurin wird eingeführt (für QUM 31.10.).
+
 ## Offene Punkte
 
 - [ ] Brandschutzbehandlung der Rinde war offen.

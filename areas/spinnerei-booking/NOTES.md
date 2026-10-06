@@ -15,6 +15,11 @@ Zuletzt aktualisiert: 2026-10-06
 Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Option ist: Ordner in `events/` anlegen und hier streichen.
 
 - Acid Pauli: nur eine Idee. Keine Anfrage, kein Termin, kein Anlass (laut Alain, 2026-10-06).
+- Sturzflug (Drum & Bass): Anfrage. Herbst 2026 ist voll, eher Winter/Frühling oder Herbst 2027 (Protokoll 06.05. und 28.09.).
+- Drum & Bass Kollektiv (über Alvi): externer Anlass, Deal 1500 CHF Miete, "Herbst 2026" (Protokolle Jan. bis April). Nicht im Herbstprogramm. Ob identisch mit Sturzflug: unklar.
+- Silvester 2026: private Geburtstagsfeier, ca. 150 Personen. Dällen ruft Dani an (06.05.). Stand unbekannt.
+- Blip, Blap, Blop (über Alvi): Kinderevent zu den 5 Elementen, ab 3 Jahren. Datum im Herbst gesucht (Feb. 2026). Stand unbekannt.
+- Programm-Idee: Lost in a Detail (März bis Mai).
 
 ## Offene Punkte
 
