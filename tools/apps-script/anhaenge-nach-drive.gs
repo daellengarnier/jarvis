@@ -23,8 +23,9 @@ var MAX_THREADS_PRO_LAUF = 50;
 function run() {
   var ordner = ordner_();
   var vorhanden = vorhandeneNamen_(ordner);
-  var ich = Session.getEffectiveUser().getEmail().toLowerCase();
+  var ich = (Session.getEffectiveUser().getEmail() || 'info@kulturspinnerei.ch').toLowerCase();
   var threads = GmailApp.search('label:' + LABEL + ' has:attachment', 0, MAX_THREADS_PRO_LAUF);
+  var kopiert = 0, schonDa = 0, uebersprungen = 0;
 
   threads.forEach(function (thread) {
     thread.getMessages().forEach(function (msg) {
@@ -35,11 +36,13 @@ function run() {
       var anhaenge = msg.getAttachments({ includeInlineImages: false, includeAttachments: true });
       anhaenge.forEach(function (a) {
         var groesse = a.getSize();
-        if (groesse > MAX_BYTES) return;
-        if (/^image\//.test(a.getContentType()) && groesse < MIN_BILD_BYTES) return;
+        if (groesse > MAX_BYTES || (/^image\//.test(a.getContentType()) && groesse < MIN_BILD_BYTES)) {
+          uebersprungen++;
+          return;
+        }
 
         var name = dateiname_(msg.getDate(), von, a.getName());
-        if (vorhanden[name]) return; // schon kopiert
+        if (vorhanden[name]) { schonDa++; return; } // schon kopiert
         var datei = ordner.createFile(a.copyBlob()).setName(name);
         datei.setDescription([
           'Von: ' + von,
@@ -49,9 +52,12 @@ function run() {
           'Mail: https://mail.google.com/mail/u/0/#all/' + msg.getId()
         ].join('\n'));
         vorhanden[name] = true;
+        kopiert++;
       });
     });
   });
+  Logger.log('Konto: ' + ich + ' | Threads: ' + threads.length + ' | kopiert: ' + kopiert +
+             ' | schon da: ' + schonDa + ' | übersprungen: ' + uebersprungen);
 }
 
 /** Einmalig von Hand ausführen: legt das Label und den Trigger alle 15 Minuten an. */
