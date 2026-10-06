@@ -21,13 +21,17 @@ Zuletzt aktualisiert: 2026-10-06
   - PETZI-Webhook (`/api/petzi/webhook`) zählt Tickets.
   - Seed-Migration enthält die Anlässe Herbst 2026 ohne Soirée Tropicale 28.11. Diese ist inzwischen in der App (laut Notiz spinnerei-booking, 2026-10-06).
 - Spinnplan v2 (`daellengarnier/spinnplan-v2`): Schichtplan, Rewrite weg von Supabase/Netlify, Phase 1 von 3 (Stand README).
-- Spinnplan alt (`daellengarnier/spinnplan`): Supabase, noch aktiv bis Cutover.
+- Spinnplan alt (`daellengarnier/spinnplan`): Supabase, noch aktiv bis Cutover. PWA, Supabase-Projekt `biyeggzutwajuueexcxl.supabase.co`. Tabelle `events` (Name, Datum, Zeiten, Rollen und Anzahl pro Rolle, `fixed_roles` für AV, BV, Licht, Ton, Kochen, Filmen), Tabelle `slots` für die Schichten. Anlässe anlegen und ändern dürfen per RLS nur Admins.
 
 ## Offene Punkte
 
 - [x] Netzzugang zu spinnerei.al-daellen.ch und kulturspinnerei.ch in der Cloud-Umgebung freigegeben (2026-10-06, getestet).
 - [x] Jarvis-Account in der Orga-App: Zugangsdaten als Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Login über die API (siehe CLAUDE.md). Normaler Benutzer, kein Admin. Von einer Session am 2026-10-06 bereits genutzt.
 - [ ] Jarvis hat nur Lesezugriff auf das Repo `daellengarnier/spinnerei`, keinen Push.
+- [ ] Spinnplan aktuell halten macht Jarvis (Entscheid Alain, 2026-10-06). Blockiert, es fehlen:
+  - Netzwerk: `biyeggzutwajuueexcxl.supabase.co` in der Cloud-Umgebung freigeben (getestet 2026-10-06: nicht erreichbar).
+  - Ein Spinnplan-Account mit Admin-Recht für Jarvis, Zugangsdaten als Umgebungsvariablen (Vorschlag: `SPINNPLAN_EMAIL`, `SPINNPLAN_PASSWORD`).
+  - Nach dem Cutover auf v2 (spinnplan.al-daellen.ch) neu klären.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
 ## Nächster Schritt

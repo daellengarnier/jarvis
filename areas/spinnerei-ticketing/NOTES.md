@@ -10,6 +10,10 @@ Zuletzt aktualisiert: 2026-10-06
 - Ticketing läuft über PETZI.
 - Alain hat den PETZI-Vertrag geprüft.
 
+## Regeln
+
+- Mails von PETZI "Deine Zahlungsdokumente wurden generiert" sind irrelevant, nicht melden (Alain, 2026-10-06).
+
 ## Offene Punkte
 
 - [ ] Ergebnis der Vertragsprüfung (Konditionen, Auffälligkeiten) ist im Repo noch nicht erfasst.

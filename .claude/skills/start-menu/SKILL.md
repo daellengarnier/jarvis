@@ -50,7 +50,7 @@ Skill `spinnerei-booking` laden, dann:
 2. Pro Anlass, chronologisch: Datum, Act, Status, offene Punkte aus EVENT.md. Dazu im Postfach nach neuen Mails zum Act suchen.
 3. Anlässe in den nächsten 14 Tagen zuerst und ausführlicher. Typische Lücken prüfen: Vertrag, Rider, Unterkunft, Promo, PETZI, Abrechnung.
 4. Fehlt ein Event-Ordner für einen bestätigten Termin: anlegen vorschlagen.
-5. Spinnplan: Wie die App aktualisiert wird, ist noch nicht erfasst. Fragen, bis es in `privat-projekte` dokumentiert ist. Nichts annehmen.
+5. Spinnplan: Jarvis soll ihn aktuell halten (Entscheid Alain, 2026-10-06). Solange der Zugang fehlt (siehe `areas/privat-projekte/NOTES.md`), in einer Zeile sagen, was im Spinnplan nachzutragen wäre.
 6. Danach Alain wählen lassen, welchen Punkt wir angehen.
 
 ## 3. Sonstiges
