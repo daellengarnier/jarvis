@@ -17,8 +17,9 @@ Zuletzt aktualisiert: 2026-10-06
 ## Booking (spinnerei-booking)
 
 - [x] Termin bestätigt
-- [ ] Set-Zeiten, Herkunft, Promotexte der DJs: nicht in info@ oder Drive
-- Unterlagen nur als Anhänge in der Mail von Bruno Frei vom 09.09. ("Fw: Qum Queersichtdance"): Qum Queersicht Dance 31 10 26.docx, QUM_311026_PrintFlyer_010926_neu.pdf, Re_ Flyer Qum Dance 31.10.26.zip. Jarvis kann Mail-Anhänge nicht herunterladen, Alain muss sie ins Drive legen.
+- [ ] Set-Zeiten, Herkunft, Promotexte pro DJ: nicht vorhanden
+- Unterlagen von Bruno Frei (09.09.) im Drive: Eventtext (docx), Print-Flyer (PDF), Flyer-ZIP. Flyer in der Orga-App bei allen vier DJs.
+- Eventtext: Warm-up zum 30. Queersicht Filmfestival (ab 5.11.). Gratisgetränk/Cüpli gegen Vorzeigen eines Queersicht-Tickets oder -Passes.
 - Gedruckte Flyer folgen laut Bruno.
 
 ## Ticketing (spinnerei-ticketing)
@@ -48,10 +49,10 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Links (Drive)
 
-- Anlass: https://drive.google.com/drive/folders/13DT6PI2ZMsLz32iXZM19WLEJ6mxZZ4q4 (leer)
+- Anlass: https://drive.google.com/drive/folders/13DT6PI2ZMsLz32iXZM19WLEJ6mxZZ4q4 (Eventtext, Flyer, ZIP)
 - Frühere Ausgaben: 2023 https://drive.google.com/drive/folders/1QV1aS8y9GdZww7xZx8PvkNnsl8YvzLpm, 2022 https://drive.google.com/drive/folders/1XXf74LVqHs2DSqFR5EEi-QBKoQsTPjvE
 
 ## Verlauf
 
 - 2026-09-09: Unterlagen von Bruno Frei per Mail (Anhänge).
-- 2026-10-06: Mails geprüft, in der Orga-App nichts ergänzt mangels Belegen.
+- 2026-10-06: Anhänge über Apps Script ins Drive geholt, Flyer und Notiz in der Orga-App ergänzt.

@@ -31,7 +31,8 @@ Zuletzt aktualisiert: 2026-10-06
 
 - [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
 - [x] Pressetext: Mail "Pressetext Soirée Tropicale" vom 18.09., in der Orga-App pro DJ übernommen. Bessere Fassung in der Mail an Der Bund (weitergeleitet 19.09.).
-- [ ] Plakat A2 (ST4-A2.pdf, 12.09., plus hellere Variante), Flyer, Foto Âmy B.: nur Mailanhänge, Alain muss sie ins Drive legen
+- [x] Plakat A2 (ST4-A2.pdf), Flyer (2 Versionen), Foto Âmy B. im Drive. Flyer und Foto auch in der Orga-App (Plakat zu gross, 16 MB)
+- [ ] Hellere Plakat-Variante (PNG vom 12.09.) fehlt noch, war vermutlich als Inline-Bild in der Mail
 - Mo hat den Text an Ane Hebeisen (Der Bund) geschickt.
 - Soundcloud: Âmy B. https://soundcloud.com/user-118251373, Roots Glider https://soundcloud.com/rootsglider, Mo https://soundcloud.com/mopalido
 
@@ -41,10 +42,10 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Links (Drive)
 
-- Anlass: https://drive.google.com/drive/folders/1NgYvJJ5tCKY55lQTQW6tvyIALnNdQ5QT (leer)
+- Anlass: https://drive.google.com/drive/folders/1NgYvJJ5tCKY55lQTQW6tvyIALnNdQ5QT 
 - Ausgabe April 2026: https://drive.google.com/drive/folders/1XdVGeFzyu905PKgJfv4eoNEP0AHxaAGm
 
 ## Verlauf
 
 - 2026-09-12 bis 19.09.: Druckdaten, Pressetext und Flyer von Mo per Mail.
-- 2026-10-06: Drei DJs mit Promotext in der Orga-App angelegt.
+- 2026-10-06: Drei DJs mit Promotext in der Orga-App angelegt. Plakat, Flyer, Foto ins Drive und in die App.
