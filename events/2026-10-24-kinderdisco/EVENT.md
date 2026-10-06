@@ -55,5 +55,5 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Verlauf
 
-- 2026-10-06: In der Orga-App als externe Verantwortliche eingetragen: Acts Mara und Aurelia, Promo Mara, Essen Mara (Snacks fürs Team).
 - 2026-10-06: Acts "Tino" und "Simä b2b Lucien" in der Orga-App angelegt.
+- 2026-10-06: In der Orga-App als externe Verantwortliche eingetragen: Acts Mara und Aurelia, Promo Mara, Essen Mara (Snacks fürs Team).
