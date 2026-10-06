@@ -10,6 +10,17 @@ Zuletzt aktualisiert: 2026-10-06
 - Alain macht die Artist-Bookings der Spinnerei.
 - Bisherige Bookings u.a.: Angine de Poitrine, Mystery Lights.
 
+### Quellen auf Drive
+
+- Spinnerei-Drive: https://drive.google.com/drive/folders/1xUiDgvmk9h0LcOyYhUcn4cMkyYph6Qcf
+- Programm 2026: https://drive.google.com/drive/folders/1jeM_t0k6V563GmyZ-410cKu_RJqbDLkn (ein Ordner pro Anlass, Name `MMTT_Act`)
+- Programmübersicht 2025/2026 (xlsx): https://drive.google.com/file/d/1-TNDVzEk_yimbNBG74Ak5ICy2MMXzHv_/view, zuletzt bearbeitet 2026-01-20, reicht nur bis 2026-05-23.
+- Programm 2027: Ordner vorhanden, leer.
+
+### Kommende Anlässe 2026 (Ordner in `events/`, angelegt 2026-10-06)
+
+09.10. TÔ YÔ & Natalí, 24.10. Kinderdisco, 31.10. QUM Daydance, 06.11. Jugendsession, 07.11. Kitchen, 14.11. Artlu Bubble and the Dead Animal Gang, 28.11. Soirée Tropicale, 12.12. Mothers Cake & Fancy and the Boys.
+
 ## Anfragen (noch ohne Event-Ordner)
 
 Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Option ist: Ordner in `events/` anlegen und hier streichen.
@@ -18,9 +29,12 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
 
 ## Offene Punkte
 
-- [ ] Aktuelle Booking-Pipeline (laufende Anfragen, bestätigte Termine) ist im Repo noch nicht erfasst.
+- [ ] Herbst 2026: Gage, Zeiten, Eintritt, Crew fehlen überall. Weder in der Programmübersicht noch in den Drive-Ordnern.
+- [ ] Status der acht Anlässe ist angenommen (Drive-Ordner vorhanden), nicht von Alain bestätigt.
+- [ ] Laufende Anfragen sind im Repo noch nicht erfasst. Die Vorschlagsliste in der Programmübersicht (Dirty Sound Magnet, La Luz, Harvey Rushmore usw.) ist von 2025, aktueller Stand unklar.
 
 ## Nächster Schritt
 
-- Laufende Anfragen unter "Anfragen" erfassen, bestätigte Termine als Event-Ordner anlegen.
+- Mit Alain die Eckdaten von TÔ YÔ & Natalí (09.10.) klären, der Anlass ist als nächster dran.
+- Laufende Anfragen unter "Anfragen" erfassen.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
