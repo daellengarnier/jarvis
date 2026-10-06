@@ -8,13 +8,13 @@ Zuletzt aktualisiert: 2026-10-06
 ### Stand laut Alain, zu prüfen
 
 - Alain macht die Artist-Bookings der Spinnerei.
-- Bisherige Bookings u.a.: Acid Pauli, Angine de Poitrine, Mystery Lights.
+- Bisherige Bookings u.a.: Angine de Poitrine, Mystery Lights.
 
 ## Anfragen (noch ohne Event-Ordner)
 
 Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Option ist: Ordner in `events/` anlegen und hier streichen.
 
-- Keine erfasst.
+- Acid Pauli: nur eine Idee. Keine Anfrage, kein Termin, kein Anlass (laut Alain, 2026-10-06).
 
 ## Offene Punkte
 
