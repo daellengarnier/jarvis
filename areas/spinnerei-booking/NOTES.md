@@ -20,6 +20,8 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
 - Silvester 2026: private Geburtstagsfeier, ca. 150 Personen. Dällen ruft Dani an (06.05.). Stand unbekannt.
 - Blip, Blap, Blop (über Alvi): Kinderevent zu den 5 Elementen, ab 3 Jahren. Datum im Herbst gesucht (Feb. 2026). Stand unbekannt.
 - Programm-Idee: Lost in a Detail (März bis Mai).
+- Doom Gong (US, Agentur YAYAYEAH, Jonas, jonas@yayayeahmusic.pt): Europatour Frühling 2027, Jonas fragt nach Daten 9. bis 31. Mai. Am 2026-10-06 gesendet: weiterhin interessiert, Wunschdaten Fr 14. oder Fr 21. Mai 2027, Konditionen erfragt. Status: warten auf Antwort.
+- Stone Sober (HU, Annibale Booking, Filippo, filippo@annibale.eu): 5. März 2027 verfügbar. Unser Angebot 350 EUR, Filippo will 400 EUR plus Unterkunft für 2 Personen. Seit 10.08.2026 keine Antwort von uns, Filippo hat dreimal nachgefragt (zuletzt 20.08.2026). Zusage zu 400 EUR plus Unterkunft für 2 am 2026-10-06 gesendet, Bestätigung von Filippo steht aus. Status: warten auf Antwort.
 
 ## Offene Punkte
 
