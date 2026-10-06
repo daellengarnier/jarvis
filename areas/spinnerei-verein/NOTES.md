@@ -9,7 +9,7 @@ Zuletzt aktualisiert: 2026-10-06
 
 - Verein VIVA VIA.
 - Präsidiumswechsel zu Ambar Conca vorbereitet.
-- "Dällen" in Protokollen, Mails und Orga-App ist vermutlich Alain (GitHub daellengarnier, Domain al-daellen.ch). Annahme, nicht bestätigt.
+- "Dällen" in Protokollen, Mails und Orga-App ist Alain (bestätigt 2026-10-06).
 
 ### Aus den Sitzungsprotokollen 2026
 
