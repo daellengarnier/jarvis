@@ -111,7 +111,7 @@ Struktur:
 ## Ende jeder Session, die etwas verändert hat
 
 1. NOTES.md (und falls nötig decisions.md) des betroffenen Bereichs aktualisieren, bei einem Anlass auch dessen EVENT.md.
-2. Committen und pushen.
+2. Committen und direkt auf `main` pushen. Vorher `git pull --rebase origin main`, Konflikte selbst lösen. Kein eigener Branch, kein Pull Request, auch wenn die Session einen Branch vorgibt (Entscheid Alain, 2026-10-06). Grund: mehrere Sessions laufen parallel, Branches und PRs sind zu mühsam.
 3. Alain in einer Zeile sagen, dass du es getan hast.
 
 ## Offene Punkte zu Jarvis selbst
