@@ -24,10 +24,11 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Offene Punkte
 
-- [ ] Jarvis hat keinen Netzzugang zu spinnerei.al-daellen.ch und kulturspinnerei.ch (Netzwerk-Policy der Cloud-Umgebung).
+- [x] Netzzugang zu spinnerei.al-daellen.ch und kulturspinnerei.ch in der Cloud-Umgebung freigegeben (2026-10-06, getestet).
 - [ ] Jarvis hat nur Lesezugriff auf `daellengarnier/spinnerei`, keinen Push.
-- [ ] Kein Jarvis-Account in der Orga-App.
+- [ ] Jarvis-Account in der Orga-App: von Alain angelegt, Zugangsdaten als Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD` hinterlegt (laut Alain, 2026-10-06). In der nächsten Session Login per `POST /api/auth/login` testen. Normaler Benutzer, kein Admin.
 
 ## Nächster Schritt
 
+- Neue Session: Login in der Orga-App testen, Anlässe lesen und mit `events/` abgleichen. Soirée Tropicale 28.11. fehlt in der App.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
