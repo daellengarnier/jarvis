@@ -59,6 +59,7 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 | Dateien | Google Drive | soweit verbunden |
 | Browser | Chrome | soweit verbunden |
 | Ticketing Spinnerei | PETZI | kein Connector. Arbeit über den Browser oder über Exporte, die Alain ablegt. |
+| Orga-App Spinnerei | spinnerei.al-daellen.ch (Seitentitel "Spinnerei Orga") | kein Connector. JavaScript-App, nur über Chrome nutzbar. Login-Methode und Betreiber unbekannt. |
 
 ## Welcher Skill für welche Absicht
 
