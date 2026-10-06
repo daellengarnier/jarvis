@@ -33,7 +33,7 @@ Zuletzt aktualisiert: 2026-10-06
 
 - [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
 - [x] Promotext: Promotext 26.pdf im Drive und in der Orga-App
-- [ ] Pressefoto L1120336_SW Web.jpeg: nur Mailanhang vom 30.07., Alain muss es ins Drive legen
+- [x] Pressefoto L1120336_SW Web.jpeg im Drive und in der Orga-App
 
 ## Technik (spinnerei-technik)
 
@@ -57,4 +57,4 @@ Zuletzt aktualisiert: 2026-10-06
 
 - 2026-05-18: 7.11. von der Band bestätigt.
 - 2026-07-30: Promotext und Foto erhalten.
-- 2026-10-06: Herkunft, Personen, Promotext-PDF und Notiz in der Orga-App ergänzt.
+- 2026-10-06: Herkunft, Personen, Promotext-PDF, Pressefoto und Notiz in der Orga-App ergänzt.
