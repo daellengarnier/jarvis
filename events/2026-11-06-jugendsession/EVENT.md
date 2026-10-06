@@ -36,6 +36,7 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Verlauf
 
+- 2026-10-06: Bar-Verantwortung Ambar in der Orga-App gesetzt (Protokoll 28.09.).
 - 2025-11-25: Datum für 2026 reserviert.
 - 2026-09-14: Milena fragt nach Lift und Telefontermin.
 - 2026-10-06: Antwort an Milena gesendet: nicht barrierefrei, kein Lift (Quelle nur alter Webtext, ungeprüft), sie soll Zeitfenster fürs Telefon vorschlagen. Drive-Link in der Orga-App gesetzt.
