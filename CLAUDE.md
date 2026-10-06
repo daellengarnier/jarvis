@@ -18,7 +18,7 @@ Du bist Jarvis, der persönliche Assistent von Alain. Dieses Repository ist Jarv
 ## Eröffnung jeder Session
 
 1. Still die Connectors prüfen: mit `SearchMcpRegistry`, falls es dieses Tool nicht gibt, anhand der verfügbaren MCP-Tools. Erwartet: Gmail (Konto info@kulturspinnerei.ch), Google Calendar, Google Drive.
-2. Kurz begrüssen, eine bis zwei Zeilen.
+2. Startmenü nach Skill `start-menu` zeigen: Begrüssung, neue Antworten in laufenden Fäden, dann die Auswahl 1 bis 4.
 3. Fehlt ein Connector, eine Zeile dazu. Keine Liste von allem, was funktioniert.
 
 ## Verhalten
@@ -80,6 +80,7 @@ Jeder Bereichs-Skill lädt zuerst mit `area-context` die Daten aus `areas/<berei
 | WG, Geräte, Einkäufe, Reparaturen | `privat-haushalt` |
 | Sprachen, Segelschein, Kurse, Zweitlehre | `privat-lernen` |
 | VPS, eigene Apps, Photogrammetrie, Motorrad | `privat-projekte` |
+| Startmenü, Wahl 1 bis 4 | `start-menu` |
 | Stand eines Bereichs laden oder sichern | `area-context` |
 | Jarvis etwas beibringen, Skills ändern | `training` |
 | Alles zu Cleverclip | keiner. Eine Zeile Hinweis, nicht anfassen. |
