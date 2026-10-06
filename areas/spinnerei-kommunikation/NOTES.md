@@ -15,7 +15,8 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Offene Punkte
 
-- [ ] Kanäle (Social Media, Website, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
+- [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
+- [ ] Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand.
 
 ## Nächster Schritt
 
