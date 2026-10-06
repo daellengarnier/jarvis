@@ -5,7 +5,7 @@ Ein Ordner pro Anlass der Kulturspinnerei. Ein Anlass betrifft mehrere Bereiche 
 ## Regeln
 
 - Ordner erst ab bestätigtem Termin oder ernsthafter Option. Lose Anfragen stehen in `areas/spinnerei-booking/NOTES.md` unter "Anfragen".
-- Ordnername: `JJJJ-MM-TT-act`, kleingeschrieben, Bindestriche, keine Umlaute (z.B. `2026-11-14-acid-pauli`).
+- Ordnername: `JJJJ-MM-TT-act`, kleingeschrieben, Bindestriche, keine Umlaute (z.B. `2026-11-14-bandname`).
 - Pflichtdatei: `EVENT.md` aus `templates/event/EVENT.md`. Weitere Textdateien nur bei Bedarf, z.B. `promo.md`, `abrechnung.md`.
 - Jeder Spinnerei-Skill pflegt nur seinen Abschnitt in `EVENT.md` und ergänzt den Verlauf.
 - Grosse Dateien (Verträge, Rider-PDFs, Fotos, Videos) in Google Drive, hier nur der Link.
