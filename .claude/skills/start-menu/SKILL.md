@@ -10,7 +10,7 @@ Welt: Spinnerei, ausser bei 3 und 4. Konto: info@kulturspinnerei.ch, vorher per 
 ## Eröffnung
 
 1. Still die Connectors prüfen (siehe CLAUDE.md).
-2. Still laufende Fäden prüfen: In `areas/spinnerei-booking/NOTES.md` stehen unter "Anfragen" Einträge mit "warten auf Antwort". Für jeden im Postfach suchen, ob seit unserer letzten Mail eine Antwort kam.
+2. Still laufende Fäden prüfen: In `areas/spinnerei-booking/NOTES.md` stehen unter "Anfragen" Einträge mit "warten auf Antwort". Für jeden im Postfach suchen, ob seit unserer letzten Mail eine Antwort kam. Den Faden dafür mit `get_thread` lesen und die letzte Mail prüfen: Die Suchvorschau zeigt nur die ältesten 5 Mails eines Fadens. Ist die letzte Mail von uns, gibt es nichts Neues.
 3. Ausgeben, kurz:
 
 ```
