@@ -54,10 +54,17 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 
 | Zweck | Konto / Tool | Stand |
 |---|---|---|
+<<<<<<< HEAD
 | Spinnerei-Mail | info@kulturspinnerei.ch (Google-Konto) | erreichbar über den Gmail-Connector, festgestellt 2026-10-06. Postfach wird gemeinsam mit Ambar betreut. Anhänge nur als Metadaten, nicht herunterladbar. |
 | Private Mail | Gmail, alaingarnier.ch@gmail.com | derzeit nicht verbunden (Stand 2026-10-06). |
 | Kalender | Google Calendar | soweit verbunden |
 | Dateien | Google Drive | soweit verbunden |
+=======
+| Spinnerei-Mail | info@kulturspinnerei.ch (Google-Konto) | erreichbar über den Gmail-Connector, festgestellt 2026-10-06. Postfach wird gemeinsam mit Ambar betreut. Anhänge nur als Metadaten, nicht herunterladbar: dafür Apps Script `tools/apps-script/` (Label `Jarvis-Anhaenge` → Drive-Ordner "Eingang Anhänge"). |
+| Private Mail | Gmail, alaingarnier.ch@gmail.com | derzeit nicht verbunden (Stand 2026-10-06). Der Gmail-Connector zeigt info@. |
+| Kalender | Google Calendar | soweit verbunden |
+| Dateien | Google Drive | soweit verbunden, Konto info@ |
+>>>>>>> origin/main
 | Browser | Chrome | vorerst nicht im Einsatz, beim Sessionstart nicht prüfen (Entscheid 2026-10-06). |
 | Ticketing Spinnerei | PETZI | kein Connector. Alain pflegt PETZI vorerst manuell, Jarvis bereitet Inhalte vor und wertet Exporte aus, die Alain ablegt. |
 | Orga-App Spinnerei | spinnerei.al-daellen.ch (Seitentitel "Spinnerei Orga") | kein Connector, kein Browser nötig. Login per `POST /api/auth/login` mit JSON `{email, password}` aus den Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Session-Cookie `spinnerei_sid` danach für `/api/...` mitschicken. Code: Repo daellengarnier/spinnerei. Zugangsdaten nie ausgeben oder ablegen. |
@@ -117,5 +124,9 @@ Struktur:
 ## Offene Punkte zu Jarvis selbst
 
 - [x] info@kulturspinnerei.ch: erreichbar über den Gmail-Connector (Google-Konto info@), geklärt 2026-10-06. Senden weiterhin nur nach Ja.
+<<<<<<< HEAD
 - [ ] Privates Gmail (alaingarnier.ch@gmail.com) ist nicht verbunden. Ob und wie es zusätzlich angebunden wird, ist offen. Die Regel "Gmail = Privat" gilt erst wieder, wenn es einen eigenen Connector dafür gibt.
+=======
+- [ ] Privates Gmail (alaingarnier.ch@gmail.com) ist nicht verbunden. Die Regel "Gmail = Privat" gilt erst wieder, wenn es einen eigenen Connector dafür gibt.
+>>>>>>> origin/main
 - [ ] Mitarbeit von Ambar am Postfach info@: Labels gegen Doppelarbeit, Zugriff aufs Repo, Trennung Spinnerei und Privat. Vorschlag folgt.
