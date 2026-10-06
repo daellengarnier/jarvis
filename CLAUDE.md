@@ -59,7 +59,7 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 | Dateien | Google Drive | soweit verbunden |
 | Browser | Chrome | soweit verbunden |
 | Ticketing Spinnerei | PETZI | kein Connector. Arbeit über den Browser oder über Exporte, die Alain ablegt. |
-| Orga-App Spinnerei | spinnerei.al-daellen.ch (Seitentitel "Spinnerei Orga") | kein Connector. JavaScript-App, nur über Chrome nutzbar. Login-Methode und Betreiber unbekannt. |
+| Orga-App Spinnerei | spinnerei.al-daellen.ch (Seitentitel "Spinnerei Orga") | kein Connector, kein Browser nötig. Login per `POST /api/auth/login` mit JSON `{email, password}` aus den Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Session-Cookie `spinnerei_sid` danach für `/api/...` mitschicken. Code: Repo daellengarnier/spinnerei. Zugangsdaten nie ausgeben oder ablegen. |
 
 ## Welcher Skill für welche Absicht
 
