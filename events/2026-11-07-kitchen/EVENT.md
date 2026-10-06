@@ -1,61 +1,60 @@
 # Kitchen, 2026-11-07
 
-Status: bestätigt (Annahme: Ordner in Drive Programm 2026 vorhanden, Zusage nicht geprüft)  
+Status: angekündigt  
 Zuletzt aktualisiert: 2026-10-06
 
 ## Eckdaten
 
 | | |
 |---|---|
-| Datum | 2026-11-07 |
-| Act | Kitchen |
-| Agentur / Kontakt | offen |
-| Gage | offen |
-| Türöffnung / Beginn / Ende | offen |
-| Support | offen |
-| Sprache Kommunikation mit Act | offen |
-
-Unbekanntes bleibt leer oder "offen". Nichts schätzen.
+| Datum | 2026-11-07 (Sa) |
+| Act | Kitchen, Instrumental Trip Pop, Bern, Trio (Drums, Bass, Gtr, Electronics) |
+| Agentur / Kontakt | Dominik "Niki" Blumer, dominik@feedthemonkey.ch. cc tobi.lerch@gmx.net (Tobi, Drums), ljerfino@gmx.ch |
+| Gage | keine. Stattdessen filmen wir das Konzert, Transportspesen übernehmen wir (Mail 15.05.). Betrag Spesen offen |
+| Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 00:30 |
+| Zeiten Act | Get-in 18:00, Soundcheck 18:30, Show 21:45 |
+| Abendverantwortung | offen |
 
 ## Booking (spinnerei-booking)
 
-- [ ] Termin bestätigt
-- [ ] Vertrag / Deal-Memo vorhanden (Link)
-- [ ] Rider erhalten (Link)
-- [ ] Anreise, Unterkunft, Verpflegung geklärt
+- [x] Termin bestätigt (18.05.)
+- [ ] Tech-Rider: ausstehend, Dominik schickt ihn "beizeiten" (30.07.)
+- [ ] Mischperson: Band fragt, ob wir jemanden stellen (Sebi?). Monitoring In-Ear ist eine Herausforderung. Keine Antwort im Postfach.
+- Wunsch der Band (14.04.): evtl. Party danach mit DJ (Dr. Minx) oder elektronischem Live-Act.
+- 7.11. ist Dominiks Geburtstag.
 
 ## Ticketing (spinnerei-ticketing)
 
-- [ ] Event in PETZI als Entwurf angelegt
-- [ ] Preise und Kontingent festgelegt
-- [ ] ⚠️ In PETZI veröffentlicht (nur nach Alains Ja)
-- [ ] Gästeliste
+- [x] PETZI: https://www.petzi.ch/events/64254/
+- [x] Preise: 20 CHF normal, 25 CHF Soli
+- Verkauft laut Orga-App am 2026-10-06: 3
 
 ## Kommunikation (spinnerei-kommunikation)
 
-- [ ] Ankündigungstext
-- [ ] Bild / Plakat (Link)
-- [ ] Social-Media-Posts
-- [ ] Newsletter / Presse
+- [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
+- [x] Promotext: Promotext 26.pdf im Drive und in der Orga-App
+- [x] Pressefoto L1120336_SW Web.jpeg im Drive und in der Orga-App
 
 ## Technik (spinnerei-technik)
 
 - [ ] Tech-Rider geprüft
-- [ ] Licht / Visuals geplant
-- [ ] Video: filmen ja/nein
+- [ ] Video: Konzert filmen (statt Gage)
+
+## Organisation
+
+- Offene Todos in der Orga-App: 2
 
 ## Finanzen (spinnerei-finanzen)
 
-- [ ] Budget für den Abend
-- [ ] Gage ausbezahlt
-- [ ] Ticketeinnahmen abgeglichen
+- [ ] Transportspesen ausbezahlt
 - [ ] Abrechnung erstellt
 
 ## Links (Drive)
 
-- Ordner Anlass: https://drive.google.com/drive/folders/1x8ch1DwFDPSGU0RMLj9CmzlqMEGDUEmp
-- Promotext 26.pdf: https://drive.google.com/file/d/1aP5mZE-Ogrr1owUQxbRwWxvpStqsMV6C/view
+- Anlass: https://drive.google.com/drive/folders/1x8ch1DwFDPSGU0RMLj9CmzlqMEGDUEmp
 
 ## Verlauf
 
-- 2026-10-06: Angelegt aus Drive (Spinnerei > 3 Programm > Programm 2026). Die Programmübersicht (xlsx) enthält diesen Anlass nicht, Eckdaten deshalb offen.
+- 2026-05-18: 7.11. von der Band bestätigt.
+- 2026-07-30: Promotext und Foto erhalten.
+- 2026-10-06: Herkunft, Personen, Promotext-PDF, Pressefoto und Notiz in der Orga-App ergänzt.

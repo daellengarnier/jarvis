@@ -1,61 +1,53 @@
 # Artlu Bubble and the Dead Animal Gang, 2026-11-14
 
-Status: bestätigt (Annahme: Ordner in Drive Programm 2026 vorhanden, Zusage nicht geprüft)  
+Status: angekündigt  
 Zuletzt aktualisiert: 2026-10-06
 
 ## Eckdaten
 
 | | |
 |---|---|
-| Datum | 2026-11-14 |
-| Act | Artlu Bubble and the Dead Animal Gang |
-| Agentur / Kontakt | offen |
+| Datum | 2026-11-14 (Sa) |
+| Act | Artlu Bubble and the Dead Animal Gang, Garage Rock, Bern, 5 Personen. Plattentaufe Album "16:26" |
+| Agentur / Kontakt | offen. Drive der Band: shahblahofficial@gmail.com |
 | Gage | offen |
-| Türöffnung / Beginn / Ende | offen |
-| Support | offen |
-| Sprache Kommunikation mit Act | offen |
-
-Unbekanntes bleibt leer oder "offen". Nichts schätzen.
+| Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 01:30 |
+| Zeiten Act | Get-in 18:00, Soundcheck 18:30, Show 22:00 |
+| Abendverantwortung | Dällen (Orga-App) |
 
 ## Booking (spinnerei-booking)
 
-- [ ] Termin bestätigt
-- [ ] Vertrag / Deal-Memo vorhanden (Link)
-- [ ] Rider erhalten (Link)
-- [ ] Anreise, Unterkunft, Verpflegung geklärt
+- [x] Termin bestätigt
+- [ ] Rider: keiner erhalten
+- [ ] Gage: offen
+- In info@ gibt es keine Booking-Mails zu diesem Anlass, lief vermutlich ausserhalb.
 
 ## Ticketing (spinnerei-ticketing)
 
-- [ ] Event in PETZI als Entwurf angelegt
-- [ ] Preise und Kontingent festgelegt
-- [ ] ⚠️ In PETZI veröffentlicht (nur nach Alains Ja)
-- [ ] Gästeliste
+- [x] PETZI: https://www.petzi.ch/events/64215/
+- [x] Preise: 30 CHF normal, 35 CHF Soli
+- Verkauft laut Orga-App am 2026-10-06: 12
 
 ## Kommunikation (spinnerei-kommunikation)
 
-- [ ] Ankündigungstext
-- [ ] Bild / Plakat (Link)
-- [ ] Social-Media-Posts
-- [ ] Newsletter / Presse
+- [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
+- [x] Promotext und 2 Promofotos im Drive
+- Saisonflyer/-plakat nennen den Anlass
 
 ## Technik (spinnerei-technik)
 
 - [ ] Tech-Rider geprüft
-- [ ] Licht / Visuals geplant
-- [ ] Video: filmen ja/nein
 
 ## Finanzen (spinnerei-finanzen)
 
-- [ ] Budget für den Abend
-- [ ] Gage ausbezahlt
-- [ ] Ticketeinnahmen abgeglichen
 - [ ] Abrechnung erstellt
 
 ## Links (Drive)
 
-- Ordner Anlass: https://drive.google.com/drive/folders/16R09yetcsY9jfv_TZ-xREt8DANYJEBc7
+- Anlass: https://drive.google.com/drive/folders/16R09yetcsY9jfv_TZ-xREt8DANYJEBc7
 - Act: https://drive.google.com/drive/folders/1G5gVtOH5J5qCh4qAejAv6UkpTzciCLPj
+- Ordner der Band: https://drive.google.com/drive/folders/1a0JUA2KxUvqthmIeQweVKLqZGQOGH68h
 
 ## Verlauf
 
-- 2026-10-06: Angelegt aus Drive (Spinnerei > 3 Programm > Programm 2026). Die Programmübersicht (xlsx) enthält diesen Anlass nicht, Eckdaten deshalb offen.
+- 2026-10-06: Drive-Link und Notiz in der Orga-App ergänzt.

@@ -13,6 +13,12 @@ Zuletzt aktualisiert: 2026-10-06
 - Ehrenamtlich geführt.
 - Teil der Wohngenossenschaft Via Felsenau / Via 1.
 
+### Aus den Sitzungsprotokollen 2026
+
+- Werbekanäle der Crew: Quartier-Chat, Engehalbinsel-Chat, Rocket-Chat, Plakate am Eingang. Telegram-Kanal, auch auf der Website und als QR-Code bei Eingang, WC und Bar.
+- Saisonplakat gestaltet Judith (Programm bis Mitte Juni fixiert). Plakatdruck: Nina.
+- Website und PETZI pflegt Dällen.
+
 ## Offene Punkte
 
 - [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
