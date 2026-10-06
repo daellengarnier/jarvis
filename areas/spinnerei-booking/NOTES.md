@@ -10,10 +10,17 @@ Zuletzt aktualisiert: 2026-10-06
 - Alain macht die Artist-Bookings der Spinnerei.
 - Bisherige Bookings u.a.: Acid Pauli, Angine de Poitrine, Mystery Lights.
 
+## Anfragen (noch ohne Event-Ordner)
+
+Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Option ist: Ordner in `events/` anlegen und hier streichen.
+
+- Keine erfasst.
+
 ## Offene Punkte
 
 - [ ] Aktuelle Booking-Pipeline (laufende Anfragen, bestätigte Termine) ist im Repo noch nicht erfasst.
 
 ## Nächster Schritt
 
+- Laufende Anfragen unter "Anfragen" erfassen, bestätigte Termine als Event-Ordner anlegen.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.

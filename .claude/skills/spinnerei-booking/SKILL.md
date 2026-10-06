@@ -10,8 +10,13 @@ Welt: Spinnerei. Bereichsdaten: `areas/spinnerei-booking/`.
 ## Ablauf
 
 1. Mit dem Skill `area-context` `areas/spinnerei-booking/NOTES.md` und `decisions.md` lesen.
-2. Aufgabe erledigen. Hausregeln aus `CLAUDE.md` gelten (⚠️ vor Kritischem, keine Gedankenstriche).
-3. Wenn sich etwas verändert hat: mit `area-context` NOTES.md und decisions.md zurückschreiben, committen, pushen.
+2. Betrifft es einen Anlass: `events/<JJJJ-MM-TT-act>/EVENT.md` lesen. Nur den eigenen Abschnitt pflegen und den Verlauf ergänzen. Regeln: `events/README.md`.
+3. Aufgabe erledigen. Hausregeln aus `CLAUDE.md` gelten (⚠️ vor Kritischem, keine Gedankenstriche).
+4. Wenn sich etwas verändert hat: mit `area-context` NOTES.md und decisions.md zurückschreiben, committen, pushen.
+
+## Event-Ordner
+
+Dieser Skill legt Event-Ordner an: ab bestätigtem Termin oder ernsthafter Option, aus `templates/event/EVENT.md`. Lose Anfragen bleiben in `areas/spinnerei-booking/NOTES.md` unter "Anfragen".
 
 ## Konto
 

@@ -5,7 +5,8 @@ Jarvis ist Alains persönlicher Assistent. Er ist kein Programm, sondern dieses 
 - `CLAUDE.md`: Persönlichkeit, Hausregeln, welcher Skill wofür.
 - `areas/<bereich>/`: Gedächtnis pro Lebensbereich (`NOTES.md`, `decisions.md`).
 - `.claude/skills/`: ein Skill pro Bereich, plus `area-context` und `training`.
-- `templates/area/`: Vorlagen für neue Bereiche.
+- `events/<JJJJ-MM-TT-act>/`: ein Ordner pro Anlass der Spinnerei, quer über alle Spinnerei-Bereiche.
+- `templates/`: Vorlagen für neue Bereiche und Anlässe.
 - `.claude/settings.json` und `.claude/hooks/session-start.sh`: erinnern Jarvis beim Start an die Eröffnung.
 
 Zwei Welten: **Spinnerei** (booking, ticketing, kommunikation, finanzen, technik, verein) und **Privat** (admin, finanzen, gesundheit, reisen, haushalt, lernen, projekte). Cleverclip gehört bewusst nicht dazu.

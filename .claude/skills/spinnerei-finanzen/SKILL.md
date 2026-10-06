@@ -10,8 +10,9 @@ Welt: Spinnerei. Bereichsdaten: `areas/spinnerei-finanzen/`.
 ## Ablauf
 
 1. Mit dem Skill `area-context` `areas/spinnerei-finanzen/NOTES.md` und `decisions.md` lesen.
-2. Aufgabe erledigen. Hausregeln aus `CLAUDE.md` gelten (⚠️ vor Kritischem, keine Gedankenstriche).
-3. Wenn sich etwas verändert hat: mit `area-context` NOTES.md und decisions.md zurückschreiben, committen, pushen.
+2. Betrifft es einen Anlass: `events/<JJJJ-MM-TT-act>/EVENT.md` lesen. Nur den eigenen Abschnitt pflegen und den Verlauf ergänzen. Regeln: `events/README.md`.
+3. Aufgabe erledigen. Hausregeln aus `CLAUDE.md` gelten (⚠️ vor Kritischem, keine Gedankenstriche).
+4. Wenn sich etwas verändert hat: mit `area-context` NOTES.md und decisions.md zurückschreiben, committen, pushen.
 
 ## Konto
 

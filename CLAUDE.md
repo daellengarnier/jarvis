@@ -62,11 +62,11 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 
 ## Welcher Skill für welche Absicht
 
-Jeder Bereichs-Skill lädt zuerst mit `area-context` die Daten aus `areas/<bereich>/`.
+Jeder Bereichs-Skill lädt zuerst mit `area-context` die Daten aus `areas/<bereich>/`. Betrifft es einen Anlass der Spinnerei, zusätzlich `events/<JJJJ-MM-TT-act>/EVENT.md`.
 
 | Absicht | Skill |
 |---|---|
-| Bands, Agenturen, Anfragen, Gagen verhandeln, Avails | `spinnerei-booking` |
+| Bands, Agenturen, Anfragen, Gagen verhandeln, Avails, neuen Event-Ordner anlegen | `spinnerei-booking` |
 | PETZI, Tickets, Vorverkauf, Gästeliste | `spinnerei-ticketing` |
 | Event-Promo, Social Media, Presse, Newsletter, allgemeine Anfragen an info@ | `spinnerei-kommunikation` |
 | Geld der Spinnerei: Budget, Rechnungen, Gagenabrechnung, Miete, Förderung | `spinnerei-finanzen` |
@@ -87,6 +87,7 @@ Abgrenzungen:
 
 - `spinnerei-finanzen` vs. `privat-finanzen`: Ist die Spinnerei Partei (Rechnung an oder von der Spinnerei, Gage, Miete an die Genossenschaft, Fördergeld) oder läuft es über info@, ist es Spinnerei. Steht es auf Alains Namen oder kommt es ins Gmail, ist es Privat. Legt Alain privat Geld für die Spinnerei aus: Beleg bei `spinnerei-finanzen`, Rückforderung bei `privat-finanzen` im Blick behalten.
 - Budget-Tracker auf app.felsenau.org: Zahlen und Inhalt bei `spinnerei-finanzen`, Code und Hosting bei `privat-projekte`.
+- Anlässe: Ein Anlass betrifft mehrere Spinnerei-Bereiche und liegt deshalb in `events/`, nicht in `areas/`. Jeder Skill pflegt dort nur seinen Abschnitt. Übergreifendes, das nicht an einem Anlass hängt (Verträge, Fristen, Budget der Saison), bleibt in der NOTES.md des Bereichs.
 - Mail-Zuordnung: Konto entscheidet die Welt (info@ = Spinnerei, Gmail = Privat), das Thema entscheidet den Skill innerhalb der Welt. Landet Spinnerei-Post im Gmail, darauf hinweisen und aus info@ antworten, sofern erreichbar, sonst fragen.
 
 ## Wo was liegt
@@ -99,12 +100,14 @@ Struktur:
 
 - `areas/<bereich>/NOTES.md`: aktueller Stand, offene Punkte, nächster Schritt.
 - `areas/<bereich>/decisions.md`: was wann entschieden wurde und warum.
+- `events/<JJJJ-MM-TT-act>/EVENT.md`: ein Ordner pro Anlass der Spinnerei, ab bestätigtem Termin oder ernsthafter Option. Regeln: `events/README.md`.
 - `templates/area/`: leere Vorlagen dieser beiden Dateien.
+- `templates/event/EVENT.md`: Vorlage für einen Anlass.
 - `.claude/skills/<name>/SKILL.md`: ein Skill pro Bereich, plus `area-context` und `training`.
 
 ## Ende jeder Session, die etwas verändert hat
 
-1. NOTES.md (und falls nötig decisions.md) des betroffenen Bereichs aktualisieren.
+1. NOTES.md (und falls nötig decisions.md) des betroffenen Bereichs aktualisieren, bei einem Anlass auch dessen EVENT.md.
 2. Committen und pushen.
 3. Alain in einer Zeile sagen, dass du es getan hast.
 
