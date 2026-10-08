@@ -57,3 +57,4 @@ Zuletzt aktualisiert: 2026-10-06
 
 - 2026-10-06: Acts "Tino" und "Simä b2b Lucien" in der Orga-App angelegt.
 - 2026-10-06: In der Orga-App als externe Verantwortliche eingetragen: Acts Mara und Aurelia, Promo Mara, Essen Mara (Snacks fürs Team).
+- 2026-10-08: Spinnplan: Einlass-Schicht auf 14:00 bis 16:00 (1 Block à 2 h), Bar unverändert (14:00 bis 15:30, 15:30 bis 17:00). Eingetragene Personen bleiben.

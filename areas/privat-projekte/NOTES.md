@@ -1,7 +1,7 @@
 # NOTES: privat-projekte
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-08
 
 ## Aktueller Stand
 
@@ -27,14 +27,15 @@ Zuletzt aktualisiert: 2026-10-06
 
 - [x] Netzzugang zu spinnerei.al-daellen.ch und kulturspinnerei.ch in der Cloud-Umgebung freigegeben (2026-10-06, getestet).
 - [x] Jarvis-Account in der Orga-App: Zugangsdaten als Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Login über die API (siehe CLAUDE.md). Normaler Benutzer, kein Admin. Von einer Session am 2026-10-06 bereits genutzt.
-- [ ] Jarvis hat nur Lesezugriff auf das Repo `daellengarnier/spinnerei`, keinen Push.
-- [ ] Spinnplan aktuell halten macht Jarvis (Entscheid Alain, 2026-10-06). Blockiert, es fehlen:
-  - Netzwerk: `biyeggzutwajuueexcxl.supabase.co` in der Cloud-Umgebung freigeben (getestet 2026-10-06: nicht erreichbar).
-  - Ein Spinnplan-Account mit Admin-Recht für Jarvis, Zugangsdaten als Umgebungsvariablen (Vorschlag: `SPINNPLAN_EMAIL`, `SPINNPLAN_PASSWORD`).
-  - Nach dem Cutover auf v2 (spinnplan.al-daellen.ch) neu klären.
+- [x] Push-Zugriff: Jarvis kann auf `daellengarnier/spinnerei`, `spinnplan` und `spinnplan-v2` pushen (geprüft 2026-10-08).
+- [x] Spinnplan: Jarvis hat vollen Zugriff, legt Anlässe selbst an und passt die App nach Bedarf an (Entscheid Alain, 2026-10-06, bestätigt 2026-10-08). Daten über den Supabase-Connector (Projekt "Spinnplan", `biyeggzutwajuueexcxl`), kein eigener App-Account nötig. Hinweis: Statements mit `drop` hängen im Connector (Timeout), `apply_migration` ebenso. DDL ohne `drop` per `execute_sql` geht.
+- [ ] Spinnplan live ist v1 auf Netlify (spinnplan-23.netlify.app), nicht auf al-daellen. v2 wird später migriert (Alain, 2026-10-08). Deploy von v1: kein CI, nicht im Netlify-Team des Connectors (das ist das Cleverclip-Team, nicht anfassen). Wie Alain deployt: klären.
+- 2026-10-08 Supabase: Sicherheitslücke geschlossen. Vorher konnte sich jeder eingeloggte Benutzer per API selbst zum Admin machen. Jetzt: Trigger `guard_is_admin` (nur Admins ändern `is_admin`, Selbst-Insert immer false), Policy "Admins can update any profile", Funktion `is_admin_user()`, `handle_new_user` nicht mehr per API aufrufbar. Getestet (Rollback): Selbst-Admin blockiert, Namensänderung geht, Admin kann andere befördern. Offen aus den Supabase-Warnungen: `pg_net` im Schema public, Schutz gegen geleakte Passwörter aus, `notifications` und `push_subscriptions` sehr offen.
+- 2026-10-08 Kinderdisco 24.10.: Einlass auf 14:00 bis 16:00 (`role_dur_hours` Einlass 2), Rest unverändert.
+- [ ] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe (bisher nur beim Hausfest). Datenmodell und Anzeige können es schon. Code-Änderung lokal fertig, Push und Deploy warten auf Alain.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
 ## Nächster Schritt
 
-- Push-Zugriff auf `daellengarnier/spinnerei` klären, falls Jarvis Code der Orga-App ändern soll.
+- Spinnplan: Deploy-Weg von v1 klären, dann Formular-Änderung (Dauer pro Schichtart) pushen und live bringen.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
