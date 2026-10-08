@@ -33,7 +33,7 @@ Zuletzt aktualisiert: 2026-10-08
 - [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
 - [x] Promotext und 2 Promofotos im Drive
 - Saisonflyer/-plakat nennen den Anlass
-- [ ] Plakat von Robert Butler (Mister Butler Siebdruck), via Yves weitergeleitet 07.10. (Mail "Fwd: shablahplaki"): A2 Druckdatei mit PETZI-Link per SwissTransfer (Link läuft ab), PNG 1300px für Social Media als Anhang. PNG: Label Jarvis-Anhaenge gesetzt (2026-10-08), kommt über Apps Script nach "Eingang Anhänge", dann in den Act-Ordner. A2-Druckdatei: SwissTransfer ist für Jarvis gesperrt (Proxy 403), muss Alain oder Yves herunterladen und ins Drive legen, bevor der Link abläuft.
+- [ ] Plakat von Robert Butler (Mister Butler Siebdruck), via Yves weitergeleitet 07.10. (Mail "Fwd: shablahplaki"): A2 Druckdatei mit PETZI-Link per SwissTransfer (Link läuft ab), PNG 1300px für Social Media als Anhang. PNG: Label Jarvis-Anhaenge gesetzt (2026-10-08), kommt über Apps Script nach "Eingang Anhänge", dann in den Act-Ordner. A2-Druckdatei: ARTLU_BUBBLE_A2.pdf (143 MB) von Alain im Act-Ordner abgelegt (2026-10-08): https://drive.google.com/file/d/1YrTNePHYMijhLu3xy7DqNVUnayp6OPy8/view. Zu gross für die Orga-App.
 
 ## Technik (spinnerei-technik)
 
