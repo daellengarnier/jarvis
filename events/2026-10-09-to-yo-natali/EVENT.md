@@ -1,7 +1,7 @@
 # TŌ YŌ / Natalí & the Dark Horses, 2026-10-09
 
 Status: angekündigt  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-08
 
 ## Eckdaten
 
@@ -53,7 +53,7 @@ Laut Alain ist in der Orga-App alles vollständig (2026-10-06).
 ## Links (Drive)
 
 - Anlass: https://drive.google.com/drive/folders/1PF3tmWz5wttzFuqpBZsgN4crKGROGfLO
-- TŌ YŌ: https://drive.google.com/drive/folders/1JpYkkhygpit4x0KtpCgmHeezDeNkDpdo
+- TŌ YŌ: https://drive.google.com/drive/folders/1JpYkkhygpit4x0KtpCgmHeezDeNkDpdo (befüllt 2026-10-08: Tech & Hospitality Rider, Promokit 2026, 8 Fotos, Doc "Deal-Memo und Eckdaten", alles aus dem Band-Drive bzw. den Mails. Tourposter und Live-Clips sind für den Connector nicht sichtbar, Infosheet nur als Anhang unserer Mail vom 10.08.)
 - Natalí: https://drive.google.com/drive/folders/12sLeLtVGtdabB35lKt5XsU4273TUzjQi
 
 ## Verlauf
