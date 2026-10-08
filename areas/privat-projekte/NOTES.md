@@ -35,7 +35,7 @@ Zuletzt aktualisiert: 2026-10-08
 - [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
-- [x] Telegram-Morgenbriefing: Bot @daellen_bot ("Jarvis"), Chat-ID Alain 732755112, Test ok (2026-10-08). Routine "Morgenroutine Alain" (`trig_01GD4CBsQy5mNftMr8VNbiE1`) von Alain im UI angelegt, Connectors dabei. Alte Tool-Routine gelöscht. Offen: Cron steht auf `30 6 * * *` ohne Zeitzone, also 06:30 UTC (08:30 Zürich im Sommer, 07:30 im Winter). Geplant war 06:50 Zürich.
+- [x] Telegram-Morgenbriefing: Bot @daellen_bot ("Jarvis"), Chat-ID Alain 732755112, Test ok (2026-10-08). Routine "Morgenroutine Alain" (`trig_01GD4CBsQy5mNftMr8VNbiE1`) von Alain im UI angelegt, Connectors dabei. Alte Tool-Routine gelöscht. Cron `30 6 * * *` ohne Zeitzone, also 06:30 UTC (08:30 Zürich im Sommer, 07:30 im Winter). So gewollt (Alain, 2026-10-08).
 
 ## Nächster Schritt
 
