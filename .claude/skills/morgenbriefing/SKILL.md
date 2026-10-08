@@ -43,11 +43,11 @@ Fristen
 
 ## Senden
 
-Per Telegram Bot API mit den Umgebungsvariablen `TELEGRAM_BOT_TOKEN` und `TELEGRAM_CHAT_ID`. Token nie ausgeben, loggen oder ablegen.
+Per Telegram Bot API (Bot @daellen_bot) mit den Umgebungsvariablen `TELEGRAM_BOT_TOKEN` und `TELEGRAM_CHAT_ID`. Fehlt `TELEGRAM_CHAT_ID`, Alains Chat-ID `732755112` nehmen. Token nie ausgeben, loggen oder ablegen.
 
 ```
 curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-  --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+  --data-urlencode "chat_id=${TELEGRAM_CHAT_ID:-732755112}" \
   --data-urlencode "text@/pfad/zur/nachricht.txt"
 ```
 

@@ -35,7 +35,7 @@ Zuletzt aktualisiert: 2026-10-08
 - [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
-- [ ] Telegram-Morgenbriefing (2026-10-08): Skill `morgenbriefing` angelegt. Wartet auf Alain: Bot bei @BotFather, Token als `TELEGRAM_BOT_TOKEN` in der Cloud-Umgebung, `api.telegram.org` freigeben, dem Bot /start schreiben. Dann Chat-ID holen, Test, Routine täglich 06:50 Zürich.
+- [ ] Telegram-Morgenbriefing: Bot @daellen_bot ("Jarvis") läuft, Token in der Umgebung, Chat-ID Alain 732755112, Testnachricht ok (2026-10-08). Routine `trig_019k9Cje8zAy3jH6nU3Z7MvL` (täglich 06:50 Zürich) angelegt, aber DEAKTIVIERT: per Tool erstellt hat sie weder Repo noch Connectors. Wartet auf Alain: `TELEGRAM_CHAT_ID=732755112` in der Umgebung setzen und die Routine im claude.ai-Routines-UI mit Repo daellengarnier/jarvis und Connectors Gmail, Google Calendar, Supabase anlegen (danach die deaktivierte löschen).
 
 ## Nächster Schritt
 
