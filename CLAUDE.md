@@ -83,6 +83,7 @@ Jeder Bereichs-Skill lädt zuerst mit `area-context` die Daten aus `areas/<berei
 | Sprachen, Segelschein, Kurse, Zweitlehre | `privat-lernen` |
 | VPS, eigene Apps, Photogrammetrie, Motorrad | `privat-projekte` |
 | Startmenü, Wahl 1 bis 4 | `start-menu` |
+| Morgenbriefing per Telegram | `morgenbriefing` |
 | Stand eines Bereichs laden oder sichern | `area-context` |
 | Jarvis etwas beibringen, Skills ändern | `training` |
 | Alles zu Cleverclip | keiner. Eine Zeile Hinweis, nicht anfassen. |

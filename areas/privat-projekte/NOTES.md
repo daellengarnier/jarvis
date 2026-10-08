@@ -35,6 +35,8 @@ Zuletzt aktualisiert: 2026-10-08
 - [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
+- [ ] Telegram-Morgenbriefing (2026-10-08): Skill `morgenbriefing` angelegt. Wartet auf Alain: Bot bei @BotFather, Token als `TELEGRAM_BOT_TOKEN` in der Cloud-Umgebung, `api.telegram.org` freigeben, dem Bot /start schreiben. Dann Chat-ID holen, Test, Routine täglich 06:50 Zürich.
+
 ## Nächster Schritt
 
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
