@@ -12,7 +12,7 @@ Zuletzt aktualisiert: 2026-10-08
 
 ### Quellen auf Drive
 
-- Ablage pro Act (Wunsch Alain, 2026-10-08): im Anlass-Ordner ein Ordner pro Act, darin `Promo/` (Pressetext, Fotos, Poster, EPK) und `Riders/` (Tech, Hospitality, Stage Plot). Drive-Link des Act-Ordners in der Orga-App beim Act eintragen. Dateien von alain@kulturspinnerei.ch kann der Connector (Konto info@) nicht verschieben, nur kopieren.
+- Ablage pro Act (Wunsch Alain, 2026-10-08): im Anlass-Ordner ein Ordner pro Act, darin `Promo/` (Pressetext, Fotos, Poster, EPK) und `Riders/` (Tech, Hospitality, Stage Plot). Drive-Link des Act-Ordners in der Orga-App beim Act eintragen, das genügt: Dateien nicht zusätzlich in die Orga-App hochladen. Dateien von alain@kulturspinnerei.ch kann der Connector (Konto info@) nicht verschieben, nur kopieren.
 
 - Spinnerei-Drive: https://drive.google.com/drive/folders/1xUiDgvmk9h0LcOyYhUcn4cMkyYph6Qcf
 - Programm 2026: https://drive.google.com/drive/folders/1jeM_t0k6V563GmyZ-410cKu_RJqbDLkn (ein Ordner pro Anlass, Name `MMTT_Act`)
