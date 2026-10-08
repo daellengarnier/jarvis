@@ -17,7 +17,7 @@ Zuletzt aktualisiert: 2026-10-08
 ## Booking (spinnerei-booking)
 
 - [x] Termin bestätigt (Alain an Pascal Trösch, 25.11.2025)
-- [ ] Telefontermin mit Milena: Mo 12.10. um 15:00, im Kalender info@ eingetragen. Mail sendet Alain selbst (2026-10-08)
+- [ ] Telefontermin mit Milena: Mo 12.10. um 15:00, im Kalender info@ eingetragen. Mail von Alain gesendet (2026-10-08), Bestätigung Milena offen
 - Jugendschutz: kein Hochprozentiges, keine Shots. Bändel: rot U16, gelb 16 bis 18, blau Ü18 (Vorjahr).
 
 ## Ticketing (spinnerei-ticketing)

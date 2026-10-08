@@ -46,7 +46,7 @@ Zuletzt aktualisiert: 2026-10-08
 
 ## Finanzen (spinnerei-finanzen)
 
-- [x] Aufteilung der 1700 CHF: drei Rechnungen nach dem Event, Management Mothers Cake 1100, Sixteentimes Music 200, Fancy and the Boys 400 (Kerstin 08.10., von uns bestätigt im Entwurf)
+- [x] Aufteilung der 1700 CHF: drei Rechnungen nach dem Event, Management Mothers Cake 1100, Sixteentimes Music 200, Fancy and the Boys 400 (Kerstin 08.10., von Alain bestätigt und gesendet 08.10.)
 - [ ] Gagen ausbezahlt
 - [ ] Abrechnung erstellt
 
@@ -60,7 +60,7 @@ Zuletzt aktualisiert: 2026-10-08
 
 - 2026-10-08: Im Spinnplan angelegt (Bar 2, Einlass 2, Sicherheit 1, Blöcke à 1.5 h ab 21:00).
 
-- 2026-10-08: Kerstin: Übernachtung ok, FB-Event danke, drei Rechnungen, Technik mit Sebastian, neue Anfrage Magma Ocean 15.05.2027. Antwort als Entwurf in info@ (Rechnungen ok, Sebastian ok, Magma Ocean schauen wir im Kollektiv an).
+- 2026-10-08: Kerstin: Übernachtung ok, FB-Event danke, drei Rechnungen, Technik mit Sebastian, neue Anfrage Magma Ocean 15.05.2027. Antwort von Alain gesendet (Rechnungen ok, Sebastian ok, Magma Ocean schauen wir im Kollektiv an).
 
 - 2026-07-11: Anfrage über Tino, Gage 1700 CHF für beide.
 - 2026-07-16: Gästezimmer für 3 Personen reserviert, Doors 21:00 vorgeschlagen.
