@@ -32,10 +32,10 @@ Zuletzt aktualisiert: 2026-10-08
 - [ ] Spinnplan live ist v1 auf Netlify (spinnplan-23.netlify.app), nicht auf al-daellen. v2 wird später migriert (Alain, 2026-10-08). Deploy von v1: kein CI, nicht im Netlify-Team des Connectors (das ist das Cleverclip-Team, nicht anfassen). Wie Alain deployt: klären.
 - 2026-10-08 Supabase: Sicherheitslücke geschlossen. Vorher konnte sich jeder eingeloggte Benutzer per API selbst zum Admin machen. Jetzt: Trigger `guard_is_admin` (nur Admins ändern `is_admin`, Selbst-Insert immer false), Policy "Admins can update any profile", Funktion `is_admin_user()`, `handle_new_user` nicht mehr per API aufrufbar. Getestet (Rollback): Selbst-Admin blockiert, Namensänderung geht, Admin kann andere befördern. Offen aus den Supabase-Warnungen: `pg_net` im Schema public, Schutz gegen geleakte Passwörter aus, `notifications` und `push_subscriptions` sehr offen.
 - 2026-10-08 Kinderdisco 24.10.: Einlass auf 14:00 bis 16:00 (`role_dur_hours` Einlass 2), Rest unverändert.
-- [ ] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe (bisher nur beim Hausfest). Datenmodell und Anzeige können es schon. Code-Änderung lokal fertig, Push und Deploy warten auf Alain.
+- [ ] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe (bisher nur beim Hausfest). Datenmodell und Anzeige können es schon. Gepusht nach `daellengarnier/spinnplan` (ef2dec8, 2026-10-08), noch nicht live. Deploy über Netlify-Connector in neuer Session (Alain hat Netlify verbunden).
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
 ## Nächster Schritt
 
-- Spinnplan: Deploy-Weg von v1 klären, dann Formular-Änderung (Dauer pro Schichtart) pushen und live bringen.
+- Spinnplan: Netlify-Projekt von spinnplan-23 finden, Commit ef2dec8 (Ordner `spinnplan-pwa_18`) nach Alains Ja deployen, Deploy-Weg im Skill festhalten.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
