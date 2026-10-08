@@ -1,7 +1,7 @@
 # Jugendsession (Vermietung), 2026-11-06
 
 Status: bestätigt  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-08
 
 ## Eckdaten
 
@@ -17,7 +17,7 @@ Zuletzt aktualisiert: 2026-10-06
 ## Booking (spinnerei-booking)
 
 - [x] Termin bestätigt (Alain an Pascal Trösch, 25.11.2025)
-- [ ] Telefontermin mit Milena
+- [ ] Telefontermin mit Milena: Mo 12.10. um 15:00 vorgeschlagen (Entwurf in info@, noch nicht gesendet)
 - Jugendschutz: kein Hochprozentiges, keine Shots. Bändel: rot U16, gelb 16 bis 18, blau Ü18 (Vorjahr).
 
 ## Ticketing (spinnerei-ticketing)
@@ -35,6 +35,9 @@ Zuletzt aktualisiert: 2026-10-06
 - Vorjahr: https://drive.google.com/drive/folders/1g1Ucio_lQCKf9bhc58ahzIlo4nIeeQ-q
 
 ## Verlauf
+
+- 2026-10-07: Milena schlägt Mo 12.10. oder Mi 14.10. fürs Telefon vor.
+- 2026-10-08: Antwort als Entwurf: Mo 12.10., 15:00. Im Spinnplan angelegt (Bar 2, Einlass 1, 3 Blöcke à 1.5 h).
 
 - 2025-11-25: Datum für 2026 reserviert.
 - 2026-09-14: Milena fragt nach Lift und Telefontermin.

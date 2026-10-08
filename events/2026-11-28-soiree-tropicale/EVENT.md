@@ -47,5 +47,7 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Verlauf
 
+- 2026-10-08: Im Spinnplan angelegt (Bar 2, Einlass 2, Sicherheit 1, Blöcke à 1.5 h ab 21:00).
+
 - 2026-09-12 bis 19.09.: Druckdaten, Pressetext und Flyer von Mo per Mail.
 - 2026-10-06: Drei DJs mit Promotext in der Orga-App angelegt. Plakat, Flyer, Foto ins Drive und in die App.

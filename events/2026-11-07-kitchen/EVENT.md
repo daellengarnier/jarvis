@@ -55,6 +55,8 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Verlauf
 
+- 2026-10-08: Im Spinnplan angelegt (Bar 2, Einlass 2, Sicherheit 1, Blöcke à 1.5 h ab 21:00).
+
 - 2026-05-18: 7.11. von der Band bestätigt.
 - 2026-07-30: Promotext und Foto erhalten.
 - 2026-10-06: Herkunft, Personen, Promotext-PDF, Pressefoto und Notiz in der Orga-App ergänzt.

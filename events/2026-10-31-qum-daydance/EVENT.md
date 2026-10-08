@@ -54,6 +54,8 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Verlauf
 
+- 2026-10-08: Im Spinnplan angelegt (Bar 2, Einlass 1, 4 Blöcke à 2 h, AV Dällen, BV Ambar, Licht Laurin/Yves, Kochen Mike).
+
 - 2026-10-06: Ressort-Verantwortliche in der Orga-App gesetzt: Bar Ambar, Licht Laurin und Yves (Protokoll 28.09.).
 - 2026-09-09: Unterlagen von Bruno Frei per Mail (Anhänge).
 - 2026-10-06: Protokolle 2026 geprüft, nichts Neues ausser Team und Licht (schon erfasst).

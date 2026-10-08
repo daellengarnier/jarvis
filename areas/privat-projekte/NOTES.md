@@ -32,6 +32,7 @@ Zuletzt aktualisiert: 2026-10-08
 - [x] Spinnplan v1 live auf Netlify (spinnplan-23.netlify.app, Projekt-ID `c65cffe8-03a9-4396-8f47-9629456d4f00`). Seit 2026-10-08 mit `daellengarnier/spinnplan` verknüpft: Push auf main deployt automatisch (Ordner `spinnplan-pwa_18`, kein Build). v2 wird später migriert.
 - 2026-10-08 Supabase: Sicherheitslücke geschlossen. Vorher konnte sich jeder eingeloggte Benutzer per API selbst zum Admin machen. Jetzt: Trigger `guard_is_admin` (nur Admins ändern `is_admin`, Selbst-Insert immer false), Policy "Admins can update any profile", Funktion `is_admin_user()`, `handle_new_user` nicht mehr per API aufrufbar. Getestet (Rollback): Selbst-Admin blockiert, Namensänderung geht, Admin kann andere befördern. Offen aus den Supabase-Warnungen: `pg_net` im Schema public, Schutz gegen geleakte Passwörter aus, `notifications` und `push_subscriptions` sehr offen.
 - 2026-10-08 Kinderdisco 24.10.: Einlass auf 14:00 bis 16:00 (`role_dur_hours` Einlass 2), Rest unverändert.
+- 2026-10-08 Spinnplan: Anlässe 31.10. bis 12.12. (QUM, Jugendsession, Kitchen, Artlu, Soirée, Mothers Cake) per SQL angelegt, Slots wie `buildSlots` (`<Rolle>_<Block>`, `slot_index` 0..Anzahl-1). Direktes Insert löst keine Push-Notification "neuer Anlass" aus.
 - [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 

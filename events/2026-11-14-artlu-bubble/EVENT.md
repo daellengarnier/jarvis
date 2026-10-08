@@ -1,7 +1,7 @@
 # Artlu Bubble and the Dead Animal Gang, 2026-11-14
 
 Status: angekündigt  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-08
 
 ## Eckdaten
 
@@ -33,6 +33,7 @@ Zuletzt aktualisiert: 2026-10-06
 - [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
 - [x] Promotext und 2 Promofotos im Drive
 - Saisonflyer/-plakat nennen den Anlass
+- [ ] Plakat von Robert Butler (Mister Butler Siebdruck), via Yves weitergeleitet 07.10. (Mail "Fwd: shablahplaki"): A2 Druckdatei mit PETZI-Link per SwissTransfer (Link läuft ab), PNG 1300px für Social Media als Anhang. Noch nicht im Drive.
 
 ## Technik (spinnerei-technik)
 
@@ -49,5 +50,7 @@ Zuletzt aktualisiert: 2026-10-06
 - Ordner der Band: https://drive.google.com/drive/folders/1a0JUA2KxUvqthmIeQweVKLqZGQOGH68h
 
 ## Verlauf
+
+- 2026-10-08: Im Spinnplan angelegt (Bar 2, Einlass 2, Sicherheit 1, Blöcke à 1.5 h ab 21:00).
 
 - 2026-10-06: Drive-Link und Notiz in der Orga-App ergänzt.
