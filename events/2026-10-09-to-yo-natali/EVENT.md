@@ -11,7 +11,7 @@ Zuletzt aktualisiert: 2026-10-08
 | Act | TŌ YŌ (Psy-Rock, Japan, 4 Personen), Support: Natalí & the Dark Horses (Dark Soul, Psy-Indie, Bern, 3 Personen) |
 | Agentur / Kontakt | TŌ YŌ: Jonas, YAYAYEAH, yayayeahmusic@gmail.com |
 | Gage | netto (Alain, 2026-10-06). TŌ YŌ: Deal-Memo sagt 600 EUR plus Unterkunft und Catering, Orga-App sagt 600 CHF, Währung klären. Natalí 450 CHF (Orga-App) |
-| Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 00:30 |
+| Türöffnung / Beginn / Ende | Essen 20:00, Türe 21:00, Ende 00:30 |
 | Zeiten Acts | TŌ YŌ: Get-in 17:00, Soundcheck 17:30, Show 22:45. Natalí: Get-in 18:30, Soundcheck 19:00, Show 21:30 |
 | Sprache Kommunikation mit Act | TŌ YŌ Englisch |
 | Abendverantwortung | Dällen (AV), Ambar (BV) |

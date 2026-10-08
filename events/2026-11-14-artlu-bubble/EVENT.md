@@ -11,7 +11,7 @@ Zuletzt aktualisiert: 2026-10-08
 | Act | Artlu Bubble and the Dead Animal Gang, Garage Rock, Bern, 5 Personen. Plattentaufe Album "16:26" |
 | Agentur / Kontakt | offen. Drive der Band: shahblahofficial@gmail.com |
 | Gage | offen |
-| Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 01:30 |
+| Türöffnung / Beginn / Ende | Essen 20:00, Türe 21:00, Ende 01:30 |
 | Zeiten Act | Get-in 18:00, Soundcheck 18:30, Show 22:00 |
 | Abendverantwortung | Dällen (Orga-App) |
 

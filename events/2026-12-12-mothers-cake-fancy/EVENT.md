@@ -11,7 +11,7 @@ Zuletzt aktualisiert: 2026-10-08
 | Act | Mothers Cake (Psy-Rock, Tirol AT, 4 Personen, Travelparty voraussichtlich 5). Fancy and the Boys (Grunge-Rock, Thun, 3 Personen) |
 | Agentur / Kontakt | Mothers Cake: Kerstin von Sivers, Sixteentimes Music Basel, kerstin@sixteentimes.com, +41 79 291 52 30. Fancy: Sändu (Sandro) Linder, sandromusic89@gmail.com, 079 866 80 05. Co-Host: Tino Bösch, tino.boesch@proton.me |
 | Gage | Fixgage 1700 CHF für beide Bands zusammen (Tino, 11.07.). Aufteilung offen, kein Vertrag |
-| Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 01:30 |
+| Türöffnung / Beginn / Ende | Essen 20:00, Türe 21:00, Ende 01:30 |
 | Zeiten Acts | Mothers Cake: Get-in 17:00, Soundcheck 17:30, Show 22:45. Fancy: Get-in 18:30, Soundcheck 19:00, Show 21:30 |
 | Sprache Kommunikation mit Act | Deutsch |
 | Abendverantwortung | Dällen (Orga-App) |

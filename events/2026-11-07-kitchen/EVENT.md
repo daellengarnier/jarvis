@@ -11,7 +11,7 @@ Zuletzt aktualisiert: 2026-10-06
 | Act | Kitchen, Instrumental Trip Pop, Bern, Trio (Drums, Bass, Gtr, Electronics) |
 | Agentur / Kontakt | Dominik "Niki" Blumer, dominik@feedthemonkey.ch. cc tobi.lerch@gmx.net (Tobi, Drums), ljerfino@gmx.ch |
 | Gage | keine. Stattdessen filmen wir das Konzert, Transportspesen übernehmen wir (Mail 15.05.). Betrag Spesen offen |
-| Türöffnung / Beginn / Ende | Essen 19:30, Türe 21:00, Ende 00:30 |
+| Türöffnung / Beginn / Ende | Essen 20:00, Türe 21:00, Ende 00:30 |
 | Zeiten Act | Get-in 18:00, Soundcheck 18:30, Show 21:45 |
 | Abendverantwortung | offen |
 
