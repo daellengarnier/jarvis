@@ -14,7 +14,7 @@ Welt: Spinnerei, ausser bei 3 und 4. Konto: info@kulturspinnerei.ch, vorher per 
 3. Ausgeben, kurz:
 
 ```
-Hallo Alain.
+Hallo Alain. (bzw. Hallo Ambar., je nach Person der Session, siehe CLAUDE.md)
 [nur falls vorhanden: Neu: <Act>: <eine Zeile, was geantwortet wurde>]
 [nur falls vorhanden: fehlender Connector, eine Zeile]
 
