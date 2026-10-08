@@ -22,6 +22,8 @@ Zuletzt aktualisiert: 2026-10-08
 - [ ] Gage: offen
 - In info@ gibt es keine Booking-Mails zu diesem Anlass, lief vermutlich ausserhalb.
 
+- Essen Acts (Orga-App, 08.10.): 5 Personen, Essgewohnheiten unbekannt, nachfragen.
+
 ## Ticketing (spinnerei-ticketing)
 
 - [x] PETZI: https://www.petzi.ch/events/64215/

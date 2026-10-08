@@ -26,6 +26,8 @@ Zuletzt aktualisiert: 2026-10-08
 - Fancy bringt eigene Backline, Bühne min. 5x3m.
 - Mothers Cake Rider: Drum Riser 2x3m falls vorhanden, 8 gleiche Wedges, Schuko pro Musiker, Licht ohne Computer/USB. Hospitality: warmes Essen gemischt, 2 Kisten Lager.
 
+- Essen Acts (Orga-App, 08.10.): 8 Personen. Mothers Cake 5, gemischt vegi und nicht vegi, keine Allergien. Fancy 3, unbekannt, nachfragen.
+
 ## Ticketing (spinnerei-ticketing)
 
 - [x] PETZI: https://www.petzi.ch/events/64216/

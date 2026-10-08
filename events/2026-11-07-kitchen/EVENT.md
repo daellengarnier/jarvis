@@ -23,6 +23,8 @@ Zuletzt aktualisiert: 2026-10-06
 - Wunsch der Band (14.04.): evtl. Party danach mit DJ (Dr. Minx) oder elektronischem Live-Act.
 - 7.11. ist Dominiks Geburtstag.
 
+- Essen Acts (Orga-App, 08.10.): 3 Personen, Essgewohnheiten unbekannt, nachfragen.
+
 ## Ticketing (spinnerei-ticketing)
 
 - [x] PETZI: https://www.petzi.ch/events/64254/
