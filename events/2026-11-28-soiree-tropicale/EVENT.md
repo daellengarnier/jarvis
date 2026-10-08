@@ -42,7 +42,7 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Links (Drive)
 
-- Anlass: https://drive.google.com/drive/folders/1NgYvJJ5tCKY55lQTQW6tvyIALnNdQ5QT 
+- Anlass: https://drive.google.com/drive/folders/1NgYvJJ5tCKY55lQTQW6tvyIALnNdQ5QT  (Promo/: Plakat A2, 2 Flyer, Foto Âmy B. Kein Act-Ordner pro DJ. In der Orga-App als Drive-Link bei allen drei DJs)
 - Ausgabe April 2026: https://drive.google.com/drive/folders/1XdVGeFzyu905PKgJfv4eoNEP0AHxaAGm
 
 ## Verlauf

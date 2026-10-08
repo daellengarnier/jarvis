@@ -47,7 +47,7 @@ Zuletzt aktualisiert: 2026-10-08
 ## Links (Drive)
 
 - Anlass: https://drive.google.com/drive/folders/16R09yetcsY9jfv_TZ-xREt8DANYJEBc7
-- Act: https://drive.google.com/drive/folders/1G5gVtOH5J5qCh4qAejAv6UkpTzciCLPj
+- Act: https://drive.google.com/drive/folders/1G5gVtOH5J5qCh4qAejAv6UkpTzciCLPj (Promo/: 2 Fotos, Promotext, A2-Plakat. Riders/: leer. Originale von alain@ liegen noch oben im Act-Ordner, Kopien in Promo/)
 - Ordner der Band: https://drive.google.com/drive/folders/1a0JUA2KxUvqthmIeQweVKLqZGQOGH68h
 
 ## Verlauf

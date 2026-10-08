@@ -52,6 +52,7 @@ Zuletzt aktualisiert: 2026-10-06
 ## Links (Drive)
 
 - Anlass: https://drive.google.com/drive/folders/1x8ch1DwFDPSGU0RMLj9CmzlqMEGDUEmp
+- Act Kitchen: https://drive.google.com/drive/folders/1apw3H6J8lCUbku6d4N2QZ72SX90pZj5k (Promo/: Promotext, Pressefoto. Riders/: leer, Tech-Rider fehlt). In der Orga-App als Drive-Link gesetzt.
 
 ## Verlauf
 

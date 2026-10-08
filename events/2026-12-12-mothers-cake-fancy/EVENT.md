@@ -53,8 +53,8 @@ Zuletzt aktualisiert: 2026-10-08
 ## Links (Drive)
 
 - Anlass: https://drive.google.com/drive/folders/1_DJeKizsmIVBxAN-a29dAuX50D5pm0p4
-- Mothers Cake: https://drive.google.com/drive/folders/1S0EW9K0VtdQbQ2S4mSNJClgFbmBbKXBz
-- Fancy and the Boys: https://drive.google.com/drive/folders/1DkwR5yn6dwwUbkT7zoLc1jIDPOs-Vq4s
+- Mothers Cake: https://drive.google.com/drive/folders/1S0EW9K0VtdQbQ2S4mSNJClgFbmBbKXBz (Riders/: Rider 2025, Rider backline. Promo/: Photos MC, Press Release)
+- Fancy and the Boys: https://drive.google.com/drive/folders/1DkwR5yn6dwwUbkT7zoLc1jIDPOs-Vq4s (Riders/: Stage Rider. Promo/: EPK, 2 Logos, Foto. Originale von alain@ liegen noch oben im Ordner)
 
 ## Verlauf
 
