@@ -29,13 +29,13 @@ Zuletzt aktualisiert: 2026-10-08
 - [x] Jarvis-Account in der Orga-App: Zugangsdaten als Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Login über die API (siehe CLAUDE.md). Normaler Benutzer, kein Admin. Von einer Session am 2026-10-06 bereits genutzt.
 - [x] Push-Zugriff: Jarvis kann auf `daellengarnier/spinnerei`, `spinnplan` und `spinnplan-v2` pushen (geprüft 2026-10-08).
 - [x] Spinnplan: Jarvis hat vollen Zugriff, legt Anlässe selbst an und passt die App nach Bedarf an (Entscheid Alain, 2026-10-06, bestätigt 2026-10-08). Daten über den Supabase-Connector (Projekt "Spinnplan", `biyeggzutwajuueexcxl`), kein eigener App-Account nötig. Hinweis: Statements mit `drop` hängen im Connector (Timeout), `apply_migration` ebenso. DDL ohne `drop` per `execute_sql` geht.
-- [ ] Spinnplan live ist v1 auf Netlify (spinnplan-23.netlify.app), nicht auf al-daellen. v2 wird später migriert (Alain, 2026-10-08). Deploy von v1: kein CI, nicht im Netlify-Team des Connectors (das ist das Cleverclip-Team, nicht anfassen). Wie Alain deployt: klären.
+- [x] Spinnplan v1 live auf Netlify (spinnplan-23.netlify.app, Projekt-ID `c65cffe8-03a9-4396-8f47-9629456d4f00`). Seit 2026-10-08 mit `daellengarnier/spinnplan` verknüpft: Push auf main deployt automatisch (Ordner `spinnplan-pwa_18`, kein Build). v2 wird später migriert.
 - 2026-10-08 Supabase: Sicherheitslücke geschlossen. Vorher konnte sich jeder eingeloggte Benutzer per API selbst zum Admin machen. Jetzt: Trigger `guard_is_admin` (nur Admins ändern `is_admin`, Selbst-Insert immer false), Policy "Admins can update any profile", Funktion `is_admin_user()`, `handle_new_user` nicht mehr per API aufrufbar. Getestet (Rollback): Selbst-Admin blockiert, Namensänderung geht, Admin kann andere befördern. Offen aus den Supabase-Warnungen: `pg_net` im Schema public, Schutz gegen geleakte Passwörter aus, `notifications` und `push_subscriptions` sehr offen.
 - 2026-10-08 Kinderdisco 24.10.: Einlass auf 14:00 bis 16:00 (`role_dur_hours` Einlass 2), Rest unverändert.
-- [ ] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe (bisher nur beim Hausfest). Datenmodell und Anzeige können es schon. Gepusht nach `daellengarnier/spinnplan` (ef2dec8, 2026-10-08), noch nicht live. Deploy über Netlify-Connector in neuer Session (Alain hat Netlify verbunden). 2026-10-08 abends: auch in dieser Session kein Netlify-Connector, kein Token, und netlify.app ist im Netzwerk der Cloud-Umgebung gesperrt (403). ZIP des Ordners an Alain für Drag & Drop übergeben.
+- [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
 ## Nächster Schritt
 
-- Spinnplan: Alain lädt ef2dec8 per Drag & Drop hoch oder verknüpft das Netlify-Projekt mit dem Repo (Base directory `spinnplan-pwa_18`, kein Build-Befehl), dann deployt jeder Push auf main automatisch. Deploy-Weg danach im Skill festhalten.
+- Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
