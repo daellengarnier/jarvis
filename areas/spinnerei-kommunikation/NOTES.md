@@ -21,7 +21,7 @@ Zuletzt aktualisiert: 2026-10-09
 
 ## Offene Punkte
 
-- [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Alain von Hand, kein Facebook-Connector. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
+- [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Jarvis über Claude in Chrome in einer Session in der Claude-App am Computer (Entscheid 2026-10-09), Veröffentlichen nur nach Ja. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
 
 - [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
 - [ ] Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand.
