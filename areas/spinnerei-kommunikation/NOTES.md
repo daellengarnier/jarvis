@@ -1,7 +1,7 @@
 # NOTES: spinnerei-kommunikation
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-09
 
 ## Aktueller Stand
 
@@ -20,6 +20,8 @@ Zuletzt aktualisiert: 2026-10-06
 - Website und PETZI pflegt Dällen.
 
 ## Offene Punkte
+
+- [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Alain von Hand, kein Facebook-Connector. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
 
 - [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
 - [ ] Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand.
