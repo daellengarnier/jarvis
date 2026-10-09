@@ -28,7 +28,7 @@ Laut Alain ist in der Orga-App alles vollständig (2026-10-06).
 - [x] Unterkunft: TŌ YŌ übernachtet (Orga-App)
 - [x] Backline-Sharing: Natalí nutzt Drums und zwei Amps (Bass, Gitarre) von TŌ YŌ. Von Jonas bestätigt (11.08.), Natalí so mitgeteilt (11.08. und 28.09.).
 - Essen: Natalí bekommt etwas auf die Seite gestellt, ihre zwei Bandkollegen essen normal (Mail 28.09.).
-- Essen Acts (in Orga-App, Ressort Essen, 08.10.): 8 Personen ohne Team. TŌ YŌ 5 (4 Musiker + Driver/Merch laut Rider, Orga-App-Act steht auf 4), warm nach Soundcheck, spätestens 2 h vor Show, lokal, kein Fast Food. Natalí 3: laut Rider 1 vegetarisch, 1 vegan, 1 normal.
+- Essen Acts (in Orga-App, Ressort Essen, 08.10.): 8 Personen ohne Team. TŌ YŌ 5 (4 Musiker + Driver/Merch laut Rider, in der Orga-App Driver gesetzt 09.10.), warm nach Soundcheck, spätestens 2 h vor Show, lokal, kein Fast Food. Natalí 3: laut Rider 1 vegetarisch, 1 vegan, 1 normal.
 
 ## Ticketing (spinnerei-ticketing)
 
