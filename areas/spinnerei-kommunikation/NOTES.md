@@ -1,7 +1,7 @@
 # NOTES: spinnerei-kommunikation
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-09
+Zuletzt aktualisiert: 2026-10-12
 
 ## Aktueller Stand
 
@@ -23,6 +23,8 @@ Zuletzt aktualisiert: 2026-10-09
 
 - [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Jarvis über Claude in Chrome in einer Session in der Claude-App am Computer (Entscheid 2026-10-09), Veröffentlichen nur nach Ja. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
 
+  Prompt zum Einfügen in der Claude-App: `facebook-events-prompt.md` (2026-10-12).
+- [ ] Website: Titel "Soirée Tropical" auf kulturspinnerei.ch, richtig ist "Soirée Tropicale". Beschreibung dort noch "Weitere Infos folgen", Pressetext von Mo (18.09.) liegt vor. QUM dort nur mit DJ-Namen, Eventtext von Bruno liegt im Drive (festgestellt 2026-10-12).
 - [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
 - [ ] Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand.
 
