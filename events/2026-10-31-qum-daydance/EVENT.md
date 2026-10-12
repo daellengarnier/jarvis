@@ -1,7 +1,7 @@
 # QUM Daydance, 2026-10-31
 
 Status: angekündigt  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-12
 
 ## Eckdaten
 
@@ -60,3 +60,4 @@ Zuletzt aktualisiert: 2026-10-06
 - 2026-09-09: Unterlagen von Bruno Frei per Mail (Anhänge).
 - 2026-10-06: Protokolle 2026 geprüft, nichts Neues ausser Team und Licht (schon erfasst).
 - 2026-10-06: Anhänge über Apps Script ins Drive geholt, Flyer und Notiz in der Orga-App ergänzt.
+- 2026-10-12: Website-Text ergänzt (Eventtext von Bruno als Websitetext in der Orga-App), Website-Event aktualisiert.

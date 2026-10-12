@@ -24,9 +24,10 @@ Zuletzt aktualisiert: 2026-10-12
 - [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Jarvis über Claude in Chrome in einer Session in der Claude-App am Computer (Entscheid 2026-10-09), Veröffentlichen nur nach Ja. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
 
   Prompt zum Einfügen in der Claude-App: `facebook-events-prompt.md` (2026-10-12).
-- [ ] Website: Titel "Soirée Tropical" auf kulturspinnerei.ch, richtig ist "Soirée Tropicale". Beschreibung dort noch "Weitere Infos folgen", Pressetext von Mo (18.09.) liegt vor. QUM dort nur mit DJ-Namen, Eventtext von Bruno liegt im Drive (festgestellt 2026-10-12).
+- [x] Website-Texte QUM und Soirée Tropicale korrigiert (2026-10-12): Einleitung über das neue Feld "Websitetext" der Orga-App, Soirée umbenannt. Reihenfolge der Soirée-DJs folgt den Set-Zeiten, die noch offen sind (jetzt alphabetisch, Mo zuerst).
+- Facebook-Titelbilder gesammelt: Drive-Ordner "Facebook Titelbilder Herbst 2026" https://drive.google.com/drive/folders/1o8fsXO1HBjvxaN6SFtI74CC_ElNMN3sf (2026-10-12). Kinderdisco fehlt, QUM nur Print-PDF (Bilder evtl. im Flyer-ZIP), Kitchen-Foto und Fancy-Foto klein.
 - [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
-- [ ] Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand.
+- Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand. "Website-Event aktualisieren" in der Orga-App (oder `POST /api/anlaesse/<id>/publish`) überschreibt die Beschreibung und geht bei veröffentlichten Events direkt live. Beschreibung = Websitetext des Anlasses + Promotexte der Acts.
 
 ## Nächster Schritt
 

@@ -1,6 +1,6 @@
 # Prompt: Facebook-Events anlegen (Claude-App am Computer, Claude in Chrome)
 
-Voraussetzungen: Session in der Claude-App am Computer mit dem Repo jarvis, Chrome offen, als Admin der Facebook-Seite der Spinnerei eingeloggt. Titelbilder vorher aus Drive in einen lokalen Ordner laden (Pfad unten einsetzen), Facebook braucht sie als Datei.
+Voraussetzungen: Session in der Claude-App am Computer mit dem Repo jarvis, Chrome offen, als Admin der Facebook-Seite der Spinnerei eingeloggt. Titelbilder liegen gesammelt im Drive-Ordner "Facebook Titelbilder Herbst 2026" (https://drive.google.com/drive/folders/1o8fsXO1HBjvxaN6SFtI74CC_ElNMN3sf): als ZIP herunterladen, entpacken, Pfad unten einsetzen, Facebook braucht sie als Datei.
 
 Zum Einfügen:
 

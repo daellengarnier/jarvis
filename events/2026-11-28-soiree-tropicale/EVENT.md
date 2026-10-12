@@ -1,7 +1,7 @@
 # Soirée Tropicale, 2026-11-28
 
 Status: angekündigt  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-12
 
 ## Eckdaten
 
@@ -51,3 +51,4 @@ Zuletzt aktualisiert: 2026-10-06
 
 - 2026-09-12 bis 19.09.: Druckdaten, Pressetext und Flyer von Mo per Mail.
 - 2026-10-06: Drei DJs mit Promotext in der Orga-App angelegt. Plakat, Flyer, Foto ins Drive und in die App.
+- 2026-10-12: Anlass in der Orga-App in "Soirée Tropicale" umbenannt, Einleitung von Mo als Websitetext, Website-Event aktualisiert (vorher "Weitere Infos folgen").
