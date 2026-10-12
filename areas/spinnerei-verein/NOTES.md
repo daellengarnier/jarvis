@@ -22,7 +22,13 @@ Zuletzt aktualisiert: 2026-10-12
 - [ ] Weitere Vorstandsmitglieder neben Ambar, Yves, Alain?
 - [ ] Protokoll der Mitgliederversammlung vom 06.12.2024 auffindbar?
 - [ ] Lücke Jahresrechnung 2024: an der MV vom 06.12.2024 genehmigt?
-- [ ] Präsidiumswechsel melden: Bank (Zeichnungsberechtigung), Genossenschaft Via Felsenau, weitere Stellen mit Simona als Kontakt. Handelsregistereintrag in Zefix prüfen.
+- [ ] Präsidiumswechsel melden, wo Simona hinterlegt ist (Suche Drive und Mail 2026-10-12):
+  - SUISA (Kunden-Nr. 0.1033.603, Vertrag 1.037.733): Simona ist Kontaktperson auf Rechnung, zuletzt in der Anmeldung April 2026 (Drive, SUISA/2026 GT K). Rechnung April 2026 ging an nina@.
+  - Mobiliar Vereinsversicherung, Police G-1474-7841: Simona hat die Erneuerung 2024 ans Kollektiv weitergeleitet. Aktuellen Kontakt auf der Police prüfen.
+  - Kultur Stadt Bern: Gesuche 2023 liefen auf Simona, seit 2025 auf Alain über info@.
+  - Bank: Vereinskonto CH19 0079 0016 9408 2010 4 (Clearing 790, vermutlich BEKB). Zeichnungsberechtigte nicht dokumentiert, bei der Bank prüfen.
+  - UID CHE-407.617.936 (BFS, April 2025). Kein Handelsregistereintrag gefunden, in Zefix prüfen.
+  - Genossenschaft Via Felsenau als Vermieterin: kein Dokument mit Simona als Kontakt gefunden.
 
 ## Nächster Schritt
 
