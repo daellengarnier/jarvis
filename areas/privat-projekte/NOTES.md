@@ -1,7 +1,7 @@
 # NOTES: privat-projekte
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-12
+Zuletzt aktualisiert: 2026-10-18
 
 ## Aktueller Stand
 
@@ -35,11 +35,14 @@ Zuletzt aktualisiert: 2026-10-12
 - 2026-10-08 Kinderdisco 24.10.: Einlass auf 14:00 bis 16:00 (`role_dur_hours` Einlass 2), Rest unverändert.
 - 2026-10-08 Spinnplan: Anlässe 31.10. bis 12.12. (QUM, Jugendsession, Kitchen, Artlu, Soirée, Mothers Cake) per SQL angelegt, Slots wie `buildSlots` (`<Rolle>_<Block>`, `slot_index` 0..Anzahl-1). Direktes Insert löst keine Push-Notification "neuer Anlass" aus.
 - [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
+- [ ] Life-App: Umbau der ambardaellen-app (app.al-daellen.ch, Repo `daellengarnier/ambardaellen-app`) zu Alains persönlicher Organisations-App mit Jarvis-Anbindung. Konzept: `life-app-konzept.md` (Entwurf 2026-10-18). Jarvis hat Push-Zugriff. Offen: Vietnamesisch-Stand, Name/Domain, was auf dem VPS im Stack wirklich läuft.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
 - [x] Telegram-Morgenbriefing: Bot @daellen_bot ("Jarvis"), Chat-ID Alain 732755112, Test ok (2026-10-08). Routine "Morgenroutine Alain" (`trig_01GD4CBsQy5mNftMr8VNbiE1`) von Alain im UI angelegt, Connectors dabei. Alte Tool-Routine gelöscht. Cron `30 6 * * *` ohne Zeitzone, also 06:30 UTC (08:30 Zürich im Sommer, 07:30 im Winter). So gewollt (Alain, 2026-10-08).
 
 ## Nächster Schritt
+
+- Life-App: Alain gibt das Konzept frei, dann Phase 1 auf Branch `claude/shared-org-app-umbau`.
 
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
