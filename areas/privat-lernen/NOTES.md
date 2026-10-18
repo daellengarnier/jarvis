@@ -1,7 +1,7 @@
 # NOTES: privat-lernen
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-18
 
 ## Aktueller Stand
 
@@ -10,6 +10,10 @@ Zuletzt aktualisiert: 2026-10-06
 - Sprachen.
 - Segelschein.
 - Überlegungen zu einer Zweitlehre als Schreiner EFZ.
+
+### Belegt
+
+- Vietnamesisch: Ziel B1 bis Mitte 2027 (Alain, 2026-10-18). Aktueller Stand noch unbekannt. Lernkarten kommen in Phase 4 der Life-App.
 
 ## Offene Punkte
 
