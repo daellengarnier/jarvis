@@ -16,7 +16,8 @@ Zuletzt aktualisiert: 2026-10-18
 ### Belegt vom VPS (2026-10-18)
 
 - `viapp` (app.felsenau.org) betreibt nur die via1-app (Organisations-App der WG Via 1, Repo `daellengarnier/via1-app`): Container app, db, nginx, certbot. Unter /opt nur `via1-app`, `backups`, `containerd`.
-- Nicht auf viapp: ambardaellen-app, Spinnerei-Orga-App, Caddy. Die Angabe "Caddy im Stack ambardaellen-app" unten ist damit unbelegt. Die Orga-App (spinnerei.al-daellen.ch) zeigt auf 179.237.68.22, ein zweiter Server. Wo die ambardaellen-app läuft, ist offen.
+- viapp hat die IP 185.143.100.53. Nicht auf viapp: ambardaellen-app, Spinnerei-Orga-App, Caddy.
+- Zweiter Server 179.237.68.22: Dorthin zeigen app.al-daellen.ch (ambardaellen-app) und spinnerei.al-daellen.ch (Orga-App). Dort läuft vermutlich auch der Caddy aus dem Stack `ambardaellen-app`, der beide Domains ausliefert. Zugang (SSH-Alias, Login) noch unbekannt, Deploy läuft über GitHub-Secrets.
 
 ### Belegt aus GitHub (2026-10-06)
 
