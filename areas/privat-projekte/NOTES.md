@@ -13,6 +13,11 @@ Zuletzt aktualisiert: 2026-10-18
 - 3D/Photogrammetrie-Karte des Spinnerei-Areals.
 - Motorrad.
 
+### Belegt vom VPS (2026-10-18)
+
+- `viapp` (app.felsenau.org) betreibt nur die via1-app (Organisations-App der WG Via 1, Repo `daellengarnier/via1-app`): Container app, db, nginx, certbot. Unter /opt nur `via1-app`, `backups`, `containerd`.
+- Nicht auf viapp: ambardaellen-app, Spinnerei-Orga-App, Caddy. Die Angabe "Caddy im Stack ambardaellen-app" unten ist damit unbelegt. Die Orga-App (spinnerei.al-daellen.ch) zeigt auf 179.237.68.22, ein zweiter Server. Wo die ambardaellen-app läuft, ist offen.
+
 ### Belegt aus GitHub (2026-10-06)
 
 - Spinnerei Orga-App: Repo `daellengarnier/spinnerei`, live auf https://spinnerei.al-daellen.ch. Next.js 16, Postgres, Drizzle, Docker. Auto-Deploy per GitHub Actions bei Push. Caddy im Stack `ambardaellen-app` auf demselben VPS.
