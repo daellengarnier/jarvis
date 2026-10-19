@@ -33,7 +33,7 @@ Zuletzt aktualisiert: 2026-10-19
 - [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
 - [ ] Flyer und Text für Insta: schickt Mara (laut Protokoll), noch nicht in info@
 - Mara macht Druckwerbung und Quartierchat
-- [ ] Anfrage Manuela Vogel (manuelav@gmx.ch, Kontaktformular 2026-10-19): empfohlenes Alter? Antwort als Entwurf in info@ (Ambar, 2026-10-19): offen für jedes Alter, Verantwortung bei den Bezugspersonen, Musik nicht laut. Senden offen.
+- [x] Anfrage Manuela Vogel (manuelav@gmx.ch, Kontaktformular 2026-10-19): empfohlenes Alter? Antwort von Ambar gesendet aus info@ (2026-10-19): offen für jedes Alter, Verantwortung bei den Bezugspersonen, Musik nicht laut.
 
 ## Technik (spinnerei-technik)
 
@@ -59,4 +59,4 @@ Zuletzt aktualisiert: 2026-10-19
 - 2026-10-06: Acts "Tino" und "Simä b2b Lucien" in der Orga-App angelegt.
 - 2026-10-06: In der Orga-App als externe Verantwortliche eingetragen: Acts Mara und Aurelia, Promo Mara, Essen Mara (Snacks fürs Team).
 - 2026-10-08: Spinnplan: Einlass-Schicht auf 14:00 bis 16:00 (1 Block à 2 h), Bar unverändert (14:00 bis 15:30, 15:30 bis 17:00). Eingetragene Personen bleiben.
-- 2026-10-19: Anfrage Manuela Vogel zum Alter, Antwort als Entwurf (Ambar).
+- 2026-10-19: Anfrage Manuela Vogel zum Alter, Antwort gesendet (Ambar).
