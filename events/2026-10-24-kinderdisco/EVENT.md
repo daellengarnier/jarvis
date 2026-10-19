@@ -60,3 +60,4 @@ Zuletzt aktualisiert: 2026-10-19
 - 2026-10-06: In der Orga-App als externe Verantwortliche eingetragen: Acts Mara und Aurelia, Promo Mara, Essen Mara (Snacks fürs Team).
 - 2026-10-08: Spinnplan: Einlass-Schicht auf 14:00 bis 16:00 (1 Block à 2 h), Bar unverändert (14:00 bis 15:30, 15:30 bis 17:00). Eingetragene Personen bleiben.
 - 2026-10-19: Anfrage Manuela Vogel zum Alter, Antwort gesendet (Ambar).
+- 2026-10-19: Manuela fragt nach, ob 11 bis 12 Jahre zu gross ist. Antwort als Entwurf (Ambar): eher bei den Älteren, aber gut vorstellbar. Senden offen.
