@@ -26,14 +26,14 @@ Zuletzt aktualisiert: 2026-10-19
 - [x] PETZI: https://www.petzi.ch/events/64218/
 - [x] Preise: 5 CHF normal, 10 CHF Soli (Popcorn und Sirup für Kids inbegriffen)
 - Verkauft laut Orga-App am 2026-10-06: 0
-- Keine Altersbegrenzung
+- Keine Altersbegrenzung, Verantwortung bei den Bezugspersonen. Musik nicht laut (Ambar, 2026-10-19)
 
 ## Kommunikation (spinnerei-kommunikation)
 
 - [x] Auf kulturspinnerei.ch publiziert (2026-08-05)
 - [ ] Flyer und Text für Insta: schickt Mara (laut Protokoll), noch nicht in info@
 - Mara macht Druckwerbung und Quartierchat
-- [ ] Anfrage Manuela Vogel (manuelav@gmx.ch, Kontaktformular 2026-10-19): empfohlenes Alter? Antwort als Entwurf in info@ (Ambar, 2026-10-19): keine Altersgrenze, alle Kinder willkommen. Senden offen. Eine Altersempfehlung gibt es nicht, ggf. bei Mara nachfragen.
+- [ ] Anfrage Manuela Vogel (manuelav@gmx.ch, Kontaktformular 2026-10-19): empfohlenes Alter? Antwort als Entwurf in info@ (Ambar, 2026-10-19): offen für jedes Alter, Verantwortung bei den Bezugspersonen, Musik nicht laut. Senden offen.
 
 ## Technik (spinnerei-technik)
 
