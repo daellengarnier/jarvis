@@ -21,7 +21,7 @@ Zuletzt aktualisiert: 2026-10-19
 
 ## Offene Punkte
 
-- [ ] Anfrage Anna Benteli (anna.benteli@bluewin.ch, Kontaktformular 2026-10-19): Barrierefreiheit, Zugang mit Elektrorollstuhl. Antwort als Entwurf in info@ (2026-10-19, Ambar): nicht barrierefrei, kein Lift, Unterstützung nach Absprache. Senden offen. Quelle zum Lift weiterhin nur alter Webtext und Antwort an SAJV, Zugang vor Ort (Stufen, Eingang, WC) nie geprüft.
+- [x] Anfrage Anna Benteli (anna.benteli@bluewin.ch, Kontaktformular 2026-10-19): Barrierefreiheit, Zugang mit Elektrorollstuhl. Antwort von Ambar gesendet aus info@ (2026-10-19): nicht barrierefrei, kein Lift, Unterstützung nach Absprache.  Quelle zum Lift weiterhin nur alter Webtext und Antwort an SAJV, Zugang vor Ort (Stufen, Eingang, WC) nie geprüft.
 - [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Jarvis über Claude in Chrome in einer Session in der Claude-App am Computer (Entscheid 2026-10-09), Veröffentlichen nur nach Ja. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
 
   Prompt zum Einfügen in der Claude-App: `facebook-events-prompt.md` (2026-10-12).
