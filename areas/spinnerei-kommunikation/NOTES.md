@@ -1,7 +1,7 @@
 # NOTES: spinnerei-kommunikation
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-19
+Zuletzt aktualisiert: 2026-10-21
 
 ## Aktueller Stand
 
@@ -29,6 +29,8 @@ Zuletzt aktualisiert: 2026-10-19
 - Facebook-Titelbilder gesammelt: Drive-Ordner "Facebook Titelbilder Herbst 2026" https://drive.google.com/drive/folders/1o8fsXO1HBjvxaN6SFtI74CC_ElNMN3sf (2026-10-12). Kinderdisco fehlt, QUM nur Print-PDF (Bilder evtl. im Flyer-ZIP), Kitchen-Foto und Fancy-Foto klein.
 - [ ] Kanäle (Social Media, Newsletter) und Zugänge sind im Repo noch nicht erfasst.
 - Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand. "Website-Event aktualisieren" in der Orga-App (oder `POST /api/anlaesse/<id>/publish`) überschreibt die Beschreibung und geht bei veröffentlichten Events direkt live. Beschreibung = Websitetext des Anlasses + Promotexte der Acts.
+
+- [ ] Mail ans Haus "Spinnerei: Anlässe bis Ende Jahr und Schichten" als Entwurf in info@ (2026-10-21): Anlässe 24.10. bis 12.12., keine Silvesterparty, Aufruf Schichten mit Link spinnplan-23.netlify.app. Empfänger offen (Hausverteiler nicht im Repo), Senden nur nach Ja. Soirée Tropicale mit Ende 01:30 (Orga-App), Mo schreibt 02:00.
 
 ## Nächster Schritt
 
