@@ -57,4 +57,4 @@ Zuletzt aktualisiert: 2026-10-18
 
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
-- 2026-10-21 Orga-App: `POST /api/anlaesse` legt keine Ressorts an, `hatActs`/`hatFinanzen` sind per API nicht setzbar. Neue Anlässe Rauschen Dayrave (ID 10) und Nemoralis (ID 11) haben darum noch keine Ressorts. Vorschlag: Standard-Ressorts beim Anlegen (wie Soirée Tropicale).
+- [ ] 2026-10-21 Orga-App: `POST /api/anlaesse` legte keine Ressorts an. Fix (Standard-Ressorts beim Anlegen, Migration 0029 ergänzt sie bei Anlässen ohne Ressorts, betrifft Rauschen ID 10 und Nemoralis ID 11) lokal committet (df760ba), lokal gegen Postgres 16 getestet. Push auf main von der Auto-Mode-Prüfung blockiert (Produktions-Deploy), wartet auf Alains Freigabe.

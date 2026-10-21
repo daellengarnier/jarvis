@@ -44,8 +44,14 @@ Zuletzt aktualisiert: 2026-10-21
 
 ## Organisation
 
-- Orga-App: Anlass ID 10 (Name, Datum, 14:00 bis 00:00, Art "Dayrave", öffentlich). Noch keine Ressorts: die API legt bei neuen Anlässen keine an und kann die Rubriken Acts und Finanzen nicht setzen.
+- Orga-App: Anlass ID 10 (Name, Datum, 14:00 bis 00:00, Art "Dayrave", öffentlich). Noch keine Ressorts: App-Anpassung (Standard-Ressorts) wartet auf Push, siehe `areas/privat-projekte/NOTES.md`. Danach Kami und Orbflux als Acts erfassen, mit Drive-Link.
 - Spinnplan: Anlass `1566f0bb-4ea8-4396-819c-1f7d8a1447e6`, 14:00 bis 00:00, 5 Blöcke à 2 h, Bar 2, Einlass 2, Sicherheit 2 (Muster QUM Daydance). Fixe Rollen (AV, BV, Licht, Ton) offen.
+
+## Links (Drive)
+
+- Anlass: https://drive.google.com/drive/folders/1VKzvGCRko4dn8Tj4UpoxbH78Jt3ugRHf (Programm 2027 / 0320_Rauschen Dayrave, in der Orga-App verlinkt)
+- Kami: https://drive.google.com/drive/folders/1m-SrCcUt1nx9HIiRg7Q-SFaF-j_WUq-H (Promo, Riders)
+- Orbflux: https://drive.google.com/drive/folders/1FerhQo5u-Q47GF1FWRe_2NgLh9VsAuQL (Promo, Riders)
 
 ## Finanzen (spinnerei-finanzen)
 
@@ -53,4 +59,5 @@ Zuletzt aktualisiert: 2026-10-21
 
 ## Verlauf
 
+- 2026-10-21: Drive-Ordner angelegt und verlinkt.
 - 2026-10-21: In Orga-App und Spinnplan angelegt. Zeiten aus dem Website-Event 2026 übernommen.
