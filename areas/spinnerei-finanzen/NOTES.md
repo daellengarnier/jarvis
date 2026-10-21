@@ -24,7 +24,7 @@ Zuletzt aktualisiert: 2026-10-21
 - 2025 geprüft: Basecamp und Passive Attack vollständig. Nachgetragen in `2025/Bierexpress`: RG2503456 vom 30.12.2025 und Gutschrift RG2501664 vom 03.07.2025.
 - Ashinoa: Rechnung (Sept. 2026) in neuem Ordner `2026/Gagen / Spesen Künstler*innen/Ashinoa`.
 - Bexio-Mahnung und Rechnung Nuance: Script hat keine Anhänge geholt (vermutlich im Mailtext), nicht abgelegt.
-- Doppelkopien im Eingang: Das Script hat beim zweiten Lauf alle verschobenen Rechnungen erneut kopiert (rund 28 Dateien). Löschen nur nach Ja von Alain.
+- Doppelkopien im Eingang (31 Dateien) nach Ja von Alain in den Papierkorb verschoben, 2026-10-21. Im Eingang bleiben nur Ashinoa-Rider, ein Bild und die AGB von Onlineprinters.
 - Duplikat im Eingang liegen gelassen: Charity Rechnung c.zappa (liegt schon in Gagen/01_Charity Event for Jamaica), Ethereal-Rechnungen 246 und 295 plus RIB (liegen schon in 03_Nemoralis).
 
 ## Offene Punkte
