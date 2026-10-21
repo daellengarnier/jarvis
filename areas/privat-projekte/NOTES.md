@@ -46,7 +46,7 @@ Zuletzt aktualisiert: 2026-10-18
   - Hinweis: Default-Branch des App-Repos ist `claude/shared-org-app-IYZYF`, nicht `main`. Push dorthin deployt live. Der Branch `claude/shared-org-app-umbau` baut nur ein Image.
   - Live gehen: Merge in `claude/shared-org-app-IYZYF`, nur nach Ja von Alain. Danach Token in der App erzeugen (Profil, Jarvis-Zugang) und als `LIFE_APP_TOKEN` in der Jarvis-Umgebung hinterlegen.
   - Nach Livegang offen: `legacy_workspace_state` (Kopie der alten Daten inkl. Ambar und Zyklus) und Ambars Account löschen, nur nach ⚠️ und Ja.
-  - 2026-10-21 Neues Design: drei Richtungen für den Heute-Screen als Entwurf (A Klar, B Nacht, C Zwei Welten), https://claude.ai/artifact/643oM9Ub2WrEQJQKs8c6wR. Alain wählt, dann Umsetzung im App-Code.
+  - 2026-10-21 Neues Design: drei Richtungen für den Heute-Screen als Entwurf (A Klar, B Nacht, C Zwei Welten), https://claude.ai/artifact/643oM9Ub2WrEQJQKs8c6wR. Alain hat C gewählt (2026-10-21), umgesetzt auf dem Branch `claude/shared-org-app-umbau` (Commit 222ca7e), noch nicht live.
   - Nicht in Phase 1: Einkauf, Aktivitäten, Ziele hängen noch am alten JSON-Block (scope-Felder intern noch vorhanden, in der Oberfläche ausgeblendet). Kommt in Phase 3.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
