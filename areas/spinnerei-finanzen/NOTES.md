@@ -31,7 +31,8 @@ Zuletzt aktualisiert: 2026-10-21
 
 Bisherige Gesuche (Drive und info@):
 - 2021 (Zoe Bont), Projekt Raum, Audio, Licht: Stadt Bern Infrastruktur (30'000 beantragt), Lotteriefonds, Ernst Göhner, Mobiliar, Gesellschaft zu Mittellöwen. Genossenschaft Via Felsenau hatte 5'000 zugesagt. Lotteriefonds hat einen Beitrag gesprochen (Audio und Licht).
-- Lotteriefonds: Am 02.06.2025 meldete Angela Tanner (angela.tanner@be.ch, 031 636 27 60) eine ausstehende Abrechnung zu diesem Beitrag (Mail ging an zoe@). Ob erledigt: unbekannt.
+- Lotteriefonds: Am 02.06.2025 meldete Angela Tanner (angela.tanner@be.ch, 031 636 27 60) eine ausstehende Abrechnung zu diesem Beitrag (Mail ging an zoe@). Erledigt laut Alain (2026-10-21).
+- Laut Alain (2026-10-21): alle bisherigen Gesuche negativ entschieden.
 - 2024/25 (Yves, dann Alain), Projekt Technik und Infrastruktur, Budget 72'844 CHF (Audio 48'464, Licht 24'380, Video 6'800). Finanzierungsplan im Drive "Budget und Finanzierungsplan".
   - Stadt Bern Infrastruktur: Gesuch 25.11.2024 abgelehnt, neu "Modernisierung der Lichtanlage" eingereicht 26.05.2025. Entscheid: unbekannt.
   - Mobiliar Vergabungsfonds: Absage 12.03.2025 (Infrastruktur nur ausnahmsweise).
@@ -53,8 +54,9 @@ Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
 - [x] Bexio: 2. Mahnung INV02243022 bezahlt (laut Alain, 2026-10-21).
 
 - [ ] Ergebnis des Antrags auf Mietzinsreduktion Juni bis Oktober 2025 unbekannt.
-- [ ] Entscheide Stadt Bern (Lichtanlage, 05/2025), Ernst Göhner (2024-3152) und WAST 2025 klären, bei Alain oder Yves nachfragen.
-- [ ] Lotteriefonds: offene Abrechnung zum Beitrag 2021 klären (Angela Tanner). Blockiert vermutlich jedes neue Lotteriefonds-Gesuch.
+- [x] Entscheide 2025 (Stadt, Göhner, WAST): alle negativ (laut Alain, 2026-10-21).
+- [x] Lotteriefonds-Abrechnung zum Beitrag 2021 erledigt (laut Alain, 2026-10-21).
+- [ ] futurculture (Kanton Bern): prüfen, ob die Ausschreibung 2026/27 noch läuft und wann der nächste Termin ist. Laut ch-cultura: Vereine und Institutionen mit Sitz im Kanton, 10'000 bis 40'000 CHF, Umsetzung in 15 Monaten, auch Ökobilanz, Mobilität, Gastronomie, Energie, Kooperation.
 - [ ] Nächste Förderrunde planen (siehe Recherche 2026-10-21).
 
 ## Nächster Schritt
