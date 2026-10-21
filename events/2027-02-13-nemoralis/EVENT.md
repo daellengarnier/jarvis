@@ -38,7 +38,7 @@ Zuletzt aktualisiert: 2026-10-21
 
 ## Organisation
 
-- Orga-App: Anlass ID 11 (23:00 bis 06:00, Art "Psytrance, Progressive (Fasnacht)", öffentlich). Noch keine Ressorts, siehe API-Lücke in `areas/privat-projekte/NOTES.md`.
+- Orga-App: Anlass ID 11 (23:00 bis 06:00, Art "Psytrance, Progressive (Fasnacht)", öffentlich). Standard-Ressorts vorhanden (seit App-Fix 2026-10-21). Abendverantwortung: Mike (in der Orga-App gesetzt, nicht von Jarvis).
 - Spinnplan: Anlass `59189bb2-edc5-46b9-b09d-b5a8c794add9`, 5 Blöcke à 1.5 h ab 23:00 (letzter Block zeigt 05:00 bis 06:30, der Spinnplan kennt nur gleich lange Blöcke), Bar 2, Einlass 2, Sicherheit 2. Fixe Rollen offen.
 
 ## Links (Drive)
