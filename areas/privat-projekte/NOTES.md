@@ -55,6 +55,7 @@ Zuletzt aktualisiert: 2026-10-18
 
 - Life-App: Alain prüft Phase 1 und gibt den Livegang frei. Danach Phase 2 (Telegram-Eingang, Morgenroutine füllt "Heute").
 
+- 2026-10-21 Orga-App: öffentlicher iCal-Feed `/kalender/haus.ics` (src/app/kalender/haus.ics/route.ts), ab 60 Tagen zurück, privat anonymisiert. Live getestet.
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
 - [x] 2026-10-21 Orga-App: Neue Anlässe bekommen die Standard-Ressorts (Acts, Bar, Essen, Licht, Ton, Promo, Sicherheit, Finanzen), Migration 0029 ergänzt sie bei Anlässen ohne Ressorts. Anlassliste mit Jahres-Trenner. Commits 834b6c1 und 7e7e578, live seit 2026-10-21.

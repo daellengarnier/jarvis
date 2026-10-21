@@ -31,7 +31,8 @@ Zuletzt aktualisiert: 2026-10-21
 - Website kulturspinnerei.ch: WordPress mit The Events Calendar (belegt aus Code der Orga-App). Events kommen als Entwurf aus der Orga-App, Veröffentlichen von Hand. "Website-Event aktualisieren" in der Orga-App (oder `POST /api/anlaesse/<id>/publish`) überschreibt die Beschreibung und geht bei veröffentlichten Events direkt live. Beschreibung = Websitetext des Anlasses + Promotexte der Acts.
 
 - [ ] Mail ans Haus "Spinnerei: Anlässe bis Ende Jahr und Schichten" als Entwurf in info@ (2026-10-21): Anlässe 24.10. bis 12.12., keine Silvesterparty, Aufruf Schichten mit Link spinnplan-23.netlify.app. Empfänger offen (Hausverteiler nicht im Repo), Senden nur nach Ja. Soirée Tropicale mit Ende 01:30 (Orga-App), Mo schreibt 02:00. Kalenderabo-Buttons ergänzt. Offen: Vermietung 30.10. (Zusage Ambar, nirgends erfasst) und Freies Tanzen Lina 29.10. noch nicht drin.
-- Kalenderabo: iCal-Feed der Website (The Events Calendar) funktioniert, nur öffentliche Anlässe: https://kulturspinnerei.ch/?post_type=tribe_events&ical=1&eventDisplay=list (webcal:// für Apple/Outlook, Google über calendar.google.com/calendar/render?cid=<URL-kodiert>). Getestet 2026-10-21.
+- Kalenderabo Haus (alle Anlässe inkl. privater): https://spinnerei.al-daellen.ch/kalender/haus.ics, live seit 2026-10-21 (Commit 1c66bc3 in daellengarnier/spinnerei). Liest aus der Orga-App, Anlässe mit Zugang "privat" nur als "Private Veranstaltung". Hausmail-Buttons zeigen darauf. Privates immer mit Zugang "privat" erfassen.
+- Kalenderabo Website: iCal-Feed der Website (The Events Calendar) funktioniert, nur öffentliche Anlässe: https://kulturspinnerei.ch/?post_type=tribe_events&ical=1&eventDisplay=list (webcal:// für Apple/Outlook, Google über calendar.google.com/calendar/render?cid=<URL-kodiert>). Getestet 2026-10-21.
 
 ## Nächster Schritt
 
