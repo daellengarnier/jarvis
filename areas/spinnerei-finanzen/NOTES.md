@@ -57,6 +57,7 @@ Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
 - [x] Entscheide 2025 (Stadt, Göhner, WAST): alle negativ (laut Alain, 2026-10-21).
 - [x] Lotteriefonds-Abrechnung zum Beitrag 2021 erledigt (laut Alain, 2026-10-21).
 - [ ] futurculture (Kanton Bern): prüfen, ob die Ausschreibung 2026/27 noch läuft und wann der nächste Termin ist. Laut ch-cultura: Vereine und Institutionen mit Sitz im Kanton, 10'000 bis 40'000 CHF, Umsetzung in 15 Monaten, auch Ökobilanz, Mobilität, Gastronomie, Energie, Kooperation.
+  - 2026-10-21: Entwürfe in info@ angelegt, noch nicht gesendet: Anfrage an kulturfoerderung@be.ch (läuft es noch, Termine, LED beitragsberechtigt?) und an Diego Dahinden, PETZI (buero@petzi.ch).
 - [ ] Nächste Förderrunde planen (siehe Recherche 2026-10-21).
 
 ## Nächster Schritt
