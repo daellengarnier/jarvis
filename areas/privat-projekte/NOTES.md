@@ -57,4 +57,4 @@ Zuletzt aktualisiert: 2026-10-18
 
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
-- [ ] 2026-10-21 Orga-App: `POST /api/anlaesse` legte keine Ressorts an. Fix (Standard-Ressorts beim Anlegen, Migration 0029 ergänzt sie bei Anlässen ohne Ressorts, betrifft Rauschen ID 10 und Nemoralis ID 11) lokal committet (df760ba), lokal gegen Postgres 16 getestet. Push auf main von der Auto-Mode-Prüfung blockiert (Produktions-Deploy), wartet auf Alains Freigabe.
+- [ ] 2026-10-21 Orga-App: `POST /api/anlaesse` legte keine Ressorts an. Fix (Standard-Ressorts beim Anlegen, Migration 0029 ergänzt sie bei Anlässen ohne Ressorts, betrifft Rauschen ID 10 und Nemoralis ID 11) lokal committet (df760ba), lokal gegen Postgres 16 getestet. Dazu Jahres-Trenner in der Anlassliste (2053a87). Push auf main von der Auto-Mode-Prüfung blockiert (Produktions-Deploy), wartet auf Alains Freigabe.
