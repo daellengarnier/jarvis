@@ -57,3 +57,4 @@ Zuletzt aktualisiert: 2026-10-18
 
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
+- 2026-10-21 Orga-App: `POST /api/anlaesse` legt keine Ressorts an, `hatActs`/`hatFinanzen` sind per API nicht setzbar. Neuer Anlass Rauschen Dayrave (ID 10) hat darum noch keine Ressorts. Vorschlag: Standard-Ressorts beim Anlegen (wie Soirée Tropicale).
