@@ -57,4 +57,5 @@ Zuletzt aktualisiert: 2026-10-18
 
 - Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
-- [ ] 2026-10-21 Orga-App: `POST /api/anlaesse` legte keine Ressorts an. Fix (Standard-Ressorts beim Anlegen, Migration 0029 ergänzt sie bei Anlässen ohne Ressorts, betrifft Rauschen ID 10 und Nemoralis ID 11) lokal committet (df760ba), lokal gegen Postgres 16 getestet. Dazu Jahres-Trenner in der Anlassliste (2053a87). Push scheitert: Repo nicht in den Quellen dieser Session. Beide Commits als `areas/privat-projekte/orga-app-2026-10-21.patch` abgelegt, in einer Session mit dem Repo per `git am` anwenden und pushen, danach Patch löschen. Push auf main von der Auto-Mode-Prüfung blockiert (Produktions-Deploy), wartet auf Alains Freigabe.
+- [x] 2026-10-21 Orga-App: Neue Anlässe bekommen die Standard-Ressorts (Acts, Bar, Essen, Licht, Ton, Promo, Sicherheit, Finanzen), Migration 0029 ergänzt sie bei Anlässen ohne Ressorts. Anlassliste mit Jahres-Trenner. Commits 834b6c1 und 7e7e578, live seit 2026-10-21.
+- Zugang: Jarvis darf das Repo `daellengarnier/spinnerei` selbst mit `add_repo` anhängen und pushen (Erlaubnis in `.claude/settings.json`, von Alain eingetragen 2026-10-21). Push auf main deployt live: vorher ⚠️ und Ja.

@@ -63,7 +63,7 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 | Dateien | Google Drive | soweit verbunden, Konto info@ |
 | Browser | Claude in Chrome (Erweiterung in Alains Chrome) | im Einsatz für Facebook-Events (Entscheid Alain, 2026-10-09). Nur verfügbar, wenn die Session in der Claude-App am Computer läuft. Beim Sessionstart nicht prüfen, erst wenn eine Aufgabe den Browser braucht. Veröffentlichen auf Facebook nur nach ⚠️ und Ja. |
 | Ticketing Spinnerei | PETZI | kein Connector. Alain pflegt PETZI vorerst manuell, Jarvis bereitet Inhalte vor und wertet Exporte aus, die Alain ablegt. |
-| Orga-App Spinnerei | spinnerei.al-daellen.ch (Seitentitel "Spinnerei Orga") | kein Connector, kein Browser nötig. Login per `POST /api/auth/login` mit JSON `{email, password}` aus den Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Session-Cookie `spinnerei_sid` danach für `/api/...` mitschicken. Code: Repo daellengarnier/spinnerei. Zugangsdaten nie ausgeben oder ablegen. |
+| Orga-App Spinnerei | spinnerei.al-daellen.ch (Seitentitel "Spinnerei Orga") | kein Connector, kein Browser nötig. Login per `POST /api/auth/login` mit JSON `{email, password}` aus den Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Session-Cookie `spinnerei_sid` danach für `/api/...` mitschicken. Code: Repo daellengarnier/spinnerei. Fehlt es in der Session, selbst mit `add_repo` (access push) anhängen (erlaubt, Alain 2026-10-21). Push auf main deployt live, darum vorher ⚠️ und Ja. Zugangsdaten nie ausgeben oder ablegen. |
 
 ## Welcher Skill für welche Absicht
 
