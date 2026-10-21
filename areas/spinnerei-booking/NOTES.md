@@ -39,6 +39,21 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
 - Angine de Poitrine (Roam Artists, Duncan Smith, duncan.smith@roamartists.com): Anfrage für So 13.06.2027, Lücke zwischen Festi'neuch Neuchâtel (Sa 12.06.) und Magnolia Milano (Mo 14.06.) laut Tourankündigung Okt. 2026. Von Alain gesendet 2026-10-21 (Gmail-Thread 1a15f099e36feab4), Konditionen erfragt, kein Gagenangebot. Status: warten auf Antwort.
 - Stone Sober (HU, Annibale Booking, Filippo, filippo@annibale.eu): 5. März 2027 verfügbar. Unser Angebot 350 EUR, Filippo will 400 EUR plus Unterkunft für 2 Personen. Seit 10.08.2026 keine Antwort von uns, Filippo hat dreimal nachgefragt (zuletzt 20.08.2026). Zusage zu 400 EUR plus Unterkunft für 2 am 2026-10-06 gesendet, Antwort Filippo 2026-10-07: Band nicht mehr verfügbar, weil wir seit 10.08. nicht geantwortet haben. Bietet stattdessen eine andere Band am 18./19. März 2027 an. Status: abgesagt, Alternativangebot offen.
 
+- Wunschliste 2027, Erstanfragen (Wunsch Alain, 2026-10-21). Entwürfe in info@ angelegt 2026-10-21, noch nicht gesendet. Kontakte aus Websuche (Snippets), vor dem Senden auf der Quellseite prüfen, ausser wo "aus Postfach" steht. Status aller: Entwurf, Senden nach Ja.
+  - The Mystery Lights: EBB Music, Polly Miles (polly@ebbmusic.eu, nur UK), cc themysterylightsband@gmail.com (Anfrage dorthin 18.02.2025 ohne Antwort). Kontinentaleuropa-Agent unbekannt, im Entwurf erfragt. Wick/Daptone. Realistisch.
+  - La Luz: Martina Kull, Glad We Met, martina@gladwemet.ch (aus Postfach, Schweiz). 2025: mind. 2.5k EUR plus 15% plus Hotel, Travel Party ca. 6, unser Break-even-Angebot war zu tief. Keine EU-Daten 2027 bekannt.
+  - Morgan Delt: Kirmes (Christian Kühr), Powerline Agency Berlin, ck@powerline-agency.com. Tourt kaum. Grösse passt.
+  - Harvey Rushmore & the Octopus (Basel): band@harveyrushmoreandtheoctopus.com (Presskit 2022). Label Taxi Gauche (info@taxigauche.com). Sehr realistisch.
+  - Allah-Las: Schweiz über Emerged Agency (Linus Munz, nur Formular). Entwurf an Dominic Oehen (dominic.oehen@emerged-agency.com, aus Postfach, Dagobert 2025). Ende Mai 2027 UK und Paris. Spielen sonst 600 bis 1000+.
+  - BEAK>: 13 Artists, Lola Mitchell, lola.mitchell@13artists.com. Geoff Barrow seit 2024 weg, keine Daten 2026/27.
+  - Tommy Guerrero: Wasserman, Tom Taaffe, tom.taaffe@teamwass.com (Adresse von anderen Wasserman-Seiten, prüfen). Deutschland: Powerline (Kirmes). Grenzfall, 300 bis 800.
+  - Arc de Soleil: Wasserman, Clementine Bunel, clementine.bunel@teamwass.com. Spielt 800 bis 1500, eher zu gross.
+  - Glass Beams: Wasserman, Michael Harvey-Bray, michael.harvey-bray@teamwass.com. Mgmt Red Light, steve@redlightmanagement.com. Zu gross.
+  - Hermanos Gutiérrez: outer/most agency (Todd Walker, Ian White), keine Mail gefunden. Entwurf ohne Empfänger. Zu gross (Kaufleuten 2x im Dez. 2026).
+  - Dope Lemon: Management-Mail auf dopelemon.com (nicht lesbar), Entwurf ohne Empfänger. Zu gross.
+  - Mystic Braves: kein Agent gefunden, Kontakt per Instagram-DM. Grösse passt.
+  - Maya Ongaku: Label Guruguru Brain (nur Kontaktformular Bandcamp), linktr.ee/maya.ongaku.overseas, Kontakt per DM. Sehr realistisch, nächste EU-Tour vermutlich Herbst 2027.
+
 ## Offene Punkte
 
 - [ ] Die Vorschlagsliste in der Programmübersicht (Dirty Sound Magnet, La Luz, Harvey Rushmore usw.) ist von 2025, aktueller Stand unklar.
