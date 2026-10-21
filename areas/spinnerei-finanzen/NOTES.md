@@ -27,13 +27,35 @@ Zuletzt aktualisiert: 2026-10-21
 - Doppelkopien im Eingang (31 Dateien) nach Ja von Alain in den Papierkorb verschoben, 2026-10-21. Im Eingang bleiben nur Ashinoa-Rider, ein Bild und die AGB von Onlineprinters.
 - Duplikat im Eingang liegen gelassen: Charity Rechnung c.zappa (liegt schon in Gagen/01_Charity Event for Jamaica), Ethereal-Rechnungen 246 und 295 plus RIB (liegen schon in 03_Nemoralis).
 
+### Förderung: Recherche 2026-10-21
+
+Bisherige Gesuche (Drive und info@):
+- 2021 (Zoe Bont), Projekt Raum, Audio, Licht: Stadt Bern Infrastruktur (30'000 beantragt), Lotteriefonds, Ernst Göhner, Mobiliar, Gesellschaft zu Mittellöwen. Genossenschaft Via Felsenau hatte 5'000 zugesagt. Lotteriefonds hat einen Beitrag gesprochen (Audio und Licht).
+- Lotteriefonds: Am 02.06.2025 meldete Angela Tanner (angela.tanner@be.ch, 031 636 27 60) eine ausstehende Abrechnung zu diesem Beitrag (Mail ging an zoe@). Ob erledigt: unbekannt.
+- 2024/25 (Yves, dann Alain), Projekt Technik und Infrastruktur, Budget 72'844 CHF (Audio 48'464, Licht 24'380, Video 6'800). Finanzierungsplan im Drive "Budget und Finanzierungsplan".
+  - Stadt Bern Infrastruktur: Gesuch 25.11.2024 abgelehnt, neu "Modernisierung der Lichtanlage" eingereicht 26.05.2025. Entscheid: unbekannt.
+  - Mobiliar Vergabungsfonds: Absage 12.03.2025 (Infrastruktur nur ausnahmsweise).
+  - Ernst Göhner Stiftung, Ref. 2024-3152: nachgereicht 30.03.2025. Entscheid: unbekannt.
+  - Warlomont-Anger-Stiftung (WAST, über Stadt Bern BSS, Isabel Marty): eingereicht 24.03.2025, Entscheid Anfang Juli 2025: unbekannt. Frist jeweils ca. 31. März, 1'000 bis 20'000 CHF.
+  - GVB, Migros Aare, Mittellöwen: geplant, ob eingereicht unbekannt.
+
+Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
+- Stadt Bern Projekt- und Programmförderung (auch pauschale Programmförderung für Veranstalter), Bern-Bezug, nicht rückwirkend.
+- Kanton Bern Amt für Kultur: Projektbeiträge nur zusammen mit Gemeinde, eher professionelles Schaffen. Investitionen über den Lotteriefonds, nicht beide gleichzeitig.
+- Kanton Bern "futurculture" (ökologische Nachhaltigkeit von Kulturbetrieben), 2025 Fristen 5. Mai und 1. Dezember. Läuft 2026 noch: unbekannt. Passt zu LED-Licht.
+- Kulturstiftung der Burgergemeinde Bern: Konzerte und Kulturanlässe mit Bedeutung für Bern, Termintabelle auf bgbern.ch.
+- Migros-Kulturprozent Aare (Richtlinien im Drive), Ernst Göhner (Programm), Gesellschaft zu Mittellöwen.
+- Walk-in Förderberatung im Berner Generationenhaus (Stadt, Kanton, Burgergemeinde).
+
 ## Offene Punkte
 
 - [x] Nina: Zahlungsbitten Onlineprinters 179213272148329 (130 CHF) und Saisonplakat 178811713551529 bezahlt (laut Alain, 2026-10-21).
 - [x] Bexio: 2. Mahnung INV02243022 bezahlt (laut Alain, 2026-10-21).
 
 - [ ] Ergebnis des Antrags auf Mietzinsreduktion Juni bis Oktober 2025 unbekannt.
-- [ ] Stand Kulturförderung Stadt/Kanton Bern unbekannt (Gesuche, Fristen).
+- [ ] Entscheide Stadt Bern (Lichtanlage, 05/2025), Ernst Göhner (2024-3152) und WAST 2025 klären, bei Alain oder Yves nachfragen.
+- [ ] Lotteriefonds: offene Abrechnung zum Beitrag 2021 klären (Angela Tanner). Blockiert vermutlich jedes neue Lotteriefonds-Gesuch.
+- [ ] Nächste Förderrunde planen (siehe Recherche 2026-10-21).
 
 ## Nächster Schritt
 
