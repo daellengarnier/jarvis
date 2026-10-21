@@ -25,6 +25,7 @@ Zuletzt aktualisiert: 2026-10-21
 
 - [x] Termin bestätigt (Alain, 2026-10-21)
 - [ ] Line-up
+- Merkaba (AU, Psytrance/Progressive): Anfrage-Entwurf an Raz, raz@beyondmngmnt.com (Adresse von Alain, 2026-10-21; Bandsintown nennt Raz@FM-booking.com global, anand@reevolutionbooking.com Nordamerika). Fragt nach Verfügbarkeit 13.02.2027 und Konditionen. Status: Entwurf, Senden nach Ja. Gage vermutlich weit über Amortalist 2026 (650 EUR), Anreise aus Australien möglich.
 
 ## Ticketing (spinnerei-ticketing)
 
@@ -54,3 +55,4 @@ Zuletzt aktualisiert: 2026-10-21
 
 - 2026-10-21: Drive-Ordner angelegt und verlinkt.
 - 2026-10-21: In Orga-App und Spinnplan angelegt, Muster Schichtplan 2026.
+- 2026-10-21: Anfrage Merkaba als Entwurf in info@ angelegt.
