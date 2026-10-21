@@ -24,7 +24,12 @@
       "mcp__Google_Calendar__list_calendars",
       "mcp__Google_Calendar__list_events",
       "mcp__Google_Calendar__search_events",
-      "mcp__Google_Calendar__get_event"
+      "mcp__Google_Calendar__get_event",
+      "mcp__claude-code-remote__add_repo",
+      "mcp__claude-code-remote__register_repo_root",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)"
     ]
   },
   "hooks": {
