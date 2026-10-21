@@ -27,7 +27,7 @@ Zuletzt aktualisiert: 2026-10-21
 
 Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Option ist: Ordner in `events/` anlegen und hier streichen.
 
-- Acid Pauli: nur eine Idee. Keine Anfrage, kein Termin, kein Anlass (laut Alain, 2026-10-06).
+- Acid Pauli (T S Agency, Kenza, kl@t-s-agency.com, cc dc@ und gl@): Anfrage für Herbst 2026 am 2026-02-23 gesendet. Antwort Kenza 2026-02-24: Offer-Formular ausfüllen (Datum, Gage, Zuschläge wie 15% Booking Fee, Reise, Hotel, Quellensteuer, Zeiten, Ticketpreise, Lineup, Exklusivität). Seither keine Antwort von uns. Alain will ihn für 2027 buchen (2026-10-21). Gmail-Thread 19c8b3bec63793a3. Status: wir sind am Zug, Offer vorbereiten.
 - Sturzflug (Drum & Bass): Anfrage. Herbst 2026 ist voll, eher Winter/Frühling oder Herbst 2027 (Protokoll 06.05. und 28.09.).
 - Drum & Bass Kollektiv (über Alvi): externer Anlass, Deal 1500 CHF Miete, "Herbst 2026" (Protokolle Jan. bis April). Nicht im Herbstprogramm. Ob identisch mit Sturzflug: unklar.
 - Silvester 2026: private Geburtstagsfeier, ca. 150 Personen. Dällen ruft Dani an (06.05.). Stand unbekannt.
