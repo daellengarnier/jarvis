@@ -21,7 +21,10 @@ Zuletzt aktualisiert: 2026-10-21
 ### Belegablage Drive (2026-10-21)
 
 - Rechnungen 2026 aus info@ nachgetragen in `4 Finanzen/ Admin/2026/`: Basecamp (Jan bis Mär, Jun bis Okt), Bierexpress (24.04. bis 20.10., 9 Stück), Passive Attack (R-2026-4661, 4692, 4751), Ethereal Decibel F-2026-01-247 plus Spesenbelege (in Gagen/03_Nemoralis), Onlineprinters (179213272148329, 178811713551529, R15100538097 Soirée, R15100538099 Bassweight) in neuem Ordner `Onlineprinters`, SUISA 7638656 in neuem Ordner `Suisa`.
-- 2025 geprüft: Basecamp und Passive Attack vollständig. Es fehlten nur Bierexpress 29.12.2025 und die Gutschrift Bierexpress vom 30.06.2025.
+- 2025 geprüft: Basecamp und Passive Attack vollständig. Nachgetragen in `2025/Bierexpress`: RG2503456 vom 30.12.2025 und Gutschrift RG2501664 vom 03.07.2025.
+- Ashinoa: Rechnung (Sept. 2026) in neuem Ordner `2026/Gagen / Spesen Künstler*innen/Ashinoa`.
+- Bexio-Mahnung und Rechnung Nuance: Script hat keine Anhänge geholt (vermutlich im Mailtext), nicht abgelegt.
+- Doppelkopien im Eingang: Das Script hat beim zweiten Lauf alle verschobenen Rechnungen erneut kopiert (rund 28 Dateien). Löschen nur nach Ja von Alain.
 - Duplikat im Eingang liegen gelassen: Charity Rechnung c.zappa (liegt schon in Gagen/01_Charity Event for Jamaica), Ethereal-Rechnungen 246 und 295 plus RIB (liegen schon in 03_Nemoralis).
 
 ## Offene Punkte
