@@ -21,7 +21,7 @@ Zuletzt aktualisiert: 2026-10-21
 
 ### Kommende Anlässe 2026 (Ordner in `events/`, angelegt 2026-10-06)
 
-09.10. TÔ YÔ & Natalí, 24.10. Kinderdisco, 31.10. QUM Daydance, 06.11. Jugendsession, 07.11. Kitchen, 14.11. Artlu Bubble and the Dead Animal Gang, 28.11. Soirée Tropicale, 12.12. Mothers Cake & Fancy and the Boys.
+09.10. TÔ YÔ & Natalí, 24.10. Kinderdisco, 30.10. Kindernotschlafstelle Pluto (Vermietung, ab 2026-10-21), 31.10. QUM Daydance, 06.11. Jugendsession, 07.11. Kitchen, 14.11. Artlu Bubble and the Dead Animal Gang, 28.11. Soirée Tropicale, 12.12. Mothers Cake & Fancy and the Boys.
 
 ## Anfragen (noch ohne Event-Ordner)
 
