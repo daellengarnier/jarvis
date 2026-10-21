@@ -20,4 +20,15 @@ Spinnerei-Konto: info@kulturspinnerei.ch. Nie aus dem Gmail-Konto senden.
 
 ## Wissen
 
-Noch keins. Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.
+### Rechnungen in Drive ablegen (Wunsch Alain, 2026-10-21)
+
+Ablage: `4 Finanzen/ Admin/<Jahr>/<Anbieter>/` (Drive-ID 2026: 1Ly4iPV6Ucg34CrQU8Awgw0eCS2Qb_Ett, 2025: 11nbAAOibGpKRvPyPEL3JVSvgzVsBOQLn). Jahr nach Rechnungsdatum. Künstlerrechnungen und Spesen nach `Gagen / Spesen Künstler*innen/<NN_Anlass>/`. Kein passender Ordner: Jahresordner selbst, oder neuen Anbieter-Ordner anlegen.
+
+Ablauf, ohne Rückfrage (Alain: "du musst nicht jedes mal fragen"):
+
+1. Rechnungsmails in info@ suchen und mit dem Inhalt der Zielordner abgleichen (Name, Rechnungsnummer, Dateigrösse). Was schon liegt, überspringen.
+2. Fehlende Threads mit Label `Jarvis-Anhaenge` markieren. Das Apps Script kopiert die Anhänge innert 15 Minuten nach "Eingang Anhänge" (Präfix `JJJJ-MM-TT_absender_`).
+3. Rechnungen aus "Eingang Anhänge" direkt in den Zielordner verschieben und auf den Originalnamen zurückbenennen. Nicht-Rechnungen (AGB, Rider, Duplikate) im Eingang liegen lassen, nichts löschen.
+4. Am Ende kurz melden, was wohin ging.
+
+Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.
