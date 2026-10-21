@@ -32,6 +32,7 @@ Zuletzt aktualisiert: 2026-10-21
 
 - [ ] Mail ans Haus "Spinnerei: Anlässe bis Ende Jahr und Schichten" als Entwurf in info@ (2026-10-21): Anlässe 24.10. bis 12.12., keine Silvesterparty, Aufruf Schichten mit Link spinnplan-23.netlify.app. Empfänger offen (Hausverteiler nicht im Repo), Senden nur nach Ja. Soirée Tropicale mit Ende 01:30 (Orga-App), Mo schreibt 02:00. Kalenderabo-Buttons ergänzt. Offen: Vermietung 30.10. (Zusage Ambar, nirgends erfasst) und Freies Tanzen Lina 29.10. noch nicht drin.
 - Kalenderabo Haus (alle Anlässe inkl. privater): https://spinnerei.al-daellen.ch/kalender/haus.ics, live seit 2026-10-21 (Commit 1c66bc3 in daellengarnier/spinnerei). Liest aus der Orga-App, Anlässe mit Zugang "privat" nur als "Private Veranstaltung". Hausmail-Buttons zeigen darauf. Privates immer mit Zugang "privat" erfassen.
+- Google Kalender info@: alle Anlässe 24.10.2026 bis 20.03.2027 aus der Orga-App eingetragen (2026-10-21), mit PETZI-Link. Fehlen noch: Freies Tanzen Lina 29.10. (Zeit offen), Vermietung 30.10. (Angaben offen). Neue Anlässe künftig auch dort eintragen.
 - Kalenderabo Website: iCal-Feed der Website (The Events Calendar) funktioniert, nur öffentliche Anlässe: https://kulturspinnerei.ch/?post_type=tribe_events&ical=1&eventDisplay=list (webcal:// für Apple/Outlook, Google über calendar.google.com/calendar/render?cid=<URL-kodiert>). Getestet 2026-10-21.
 
 ## Nächster Schritt
