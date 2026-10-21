@@ -28,7 +28,8 @@ Zuletzt aktualisiert: 2026-10-21
 
 ## Ticketing (spinnerei-ticketing)
 
-- [ ] Event in PETZI als Entwurf angelegt
+- [ ] Event in PETZI als Entwurf angelegt (Alain, von Hand: Jarvis hat keinen PETZI-Zugang)
+- Für den Entwurf: Rauschen Dayrave, Sa 20.03.2027, Türöffnung 14:00, Ende 00:00, Kulturspinnerei Bern. Preis offen, Preise 2026 nicht gefunden.
 - [ ] Preise und Kontingent festgelegt
 - [ ] ⚠️ In PETZI veröffentlicht (nur nach Alains Ja)
 

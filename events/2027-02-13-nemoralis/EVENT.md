@@ -28,7 +28,8 @@ Zuletzt aktualisiert: 2026-10-21
 
 ## Ticketing (spinnerei-ticketing)
 
-- [ ] Event in PETZI als Entwurf angelegt
+- [ ] Event in PETZI als Entwurf angelegt (Alain, von Hand: Jarvis hat keinen PETZI-Zugang)
+- Für den Entwurf: Nemoralis, Sa 13.02.2027, Türöffnung 23:00, Ende 06:00, Kulturspinnerei Bern. Preis offen. 2026 laut Abrechnung: Vorverkauf PETZI 25 CHF (46 Tickets), Abendkasse 25 CHF (23), dazu 2x 20 und 2x 8 CHF.
 - [ ] ⚠️ In PETZI veröffentlicht (nur nach Alains Ja)
 
 ## Kommunikation (spinnerei-kommunikation)
