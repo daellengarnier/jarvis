@@ -26,8 +26,8 @@ Zuletzt aktualisiert: 2026-10-21
 
 ## Offene Punkte
 
-- [ ] Nina: Zahlungsbitten auf ihr Raiffeisenkonto, 130 CHF Onlineprinters 179213272148329 (16.10.2026) und Saisonplakat 178811713551529 (30.08.2026). Bezahlt? Unklar.
-- [ ] Bexio: 2. Mahnung INV02243022 (Juni 2026, via Yves). Bezahlt? Unklar.
+- [x] Nina: Zahlungsbitten Onlineprinters 179213272148329 (130 CHF) und Saisonplakat 178811713551529 bezahlt (laut Alain, 2026-10-21).
+- [x] Bexio: 2. Mahnung INV02243022 bezahlt (laut Alain, 2026-10-21).
 
 - [ ] Ergebnis des Antrags auf Mietzinsreduktion Juni bis Oktober 2025 unbekannt.
 - [ ] Stand Kulturförderung Stadt/Kanton Bern unbekannt (Gesuche, Fristen).
