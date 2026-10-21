@@ -58,6 +58,8 @@ Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
 - [x] Lotteriefonds-Abrechnung zum Beitrag 2021 erledigt (laut Alain, 2026-10-21).
 - [ ] futurculture (Kanton Bern): prüfen, ob die Ausschreibung 2026/27 noch läuft und wann der nächste Termin ist. Laut ch-cultura: Vereine und Institutionen mit Sitz im Kanton, 10'000 bis 40'000 CHF, Umsetzung in 15 Monaten, auch Ökobilanz, Mobilität, Gastronomie, Energie, Kooperation.
   - 2026-10-21: Entwürfe in info@ angelegt, noch nicht gesendet: Anfrage an kulturfoerderung@be.ch (läuft es noch, Termine, LED beitragsberechtigt?) und an Diego Dahinden, PETZI (buero@petzi.ch).
+  - 2026-10-21: Entwurf an Angela Tanner, Lotteriefonds: nimmt ihr Gesuche für Tontechnik (ca. 44'000 CHF Material), Termine, zweites Gesuch nach 2021 möglich, parallel futurculture für Licht zulässig?
+- Idee (2026-10-21): Technikprojekt 72'844 CHF aufteilen. Licht über futurculture, Ton über Lotteriefonds, Einbauten mit Genossenschaft Via Felsenau.
 - [ ] Nächste Förderrunde planen (siehe Recherche 2026-10-21).
 
 ## Nächster Schritt
