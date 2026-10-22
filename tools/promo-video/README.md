@@ -4,11 +4,16 @@ Animiertes Programmvideo der Spinnerei, 9:16 (1080x1920, 60 fps), schwarz/weiss,
 
 ## Fassungen
 
-- `anim.js`: aktuelle Fassung 3 (2026-10-22), psychedelisch und vom Track gesteuert. `features.py` misst pro Videoframe Kick, Hi-Hat, Clap, Bass, Höhen und Lautheit und schreibt `features.js`. Daraus: Kamera-Punch und Schockwellen auf den Kicks, flüssiges Verziehen der Zeilen, Echo-Spuren (letztes Bild vergrössert darüber), Glitch-Streifen auf starken Hi-Hats, Rorschach-Spiegelung im Break (Beat 30 bis 32, Kick fällt weg), ruhiges Schlussbild nach dem letzten Schlag. Das Echo braucht die Vorgänger-Frames, `renderFrame` läuft bei Sprüngen 40 Frames vor.
+- Fassung 4 (2026-10-22): wie 3, aber Ausschnitt vom Anfang des Tracks: ab 18.309 s (132.8 BPM, das Tempo ist am Anfang etwas langsamer). Intro über den Aufbau ohne Kick, Drop auf Beat 8 genau beim ersten Anlass, Schlusskarte auf Takt 16, danach 1 Takt Ausblenden. 30.7 s. Merkmale: `features-v4-anfang.js`.
+- `anim.js`: Fassung 3 (2026-10-22), psychedelisch und vom Track gesteuert. `features.py` misst pro Videoframe Kick, Hi-Hat, Clap, Bass, Höhen und Lautheit und schreibt `features.js`. Daraus: Kamera-Punch und Schockwellen auf den Kicks, flüssiges Verziehen der Zeilen, Echo-Spuren (letztes Bild vergrössert darüber), Glitch-Streifen auf starken Hi-Hats, Rorschach-Spiegelung im Break (Beat 30 bis 32, Kick fällt weg), ruhiges Schlussbild nach dem letzten Schlag. Das Echo braucht die Vorgänger-Frames, `renderFrame` läuft bei Sprüngen 40 Frames vor.
 - Fassung 2 (2026-10-22, nicht mehr als Datei): ohne Kinderdisco, 5 Anlässe, zum Track "Sombras danzantes" (Suno, von Alain). Track läuft mit 133.7 BPM, Kick auf 1 und "und" der 3, Clap auf 2 und 4. Ausschnitt ab 148.107 s (Takt mit Phrasenwechsel) bis zum harten Songende auf dem letzten Schlag (Beat 64 im Video), 30.3 s. Intro 2 Takte, je Anlass 2 Takte, Outro 4 Takte. Der Track liegt nicht im Repo.
 - `anim-synth-128bpm.js` mit `audio.py`: erste Fassung mit 6 Anlässen und selbst synthetisiertem Beat (128 BPM, 32.8 s).
 
 Track schneiden: `ffmpeg -ss 148.1071 -i track.m4a -t 30.292 -af "asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st=29.79:d=0.5" music2.wav`, danach `python3 features.py music2.wav`. Achtung: `-ss` vor `-i`, sonst blendet afade alles aus. Beat-Raster wurde mit librosa bestimmt (Onset-Faltung pro Achtel, Kick-Histogramm für die Takt-Eins).
+
+Tempo, Länge, Schlussschlag und Breaks stehen in `window.CFG` der Merkmal-Datei. Gerendert wird mit `features.js`: die gewünschte Fassung dorthin kopieren (`features-v3-ende.js` oder `features-v4-anfang.js`). Erzeugen: `python3 features.py music.wav BEAT END_BEATS STOP '[[30,32]]'`.
+
+Ausschnitt Fassung 4: `ffmpeg -ss 18.309053 -i track.m4a -t 30.7232 -af "asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st=28.9159:d=1.8073" music4.wav`, dann `python3 features.py music4.wav 0.4518111 68 64 '[]'`.
 
 ## Rendern
 

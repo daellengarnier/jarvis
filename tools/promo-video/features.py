@@ -1,6 +1,11 @@
 # Audio-Merkmale pro Videoframe (60 fps) -> features.js für anim.js
 import numpy as np, librosa, json, sys
+# Aufruf: python3 features.py music.wav BEAT END_BEATS STOP '[[30,32]]'
 src = sys.argv[1] if len(sys.argv) > 1 else 'music2.wav'
+cfg = {'beat': float(sys.argv[2]) if len(sys.argv) > 2 else 0.44877,
+       'endBeats': float(sys.argv[3]) if len(sys.argv) > 3 else 67.5,
+       'stop': float(sys.argv[4]) if len(sys.argv) > 4 else 64,
+       'breaks': json.loads(sys.argv[5]) if len(sys.argv) > 5 else [[30, 32]]}
 y, sr = librosa.load(src, sr=48000, mono=True)
 hop = 800
 S = np.abs(librosa.stft(y, n_fft=4096, hop_length=hop)); f = librosa.fft_frequencies(sr=sr, n_fft=4096)
@@ -21,5 +26,5 @@ out = {
 }
 out = {k: [round(float(v), 3) for v in x] for k, x in out.items()}
 out['kicks'] = [o for k, o in enumerate(onsets) if k == 0 or o - onsets[k - 1] > 8]
-open('features.js', 'w').write('window.FEAT = ' + json.dumps(out) + ';\n')
+open('features.js', 'w').write('window.CFG = ' + json.dumps(cfg) + ';\nwindow.FEAT = ' + json.dumps(out) + ';\n')
 print('frames', len(out['kick']), 'kick onsets', len(out['kicks']))

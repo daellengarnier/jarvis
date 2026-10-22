@@ -1,8 +1,8 @@
 // Kulturspinnerei Bern: Programm Herbst/Winter 2026, 9:16, schwarz/weiss.
-// Alles hängt am Beat von "Sombras danzantes" (133.7 BPM, Ausschnitt ab 148.11 s). render(t) zeichnet den Frame zur Zeit t (Sekunden).
-const W = 1080, H = 1920, BPM = 60 / 0.44877, BEAT = 60 / BPM, FPS = 60;
-const END_BEATS = 67.5;
-const STOP = 64; // letzter Schlag des Songs
+// Alles hängt am Beat des Tracks; Tempo, Länge und Breaks kommen aus features.js (window.CFG). render(t) zeichnet den Frame zur Zeit t (Sekunden).
+const W = 1080, H = 1920, BPM = 60 / window.CFG.beat, BEAT = 60 / BPM, FPS = 60;
+const END_BEATS = window.CFG.endBeats;
+const STOP = window.CFG.stop; // letzter Schlag bzw. Schlusskarte
 const cv = document.getElementById('c');
 let ctx = cv.getContext('2d');
 const DISP = '"Inter Display", "Inter", sans-serif';
@@ -543,7 +543,7 @@ const octx = cv.getContext('2d');
 function fx(B) {
   if (B >= STOP) return { echo: 0.22 * clamp(1 - (B - STOP) / 1.5), warp: 0, mirror: false, waves: false };
   if (B < 8) return { echo: 0.45, warp: 5, mirror: false, waves: true };
-  if (B >= 30 && B < 32) return { echo: 0.55, warp: 16, mirror: true, waves: true }; // Break: Kick fällt weg
+  if (window.CFG.breaks.some(([a, b]) => B >= a && B < b)) return { echo: 0.55, warp: 16, mirror: true, waves: true }; // Break: Kick fällt weg
   if (B >= 40 && B < 48) return { echo: 0.4, warp: 6, mirror: false, waves: true };
   if (B >= 58) return { echo: 0.2, warp: 2, mirror: false, waves: false }; // Absender lesbar halten
   if (B >= 48) return { echo: 0.32, warp: 4, mirror: false, waves: true }; // Schlussteigerung
