@@ -11,6 +11,8 @@ Animiertes Programmvideo der Spinnerei, 9:16 (1080x1920, 60 fps), schwarz/weiss,
 
 Track schneiden: `ffmpeg -ss 148.1071 -i track.m4a -t 30.292 -af "asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st=29.79:d=0.5" music2.wav`, danach `python3 features.py music2.wav`. Achtung: `-ss` vor `-i`, sonst blendet afade alles aus. Beat-Raster wurde mit librosa bestimmt (Onset-Faltung pro Achtel, Kick-Histogramm für die Takt-Eins).
 
+Stand 2026-10-22 (Feedback Alain): Ring nur noch weich auf der Takt-Eins, QUM-Laufschrift gedimmt, Titel "QUM / QUEERSICHT / DANCE", Übersicht mit vollständigen Namen. Sound-Bezug: Spektrum (32 Bänder) und Wellenform pro Frame in der Merkmal-Datei. Kitchen zeigt das echte Spektrogramm als Kaskade, das Meer der Soirée die Wellenform, die Schluss-Spirale schwingt mit, Spektrum in der Fusszeile, QUM-Laufschrift und Tunnel schieben auf den Kicks, DANCE kippt auf dem Clap, Blasen zittern auf Hi-Hats.
+
 Tempo, Länge, Schlussschlag und Breaks stehen in `window.CFG` der Merkmal-Datei. Gerendert wird mit `features.js`: die gewünschte Fassung dorthin kopieren (`features-v3-ende.js` oder `features-v4-anfang.js`). Erzeugen: `python3 features.py music.wav BEAT END_BEATS STOP '[[30,32]]'`.
 
 Ausschnitt Fassung 4: `ffmpeg -ss 18.309053 -i track.m4a -t 30.7232 -af "asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st=28.9159:d=1.8073" music4.wav`, dann `python3 features.py music4.wav 0.4518111 68 64 '[]'`.

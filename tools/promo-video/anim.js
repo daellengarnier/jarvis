@@ -94,13 +94,13 @@ function rule(x, y, w, p, col = FG, th = 3) {
 }
 
 // Spirale: Faden auf der Spule, das Motiv der Spinnerei
-function spiral(cx, cy, rMax, rot, alpha, col = FG, lw = 2, turns = 14) {
+function spiral(cx, cy, rMax, rot, alpha, col = FG, lw = 2, turns = 14, mod = null) {
   ctx.save(); ctx.globalAlpha = alpha; ctx.strokeStyle = col; ctx.lineWidth = lw;
   ctx.beginPath();
   const N = turns * 90;
   for (let i = 0; i <= N; i++) {
     const a = (i / N) * turns * Math.PI * 2;
-    const r = (i / N) * rMax;
+    const r = (i / N) * rMax + (mod ? mod(i / N) : 0);
     const x = cx + Math.cos(a + rot) * r, y = cy + Math.sin(a + rot) * r;
     i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
   }
@@ -136,6 +136,13 @@ function hud(idx, B) {
   ctx.globalAlpha = 0.35; ctx.fillRect(M, by, W - 2 * M, 2); ctx.globalAlpha = 1;
   ctx.fillRect(M, by - 2, (W - 2 * M) * clamp(B / 64), 6);
   for (let k = 0; k <= 8; k++) ctx.fillRect(M + ((W - 2 * M) * k) / 8 - 1, by - 10, 2, 22);
+  // Spektrum des Tracks, 32 Bänder
+  const bw = (W - 2 * M) / 32;
+  for (let b = 0; b < 32; b++) {
+    const v = (specAt(FRAME, b) + specAt(FRAME - 1, b) + specAt(FRAME - 2, b)) / 3;
+    const h = 2 + Math.pow(v, 1.5) * 44;
+    ctx.fillRect(M + b * bw + 2, by - 72 - h, bw - 6, h);
+  }
   mono(idx >= 0 ? `${String(idx + 1).padStart(2, '0')} / 05` : 'OKT BIS DEZ 2026', M, by - 34, 26);
   mono('SPINNEREIWEG 17, BERN', W - M, by - 34, 26, { align: 'right' });
 }
@@ -148,7 +155,7 @@ function sIntro(lb) {
     const i = clamp(Math.floor(lb), 0, 5), f = lb - i;
     const inv = i === 2 || i === 5;
     BG = inv ? WHITE : BLACK; FG = inv ? BLACK : WHITE; bg();
-    spiral(W / 2, H / 2, 1000, lb * 1.4, 0.22, FG, 2, 18);
+    spiral(W / 2, H / 2, 900 + 160 * AF.low, lb * 1.4, 0.1 + 0.25 * AF.rms, FG, 2, 18);
     const word = words[i];
     const size = fit(word, W - 2 * M, {}, 430);
     const s = lerp(1.18, 1, eOut(clamp(f * 2.2)));
@@ -165,7 +172,7 @@ function sIntro(lb) {
   }
   BG = BLACK; FG = WHITE; bg();
   const l = lb - 6;
-  spiral(W - 120, 560, 420, lb * 2.2, 0.9, FG, 3, 11);
+  spiral(W - 120, 560, 420, lb * 2.2, 0.9, FG, 3, 11, u => waveAt(FRAME, Math.floor(u * 95)) * 18);
   const s1 = fit('GRAMM', W - 2 * M, {}, 400);
   rise('PRO', M, 980, s1, P(l, 0, 0.45));
   rise('GRAMM', M, 980 + s1 * 0.92, s1, P(l, 0.18, 0.45));
@@ -249,7 +256,7 @@ function sQum(lb) {
   ctx.save(); ctx.globalAlpha = 0.18;
   for (let k = 0; k < rows; k++) {
     const dir = k % 2 ? 1 : -1;
-    const off = (((lb * 160 * dir) % unit) + unit) % unit;
+    const off = (((lb * 90 * dir + kickCum(FRAME) * 26 * dir) % unit) + unit) % unit;
     T('QUM '.repeat(6), -unit + off, 120 + k * rowH, 280, { ls: -0.02, stroke: 2 });
   }
   ctx.restore();
@@ -267,7 +274,9 @@ function sQum(lb) {
     const y0 = 640 + 40 + s0 * 0.76, y1 = y0 + s1 * 0.98, y2 = y1 + s2 * 0.9;
     rise('QUM', M, y0, s0, P(lb, 1.1, 0.4), { col: BLACK });
     rise('QUEERSICHT', M, y1, s1, P(lb, 1.3, 0.4), { col: BLACK });
+    ctx.save(); ctx.translate(M, y2); ctx.transform(1, 0, -0.14 * backbeat(lb), 1, 0, 0); ctx.translate(-M, -y2);
     rise('DANCE', M, y2, s2, P(lb, 1.5, 0.4), { col: BLACK });
+    ctx.restore();
     ctx.restore();
   }
   // schwarzes Panel unten
@@ -286,32 +295,28 @@ function sQum(lb) {
 function sKitchen(lb) {
   BG = WHITE; FG = BLACK; bg();
   dateBlock(lb, 'SAMSTAG', '07.11');
+  // Spektrogramm als Kaskade: unterste Linie = jetzt, nach oben älter. Mitte = Bass, Ränder = Höhen
   const N = 30, top = 640, gap = 17, x0 = M, x1 = W - M;
-  const t = lb * BEAT;
-  const amp = 0.55 + AF.low * 0.45 + clamp(AF.kick, 0, 1.3) * 0.8;
   const reveal = eOut(P(lb, 0.2, 1.2));
+  const prof = (fr, u) => {
+    const d = Math.abs(u - 0.5) * 2, bf = d * 31, b0 = Math.floor(bf), w = bf - b0;
+    const v = specAt(fr, b0) * (1 - w) + specAt(fr, b0 + 1) * w;
+    const env = clamp((1 - d) * 2.2);
+    return Math.pow(v, 1.7) * 175 * env * env;
+  };
   ctx.save();
   ctx.beginPath(); ctx.rect(0, 0, x0 + (x1 - x0) * reveal + 4, H); ctx.clip();
   for (let i = 0; i < N; i++) {
-    const y0 = top + i * gap + 120;
+    const y0 = top + i * gap + 120, fr = FRAME - (N - 1 - i) * 3;
+    const pts = [];
+    for (let x = x0; x <= x1; x += 6) pts.push([x, y0 - prof(fr, (x - x0) / (x1 - x0)) - hash(i * 999 + x) * 2]);
     ctx.beginPath(); ctx.moveTo(x0, y0);
-    for (let x = x0; x <= x1; x += 6) {
-      const u = (x - x0) / (x1 - x0);
-      const env = Math.pow(Math.max(0, 1 - Math.abs(u - 0.5) * 2.6), 2);
-      const n = Math.sin(u * 23 + hash(i) * 40 + t * 2.1) * 0.5 + Math.sin(u * 51 + hash(i + 50) * 30 - t * 3.3) * 0.3 + Math.sin(u * 97 + i + t * 5) * 0.2;
-      const y = y0 - (Math.abs(n) * 120 * env * amp + hash(i * 999 + Math.floor(x / 6)) * 4);
-      ctx.lineTo(x, y);
-    }
+    pts.forEach(([x, y]) => ctx.lineTo(x, y));
     ctx.lineTo(x1, y0 + 30); ctx.lineTo(x0, y0 + 30); ctx.closePath();
     ctx.fillStyle = WHITE; ctx.fill();
     ctx.beginPath(); ctx.moveTo(x0, y0);
-    for (let x = x0; x <= x1; x += 6) {
-      const u = (x - x0) / (x1 - x0);
-      const env = Math.pow(Math.max(0, 1 - Math.abs(u - 0.5) * 2.6), 2);
-      const n = Math.sin(u * 23 + hash(i) * 40 + t * 2.1) * 0.5 + Math.sin(u * 51 + hash(i + 50) * 30 - t * 3.3) * 0.3 + Math.sin(u * 97 + i + t * 5) * 0.2;
-      ctx.lineTo(x, y0 - (Math.abs(n) * 120 * env * amp + hash(i * 999 + Math.floor(x / 6)) * 4));
-    }
-    ctx.strokeStyle = BLACK; ctx.lineWidth = 2.5; ctx.stroke();
+    pts.forEach(([x, y]) => ctx.lineTo(x, y));
+    ctx.strokeStyle = BLACK; ctx.lineWidth = i === N - 1 ? 3.5 : 2.5; ctx.stroke();
   }
   ctx.restore();
   // KITCHEN, Buchstabe für Buchstabe
@@ -364,13 +369,14 @@ function sArtlu(lb) {
     const born = P(lb, hash(i + 5) * 1.2, 0.3);
     if (born <= 0) continue;
     ctx.strokeStyle = WHITE; ctx.lineWidth = 2.5; ctx.globalAlpha = 0.85;
-    ctx.beginPath(); ctx.arc(x, y, rr * eOut(born), 0, Math.PI * 2); ctx.stroke();
+    const wob = 1 + 0.18 * AF.hat * (hash(i + 7) - 0.3);
+    ctx.beginPath(); ctx.arc(x, y, rr * eOut(born) * wob, 0, Math.PI * 2); ctx.stroke();
     ctx.beginPath(); ctx.arc(x, y, rr * 0.7 * eOut(born), Math.PI * 1.1, Math.PI * 1.45); ctx.stroke();
   }
   ctx.globalAlpha = 1;
   dateBlock(lb, 'SAMSTAG, PLATTENTAUFE', '14.11');
   const vx = lerp(W + 400, 700, eOut(P(lb, 0.3, 0.7)));
-  vinyl(vx, 900, 290, lb * 1.6 + (1 - eOut(P(lb, 0.3, 0.7))) * 4);
+  vinyl(vx, 900, 290 * (1 + 0.035 * clamp(AF.kick, 0, 1.3)), lb * 1.6 + (1 - eOut(P(lb, 0.3, 0.7))) * 4);
   const s1 = fit('ARTLU BUBBLE', W - 2 * M, {}, 200);
   rise('ARTLU BUBBLE', M, 1340, s1, P(lb, 1.6, 0.4));
   const s2 = fit('AND THE DEAD ANIMAL GANG', W - 2 * M, {}, 120);
@@ -392,7 +398,7 @@ function sSoiree(lb) {
   const scroll = (lb * 40) % 60;
   for (let k = 0; k < 14; k++) {
     const yy = cy - r + k * 60 + scroll;
-    const th = Math.max(0, (yy - (cy - r * 0.4)) / (2 * r)) * 34;
+    const th = Math.max(0, (yy - (cy - r * 0.4)) / (2 * r)) * 34 * (0.55 + 0.75 * AF.low);
     ctx.fillRect(cx - r, yy, 2 * r, th);
   }
   ctx.restore();
@@ -403,7 +409,9 @@ function sSoiree(lb) {
     const pk = eOut(P(lb, 0.1 + k * 0.08, 0.6));
     ctx.beginPath();
     for (let x = 0; x <= W * pk; x += 8) {
-      const y = y0 + Math.sin(x * 0.018 + ph * (k % 2 ? 1 : -1)) * (8 + k * 2);
+      const u = (x / W) * 95, i0 = Math.floor(u), w = u - i0, fr = FRAME - k * 3;
+      const wv = waveAt(fr, i0) * (1 - w) + waveAt(fr, Math.min(95, i0 + 1)) * w;
+      const y = y0 + wv * (10 + k * 3) + Math.sin(x * 0.018 + ph * (k % 2 ? 1 : -1)) * 4;
       x ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
     }
     ctx.stroke();
@@ -422,10 +430,10 @@ function sSoiree(lb) {
 // 6: Mother's Cake & Fancy and the Boys
 function tunnel(cx, cy, lb, alpha) {
   ctx.save(); ctx.globalAlpha = alpha;
-  const sectors = 24, phase = (lb * 0.75) % 1;
+  const sectors = 24, phase = (lb * 0.2 + kickCum(FRAME) * 0.6) % 1;
   for (let k = 26; k >= 0; k--) {
     const r1 = 22 * Math.pow(1.2, k + phase), r0 = 22 * Math.pow(1.2, k - 1 + phase);
-    const tw = lb * 0.35 + k * 0.09 * Math.sin(lb * 0.7);
+    const tw = lb * 0.35 + k * (0.05 + 0.08 * AF.high) * Math.sin(lb * 0.7);
     for (let j = 0; j < sectors; j++) {
       if ((j + k) % 2) continue;
       const a0 = (j / sectors) * Math.PI * 2 + tw, a1 = a0 + (Math.PI * 2) / sectors;
@@ -486,7 +494,7 @@ function sOutro(lb) {
   if (lb < 10) {
     const l = lb - 6;
     BG = BLACK; FG = WHITE; bg();
-    spiral(W / 2, H / 2, 1100, lb * 1.8, 0.25, FG, 2, 20);
+    spiral(W / 2, H / 2, 1000 + 200 * AF.low, lb * 1.8, 0.12 + 0.25 * AF.rms, FG, 2, 20);
     rise('TICKETS', M, 860, 110, P(l, 0, 0.35));
     const s = fit('PETZI.CH', W - 2 * M, {}, 360);
     slam(() => T('PETZI.CH', M, 860 + s * 0.95, s), W / 2, 860 + s * 0.6, P(l, 0.3, 0.45), 1.4);
@@ -496,7 +504,7 @@ function sOutro(lb) {
   }
   const l = lb - 10, fr = Math.min(lb, 16);
   BG = WHITE; FG = BLACK; bg();
-  spiral(W / 2, 640, lerp(0, 330, eOut(P(l, 0, 1))), fr * 2.4, 1, FG, 3.5, 12);
+  spiral(W / 2, 640, lerp(0, 330, eOut(P(l, 0, 1))), fr * 2.4, 1, FG, 3.5, 12, u => waveAt(FRAME, Math.floor(u * 95)) * 16 * u);
   ctx.fillStyle = BLACK; ctx.beginPath(); ctx.arc(W / 2, 640, 18 * eOut(P(l, 0, 0.5)), 0, Math.PI * 2); ctx.fill();
   const s = fit('SPINNEREI', W - 2 * M, {}, 400);
   rise('KULTUR', M, 1180, s, P(l, 0.15, 0.4));
@@ -519,7 +527,20 @@ const SECTIONS = [
 // Audio-Merkmale des Tracks pro Frame (features.js): kick, hat, clap, low, high, rms, kicks (Onset-Frames)
 const F = window.FEAT;
 let AF = { kick: 0, hat: 0, clap: 0, low: 0, high: 0, rms: 0 };
+let FRAME = 0;
+const NF = F.kick.length;
+const specAt = (fr, b) => (fr < 0 ? 0 : (F.spec[Math.min(fr, NF - 1) * 32 + clamp(b, 0, 31)] || 0) / 99);
+const waveAt = (fr, k) => (fr < 0 ? 0 : (F.wave[Math.min(fr, NF - 1) * 96 + clamp(k, 0, 95)] || 0) / 99);
+// aufsummierte Kick-Energie: Dinge, die auf jedem Kick einen Schub machen
+const KC = []; F.kick.reduce((a, v, i) => (KC[i] = a + v / 27), 0);
+const kickCum = fr => KC[clamp(fr, 0, NF - 1)];
+// Clap auf 2 und 4 (Beat 1 und 3 im Takt), gewichtet mit der gemessenen Clap-Energie
+function backbeat(lb) {
+  const q = (((lb % 4) + 4) % 4), d = q >= 3 ? q - 3 : q >= 1 ? q - 1 : 9;
+  return Math.exp(-d * 7) * clamp(AF.clap);
+}
 function feat(frame) {
+  FRAME = frame;
   const i = clamp(frame, 0, F.kick.length - 1);
   for (const k in AF) AF[k] = F[k][i] || 0;
 }

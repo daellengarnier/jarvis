@@ -25,6 +25,21 @@ out = {
   'rms': smooth(norm(librosa.feature.rms(y=y, frame_length=3200, hop_length=hop)[0], 95), 7),
 }
 out = {k: [round(float(v), 3) for v in x] for k, x in out.items()}
+# Spektrum: 32 log-Bänder 40 Hz bis 12 kHz, in dB auf 0..99 skaliert (flach, 32 Werte pro Frame)
+edges = np.geomspace(40, 12000, 33)
+ix = np.searchsorted(f, edges)
+B = np.stack([S[ix[i]:max(ix[i + 1], ix[i] + 1)].mean(0) for i in range(32)])
+dB = 20 * np.log10(B + 1e-6); lo, hi = np.percentile(dB, 30), np.percentile(dB, 99.5)
+spec = np.clip((dB - lo) / (hi - lo), 0, 1)
+out['spec'] = [int(v) for v in (spec.T * 99).round().ravel()]
+# Wellenform fürs Oszilloskop: 96 Punkte über 40 ms je Frame, -99..99
+peak = np.percentile(np.abs(y), 99.5)
+wv = []
+for i in range(S.shape[1]):
+    c = i * hop; seg = y[max(0, c - 960):c + 960]
+    seg = np.r_[seg, np.zeros(1920 - len(seg))]
+    wv += [int(v) for v in np.clip(seg[::20] / peak * 99, -99, 99).round()]
+out['wave'] = wv
 out['kicks'] = [o for k, o in enumerate(onsets) if k == 0 or o - onsets[k - 1] > 8]
 open('features.js', 'w').write('window.CFG = ' + json.dumps(cfg) + ';\nwindow.FEAT = ' + json.dumps(out) + ';\n')
 print('frames', len(out['kick']), 'kick onsets', len(out['kicks']))
