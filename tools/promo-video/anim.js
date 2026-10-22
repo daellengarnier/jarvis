@@ -283,11 +283,7 @@ function sQum(lb) {
   const p2 = eOut(P(lb, 2.4, 0.5));
   if (p2 > 0) {
     ctx.fillStyle = BLACK; ctx.fillRect(W * (1 - p2), 1280, W * p2, H - 1280);
-    const djs = ['DJ CLAUSETTE', 'AUDIOPHIL', 'MOUDE-E', 'DJ ANDREAM'];
-    djs.forEach((d, k) => rise(d, M + (k % 2) * 470, 1370 + Math.floor(k / 2) * 72, 48, P(lb, 2.8 + k * 0.3, 0.35), { ls: -0.03 }));
-    rule(M, 1490, W - 2 * M, P(lb, 4.1, 0.5));
-    typeOn('WARM-UP ZUM 30. QUEERSICHT', M, 1550, 32, P(lb, 4.3, 0.6));
-    typeOn('16 BIS 24 UHR, 20 CHF', M, 1598, 32, P(lb, 4.8, 0.5));
+    ['ELECTRO', 'TECHNO', 'PROGRESSIVE HOUSE'].forEach((g, k) => rise(g, M, 1400 + k * 76, 60, P(lb, 2.8 + k * 0.3, 0.35), { ls: -0.03 }));
   }
 }
 
@@ -332,8 +328,7 @@ function sKitchen(lb) {
     }
     x += cw;
   }
-  typeOn('INSTRUMENTAL TRIP POP AUS BERN', M, 1500, 32, P(lb, 2.2, 0.7));
-  typeOn('TÜRE 21:00, SHOW 21:45, 20 CHF', M, 1550, 32, P(lb, 2.8, 0.7));
+  typeOn('INSTRUMENTAL TRIP POP', M, 1510, 40, P(lb, 2.2, 0.6));
 }
 
 // 4: Artlu Bubble, Plattentaufe 16:26
@@ -381,8 +376,7 @@ function sArtlu(lb) {
   rise('ARTLU BUBBLE', M, 1340, s1, P(lb, 1.6, 0.4));
   const s2 = fit('AND THE DEAD ANIMAL GANG', W - 2 * M, {}, 120);
   rise('AND THE DEAD ANIMAL GANG', M, 1340 + s2 * 1.15, s2, P(lb, 1.9, 0.4));
-  typeOn('GARAGE ROCK, TÜRE 21:00, 30 CHF', M, 1340 + s2 * 1.15 + 75, 32, P(lb, 2.6, 0.6));
-  typeOn('ERSTES KONZERT SEIT FAST 10 JAHREN', M, 1340 + s2 * 1.15 + 125, 32, P(lb, 3.2, 0.7));
+  typeOn('GARAGE ROCK', M, 1340 + s2 * 1.15 + 85, 40, P(lb, 2.6, 0.5));
 }
 
 // 5: Soirée Tropicale #4
@@ -423,8 +417,6 @@ function sSoiree(lb) {
   rise('SOIRÉE', M, by - s1 * 0.92, s1, P(lb, 1.3, 0.4));
   rise('TROPICALE', M, by, s1, P(lb, 1.55, 0.4));
   slam(() => T('#4', W - M, by - s1 * 0.92, s1 * 1.1, { align: 'right', stroke: 5 }), W - M - 110, by - s1 * 1.2, P(lb, 2, 0.4), 2);
-  typeOn('ÂMY B. (LYON), ROOTS GLIDER (GENF)', M, by + 70, 32, P(lb, 2.6, 0.7));
-  typeOn('MO PÂLIDO, TÜRE 21:00, 20 CHF', M, by + 120, 32, P(lb, 3.2, 0.6));
 }
 
 // 6: Mother's Cake & Fancy and the Boys
@@ -452,11 +444,10 @@ function sMothers(lb) {
   label('SAMSTAG', M, 250, 32, P(lb, 0.05, 0.3), { boxCol: BLACK, txtCol: WHITE, fam: MONO, w: 700, ls: 0.02, pad: 0.4 });
   const s1 = fit("MOTHER'S CAKE", W - 2 * M - 60, {}, 170);
   label("MOTHER'S CAKE", M, 1240, s1, P(lb, 1, 0.45), { pad: 0.16 });
-  label('PSYCHEDELIC ROCK, INNSBRUCK (AT)', M, 1310, 30, P(lb, 1.5, 0.4), { boxCol: BLACK, txtCol: WHITE, fam: MONO, w: 700, ls: 0.02, pad: 0.4 });
+  label('PSYCHEDELIC ROCK', M, 1310, 30, P(lb, 1.5, 0.4), { boxCol: BLACK, txtCol: WHITE, fam: MONO, w: 700, ls: 0.02, pad: 0.4 });
   const s2 = fit('+ FANCY AND THE BOYS', W - 2 * M - 40, {}, 110);
   label('+ FANCY AND THE BOYS', M, 1310 + s2 * 1.12, s2, P(lb, 2, 0.45), { pad: 0.16 });
-  label('GRUNGE, THUN', M, 1310 + s2 * 1.12 + 70, 30, P(lb, 2.5, 0.4), { boxCol: BLACK, txtCol: WHITE, fam: MONO, w: 700, ls: 0.02, pad: 0.4 });
-  label('TÜRE 21:00, 35 CHF', M, 1310 + s2 * 1.12 + 128, 30, P(lb, 2.9, 0.4), { boxCol: BLACK, txtCol: WHITE, fam: MONO, w: 700, ls: 0.02, pad: 0.4 });
+  label('GRUNGE', M, 1310 + s2 * 1.12 + 70, 30, P(lb, 2.5, 0.4), { boxCol: BLACK, txtCol: WHITE, fam: MONO, w: 700, ls: 0.02, pad: 0.4 });
 }
 
 // Outro: Übersicht, Tickets, Absender
@@ -498,7 +489,6 @@ function sOutro(lb) {
     rise('TICKETS', M, 860, 110, P(l, 0, 0.35));
     const s = fit('PETZI.CH', W - 2 * M, {}, 360);
     slam(() => T('PETZI.CH', M, 860 + s * 0.95, s), W / 2, 860 + s * 0.6, P(l, 0.3, 0.45), 1.4);
-    typeOn('VORVERKAUF UND ABENDKASSE', M, 860 + s * 0.95 + 110, 32, P(l, 0.8, 0.7));
     hud(-1, 48 + lb);
     return;
   }
