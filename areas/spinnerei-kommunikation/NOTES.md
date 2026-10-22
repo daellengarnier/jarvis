@@ -35,7 +35,7 @@ Zuletzt aktualisiert: 2026-10-22
 - Kalenderabo Haus (alle Anlässe inkl. privater): https://spinnerei.al-daellen.ch/kalender/haus.ics, live seit 2026-10-21 (Commit 1c66bc3 in daellengarnier/spinnerei). Liest aus der Orga-App, Anlässe mit Zugang "privat" nur als "Private Veranstaltung". Hausmail-Buttons zeigen darauf. Privates immer mit Zugang "privat" erfassen.
 - Google Kalender info@: alle Anlässe 24.10.2026 bis 20.03.2027 aus der Orga-App eingetragen (2026-10-21), mit PETZI-Link. Fehlt noch: Freies Tanzen Lina 29.10. (Zeit offen). Vermietung 30.10. (Pluto) eingetragen 2026-10-21. Neue Anlässe künftig auch dort eintragen.
 - Kalenderabo Website: iCal-Feed der Website (The Events Calendar) funktioniert, nur öffentliche Anlässe: https://kulturspinnerei.ch/?post_type=tribe_events&ical=1&eventDisplay=list (webcal:// für Apple/Outlook, Google über calendar.google.com/calendar/render?cid=<URL-kodiert>). Getestet 2026-10-21.
-- Promo-Video Programm Herbst 26 (9:16, 33 s, s/w, eigener Beat) gebaut 2026-10-22, Code in `tools/promo-video/`. Sechs öffentliche Anlässe, Jugendsession weggelassen (privat). Noch nicht gepostet, noch nicht in Drive. Kinderdisco ist am 24.10., danach ist das Video veraltet, ggf. ohne Kinderdisco neu rendern.
+- Promo-Video Programm Herbst 26 (9:16, s/w), Code in `tools/promo-video/`. Fassung 1 (2026-10-22): 6 Anlässe, eigener Beat, 33 s. Fassung 2 (2026-10-22): ohne Kinderdisco, 5 Anlässe, zu Alains Track "Sombras danzantes" (Suno), 30 s, endet auf dem letzten Schlag. Jugendsession weggelassen (privat). Noch nicht gepostet, nicht in Drive.
 
 ## Nächster Schritt
 

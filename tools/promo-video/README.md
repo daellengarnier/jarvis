@@ -2,6 +2,13 @@
 
 Animiertes Programmvideo der Spinnerei, 9:16 (1080x1920, 60 fps), schwarz/weiss, komplett im Code: Canvas-Animation (`anim.js`) und synthetisierter Beat (`audio.py`), beides auf 128 BPM synchron. Erste Fassung: Programm Herbst/Winter 2026 (2026-10-22).
 
+## Fassungen
+
+- `anim.js`: aktuelle Fassung (2026-10-22) ohne Kinderdisco, 5 Anlässe, zum Track "Sombras danzantes" (Suno, von Alain). Track läuft mit 133.7 BPM, Kick auf 1 und "und" der 3, Clap auf 2 und 4. Ausschnitt ab 148.107 s (Takt mit Phrasenwechsel) bis zum harten Songende auf dem letzten Schlag (Beat 64 im Video), 30.3 s. Intro 2 Takte, je Anlass 2 Takte, Outro 4 Takte. Der Track liegt nicht im Repo.
+- `anim-synth-128bpm.js` mit `audio.py`: erste Fassung mit 6 Anlässen und selbst synthetisiertem Beat (128 BPM, 32.8 s).
+
+Track schneiden: `ffmpeg -i track.m4a -ss 148.107 -t 30.292 -af "afade=t=in:d=0.02,afade=t=out:st=29.79:d=0.5" music.wav`. Beat-Raster wurde mit librosa bestimmt (Onset-Faltung pro Achtel, Kick-Histogramm für die Takt-Eins).
+
 ## Rendern
 
 ```

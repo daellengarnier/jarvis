@@ -1,7 +1,8 @@
 // Kulturspinnerei Bern: Programm Herbst/Winter 2026, 9:16, schwarz/weiss.
-// Alles hängt am Beat (128 BPM). render(t) zeichnet den Frame zur Zeit t (Sekunden).
-const W = 1080, H = 1920, BPM = 128, BEAT = 60 / BPM, FPS = 60;
-const END_BEATS = 70;
+// Alles hängt am Beat von "Sombras danzantes" (133.7 BPM, Ausschnitt ab 148.11 s). render(t) zeichnet den Frame zur Zeit t (Sekunden).
+const W = 1080, H = 1920, BPM = 60 / 0.44877, BEAT = 60 / BPM, FPS = 60;
+const END_BEATS = 67.5;
+const STOP = 64; // letzter Schlag des Songs
 const cv = document.getElementById('c');
 const ctx = cv.getContext('2d');
 const DISP = '"Inter Display", "Inter", sans-serif';
@@ -135,7 +136,7 @@ function hud(idx, B) {
   ctx.globalAlpha = 0.35; ctx.fillRect(M, by, W - 2 * M, 2); ctx.globalAlpha = 1;
   ctx.fillRect(M, by - 2, (W - 2 * M) * clamp(B / 64), 6);
   for (let k = 0; k <= 8; k++) ctx.fillRect(M + ((W - 2 * M) * k) / 8 - 1, by - 10, 2, 22);
-  mono(idx >= 0 ? `${String(idx + 1).padStart(2, '0')} / 06` : 'SPINNEREIWEG 17', M, by - 34, 26);
+  mono(idx >= 0 ? `${String(idx + 1).padStart(2, '0')} / 05` : 'OKT BIS DEZ 2026', M, by - 34, 26);
   mono('SPINNEREIWEG 17, BERN', W - M, by - 34, 26, { align: 'right' });
 }
 
@@ -168,7 +169,7 @@ function sIntro(lb) {
   const s1 = fit('GRAMM', W - 2 * M, {}, 400);
   rise('PRO', M, 980, s1, P(l, 0, 0.45));
   rise('GRAMM', M, 980 + s1 * 0.92, s1, P(l, 0.18, 0.45));
-  typeOn('6 ANLÄSSE, OKTOBER BIS DEZEMBER', M, 980 + s1 * 0.92 + 110, 34, P(l, 0.5, 0.9));
+  typeOn('5 ANLÄSSE, OKTOBER BIS DEZEMBER', M, 980 + s1 * 0.92 + 110, 34, P(l, 0.5, 0.9));
   hud(-1, 6 + l);
 }
 
@@ -453,7 +454,6 @@ function sMothers(lb) {
 
 // Outro: Übersicht, Tickets, Absender
 const LIST = [
-  ['SA 24.10', 'KINDERDISCO'],
   ['SA 31.10', 'QUM QUEERSICHT DANCE'],
   ['SA 07.11', 'KITCHEN'],
   ['SA 14.11', 'ARTLU BUBBLE'],
@@ -461,11 +461,11 @@ const LIST = [
   ['SA 12.12', "MOTHER'S CAKE + FANCY"],
 ];
 function sOutro(lb) {
-  if (lb < 5) {
+  if (lb < 6) {
     BG = WHITE; FG = BLACK; bg();
     typeOn('PROGRAMM HERBST/WINTER 2026', M, 330, 32, P(lb, 0, 0.5));
-    const top = 400, rh = 172;
-    const hot = lb > 2.6 ? Math.floor((lb - 2.6) * 3) : -1;
+    const top = 440, rh = 180;
+    const hot = lb > 2.6 ? Math.floor((lb - 2.6) * 1.6) : -1;
     LIST.forEach(([d, n], k) => {
       const y = top + k * rh, p = P(lb, 0.25 + k * 0.3, 0.4);
       if (k === hot) { ctx.fillStyle = BLACK; ctx.fillRect(0, y, W, rh); }
@@ -476,24 +476,24 @@ function sOutro(lb) {
         rise(n, M, y + 140, fit(n, W - 2 * M, {}, 76), p, { col });
       }
     });
-    rule(M, top + 6 * rh, W - 2 * M, P(lb, 2.2, 0.4));
-    hud(-1, 56 + lb);
+    rule(M, top + 5 * rh, W - 2 * M, P(lb, 1.9, 0.4));
+    hud(-1, 48 + lb);
     return;
   }
-  if (lb < 8) {
-    const l = lb - 5;
+  if (lb < 10) {
+    const l = lb - 6;
     BG = BLACK; FG = WHITE; bg();
     spiral(W / 2, H / 2, 1100, lb * 1.8, 0.25, FG, 2, 20);
     rise('TICKETS', M, 860, 110, P(l, 0, 0.35));
     const s = fit('PETZI.CH', W - 2 * M, {}, 360);
     slam(() => T('PETZI.CH', M, 860 + s * 0.95, s), W / 2, 860 + s * 0.6, P(l, 0.3, 0.45), 1.4);
     typeOn('VORVERKAUF UND ABENDKASSE', M, 860 + s * 0.95 + 110, 32, P(l, 0.8, 0.7));
-    hud(-1, 56 + lb);
+    hud(-1, 48 + lb);
     return;
   }
-  const l = lb - 8;
+  const l = lb - 10, fr = Math.min(lb, 16);
   BG = WHITE; FG = BLACK; bg();
-  spiral(W / 2, 640, lerp(0, 330, eOut(P(l, 0, 1))), lb * 2.4, 1, FG, 3.5, 12);
+  spiral(W / 2, 640, lerp(0, 330, eOut(P(l, 0, 1))), fr * 2.4, 1, FG, 3.5, 12);
   ctx.fillStyle = BLACK; ctx.beginPath(); ctx.arc(W / 2, 640, 18 * eOut(P(l, 0, 0.5)), 0, Math.PI * 2); ctx.fill();
   const s = fit('SPINNEREI', W - 2 * M, {}, 400);
   rise('KULTUR', M, 1180, s, P(l, 0.15, 0.4));
@@ -505,20 +505,24 @@ function sOutro(lb) {
 
 const SECTIONS = [
   { s: 0, f: sIntro, i: -1 },
-  { s: 8, f: sDisco, i: 0 },
-  { s: 16, f: sQum, i: 1 },
-  { s: 24, f: sKitchen, i: 2 },
-  { s: 32, f: sArtlu, i: 3 },
-  { s: 40, f: sSoiree, i: 4 },
-  { s: 48, f: sMothers, i: 5 },
-  { s: 56, f: sOutro, i: -1 },
+  { s: 8, f: sQum, i: 0 },
+  { s: 16, f: sKitchen, i: 1 },
+  { s: 24, f: sArtlu, i: 2 },
+  { s: 32, f: sSoiree, i: 3 },
+  { s: 40, f: sMothers, i: 4 },
+  { s: 48, f: sOutro, i: -1 },
 ];
+
+function kick(B) {
+  const q = ((B % 4) + 4) % 4, d = q >= 2.5 ? q - 2.5 : q;
+  return Math.exp(-d * 7);
+}
 
 function drawScene(k, B) {
   const sec = SECTIONS[k], lb = B - sec.s;
   ctx.save();
   if (sec.i >= 0) {
-    const z = 1 + 0.014 * pulse(lb, 7);
+    const z = 1 + 0.018 * kick(B);
     ctx.translate(W / 2, H / 2); ctx.scale(z, z); ctx.translate(-W / 2, -H / 2);
   }
   sec.f(lb);
@@ -544,7 +548,7 @@ function render(t, frame) {
   }
   // Blitz auf jedem Szenenstart
   const ls = B - SECTIONS[k].s;
-  if (k > 0 && ls < 0.07) {
+  if ((k > 0 && ls < 0.07) || (B >= STOP && B < STOP + 0.07)) {
     ctx.save(); ctx.globalCompositeOperation = 'difference'; ctx.fillStyle = WHITE; ctx.fillRect(0, 0, W, H); ctx.restore();
   }
   grain(frame);
