@@ -245,16 +245,14 @@ function sDisco(lb) {
 function sQum(lb) {
   BG = BLACK; FG = WHITE; bg();
   const rowH = 250, rows = 9;
-  const fillRow = Math.floor(lb * 2) % rows;
   const unit = measure('QUM ', 280, { ls: -0.02 }) + -0.02 * 280;
+  ctx.save(); ctx.globalAlpha = 0.18;
   for (let k = 0; k < rows; k++) {
     const dir = k % 2 ? 1 : -1;
-    const off = (((lb * 330 * dir) % unit) + unit) % unit;
-    const y = 120 + k * rowH;
-    const s = 'QUM '.repeat(6);
-    if (k === fillRow) T(s, -unit + off, y, 280, { ls: -0.02 });
-    else T(s, -unit + off, y, 280, { ls: -0.02, stroke: 3 });
+    const off = (((lb * 160 * dir) % unit) + unit) % unit;
+    T('QUM '.repeat(6), -unit + off, 120 + k * rowH, 280, { ls: -0.02, stroke: 2 });
   }
+  ctx.restore();
   // Datum auf schwarzem Feld
   const pd = P(lb, 0.15, 0.4);
   ctx.fillStyle = BLACK; ctx.fillRect(0, 0, W, 165);
@@ -263,23 +261,24 @@ function sQum(lb) {
   // weisses Panel
   const p1 = eOut(P(lb, 1, 0.5));
   if (p1 > 0) {
-    ctx.fillStyle = WHITE; ctx.fillRect(0, 660, W * p1, 520);
-    ctx.save(); ctx.beginPath(); ctx.rect(0, 660, W * p1, 520); ctx.clip();
-    const s1 = fit('QUEERSICHT', W - 2 * M, {}, 300);
-    rise('QUEERSICHT', M, 660 + 40 + s1 * 0.8, s1, P(lb, 1.2, 0.4), { col: BLACK });
-    const s2 = fit('DANCE', W - 2 * M, {}, 330);
-    rise('DANCE', M, 660 + 40 + s1 * 0.8 + s2 * 0.88, s2, P(lb, 1.45, 0.4), { col: BLACK });
+    ctx.fillStyle = WHITE; ctx.fillRect(0, 640, W * p1, 640);
+    ctx.save(); ctx.beginPath(); ctx.rect(0, 640, W * p1, 640); ctx.clip();
+    const s0 = 230, s1 = fit('QUEERSICHT', W - 2 * M, {}, 300), s2 = 230;
+    const y0 = 640 + 40 + s0 * 0.76, y1 = y0 + s1 * 0.98, y2 = y1 + s2 * 0.9;
+    rise('QUM', M, y0, s0, P(lb, 1.1, 0.4), { col: BLACK });
+    rise('QUEERSICHT', M, y1, s1, P(lb, 1.3, 0.4), { col: BLACK });
+    rise('DANCE', M, y2, s2, P(lb, 1.5, 0.4), { col: BLACK });
     ctx.restore();
   }
   // schwarzes Panel unten
   const p2 = eOut(P(lb, 2.4, 0.5));
   if (p2 > 0) {
-    ctx.fillStyle = BLACK; ctx.fillRect(W * (1 - p2), 1180, W * p2, H - 1180);
+    ctx.fillStyle = BLACK; ctx.fillRect(W * (1 - p2), 1280, W * p2, H - 1280);
     const djs = ['DJ CLAUSETTE', 'AUDIOPHIL', 'MOUDE-E', 'DJ ANDREAM'];
-    djs.forEach((d, k) => rise(d, M + (k % 2) * 470, 1290 + Math.floor(k / 2) * 80, 52, P(lb, 2.8 + k * 0.3, 0.35), { ls: -0.03 }));
-    rule(M, 1420, W - 2 * M, P(lb, 4.1, 0.5));
-    typeOn('WARM-UP ZUM 30. QUEERSICHT', M, 1484, 32, P(lb, 4.3, 0.6));
-    typeOn('16 BIS 24 UHR, 20 CHF', M, 1534, 32, P(lb, 4.8, 0.5));
+    djs.forEach((d, k) => rise(d, M + (k % 2) * 470, 1370 + Math.floor(k / 2) * 72, 48, P(lb, 2.8 + k * 0.3, 0.35), { ls: -0.03 }));
+    rule(M, 1490, W - 2 * M, P(lb, 4.1, 0.5));
+    typeOn('WARM-UP ZUM 30. QUEERSICHT', M, 1550, 32, P(lb, 4.3, 0.6));
+    typeOn('16 BIS 24 UHR, 20 CHF', M, 1598, 32, P(lb, 4.8, 0.5));
   }
 }
 
@@ -589,11 +588,13 @@ function post(t, frame, B, dark) {
   if (f.waves) {
     octx.save(); octx.globalCompositeOperation = 'difference'; octx.strokeStyle = WHITE;
     for (const kf of F.kicks) {
-      const age = (frame - kf) / 34;
+      const q = ((kf / FPS / BEAT) % 4 + 4) % 4;
+      if (q > 0.25 && q < 3.75) continue; // nur Takt-Eins
+      const age = (frame - kf) / 70;
       if (age < 0 || age >= 1) continue;
-      octx.globalAlpha = (1 - age) * 0.85;
-      octx.lineWidth = 34 * (1 - age) + 2;
-      octx.beginPath(); octx.arc(W / 2, H * 0.45, 60 + eOut(age) * 1300, 0, Math.PI * 2); octx.stroke();
+      octx.globalAlpha = (1 - age) * 0.3;
+      octx.lineWidth = 8 * (1 - age) + 1.5;
+      octx.beginPath(); octx.arc(W / 2, H * 0.45, 80 + eOut(age) * 1200, 0, Math.PI * 2); octx.stroke();
     }
     octx.restore();
   }
