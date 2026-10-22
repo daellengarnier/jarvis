@@ -1,7 +1,7 @@
 # TŌ YŌ / Natalí & the Dark Horses, 2026-10-09
 
 Status: angekündigt  
-Zuletzt aktualisiert: 2026-10-08
+Zuletzt aktualisiert: 2026-10-22
 
 ## Eckdaten
 
@@ -50,6 +50,7 @@ Laut Alain ist in der Orga-App alles vollständig (2026-10-06).
 
 - [ ] Gage ausbezahlt
 - [ ] Abrechnung erstellt
+- [ ] Suisa-Liste (Setlist) von Natalí: am Anlass nicht gemacht, sie hat sie versprochen. Entwurf an natali.frenesi@gmail.com in info@ angelegt 2026-10-22 (noch nicht gesendet). Danach an Nina für die Suisa-Meldung.
 
 ## Links (Drive)
 
@@ -62,3 +63,4 @@ Laut Alain ist in der Orga-App alles vollständig (2026-10-06).
 - 2026-08-10: Advance-Formular an YAYAYEAH zurück, Frage nach Drumsharing.
 - 2026-10-06: Stand aus Orga-App übernommen.
 - 2026-10-06: Gage netto, Tech-Rider von Sander geprüft, Backline-Sharing bestätigt (laut Alain).
+- 2026-10-22: Entwurf an Natalí wegen Suisa-Liste angelegt.
