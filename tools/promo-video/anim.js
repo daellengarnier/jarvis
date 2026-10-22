@@ -453,29 +453,33 @@ function sMothers(lb) {
 
 // Outro: Übersicht, Tickets, Absender
 const LIST = [
-  ['SA 31.10', 'QUM QUEERSICHT DANCE'],
-  ['SA 07.11', 'KITCHEN'],
-  ['SA 14.11', 'ARTLU BUBBLE'],
-  ['SA 28.11', 'SOIRÉE TROPICALE #4'],
-  ['SA 12.12', "MOTHER'S CAKE + FANCY"],
+  ['SA 31.10', ['QUM QUEERSICHT DANCE']],
+  ['SA 07.11', ['KITCHEN']],
+  ['SA 14.11', ['ARTLU BUBBLE', 'AND THE DEAD ANIMAL GANG']],
+  ['SA 28.11', ['SOIRÉE TROPICALE #4']],
+  ['SA 12.12', ["MOTHER'S CAKE", '+ FANCY AND THE BOYS']],
 ];
 function sOutro(lb) {
   if (lb < 6) {
     BG = WHITE; FG = BLACK; bg();
     typeOn('PROGRAMM HERBST/WINTER 2026', M, 330, 32, P(lb, 0, 0.5));
-    const top = 440, rh = 180;
+    // Zeilenhöhe je nach Anzahl Namenszeilen, Namen immer vollständig
+    const LH = 78, rowH = n => 82 + n.length * LH;
+    let y = 420;
     const hot = lb > 2.6 ? Math.floor((lb - 2.6) * 1.6) : -1;
     LIST.forEach(([d, n], k) => {
-      const y = top + k * rh, p = P(lb, 0.25 + k * 0.3, 0.4);
+      const rh = rowH(n), p = P(lb, 0.25 + k * 0.3, 0.4);
       if (k === hot) { ctx.fillStyle = BLACK; ctx.fillRect(0, y, W, rh); }
       const col = k === hot ? WHITE : BLACK;
       rule(M, y, W - 2 * M, p, col, 3);
       if (p > 0) {
-        mono(d, M, y + 56, 30, { col });
-        rise(n, M, y + 140, fit(n, W - 2 * M, {}, 76), p, { col });
+        mono(d, M, y + 52, 30, { col });
+        const sz = Math.min(...n.map(l => fit(l, W - 2 * M, {}, 76)));
+        n.forEach((l, i) => rise(l, M, y + 128 + i * LH, sz, P(lb, 0.25 + k * 0.3 + i * 0.12, 0.4), { col }));
       }
+      y += rh;
     });
-    rule(M, top + 5 * rh, W - 2 * M, P(lb, 1.9, 0.4));
+    rule(M, y, W - 2 * M, P(lb, 1.9, 0.4));
     hud(-1, 48 + lb);
     return;
   }
