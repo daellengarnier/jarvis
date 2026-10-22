@@ -4,7 +4,7 @@ const W = 1080, H = 1920, BPM = 60 / 0.44877, BEAT = 60 / BPM, FPS = 60;
 const END_BEATS = 67.5;
 const STOP = 64; // letzter Schlag des Songs
 const cv = document.getElementById('c');
-const ctx = cv.getContext('2d');
+let ctx = cv.getContext('2d');
 const DISP = '"Inter Display", "Inter", sans-serif';
 const MONO = '"JetBrains Mono", monospace';
 const M = 72;
@@ -289,7 +289,7 @@ function sKitchen(lb) {
   dateBlock(lb, 'SAMSTAG', '07.11');
   const N = 30, top = 640, gap = 17, x0 = M, x1 = W - M;
   const t = lb * BEAT;
-  const amp = 1 + pulse(lb, 5) * 0.7;
+  const amp = 0.55 + AF.low * 0.45 + clamp(AF.kick, 0, 1.3) * 0.8;
   const reveal = eOut(P(lb, 0.2, 1.2));
   ctx.save();
   ctx.beginPath(); ctx.rect(0, 0, x0 + (x1 - x0) * reveal + 4, H); ctx.clip();
@@ -513,16 +513,19 @@ const SECTIONS = [
   { s: 48, f: sOutro, i: -1 },
 ];
 
-function kick(B) {
-  const q = ((B % 4) + 4) % 4, d = q >= 2.5 ? q - 2.5 : q;
-  return Math.exp(-d * 7);
+// Audio-Merkmale des Tracks pro Frame (features.js): kick, hat, clap, low, high, rms, kicks (Onset-Frames)
+const F = window.FEAT;
+let AF = { kick: 0, hat: 0, clap: 0, low: 0, high: 0, rms: 0 };
+function feat(frame) {
+  const i = clamp(frame, 0, F.kick.length - 1);
+  for (const k in AF) AF[k] = F[k][i] || 0;
 }
 
 function drawScene(k, B) {
   const sec = SECTIONS[k], lb = B - sec.s;
   ctx.save();
   if (sec.i >= 0) {
-    const z = 1 + 0.018 * kick(B);
+    const z = 1 + 0.022 * clamp(AF.kick, 0, 1.2);
     ctx.translate(W / 2, H / 2); ctx.scale(z, z); ctx.translate(-W / 2, -H / 2);
   }
   sec.f(lb);
@@ -530,13 +533,92 @@ function drawScene(k, B) {
   if (sec.i >= 0) hud(sec.i, B);
 }
 
+// ---------- Psychedelische Nachbearbeitung ----------
+const mk = () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; };
+const sc = mk(), mir = mk(), prev = mk();
+const sctx = sc.getContext('2d'), mctx = mir.getContext('2d'), pctx = prev.getContext('2d');
+const octx = cv.getContext('2d');
+
+// Stärke der Effekte je nach Songteil (B in Beats)
+function fx(B) {
+  if (B >= STOP) return { echo: 0.22 * clamp(1 - (B - STOP) / 1.5), warp: 0, mirror: false, waves: false };
+  if (B < 8) return { echo: 0.45, warp: 5, mirror: false, waves: true };
+  if (B >= 30 && B < 32) return { echo: 0.55, warp: 16, mirror: true, waves: true }; // Break: Kick fällt weg
+  if (B >= 40 && B < 48) return { echo: 0.4, warp: 6, mirror: false, waves: true };
+  if (B >= 58) return { echo: 0.2, warp: 2, mirror: false, waves: false }; // Absender lesbar halten
+  if (B >= 48) return { echo: 0.32, warp: 4, mirror: false, waves: true }; // Schlussteigerung
+  return { echo: 0.28, warp: 4, mirror: false, waves: true };
+}
+
+function rorschach(src) {
+  mctx.setTransform(1, 0, 0, 1, 0, 0);
+  mctx.drawImage(src, 0, 0);
+  mctx.save(); mctx.translate(W, 0); mctx.scale(-1, 1);
+  mctx.drawImage(src, 0, 0, W / 2, H, 0, 0, W / 2, H); mctx.restore();
+  mctx.save(); mctx.translate(0, H); mctx.scale(1, -1);
+  mctx.drawImage(mir, 0, 0, W, H / 2, 0, 0, W, H / 2); mctx.restore();
+  return mir;
+}
+
+function post(t, frame, B, dark) {
+  const f = fx(B);
+  ctx = octx;
+  octx.setTransform(1, 0, 0, 1, 0, 0);
+  octx.globalAlpha = 1; octx.globalCompositeOperation = 'source-over';
+  octx.fillStyle = dark ? BLACK : WHITE; octx.fillRect(0, 0, W, H);
+  const src = f.mirror ? rorschach(sc) : sc;
+  // flüssiges Verziehen, Ausschlag auf die Kicks
+  const amp = f.warp * (1 + 2.6 * clamp(AF.kick, 0, 1.3)) + 6 * AF.low * (f.warp > 0);
+  const st = 8;
+  for (let y = 0; y < H; y += st) {
+    const off = amp * (Math.sin(y * 0.011 + t * 5.2) + 0.5 * Math.sin(y * 0.027 - t * 3.1 + AF.rms * 2));
+    octx.drawImage(src, 0, y, W, st, off, y, W, st);
+  }
+  // Echo: letztes Bild leicht vergrössert und gedreht darüber
+  if (f.echo > 0.01) {
+    octx.save();
+    octx.globalAlpha = f.echo;
+    octx.globalCompositeOperation = dark ? 'lighten' : 'darken';
+    const z = 1.02 + 0.045 * clamp(AF.kick, 0, 1.3);
+    const rot = 0.007 * Math.sin(t * 1.3) + (B >= 40 && B < 48 ? 0.02 : 0);
+    octx.translate(W / 2, H * 0.45); octx.rotate(rot); octx.scale(z, z); octx.translate(-W / 2, -H * 0.45);
+    octx.drawImage(prev, 0, 0);
+    octx.restore();
+  }
+  // Schockwellen auf den Kicks
+  if (f.waves) {
+    octx.save(); octx.globalCompositeOperation = 'difference'; octx.strokeStyle = WHITE;
+    for (const kf of F.kicks) {
+      const age = (frame - kf) / 34;
+      if (age < 0 || age >= 1) continue;
+      octx.globalAlpha = (1 - age) * 0.85;
+      octx.lineWidth = 34 * (1 - age) + 2;
+      octx.beginPath(); octx.arc(W / 2, H * 0.45, 60 + eOut(age) * 1300, 0, Math.PI * 2); octx.stroke();
+    }
+    octx.restore();
+  }
+  // Glitch-Streifen auf starken Hi-Hats
+  if (f.waves && AF.hat > 1.05) {
+    const n = 2 + Math.floor(hash(frame) * 3);
+    for (let k = 0; k < n; k++) {
+      const y = hash(frame * 7 + k) * H, h = 6 + hash(frame * 3 + k) * 46, dx = (hash(frame + k * 11) - 0.5) * 160;
+      octx.drawImage(sc, 0, y, W, h, dx, y, W, h);
+    }
+  }
+  grain(frame);
+  pctx.drawImage(cv, 0, 0);
+}
+
 function render(t, frame) {
   const B = t / BEAT;
+  feat(frame);
   let k = 0;
   while (k + 1 < SECTIONS.length && B >= SECTIONS[k + 1].s) k++;
+  ctx = sctx;
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
   drawScene(k, B);
+  let dark = BG === BLACK;
   // Wischblende in die nächste Szene
   const nx = SECTIONS[k + 1], WIN = 0.25;
   if (nx && B > nx.s - WIN) {
@@ -545,18 +627,25 @@ function render(t, frame) {
     if (k % 2 === 0) ctx.rect(W * (1 - p), 0, W * p, H);
     else ctx.rect(0, H * (1 - p), W, H * p);
     ctx.clip(); drawScene(k + 1, B); ctx.restore();
+    if (p > 0.5) dark = BG === BLACK;
   }
-  // Blitz auf jedem Szenenstart
+  // Blitz auf jedem Szenenstart und auf dem letzten Schlag
   const ls = B - SECTIONS[k].s;
   if ((k > 0 && ls < 0.07) || (B >= STOP && B < STOP + 0.07)) {
     ctx.save(); ctx.globalCompositeOperation = 'difference'; ctx.fillStyle = WHITE; ctx.fillRect(0, 0, W, H); ctx.restore();
+    dark = !dark;
   }
-  grain(frame);
+  post(t, frame, B, dark);
 }
 
 window.TOTAL_FRAMES = Math.ceil(END_BEATS * BEAT * FPS);
 window.FPS = FPS;
-window.renderFrame = f => render(f / FPS, f);
+// Das Echo braucht die Vorgänger: bei Sprüngen ein paar Frames vorlaufen lassen
+let lastF = -10;
+window.renderFrame = f => {
+  if (f !== lastF + 1) for (let k = Math.max(0, f - 40); k < f; k++) render(k / FPS, k);
+  render(f / FPS, f); lastF = f;
+};
 window.ready = document.fonts.load(`900 100px "Inter Display"`)
   .then(() => document.fonts.load(`700 30px "JetBrains Mono"`))
   .then(() => document.fonts.load(`900 100px "Inter"`))
@@ -565,6 +654,6 @@ window.ready = document.fonts.load(`900 100px "Inter Display"`)
 // Vorschau im Browser: abspielen
 if (location.hash === '#play') {
   const t0 = performance.now();
-  const loop = () => { const f = Math.floor(((performance.now() - t0) / 1000) * FPS) % window.TOTAL_FRAMES; render(f / FPS, f); requestAnimationFrame(loop); };
+  const loop = () => { const f = Math.floor(((performance.now() - t0) / 1000) * FPS) % window.TOTAL_FRAMES; window.renderFrame(f); requestAnimationFrame(loop); };
   window.ready.then(loop);
 }
