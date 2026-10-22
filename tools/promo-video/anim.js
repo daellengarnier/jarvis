@@ -494,14 +494,18 @@ function sOutro(lb) {
   }
   const l = lb - 10, fr = Math.min(lb, 16);
   BG = WHITE; FG = BLACK; bg();
-  spiral(W / 2, 640, lerp(0, 330, eOut(P(l, 0, 1))), fr * 2.4, 1, FG, 3.5, 12, u => waveAt(FRAME, Math.floor(u * 95)) * 16 * u);
-  ctx.fillStyle = BLACK; ctx.beginPath(); ctx.arc(W / 2, 640, 18 * eOut(P(l, 0, 0.5)), 0, Math.PI * 2); ctx.fill();
+  // Logo der Spinnerei: dreht sich ein, pumpt bis zum Schluss leicht mit dem Kick
+  const pl = eOut(P(l, 0, 0.9)), lz = 600 * lerp(0.55, 1, pl) * (1 + (lb < 16 ? 0.03 * clamp(AF.kick, 0, 1.3) : 0));
+  if (pl > 0) {
+    ctx.save(); ctx.globalAlpha = clamp(P(l, 0, 0.25));
+    ctx.translate(W / 2, 700); ctx.rotate((1 - pl) * -1.2);
+    ctx.drawImage(LOGO, -lz / 2, -lz / 2, lz, lz); ctx.restore();
+  }
   const s = fit('SPINNEREI', W - 2 * M, {}, 400);
-  rise('KULTUR', M, 1180, s, P(l, 0.15, 0.4));
-  rise('SPINNEREI', M, 1180 + s * 0.9, s, P(l, 0.3, 0.4));
-  rule(M, 1180 + s * 0.9 + 50, W - 2 * M, P(l, 0.6, 0.6));
-  typeOn('KULTURSPINNEREI.CH', M, 1180 + s * 0.9 + 120, 40, P(l, 0.8, 0.6));
-  typeOn('SPINNEREIWEG 17, 3004 BERN', M, 1180 + s * 0.9 + 175, 32, P(l, 1.2, 0.6));
+  rise('SPINNEREI', M, 1300 + s * 0.72, s, P(l, 0.3, 0.4));
+  rule(M, 1300 + s * 0.72 + 50, W - 2 * M, P(l, 0.6, 0.6));
+  typeOn('KULTURSPINNEREI.CH', M, 1300 + s * 0.72 + 120, 40, P(l, 0.8, 0.6));
+  typeOn('SPINNEREIWEG 17, 3004 BERN', M, 1300 + s * 0.72 + 175, 32, P(l, 1.2, 0.6));
 }
 
 const SECTIONS = [
@@ -662,7 +666,8 @@ window.renderFrame = f => {
   if (f !== lastF + 1) for (let k = Math.max(0, f - 40); k < f; k++) render(k / FPS, k);
   render(f / FPS, f); lastF = f;
 };
-window.ready = document.fonts.load(`900 100px "Inter Display"`)
+const LOGO = new Image(); LOGO.src = 'logo_black.png';
+window.ready = LOGO.decode().then(() => document.fonts.load(`900 100px "Inter Display"`))
   .then(() => document.fonts.load(`700 30px "JetBrains Mono"`))
   .then(() => document.fonts.load(`900 100px "Inter"`))
   .then(() => true);
