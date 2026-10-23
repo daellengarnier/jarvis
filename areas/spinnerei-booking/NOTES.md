@@ -54,7 +54,7 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
   - Dope Lemon: Management-Mail auf dopelemon.com (nicht lesbar), Entwurf ohne Empfänger. Zu gross.
   - Mystic Braves: kein Agent gefunden, Kontakt per Instagram-DM. Grösse passt.
   - Dead in Love (Lofi-Duo aus Göteborg, Dan Andreasson und Jennifer Lander): sehr klein, kein Agent. Kontakt über Facebook (Mail dort, nicht lesbar) oder deadinlove.bandcamp.com. Text geliefert 2026-10-21, kein Entwurf, Mail fehlt.
-  - Connan Mockasin: Booking vermutlich Goodlive Artists Berlin (goodliveartists.com/artists/connan-mockasin, Agent und Mail offen), laut Verzeichnis EU-Agent "Alex B." London. Keine Europadaten 2026/27. Spielt 500 bis 1000. Entwurf ohne Empfänger angelegt 2026-10-21.
+  - Connan Mockasin: Booking vermutlich Goodlive Artists Berlin (goodliveartists.com/artists/connan-mockasin, Agent und Mail offen), laut Verzeichnis EU-Agent "Alex B." London. Keine Europadaten 2026/27. Spielt 500 bis 1000. Anfrage von Alain gesendet 2026-10-21 an info@livenation.de (Goodlive gehört zu Live Nation). Live Nation DE (Ticket #40451) verweist 2026-10-22 an Live Nation Switzerland, info@livenation.ch. Entwurf an info@livenation.ch angelegt 2026-10-23, Senden nach Ja.
   - Maya Ongaku: Label Guruguru Brain (nur Kontaktformular Bandcamp), linktr.ee/maya.ongaku.overseas, Kontakt per DM. Sehr realistisch, nächste EU-Tour vermutlich Herbst 2027.
 
 ## Offene Punkte
