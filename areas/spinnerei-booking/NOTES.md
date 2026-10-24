@@ -55,6 +55,7 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
   - Mystic Braves: kein Agent gefunden, Kontakt per Instagram-DM. Grösse passt.
   - Dead in Love (Lofi-Duo aus Göteborg, Dan Andreasson und Jennifer Lander): sehr klein, kein Agent. Kontakt über Facebook (Mail dort, nicht lesbar) oder deadinlove.bandcamp.com. Text geliefert 2026-10-21, kein Entwurf, Mail fehlt.
   - Connan Mockasin: Booking vermutlich Goodlive Artists Berlin (goodliveartists.com/artists/connan-mockasin, Agent und Mail offen), laut Verzeichnis EU-Agent "Alex B." London. Keine Europadaten 2026/27. Spielt 500 bis 1000. Anfrage von Alain gesendet 2026-10-21 an info@livenation.de (Goodlive gehört zu Live Nation). Live Nation DE (Ticket #40451) verweist 2026-10-22 an Live Nation Switzerland, info@livenation.ch. Entwurf an info@livenation.ch angelegt 2026-10-23, Senden nach Ja.
+  - The Growlers (LA): 2026 nach sechs Jahren Pause zurück auf Welttour, Europa März 2026 (u.a. London Village Underground, Berlin Festsaal Kreuzberg, Hamburg Uebel & Gefährlich, Köln Kantine), Greek Theatre LA 03.10.2026. Agent nicht gefunden, thegrowlers.com nicht erreichbar. Eher zu gross. Entwurf ohne Empfänger angelegt 2026-10-24.
   - Maya Ongaku: Label Guruguru Brain (nur Kontaktformular Bandcamp), linktr.ee/maya.ongaku.overseas, Kontakt per DM. Sehr realistisch, nächste EU-Tour vermutlich Herbst 2027.
 
 ## Offene Punkte
