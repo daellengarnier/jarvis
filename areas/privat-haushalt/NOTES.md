@@ -17,11 +17,13 @@ Ersetzt die steile Metalltreppe im Zimmer. L-Treppe aus Holz mit Podest und Gel�
 - Masse laut Alain: Galerie 2,30 m hoch. Podest beginnt 1,25 m (horizontal) nach dem heutigen Treppenstart oben. Wand bis Bambuskorb ca. 1,50 m (Bezugspunkt noch unklar).
 - Untere Treppe geht vom Podest rechtwinklig nach links in den Raum.
 - Befestigung nur oben am Galeriebalken und am Podest, Podest muss selbst stabil stehen.
-- Stand 2026-10-25: Podest ca. 80 cm hoch (Alain), untere Treppe steil, max. 3 Tritte, möglichst wenig in den Raum. Vorschlag Jarvis: 11 gleiche Steigungen à 20,9 cm, Podest OK 83,6 cm (bestätigt Alain). Oben 7 Steigungen, 6 Tritte à 20,8 cm (1,25 m, ca. 45°). Unten 4 Steigungen, 3 Tritte à 20 cm (60 cm). Obere Treppe 50 cm zwischen den Wangen, 58 cm aussen (Alain). Podest so tief wie die obere Treppe (58 cm) und 65 cm lang entlang der Wand, beginnt bei 1,25 m. Untere Treppe so breit wie die Podestseite: 65 cm aussen, 57 cm zwischen den Wangen (Annahme Jarvis). Treppe ragt 1,18 m von der Wand in den Raum. Handlauf beidseitig.
+- Stand 2026-10-25 (aktuell, wie Alains KI-Bild): Podest auf 1,00 m, beginnt bei 1,25 m, 65 cm lang × 58 cm tief. Oben 6 Steigungen à 21,7 cm, 5 Tritte à 25 cm, 58 cm aussen / 50 cm zwischen den Wangen. Unten 4 Steigungen à 25 cm, 3 Tritte à 20 cm (60 cm), 65 cm breit, nach vorne in den Raum, ohne Geländer. Geländer: Raumseite oben mit Stäben, Podest rechts mit Stäben, Podestpfosten vorne und rechts als hohe Geländerpfosten. Ragt 1,18 m in den Raum.
+- 3D-Modell für Shapr3D: `areas/privat-haushalt/treppe/treppe_cq.py` (CadQuery, parametrisch, erzeugt treppe.step in mm), Vorschau `treppe/vorschau.png`. Einhängung oben am Galeriebalken im Modell nur angedeutet.
+- Atlas Cloud (Bildgenerierung) verbunden über ATLASCLOUD_API_KEY. Ergebnis-Host atlas-media.oss-us-west-1.aliyuncs.com ist im Netzwerk noch gesperrt (Stand 2026-10-25).
 
 ## Offene Punkte
 
-- [ ] Treppe: Foto Galeriebalken mit Massband (Einhängung der Wangen oben), was mit dem Bambuskorb passiert.
+- [ ] Treppe: Foto Galeriebalken mit Massband (Einhängung der Wangen oben), was mit dem Bambuskorb passiert. Unterschiedliche Steigungen oben 21,7 / unten 25 cm von Alain so gewählt (Podest 1 m, max. 3 Tritte).
 - [ ] Treppe: danach Bauplan mit Zuschnitt- und Materialliste.
 
 ## Nächster Schritt
