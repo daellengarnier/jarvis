@@ -17,11 +17,11 @@ Ersetzt die steile Metalltreppe im Zimmer. L-Treppe aus Holz mit Podest und Gel�
 - Masse laut Alain: Galerie 2,30 m hoch. Podest beginnt 1,25 m (horizontal) nach dem heutigen Treppenstart oben. Wand bis Bambuskorb ca. 1,50 m (Bezugspunkt noch unklar).
 - Untere Treppe geht vom Podest rechtwinklig nach links in den Raum.
 - Befestigung nur oben am Galeriebalken und am Podest, Podest muss selbst stabil stehen.
-- Vorschlag Jarvis: 11 gleiche Steigungen à 20,9 cm, Podest auf 1,045 m statt 1,00 m. Oben 6 Steigungen, 5 Tritte à 25 cm (1,25 m). Unten 5 Steigungen, 4 Tritte à 25 cm (1,00 m). Breite 65 cm, Podest 65 × 65 cm (Alain, darf über den Bambuskorb hinaus).
+- Stand 2026-10-25: Podest ca. 80 cm hoch (Alain), untere Treppe steil, max. 3 Tritte, möglichst wenig in den Raum. Vorschlag Jarvis: 11 gleiche Steigungen à 20,9 cm, Podest OK 83,6 cm. Oben 7 Steigungen, 6 Tritte à 20,8 cm (1,25 m, ca. 45°). Unten 4 Steigungen, 3 Tritte à 20 cm (60 cm). Breite 65 cm, Podest 65 × 65 cm (darf über den Bambuskorb hinaus). Treppe ragt 1,25 m von der Wand in den Raum. Handlauf beidseitig.
 
 ## Offene Punkte
 
-- [ ] Treppe: Bezugspunkt der 1,50 m Wand klären, Platz bis Sofa (Treppe ragt ca. 1,65 m von der Wand in den Raum), 3 oder 4 Tritte unten entscheiden.
+- [ ] Treppe: Podest 83,6 statt 80 bestätigen (oder Podest später beginnen lassen für flachere obere Treppe), Foto Galeriebalken, was mit dem Bambuskorb passiert.
 - [ ] Treppe: danach Bauplan mit Zuschnitt- und Materialliste.
 
 ## Nächster Schritt
