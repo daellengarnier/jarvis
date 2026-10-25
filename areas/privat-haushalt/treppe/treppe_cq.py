@@ -1,78 +1,173 @@
-# Treppe Galerie, Masse in mm. x entlang Wand ab Galeriekante (Galerie links), Raum auf der -y-Seite der Wand, z hoch.
+# Holztreppe Galerie mit Podest, parametrisches Modell fuer Shapr3D (STEP, mm).
+# Koordinaten: x entlang der Wand ab Galeriekante (Galerie links), z nach oben, Raum auf der -y-Seite der Wand.
 # Intern wird mit y = Abstand von der Wand gerechnet und beim Einfuegen an der Wandebene gespiegelt.
-import cadquery as cq
-_add=None
-GAL=2300; PH=1000; XP=1250            # Galerie, Podesthoehe, Podestbeginn
-NU=5; GU=250; HU=(GAL-PH)/(NU+1)      # obere Treppe: 5 Tritte, 6 Steigungen
-NL=3; GL=200; HL=PH/(NL+1)            # untere Treppe: 3 Tritte, 4 Steigungen
-BU=580; PL=650; PD=580; BL=650        # Breite oben, Podest Laenge/Tiefe, Breite unten
-W=40; WH=300; T=40; NUT=15; UEB=40    # Wange, Trittdicke, Nuttiefe, Unterschneidung
-POST=80; RP=70; HR=(45,70); ST=30; STA=150
-asm=cq.Assembly(name="Treppe")
-def add(shape,name,color): asm.add(shape.mirror("XZ"),name=name,color=color)
-C={"holz":cq.Color(0.86,0.70,0.48),"tritt":cq.Color(0.78,0.56,0.33),"platte":cq.Color(0.90,0.78,0.58)}
-def box(name,x0,x1,y0,y1,z0,z1,c="holz"):
-    add(cq.Workplane("XY").box(x1-x0,y1-y0,z1-z0,centered=False).translate((x0,y0,z0)),name,C[c])
-def poly_xz(name,pts,y0,y1,c="holz"):
-    s=cq.Workplane("XZ",origin=(0,y1,0)).polyline(pts).close().extrude(y1-y0); add(s,name,C[c])
-def poly_yz(name,pts,x0,x1,c="holz"):
-    s=cq.Workplane("YZ",origin=(x0,0,0)).polyline(pts).close().extrude(x1-x0); add(s,name,C[c])
-def bar(name,p0,p1,w,h,c="holz"):
-    import math
-    v=cq.Vector(*p1)-cq.Vector(*p0); L=v.Length
-    s=cq.Workplane("XY").box(L,w,h).translate((L/2,0,0))
-    ang=math.degrees(math.atan2(v.z,(v.x**2+v.y**2)**0.5)); yaw=math.degrees(math.atan2(v.y,v.x))
-    s=s.rotate((0,0,0),(0,1,0),-ang).rotate((0,0,0),(0,0,1),yaw).translate(p0)
-    add(s,name,C[c])
-# --- obere Treppe ---
-import math
-LU=lambda x: GAL-(HU/GU)*x              # Linie durch die Trittvorderkanten oben
-top=50                                   # Wange steht 5 cm ueber die Trittkante
-botU=WH/math.cos(math.atan(HU/GU))-top   # 300er Brett, senkrecht gemessen
-for i,(y0,y1) in enumerate([(0,W),(BU-W,BU)]):
-    poly_xz(f"Wange_oben_{'wand' if i==0 else 'raum'}",[(0,LU(0)+top),(XP,LU(XP)+top),(XP,LU(XP)-botU),(0,LU(0)-botU)],y0,y1)
-for k in range(1,NU+1):
-    z=GAL-k*HU; x0=(k-1)*GU-(UEB if k>1 else 0)
-    box(f"Tritt_oben_{k}",x0,k*GU,W-NUT,BU-W+NUT,z-T,z,"tritt")
-# --- Podest ---
-box("Podest_Belag",XP,XP+PL,0,PD,PH-27,PH,"platte")
-zt=PH-27
-for n,(x,y) in {"wand_links":(XP,0),"wand_rechts":(XP+PL-POST,0),"vorne_links":(XP,PD-POST),"vorne_rechts":(XP+PL-POST,PD-POST)}.items():
-    hgt = {"vorne_links":GAL-NU*HU+900+HR[1]/2,"vorne_rechts":PH+1000,"wand_rechts":PH+1000}.get(n,zt)  # vorne links nimmt den oberen Handlauf auf
-    box(f"Podest_Pfosten_{n}",x,x+POST,y,y+POST,0,hgt)
-for n,(a,b,c,d) in {"wand":(XP+POST,XP+PL-POST,0,60),"vorne":(XP+POST,XP+PL-POST,PD-60,PD),
-                    "links":(XP,XP+60,POST,PD-POST),"rechts":(XP+PL-60,XP+PL,POST,PD-POST)}.items():
-    box(f"Podest_Rahmen_{n}",a,b,c,d,zt-120,zt)
-box("Podest_Platte_wand",XP+POST,XP+PL-POST,0,19,0,zt-120,"platte")
-# Seite rechts bleibt offen. Aussteifung quer zur Wand: Strebe auf der linken Seite (unter der oberen Treppe)
-bar("Podest_Strebe_links",(XP+POST/2,POST,100),(XP+POST/2,PD-POST,zt-120),60,60)
-# --- untere Treppe (nach vorne in den Raum) ---
-LL=lambda y: PH-(HL/GL)*(y-PD)          # Linie durch die Trittvorderkanten unten
-botL=WH/math.cos(math.atan(HL/GL))-top
-YEND=PD+NL*GL+30                         # Wange endet 3 cm vor der letzten Trittkante, senkrecht geschnitten
-def lower_pts():
-    return [(PD,LL(PD)+top),(YEND,LL(YEND)+top),(YEND,0),(PD+(LL(PD)+top-botL)*GL/HL,0),(PD,LL(PD)+top-botL)]
-for i,(x0,x1) in enumerate([(XP,XP+W),(XP+BL-W,XP+BL)]):
-    poly_yz(f"Wange_unten_{'links' if i==0 else 'rechts'}",lower_pts(),x0,x1)
-for j in range(1,NL+1):
-    z=PH-j*HL; y0=PD+(j-1)*GL-(UEB if j>1 else 0)
-    box(f"Tritt_unten_{j}",XP+W-NUT,XP+BL-W+NUT,y0,PD+j*GL,z-T,z,"tritt")
-# --- Gelaender ---
-box("Gel_Pfosten_oben",-RP,0,BU-RP,BU,LU(0)-botU,LU(0)+900+HR[1]/2)
-hr0=(-RP/2,BU-20,LU(0)+900); hr1=(XP+POST/2,BU-20,LU(XP)+900)
-bar("Gel_Handlauf_oben",hr0,(XP,BU-20,LU(XP)+900),HR[1],HR[0])
-n=int(XP/STA)
-for i in range(1,n+1):
-    x=i*STA-ST/2
-    if x+ST>XP: break
-    zb=LU(x)+top; zh=LU(x)+900-HR[0]/2
-    box(f"Gel_Stab_oben_{i:02d}",x,x+ST,BU-W/2-ST/2,BU-W/2+ST/2,zb-5,zh)
-zr=PH+1000
-bar("Gel_Handlauf_Podest_rechts",(XP+PL-POST/2,0,zr),(XP+PL-POST/2,PD,zr),HR[1],HR[0])
-bar("Gel_Handlauf_Podest_vorne",(XP,PD-POST/2,zr),(XP+PL,PD-POST/2,zr),HR[1],HR[0]) if False else None
-for i,y in enumerate(range(POST+60,PD-POST,STA)):
-    box(f"Gel_Stab_Podest_{i:02d}",XP+PL-POST/2-ST/2,XP+PL-POST/2+ST/2,y,y+ST,PH,zr-HR[0]/2)
-asm.save("treppe.step")
-cq.exporters.export(asm.toCompound(),"treppe.stl",tolerance=0.5)
-import sys
-print("ok", HU, HL, LU(XP))
+import math, cadquery as cq
+
+# --- Hauptmasse ---
+GAL = 2300            # Oberkante Galerieboden
+PH = 1000             # Oberkante Podest
+XP = 1250             # Podest beginnt (ab Galeriekante)
+PL, PD = 650, 580     # Podest: Laenge entlang Wand, Tiefe
+NU, GU = 5, 250       # obere Treppe: Tritte, Auftritt
+NL, GL = 3, 200       # untere Treppe: Tritte, Auftritt
+BU, BL = 580, 650     # Breite aussen oben / unten
+HU = (GAL - PH) / (NU + 1)
+HL = PH / (NL + 1)
+
+# --- Querschnitte ---
+W, WB = 40, 300       # Wange: Dicke, Brettbreite
+UEB = 50              # Wange steht ueber der Trittvorderkante (senkrecht gemessen)
+T, NUT, UNT = 40, 15, 40   # Trittdicke, Nuttiefe, Unterschneidung
+POST = 80             # Podestpfosten
+RB, RH = 60, 120      # Podestrahmen
+BEL = 27              # Podestbelag
+PLT = 19              # Aussteifungsplatte
+HLB, HLH = 40, 60     # Handlauf Breite, Hoehe (senkrecht)
+ST = 30               # Gelaenderstab
+GEL = 900             # Handlaufhoehe ueber Trittkante
+GELP = 1000           # Gelaenderhoehe am Podest
+
+asm = cq.Assembly(name="Treppe")
+COL = {"stahl": cq.Color(0.25, 0.25, 0.27), "holz": cq.Color(0.86, 0.70, 0.48), "tritt": cq.Color(0.76, 0.54, 0.32), "platte": cq.Color(0.92, 0.80, 0.60)}
+parts = {}
+
+def add(name, solid, c="holz"):
+    parts[name] = solid
+    asm.add(solid.mirror("XZ"), name=name, color=COL[c])
+
+def box(x0, x1, y0, y1, z0, z1):
+    return cq.Workplane("XY").box(x1 - x0, y1 - y0, z1 - z0, centered=False).translate((x0, y0, z0))
+
+def prism_xz(pts, y0, y1):   # Profil in x/z, extrudiert von y0 nach y1
+    return cq.Workplane("XZ", origin=(0, y1, 0)).polyline(pts).close().extrude(y1 - y0)
+
+def prism_yz(pts, x0, x1):   # Profil in y/z, extrudiert von x0 nach x1
+    return cq.Workplane("YZ", origin=(x0, 0, 0)).polyline(pts).close().extrude(x1 - x0)
+
+# Linien durch die Trittvorderkanten
+LU = lambda x: GAL - (HU / GU) * x
+LL = lambda y: PH - (HL / GL) * (y - PD)
+dU = WB / math.cos(math.atan(HU / GU))   # Wangenbreite senkrecht gemessen
+dL = WB / math.cos(math.atan(HL / GL))
+
+# ================= Podest =================
+xL0, xL1 = XP, XP + POST                 # Pfosten links (Seite obere Treppe)
+xR0, xR1 = XP + PL - POST, XP + PL       # Pfosten rechts (offene Seite)
+yW0, yW1 = 0, POST                       # Pfosten an der Wand
+yF0, yF1 = PD - POST, PD                 # Pfosten vorne
+zRo = PH - BEL                           # Oberkante Rahmen = Unterkante Belag
+zRu = zRo - RH
+tUL = LU(XP) + GEL + 30                  # Pfosten vorne links nimmt den oberen Handlauf auf
+add("Pfosten_Wand_links", box(xL0, xL1, yW0, yW1, 0, zRo))          # kurz, endet unter dem Belag
+add("Pfosten_Wand_rechts", box(xR0, xR1, yW0, yW1, 0, PH + GELP))   # durchgehend, Gelaender
+add("Pfosten_vorne_rechts", box(xR0, xR1, yF0, yF1, 0, PH + GELP))  # durchgehend, Gelaender
+add("Pfosten_vorne_links", box(xL0, xL1, yF0, yF1, 0, tUL))         # durchgehend, Handlauf oben
+
+add("Rahmen_Wand", box(xL1, xR0, 0, RB, zRu, zRo))
+add("Rahmen_vorne", box(xL1, xR0, PD - RB, PD, zRu, zRo))
+# Auflagerriegel links, aussen an die linken Pfosten geschraubt: obere Wangen sitzen mit einer Klaue darauf
+add("Auflagerriegel_links", box(XP - RB, XP, 0, PD, zRu, zRo))
+add("Rahmen_rechts", box(xR1 - RB, xR1, yW1, yF0, zRu, zRo))
+
+bel = box(XP, XP + PL, 0, PD, zRo, PH)
+for x0, x1, y0, y1 in [(xR0, xR1, yW0, yW1), (xR0, xR1, yF0, yF1), (xL0, xL1, yF0, yF1)]:
+    bel = bel.cut(box(x0, x1, y0, y1, zRo, PH))   # Ausklinkungen fuer die durchgehenden Pfosten
+add("Podest_Belag", bel, "platte")
+
+add("Aussteifung_Wand", box(xL1, xR0, 0, PLT, 0, zRu), "platte")
+# Strebe links (unter der oberen Treppe), quer zur Wand; rechte Seite bleibt offen
+sb, sh = 60, 90
+add("Strebe_links", prism_yz([(yW1, 150), (yW1, 150 + sh), (yF0, zRu), (yF0, zRu - sh)], XP + 10, XP + 10 + sb))
+
+# ================= Obere Treppe =================
+zcut = GAL                               # oben buendig mit Galerieboden abgeschnitten
+x_top = (LU(0) + UEB - zcut) * GU / HU
+profU = [(0, zcut), (x_top, zcut), (XP, LU(XP) + UEB), (XP, zRo), (XP - RB, zRo),
+         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU)]   # Klaue auf dem Auflagerriegel
+treadsU = []
+for k in range(1, NU + 1):
+    z = GAL - k * HU
+    x0 = 0 if k == 1 else (k - 1) * GU - UNT
+    treadsU.append(box(x0, k * GU, W - NUT, BU - W + NUT, z - T, z))
+for name, y0, y1 in [("Wange_oben_Wand", 0, W), ("Wange_oben_Raum", BU - W, BU)]:
+    s = prism_xz(profU, y0, y1)
+    for t in treadsU:
+        s = s.cut(t)                     # Nuten fuer die Tritte
+    add(name, s)
+for k, t in enumerate(treadsU, 1):
+    add(f"Tritt_oben_{k}", t, "tritt")
+
+# ================= Untere Treppe =================
+y_top = PD + UEB * GL / HL
+YEND = PD + NL * GL + 30
+yfl = PD + (PH + UEB - dL) * GL / HL
+profL = [(PD, PH), (y_top, PH), (YEND, LL(YEND) + UEB), (YEND, 0), (yfl, 0), (PD, PH + UEB - dL)]
+treadsL = []
+for j in range(1, NL + 1):
+    z = PH - j * HL
+    y0 = PD if j == 1 else PD + (j - 1) * GL - UNT
+    treadsL.append(box(XP + W - NUT, XP + BL - W + NUT, y0, PD + j * GL, z - T, z))
+for name, x0, x1 in [("Wange_unten_links", XP, XP + W), ("Wange_unten_rechts", XP + BL - W, XP + BL)]:
+    s = prism_yz(profL, x0, x1)
+    for t in treadsL:
+        s = s.cut(t)
+    add(name, s)
+for j, t in enumerate(treadsL, 1):
+    add(f"Tritt_unten_{j}", t, "tritt")
+
+# ================= Stahllaschen (6 mm, je 2 Schrauben M10 pro Holzteil) =================
+def lasche_x(x0, x1, y0, y1, z0, z1, holes):
+    p = box(x0, x1, y0, y1, z0, z1)
+    for (yy, zz) in holes:
+        p = p.cut(cq.Workplane("YZ", origin=(x0 - 1, yy, zz)).circle(5.5).extrude(x1 - x0 + 2))
+    return p
+def lasche_y(x0, x1, y0, y1, z0, z1, holes):
+    p = box(x0, x1, y0, y1, z0, z1)
+    for (xx, zz) in holes:
+        p = p.cut(cq.Workplane("XZ", origin=(xx, y1 + 1, zz)).circle(5.5).extrude(y1 - y0 + 2))
+    return p
+# untere Wangen an die vorderen Pfosten: Lasche aussen, buendig ueber Pfosten und Wangenkopf
+lz0, lz1 = 640, 840
+hl = [(PD - POST / 2, 690), (PD - POST / 2, 790), (PD + 45, 690), (PD + 45, 790)]
+add("Lasche_unten_links", lasche_x(XP - 6, XP, PD - POST, PD + 90, lz0, lz1, hl), "stahl")
+add("Lasche_unten_rechts", lasche_x(XP + PL, XP + PL + 6, PD - POST, PD + 90, lz0, lz1, hl), "stahl")
+# obere Raumwange an den Pfosten vorne links
+hu = [(XP - 100, 1060), (XP - 40, 1160), (XP + POST / 2, 1060), (XP + POST / 2, 1160)]
+add("Lasche_oben_Raum", lasche_y(XP - 140, XP + POST, BU, BU + 6, 1010, 1200, hu), "stahl")
+
+# ================= Gelaender =================
+# Oben: Handlauf ueber der Raumwange, zwischen Galeriepfosten und Podestpfosten vorne links
+gy0, gy1 = BU - HLB, BU
+add("Pfosten_Galerie", box(-POST, 0, BU - POST, BU, GAL, LU(0) + GEL + 30))
+add("Handlauf_oben", prism_xz([(0, LU(0) + GEL), (XP, LU(XP) + GEL), (XP, LU(XP) + GEL - HLH), (0, LU(0) + GEL - HLH)], gy0, gy1))
+n = 8
+gap = (XP - n * ST) / (n + 1)
+for i in range(n):
+    x0 = gap + i * (gap + ST); x1 = x0 + ST
+    pts = [(x0, LU(x0) + UEB), (x1, LU(x1) + UEB), (x1, LU(x1) + GEL - HLH), (x0, LU(x0) + GEL - HLH)]
+    add(f"Stab_oben_{i+1}", prism_xz(pts, BU - W / 2 - ST / 2, BU - W / 2 + ST / 2))
+# Podest rechte Seite: Handlauf zwischen den Pfosten, Oberkante buendig
+hx0, hx1 = xR0 + (POST - HLB) / 2, xR0 + (POST + HLB) / 2
+add("Handlauf_Podest", box(hx0, hx1, yW1, yF0, PH + GELP - HLH, PH + GELP))
+m = 3
+gp = (yF0 - yW1 - m * ST) / (m + 1)
+for i in range(m):
+    y0 = yW1 + gp + i * (gp + ST)
+    add(f"Stab_Podest_{i+1}", box(xR0 + (POST - ST) / 2, xR0 + (POST + ST) / 2, y0, y0 + ST, PH, PH + GELP - HLH))
+
+if __name__ == "__main__":
+    import sys
+    asm.save("treppe.step")
+    if "--glb" in sys.argv: asm.export("r3/treppe.glb")
+    # Pruefung: keine Ueberschneidungen zwischen Teilen
+    names = list(parts); bad = []
+    for i, a in enumerate(names):
+        A = parts[a].val()
+        for b in names[i + 1:]:
+            B = parts[b].val()
+            a1, b1 = A.BoundingBox(), B.BoundingBox()
+            if a1.xmax <= b1.xmin or b1.xmax <= a1.xmin or a1.ymax <= b1.ymin or b1.ymax <= a1.ymin or a1.zmax <= b1.zmin or b1.zmax <= a1.zmin: continue
+            v = A.intersect(B).Volume()
+            if v > 1: bad.append((a, b, round(v)))
+    print("Teile:", len(names), "Ueberschneidungen:", bad if bad else "keine")
+    print(f"Steigung oben {HU:.1f}, unten {HL:.1f}; Ausladung in den Raum {YEND/10:.1f} cm; Galeriepfosten bis {LU(0)+GEL+30:.0f}")
