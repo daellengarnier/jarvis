@@ -26,8 +26,9 @@ HLB, HLH = 40, 60     # Handlauf Breite, Hoehe (senkrecht)
 ST = 40               # Gelaenderstab, aus der 40-mm-Platte geschnitten
 GEL = 900             # Handlaufhoehe ueber Trittkante
 GELP = 1000           # Gelaenderhoehe am Podest
-# Einhaengewinkel oben (Stahl 6 mm): haengt auf dem Galerieboden, an die Wange geschraubt
-HK = 150              # Auflagelaenge auf der Galerie
+# Holzverbindungen statt Stahl
+TD = 30               # oben: Wange greift 30 mm in eine Tasche im Randbalken
+FZ = 20               # unten: Wange sitzt in einem 20 mm Falz in den vorderen Pfosten
 # Bestand Galerie (ANNAHME, am Bau messen): Boden 30 mm, Randbalken 120 x 200 direkt unter der Kante
 GB, RBB, RBH = 30, 120, 200
 
@@ -65,8 +66,8 @@ zRu = zRo - RH
 tUL = LU(XP) + GEL + 30                  # Pfosten vorne links nimmt den oberen Handlauf auf
 add("Pfosten_Wand_links", box(xL0, xL1, yW0, yW1, 0, zRo))          # kurz, endet unter dem Belag
 add("Pfosten_Wand_rechts", box(xR0, xR1, yW0, yW1, 0, PH + GELP))   # durchgehend, Gelaender
-add("Pfosten_vorne_rechts", box(xR0, xR1, yF0, yF1, 0, PH + GELP))  # durchgehend, Gelaender
-add("Pfosten_vorne_links", box(xL0, xL1, yF0, yF1, 0, tUL))         # durchgehend, Handlauf oben
+add("Pfosten_vorne_rechts", box(xR0, xR1, yF0, yF1, 0, PH + GELP).cut(box(XP + BL - W, XP + BL, PD - FZ, PD, 700, zRo)))  # durchgehend, Falz fuer die Wange
+add("Pfosten_vorne_links", box(xL0, xL1, yF0, yF1, 0, tUL).cut(box(XP, XP + W, PD - FZ, PD, 700, zRo)))  # durchgehend, Falz fuer die Wange
 
 add("Rahmen_Wand", box(xL1, xR0, 0, RB, zRu, zRo))
 add("Rahmen_vorne", box(xL1, xR0, PD - RB, PD, zRu, zRo))
@@ -87,9 +88,10 @@ add("Strebe_links", prism_yz([(yW1, 150), (yW1, 150 + sh), (yF0, zRu), (yF0, zRu
 
 # ================= Obere Treppe =================
 x_top = (LU(0) + UEB - GAL) * GU / HU
+zT0 = GAL - GB - RBH + 40                 # Auflager in der Tasche, 40 mm Holz bleibt unter der Tasche
 profU = [(0, GAL), (x_top, GAL), (XP, LU(XP) + UEB), (XP, zRo), (XP - RB, zRo),
-         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU)]
-# oben: buendig mit Galerieboden, Stirn liegt am Randbalken an (Schub), getragen vom Einhaengewinkel;
+         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU), (0, zT0), (-TD, zT0), (-TD, GAL - GB), (0, GAL - GB)]
+# oben: Zunge greift in eine Tasche im Randbalken und liegt dort auf, oben buendig mit Galerieboden;
 # unten: Klaue auf dem Auflagerriegel
 treadsU = []
 for k in range(1, NU + 1):
@@ -108,7 +110,9 @@ for k, t in enumerate(treadsU, 1):
 y_top = PD + UEB * GL / HL
 YEND = PD + NL * GL + 30
 yfl = PD + (PH + UEB - dL) * GL / HL
-profL = [(PD, PH), (y_top, PH), (YEND, LL(YEND) + UEB), (YEND, 0), (yfl, 0), (PD, PH + UEB - dL)]
+zF0 = 700                                # Auflager im Falz der vorderen Pfosten
+profL = [(PD - FZ, zF0), (PD - FZ, zRo), (PD, zRo), (PD, PH), (y_top, PH), (YEND, LL(YEND) + UEB), (YEND, 0), (yfl, 0),
+         (PD, PH + UEB - dL), (PD, zF0)]
 treadsL = []
 for j in range(1, NL + 1):
     z = PH - j * HL
@@ -121,41 +125,6 @@ for name, x0, x1 in [("Wange_unten_links", XP, XP + W), ("Wange_unten_rechts", X
     add(name, s)
 for j, t in enumerate(treadsL, 1):
     add(f"Tritt_unten_{j}", t, "tritt")
-
-# ================= Stahllaschen (6 mm, je 2 Schrauben M10 pro Holzteil) =================
-def lasche_x(x0, x1, y0, y1, z0, z1, holes):
-    p = box(x0, x1, y0, y1, z0, z1)
-    for (yy, zz) in holes:
-        p = p.cut(cq.Workplane("YZ", origin=(x0 - 1, yy, zz)).circle(5.5).extrude(x1 - x0 + 2))
-    return p
-def lasche_y(x0, x1, y0, y1, z0, z1, holes):
-    p = box(x0, x1, y0, y1, z0, z1)
-    for (xx, zz) in holes:
-        p = p.cut(cq.Workplane("XZ", origin=(xx, y1 + 1, zz)).circle(5.5).extrude(y1 - y0 + 2))
-    return p
-# untere Wangen an die vorderen Pfosten: Lasche aussen, buendig ueber Pfosten und Wangenkopf
-lz0, lz1 = 640, 840
-hl = [(PD - POST / 2, 690), (PD - POST / 2, 790), (PD + 45, 690), (PD + 45, 790)]
-add("Lasche_unten_links", lasche_x(XP - 6, XP, PD - POST, PD + 90, lz0, lz1, hl), "stahl")
-add("Lasche_unten_rechts", lasche_x(XP + PL, XP + PL + 6, PD - POST, PD + 90, lz0, lz1, hl), "stahl")
-# obere Raumwange an den Pfosten vorne links
-hu = [(XP - 100, 1060), (XP - 40, 1160), (XP + POST / 2, 1060), (XP + POST / 2, 1160)]
-add("Lasche_oben_Raum", lasche_y(XP - 140, XP + POST, BU, BU + 6, 1010, 1200, hu), "stahl")
-
-# Einhaengewinkel oben: Platte seitlich an der Wange (2 x M10 durch die Wange),
-# oben abgewinkelte Lasche liegt auf dem Galerieboden (2 Tellerkopfschrauben 8 x 240 in den Randbalken)
-zW0 = GAL - HU + 12                      # Unterkante Platte, ueber Tritt 1
-winkel_pts = [(-HK, GAL), (-HK, GAL + 70), (0, GAL + 70), (200, LU(200) + UEB + 20), (200, zW0), (0, zW0), (0, GAL)]
-def winkel(y0, y1, ty0, ty1):
-    p = prism_xz(winkel_pts, y0, y1)
-    for (xx, zz) in [(80, zW0 + 65), (170, zW0 + 40)]:
-        p = p.cut(cq.Workplane("XZ", origin=(xx, y1 + 1, zz)).circle(5.5).extrude(y1 - y0 + 2))
-    t = box(-HK, -10, ty0, ty1, GAL, GAL + 6)
-    for xx in (-115, -45):
-        t = t.cut(cq.Workplane("XY", origin=(xx, (ty0 + ty1) / 2, GAL - 1)).circle(4.5).extrude(8))
-    return p.union(t)
-add("Einhaengewinkel_Raum", winkel(BU, BU + 6, BU + 6, BU + 66), "stahl")
-add("Einhaengewinkel_Wand", winkel(W, W + 6, W + 6, W + 66), "stahl")
 
 # ================= Gelaender =================
 # Oben: Handlauf ueber der Raumwange, zwischen Galeriepfosten und Podestpfosten vorne links
@@ -179,7 +148,7 @@ for i in range(m):
 
 # ================= Bestand Galerie (nur zur Orientierung, Masse angenommen) =================
 add("Bestand_Galerieboden", box(-1500, 0, 0, 1500, GAL - GB, GAL), "bestand")
-add("Bestand_Randbalken", box(-RBB, 0, 0, 1500, GAL - GB - RBH, GAL - GB), "bestand")
+add("Bestand_Randbalken", box(-RBB, 0, 0, 1500, GAL - GB - RBH, GAL - GB).cut(box(-TD, 0, 0, W, GAL - GB - RBH + 40, GAL - GB)).cut(box(-TD, 0, BU - W, BU, GAL - GB - RBH + 40, GAL - GB)), "bestand")  # Taschen fuer die Wangen
 
 if __name__ == "__main__":
     import sys
