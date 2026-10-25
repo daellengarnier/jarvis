@@ -20,15 +20,16 @@ UEB = 50              # Wange steht ueber der Trittvorderkante (senkrecht gemess
 T, NUT, UNT = 40, 15, 40   # Trittdicke, Nuttiefe, Unterschneidung
 POST = 80             # Podestpfosten
 RB, RH = 60, 120      # Podestrahmen
-BEL = 27              # Podestbelag
-PLT = 19              # Aussteifungsplatte
+BEL = 40              # Podestbelag (Fichte 40 mm, wie alle Plattenteile)
+PLT = 40              # Aussteifungsplatte
 HLB, HLH = 40, 60     # Handlauf Breite, Hoehe (senkrecht)
-ST = 30               # Gelaenderstab
+ST = 40               # Gelaenderstab, aus der 40-mm-Platte geschnitten
 GEL = 900             # Handlaufhoehe ueber Trittkante
 GELP = 1000           # Gelaenderhoehe am Podest
 
 asm = cq.Assembly(name="Treppe")
-COL = {"stahl": cq.Color(0.25, 0.25, 0.27), "holz": cq.Color(0.86, 0.70, 0.48), "tritt": cq.Color(0.76, 0.54, 0.32), "platte": cq.Color(0.92, 0.80, 0.60)}
+FI = cq.Color(0.88, 0.74, 0.52)   # alles Fichte
+COL = {"stahl": cq.Color(0.25, 0.25, 0.27), "holz": FI, "tritt": FI, "platte": FI}
 parts = {}
 
 def add(name, solid, c="holz"):
@@ -76,7 +77,8 @@ add("Podest_Belag", bel, "platte")
 
 add("Aussteifung_Wand", box(xL1, xR0, 0, PLT, 0, zRu), "platte")
 # Strebe links (unter der oberen Treppe), quer zur Wand; rechte Seite bleibt offen
-sb, sh = 60, 90
+sb = 60
+sh = 80 / math.cos(math.atan((zRu - 150) / (yF0 - yW1)))   # Strebe 60 x 80 (Rahmenholz), senkrecht gemessen
 add("Strebe_links", prism_yz([(yW1, 150), (yW1, 150 + sh), (yF0, zRu), (yF0, zRu - sh)], XP + 10, XP + 10 + sb))
 
 # ================= Obere Treppe =================
