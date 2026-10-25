@@ -25,10 +25,12 @@ def bar(name,p0,p1,w,h,c="holz"):
     s=s.rotate((0,0,0),(0,1,0),-ang).rotate((0,0,0),(0,0,1),yaw).translate(p0)
     add(s,name,C[c])
 # --- obere Treppe ---
-LU=lambda x: GAL-HU-(HU/GU)*x          # Trittkantenlinie oben
-top=60; bot=WH*1.35-top
+import math
+LU=lambda x: GAL-(HU/GU)*x              # Linie durch die Trittvorderkanten oben
+top=50                                   # Wange steht 5 cm ueber die Trittkante
+botU=WH/math.cos(math.atan(HU/GU))-top   # 300er Brett, senkrecht gemessen
 for i,(y0,y1) in enumerate([(0,W),(BU-W,BU)]):
-    poly_xz(f"Wange_oben_{'wand' if i==0 else 'raum'}",[(0,LU(0)+top),(XP,LU(XP)+top),(XP,LU(XP)-bot),(0,LU(0)-bot)],y0,y1)
+    poly_xz(f"Wange_oben_{'wand' if i==0 else 'raum'}",[(0,LU(0)+top),(XP,LU(XP)+top),(XP,LU(XP)-botU),(0,LU(0)-botU)],y0,y1)
 for k in range(1,NU+1):
     z=GAL-k*HU; x0=(k-1)*GU-(UEB if k>1 else 0)
     box(f"Tritt_oben_{k}",x0,k*GU,W-NUT,BU-W+NUT,z-T,z,"tritt")
@@ -36,26 +38,27 @@ for k in range(1,NU+1):
 box("Podest_Belag",XP,XP+PL,0,PD,PH-27,PH,"platte")
 zt=PH-27
 for n,(x,y) in {"wand_links":(XP,0),"wand_rechts":(XP+PL-POST,0),"vorne_links":(XP,PD-POST),"vorne_rechts":(XP+PL-POST,PD-POST)}.items():
-    hgt = PH+1000 if n in ("vorne_links","vorne_rechts","wand_rechts") else zt
+    hgt = {"vorne_links":GAL-NU*HU+900+HR[1]/2,"vorne_rechts":PH+1000,"wand_rechts":PH+1000}.get(n,zt)  # vorne links nimmt den oberen Handlauf auf
     box(f"Podest_Pfosten_{n}",x,x+POST,y,y+POST,0,hgt)
 for n,(a,b,c,d) in {"wand":(XP+POST,XP+PL-POST,0,60),"vorne":(XP+POST,XP+PL-POST,PD-60,PD),
                     "links":(XP,XP+60,POST,PD-POST),"rechts":(XP+PL-60,XP+PL,POST,PD-POST)}.items():
     box(f"Podest_Rahmen_{n}",a,b,c,d,zt-120,zt)
 box("Podest_Platte_wand",XP+POST,XP+PL-POST,0,19,0,zt-120,"platte")
-box("Podest_Platte_rechts",XP+PL,XP+PL+19,0,PD,0,zt,"platte")
+# Seite rechts bleibt offen. Aussteifung quer zur Wand: Strebe auf der linken Seite (unter der oberen Treppe)
+bar("Podest_Strebe_links",(XP+POST/2,POST,100),(XP+POST/2,PD-POST,zt-120),60,60)
 # --- untere Treppe (nach vorne in den Raum) ---
-LL=lambda y: PH-HL-(HL/GL)*(y-PD)
-ytop=PD+GL*(LL(PD)+top)/(HL)*1.0
+LL=lambda y: PH-(HL/GL)*(y-PD)          # Linie durch die Trittvorderkanten unten
+botL=WH/math.cos(math.atan(HL/GL))-top
+YEND=PD+NL*GL+30                         # Wange endet 3 cm vor der letzten Trittkante, senkrecht geschnitten
 def lower_pts():
-    y_top_floor=PD+(LL(PD)+top)*GL/HL; y_bot_floor=PD+(LL(PD)-bot*0.75)*GL/HL
-    return [(PD,LL(PD)+top),(y_top_floor,0),(y_bot_floor,0),(PD,LL(PD)-bot*0.75)]
+    return [(PD,LL(PD)+top),(YEND,LL(YEND)+top),(YEND,0),(PD+(LL(PD)+top-botL)*GL/HL,0),(PD,LL(PD)+top-botL)]
 for i,(x0,x1) in enumerate([(XP,XP+W),(XP+BL-W,XP+BL)]):
     poly_yz(f"Wange_unten_{'links' if i==0 else 'rechts'}",lower_pts(),x0,x1)
 for j in range(1,NL+1):
     z=PH-j*HL; y0=PD+(j-1)*GL-(UEB if j>1 else 0)
     box(f"Tritt_unten_{j}",XP+W-NUT,XP+BL-W+NUT,y0,PD+j*GL,z-T,z,"tritt")
 # --- Gelaender ---
-box("Gel_Pfosten_oben",-RP,0,BU-RP,BU,LU(0)-bot,LU(0)+900+HR[1]/2)
+box("Gel_Pfosten_oben",-RP,0,BU-RP,BU,LU(0)-botU,LU(0)+900+HR[1]/2)
 hr0=(-RP/2,BU-20,LU(0)+900); hr1=(XP+POST/2,BU-20,LU(XP)+900)
 bar("Gel_Handlauf_oben",hr0,(XP,BU-20,LU(XP)+900),HR[1],HR[0])
 n=int(XP/STA)
