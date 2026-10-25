@@ -26,8 +26,8 @@ HLB, HLH = 40, 60     # Handlauf Breite, Hoehe (senkrecht)
 ST = 40               # Gelaenderstab, aus der 40-mm-Platte geschnitten
 GEL = 900             # Handlaufhoehe ueber Trittkante
 GELP = 1000           # Gelaenderhoehe am Podest
-# Wangenkopf oben: liegt auf dem Galerieboden ueber dem Randbalken auf
-HK, KH = 150, 80      # Kopflaenge auf der Galerie, Kopfhoehe ueber Galerieboden
+# Einhaengewinkel oben (Stahl 6 mm): haengt auf dem Galerieboden, an die Wange geschraubt
+HK = 150              # Auflagelaenge auf der Galerie
 # Bestand Galerie (ANNAHME, am Bau messen): Boden 30 mm, Randbalken 120 x 200 direkt unter der Kante
 GB, RBB, RBH = 30, 120, 200
 
@@ -86,10 +86,11 @@ sh = 80 / math.cos(math.atan((zRu - 150) / (yF0 - yW1)))   # Strebe 60 x 80 (Rah
 add("Strebe_links", prism_yz([(yW1, 150), (yW1, 150 + sh), (yF0, zRu), (yF0, zRu - sh)], XP + 10, XP + 10 + sb))
 
 # ================= Obere Treppe =================
-x_k = (LU(0) + UEB - GAL - KH) * GU / HU   # wo die Wangenoberkante die Kopfhoehe erreicht
-profU = [(-HK, GAL), (-HK, GAL + KH), (x_k, GAL + KH), (XP, LU(XP) + UEB), (XP, zRo), (XP - RB, zRo),
-         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU), (0, GAL)]
-# oben: Kopf liegt auf dem Galerieboden, Stirn liegt am Randbalken an; unten: Klaue auf dem Auflagerriegel
+x_top = (LU(0) + UEB - GAL) * GU / HU
+profU = [(0, GAL), (x_top, GAL), (XP, LU(XP) + UEB), (XP, zRo), (XP - RB, zRo),
+         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU)]
+# oben: buendig mit Galerieboden, Stirn liegt am Randbalken an (Schub), getragen vom Einhaengewinkel;
+# unten: Klaue auf dem Auflagerriegel
 treadsU = []
 for k in range(1, NU + 1):
     z = GAL - k * HU
@@ -141,10 +142,25 @@ add("Lasche_unten_rechts", lasche_x(XP + PL, XP + PL + 6, PD - POST, PD + 90, lz
 hu = [(XP - 100, 1060), (XP - 40, 1160), (XP + POST / 2, 1060), (XP + POST / 2, 1160)]
 add("Lasche_oben_Raum", lasche_y(XP - 140, XP + POST, BU, BU + 6, 1010, 1200, hu), "stahl")
 
+# Einhaengewinkel oben: Platte seitlich an der Wange (2 x M10 durch die Wange),
+# oben abgewinkelte Lasche liegt auf dem Galerieboden (2 Tellerkopfschrauben 8 x 240 in den Randbalken)
+zW0 = GAL - HU + 12                      # Unterkante Platte, ueber Tritt 1
+winkel_pts = [(-HK, GAL), (-HK, GAL + 70), (0, GAL + 70), (200, LU(200) + UEB + 20), (200, zW0), (0, zW0), (0, GAL)]
+def winkel(y0, y1, ty0, ty1):
+    p = prism_xz(winkel_pts, y0, y1)
+    for (xx, zz) in [(80, zW0 + 65), (170, zW0 + 40)]:
+        p = p.cut(cq.Workplane("XZ", origin=(xx, y1 + 1, zz)).circle(5.5).extrude(y1 - y0 + 2))
+    t = box(-HK, -10, ty0, ty1, GAL, GAL + 6)
+    for xx in (-115, -45):
+        t = t.cut(cq.Workplane("XY", origin=(xx, (ty0 + ty1) / 2, GAL - 1)).circle(4.5).extrude(8))
+    return p.union(t)
+add("Einhaengewinkel_Raum", winkel(BU, BU + 6, BU + 6, BU + 66), "stahl")
+add("Einhaengewinkel_Wand", winkel(W, W + 6, W + 6, W + 66), "stahl")
+
 # ================= Gelaender =================
 # Oben: Handlauf ueber der Raumwange, zwischen Galeriepfosten und Podestpfosten vorne links
 gy0, gy1 = BU - HLB, BU
-add("Pfosten_Galerie", box(-POST, 0, BU - POST, BU, GAL, LU(0) + GEL + 30).cut(box(-POST, 0, BU - W, BU, GAL, GAL + KH)))  # ueber den Wangenkopf ausgeklinkt
+add("Pfosten_Galerie", box(-POST, 0, BU - POST, BU, GAL, LU(0) + GEL + 30))
 add("Handlauf_oben", prism_xz([(0, LU(0) + GEL), (XP, LU(XP) + GEL), (XP, LU(XP) + GEL - HLH), (0, LU(0) + GEL - HLH)], gy0, gy1))
 n = 8
 gap = (XP - n * ST) / (n + 1)
