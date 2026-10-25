@@ -26,10 +26,14 @@ HLB, HLH = 40, 60     # Handlauf Breite, Hoehe (senkrecht)
 ST = 40               # Gelaenderstab, aus der 40-mm-Platte geschnitten
 GEL = 900             # Handlaufhoehe ueber Trittkante
 GELP = 1000           # Gelaenderhoehe am Podest
+# Wangenkopf oben: liegt auf dem Galerieboden ueber dem Randbalken auf
+HK, KH = 150, 80      # Kopflaenge auf der Galerie, Kopfhoehe ueber Galerieboden
+# Bestand Galerie (ANNAHME, am Bau messen): Boden 30 mm, Randbalken 120 x 200 direkt unter der Kante
+GB, RBB, RBH = 30, 120, 200
 
 asm = cq.Assembly(name="Treppe")
 FI = cq.Color(0.88, 0.74, 0.52)   # alles Fichte
-COL = {"stahl": cq.Color(0.25, 0.25, 0.27), "holz": FI, "tritt": FI, "platte": FI}
+COL = {"bestand": cq.Color(0.55, 0.42, 0.30), "stahl": cq.Color(0.25, 0.25, 0.27), "holz": FI, "tritt": FI, "platte": FI}
 parts = {}
 
 def add(name, solid, c="holz"):
@@ -82,10 +86,10 @@ sh = 80 / math.cos(math.atan((zRu - 150) / (yF0 - yW1)))   # Strebe 60 x 80 (Rah
 add("Strebe_links", prism_yz([(yW1, 150), (yW1, 150 + sh), (yF0, zRu), (yF0, zRu - sh)], XP + 10, XP + 10 + sb))
 
 # ================= Obere Treppe =================
-zcut = GAL                               # oben buendig mit Galerieboden abgeschnitten
-x_top = (LU(0) + UEB - zcut) * GU / HU
-profU = [(0, zcut), (x_top, zcut), (XP, LU(XP) + UEB), (XP, zRo), (XP - RB, zRo),
-         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU)]   # Klaue auf dem Auflagerriegel
+x_k = (LU(0) + UEB - GAL - KH) * GU / HU   # wo die Wangenoberkante die Kopfhoehe erreicht
+profU = [(-HK, GAL), (-HK, GAL + KH), (x_k, GAL + KH), (XP, LU(XP) + UEB), (XP, zRo), (XP - RB, zRo),
+         (XP - RB, LU(XP - RB) + UEB - dU), (0, LU(0) + UEB - dU), (0, GAL)]
+# oben: Kopf liegt auf dem Galerieboden, Stirn liegt am Randbalken an; unten: Klaue auf dem Auflagerriegel
 treadsU = []
 for k in range(1, NU + 1):
     z = GAL - k * HU
@@ -140,7 +144,7 @@ add("Lasche_oben_Raum", lasche_y(XP - 140, XP + POST, BU, BU + 6, 1010, 1200, hu
 # ================= Gelaender =================
 # Oben: Handlauf ueber der Raumwange, zwischen Galeriepfosten und Podestpfosten vorne links
 gy0, gy1 = BU - HLB, BU
-add("Pfosten_Galerie", box(-POST, 0, BU - POST, BU, GAL, LU(0) + GEL + 30))
+add("Pfosten_Galerie", box(-POST, 0, BU - POST, BU, GAL, LU(0) + GEL + 30).cut(box(-POST, 0, BU - W, BU, GAL, GAL + KH)))  # ueber den Wangenkopf ausgeklinkt
 add("Handlauf_oben", prism_xz([(0, LU(0) + GEL), (XP, LU(XP) + GEL), (XP, LU(XP) + GEL - HLH), (0, LU(0) + GEL - HLH)], gy0, gy1))
 n = 8
 gap = (XP - n * ST) / (n + 1)
@@ -156,6 +160,10 @@ gp = (yF0 - yW1 - m * ST) / (m + 1)
 for i in range(m):
     y0 = yW1 + gp + i * (gp + ST)
     add(f"Stab_Podest_{i+1}", box(xR0 + (POST - ST) / 2, xR0 + (POST + ST) / 2, y0, y0 + ST, PH, PH + GELP - HLH))
+
+# ================= Bestand Galerie (nur zur Orientierung, Masse angenommen) =================
+add("Bestand_Galerieboden", box(-1500, 0, 0, 1500, GAL - GB, GAL), "bestand")
+add("Bestand_Randbalken", box(-RBB, 0, 0, 1500, GAL - GB - RBH, GAL - GB), "bestand")
 
 if __name__ == "__main__":
     import sys
