@@ -1,7 +1,7 @@
 # NOTES: spinnerei-verein
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-26
 
 ## Aktueller Stand
 
@@ -30,7 +30,7 @@ Quelle: Sitzungsprotokolle 2026 im Drive, Ordner https://drive.google.com/drive/
 
 - [ ] Ist der Präsidiumswechsel zu Ambar Conca vollzogen? Laut Protokoll 28.09. noch nicht.
 - [ ] GV durchführen (Pendenz seit Frühling).
-- [ ] Antwort an Fabienne (Haus Felsenau) zu Eintritt und Notfallnummer: Stand unbekannt.
+- [ ] Antwort an Fabienne (Haus Felsenau) zu Eintritt und Notfallnummer: laut Protokoll 26.10. zusätzlich fragen, was "unangepasstes Verhalten" konkret heisst und bei wem es nicht geht. Entwurf als Antwort auf ihre Mail vom 29.04. im Postfach info@ angelegt (2026-10-26, cc Susanne Pfyffer), wartet auf Alains Ja zum Senden.
 
 ## Nächster Schritt
 
