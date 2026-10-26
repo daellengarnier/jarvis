@@ -28,7 +28,11 @@ Quelle: Sitzungsprotokolle 2026 im Drive, Ordner https://drive.google.com/drive/
 
 ## Offene Punkte
 
-- [ ] Ist der Präsidiumswechsel zu Ambar Conca vollzogen? Laut Protokoll 28.09. noch nicht.
+- [ ] Präsidiumswechsel formell abschliessen. GV 2026 (Protokoll im Drive, Ordner Sitzungsprotokolle) wählt Ambar als Präsidentin, Yves STV, Alain Financier. Simona ist ausgetreten. Laut Sitzung 26.10.: Dällen macht mit Simä und Yves Bank-Infos und Weiteres.
+  - Bank: BEKB (IBAN CH19 0079 0016 9408 2010 4, Clearing 790; Drive-Ordner "Konto BEKB"). Zeichnungsberechtigung Simä raus, Ambar rein. Welche Unterlagen die BEKB will: unbekannt.
+  - GV-Protokoll 2026 im Drive ist noch unvollständig (Datum "[Tag] Juni", Traktanden 10 bis 13 offen, nicht unterschrieben). Die Bank braucht vermutlich eine unterschriebene Fassung.
+  - Weitere Stellen mit Simä als Kontakt prüfen: Versicherung, Mietvertrag Genossenschaft, SUISA, PETZI, UID-Register.
+  - 2026-10-26: Entwurf in info@ an simona@ und yves@ (cc ambar@) angelegt, nicht gesendet. Ob simona@ nach ihrem Austritt noch gelesen wird: unbekannt.
 - [ ] GV durchführen (Pendenz seit Frühling).
 - [ ] Antwort an Fabienne (Haus Felsenau) zu Eintritt und Notfallnummer: laut Protokoll 26.10. zusätzlich fragen, was "unangepasstes Verhalten" konkret heisst und bei wem es nicht geht. Entwurf als Antwort auf ihre Mail vom 29.04. im Postfach info@ angelegt (2026-10-26, cc Susanne Pfyffer, mit Bitte, die Anlässe intern nicht zu bewerben). Alain sendet nicht via Jarvis (2026-10-26).
 
