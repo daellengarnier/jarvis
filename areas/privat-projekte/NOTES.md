@@ -47,6 +47,7 @@ Zuletzt aktualisiert: 2026-10-18
   - 2026-10-22 live gemergt (Ja Alain): `claude/shared-org-app-IYZYF` auf 222ca7e (Phase 1 + Design C). Hinweis: Die Auto-Freigabe der Umgebung blockt Pushes auf diesen Branch als Produktions-Deploy, erst nach ausdrücklicher Erlaubnis von Alain ging es. Danach Token in der App erzeugen (Profil, Jarvis-Zugang) und als `LIFE_APP_TOKEN` in der Jarvis-Umgebung hinterlegen.
   - Nach Livegang offen: `legacy_workspace_state` (Kopie der alten Daten inkl. Ambar und Zyklus) und Ambars Account löschen, nur nach ⚠️ und Ja.
   - 2026-10-21 Neues Design: drei Richtungen für den Heute-Screen als Entwurf (A Klar, B Nacht, C Zwei Welten), https://claude.ai/artifact/643oM9Ub2WrEQJQKs8c6wR. Alain hat C gewählt (2026-10-21), umgesetzt auf dem Branch `claude/shared-org-app-umbau` (Commit 222ca7e), live seit 2026-10-22.
+  - 2026-10-27 Phase 4 Lernkarten gebaut, Branch `claude/shared-org-app-lernen` (Commit 9c31a2b), lokal getestet, noch nicht live. Details bei privat-lernen.
   - Nicht in Phase 1: Einkauf, Aktivitäten, Ziele hängen noch am alten JSON-Block (scope-Felder intern noch vorhanden, in der Oberfläche ausgeblendet). Kommt in Phase 3.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 

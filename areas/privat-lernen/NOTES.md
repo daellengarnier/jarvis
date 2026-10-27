@@ -1,7 +1,7 @@
 # NOTES: privat-lernen
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-18
+Zuletzt aktualisiert: 2026-10-27
 
 ## Aktueller Stand
 
@@ -13,7 +13,14 @@ Zuletzt aktualisiert: 2026-10-18
 
 ### Belegt
 
-- Vietnamesisch: Ziel B1 bis Mitte 2027 (Alain, 2026-10-18). Aktueller Stand noch unbekannt. Lernkarten kommen in Phase 4 der Life-App.
+- Vietnamesisch: Ziel B1 bis Mitte 2027 (Alain, 2026-10-18). Kurs: SVFF Complete Vietnamese Course, Level 02, südlicher Dialekt (svff.online). Aktuelle Lektion: Bài 1 "Anh muốn mua gì vậy?" (A2).
+- Lernkarten in der Life-App (app.al-daellen.ch, Seite "Lernen"), gebaut 2026-10-27 auf Branch `claude/shared-org-app-lernen`, noch nicht live. Wiederholung nach Abständen, 15 neue Lernrichtungen pro Tag, Vokabeln und Sätze in beide Richtungen.
+
+### Vietnamesisch: Ablauf für neue Lektionen
+
+- Alain gibt den Inhalt einer Lektion (Vokabeln, Grammatik, Sätze). Jarvis legt daraus eine Deck-Datei an: `vietnamesisch/decks/<kurs>-<level>-<lektion>.json`, Format wie `svff-l2-b1.json` (`deck` mit id, title, course, level, topic, source; `cards` mit type vocab|grammar|phrase, front, back_de, back_en, back_vi, pos, category, example_vi, example_de, note).
+- Import in die App: per API `POST /api/v1/decks/import` mit `LIFE_APP_TOKEN` (sobald Token und Netzwerkzugang da sind), sonst fügt Alain das JSON in der App unter Lernen → Importieren ein. Erneuter Import aktualisiert, der Lernstand bleibt.
+- Südliche Varianten bevorzugen (z.B. thơm statt dứa, mắc statt đắt), nördliche in Klammern.
 
 ## Offene Punkte
 
