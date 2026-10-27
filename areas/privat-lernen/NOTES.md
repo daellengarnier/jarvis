@@ -14,7 +14,7 @@ Zuletzt aktualisiert: 2026-10-27
 ### Belegt
 
 - Vietnamesisch: Ziel B1 bis Mitte 2027 (Alain, 2026-10-18). Kurs: SVFF Complete Vietnamese Course, Level 02, südlicher Dialekt (svff.online). Aktuelle Lektion: Bài 1 "Anh muốn mua gì vậy?" (A2).
-- Lernkarten in der Life-App (app.al-daellen.ch, Seite "Lernen"), gebaut 2026-10-27 auf Branch `claude/shared-org-app-lernen`, noch nicht live. Wiederholung nach Abständen, 15 neue Lernrichtungen pro Tag, Vokabeln und Sätze in beide Richtungen.
+- Lernkarten in der Life-App (app.al-daellen.ch, Seite "Lernen"), gebaut 2026-10-27, live seit 2026-10-27 (Commit 9c31a2b). Wiederholung nach Abständen, 15 neue Lernrichtungen pro Tag, Vokabeln und Sätze in beide Richtungen.
 
 ### Vietnamesisch: Ablauf für neue Lektionen
 
