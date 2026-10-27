@@ -1,0 +1,1933 @@
+{
+ "quelle": "Jarvis, erstellt 2026-10-27 aus den Sätzen SVFF Level 02, Lektionen 1 bis 12. Vokabelkarten haben in der App Vorrang.",
+ "eintraege": [
+  {
+   "vi": "a lô",
+   "de": "hallo (am Telefon)"
+  },
+  {
+   "vi": "ai",
+   "de": "wer; mit không: niemand"
+  },
+  {
+   "vi": "anh",
+   "de": "du (zu einem älteren Mann); älterer Bruder; ich (als älterer Mann)"
+  },
+  {
+   "vi": "anh trai",
+   "de": "älterer Bruder"
+  },
+  {
+   "vi": "anh ấy",
+   "de": "er"
+  },
+  {
+   "vi": "ba",
+   "de": "Vater (Süden); drei"
+  },
+  {
+   "vi": "ba mẹ",
+   "de": "Eltern"
+  },
+  {
+   "vi": "ban",
+   "de": "Gruppe; Abteilung"
+  },
+  {
+   "vi": "bao giờ",
+   "de": "wann; schon (mal)"
+  },
+  {
+   "vi": "bao giờ chưa",
+   "de": "schon (mal) ...? (Frage nach Erfahrung)"
+  },
+  {
+   "vi": "bao nhiêu",
+   "de": "wie viel"
+  },
+  {
+   "vi": "bi",
+   "de": "Bi (Name)"
+  },
+  {
+   "vi": "biết",
+   "de": "wissen, kennen"
+  },
+  {
+   "vi": "biển",
+   "de": "Meer"
+  },
+  {
+   "vi": "buồn",
+   "de": "traurig"
+  },
+  {
+   "vi": "buồn ngủ",
+   "de": "müde, schläfrig"
+  },
+  {
+   "vi": "buồn nôn",
+   "de": "übel (Übelkeit)"
+  },
+  {
+   "vi": "buổi tối",
+   "de": "Abend"
+  },
+  {
+   "vi": "bài",
+   "de": "Lektion, Aufgabe"
+  },
+  {
+   "vi": "bài kiểm tra",
+   "de": "Test, Prüfung"
+  },
+  {
+   "vi": "bài tập",
+   "de": "Übung, Aufgabe"
+  },
+  {
+   "vi": "bài tập về nhà",
+   "de": "Hausaufgaben"
+  },
+  {
+   "vi": "bàn",
+   "de": "Tisch"
+  },
+  {
+   "vi": "bác sĩ",
+   "de": "Arzt, Ärztin"
+  },
+  {
+   "vi": "bánh mì",
+   "de": "Bánh mì (Baguette-Sandwich), Brot"
+  },
+  {
+   "vi": "bánh xèo",
+   "de": "Bánh xèo (knuspriger Reispfannkuchen)"
+  },
+  {
+   "vi": "bây giờ",
+   "de": "jetzt"
+  },
+  {
+   "vi": "bé",
+   "de": "klein; das Kind, die/der Kleine"
+  },
+  {
+   "vi": "bên trong",
+   "de": "innen, drinnen"
+  },
+  {
+   "vi": "bún thịt nướng",
+   "de": "Bún thịt nướng (Reisnudeln mit gegrilltem Fleisch)"
+  },
+  {
+   "vi": "bạn",
+   "de": "Freund, Freundin; du (unter Gleichaltrigen)"
+  },
+  {
+   "vi": "bạn thân",
+   "de": "guter Freund, beste Freundin"
+  },
+  {
+   "vi": "bản thân",
+   "de": "selbst, die eigene Person"
+  },
+  {
+   "vi": "bản thân mình",
+   "de": "sich selbst"
+  },
+  {
+   "vi": "bận",
+   "de": "beschäftigt"
+  },
+  {
+   "vi": "bận họp",
+   "de": "in einer Sitzung sein"
+  },
+  {
+   "vi": "bắt đầu",
+   "de": "anfangen, beginnen"
+  },
+  {
+   "vi": "bằng",
+   "de": "so ... wie; gleich"
+  },
+  {
+   "vi": "bằng nhau",
+   "de": "gleich (gross, viel)"
+  },
+  {
+   "vi": "bệnh",
+   "de": "krank; Krankheit"
+  },
+  {
+   "vi": "bệnh viện",
+   "de": "Spital, Krankenhaus"
+  },
+  {
+   "vi": "bị",
+   "de": "Passiv-Marker für etwas Unangenehmes (erleiden)"
+  },
+  {
+   "vi": "bị bệnh",
+   "de": "krank sein"
+  },
+  {
+   "vi": "bỏ",
+   "de": "auslassen, weglassen"
+  },
+  {
+   "vi": "bộ",
+   "de": "Set, Satz (Kleidung: Outfit)"
+  },
+  {
+   "vi": "bộ quần áo",
+   "de": "Outfit, Kleidung"
+  },
+  {
+   "vi": "bụng",
+   "de": "Bauch"
+  },
+  {
+   "vi": "bữa sáng",
+   "de": "Frühstück"
+  },
+  {
+   "vi": "cao",
+   "de": "gross (Körper), hoch"
+  },
+  {
+   "vi": "chi",
+   "de": "Chi (Name)"
+  },
+  {
+   "vi": "chiều nay",
+   "de": "heute Nachmittag"
+  },
+  {
+   "vi": "cho",
+   "de": "geben; für; lassen"
+  },
+  {
+   "vi": "cho con gặp",
+   "de": "darf ich ... sprechen (Kind zu Erwachsenen)"
+  },
+  {
+   "vi": "cho lắm",
+   "de": "(nicht) besonders"
+  },
+  {
+   "vi": "cho tôi",
+   "de": "bitte (lass mich)"
+  },
+  {
+   "vi": "chào",
+   "de": "grüssen; hallo"
+  },
+  {
+   "vi": "châu á",
+   "de": "Asien"
+  },
+  {
+   "vi": "châu âu",
+   "de": "Europa"
+  },
+  {
+   "vi": "chó",
+   "de": "Hund"
+  },
+  {
+   "vi": "chóng mặt",
+   "de": "schwindlig"
+  },
+  {
+   "vi": "chúng ta",
+   "de": "wir (inklusive dich)"
+  },
+  {
+   "vi": "chúng tôi",
+   "de": "wir (ohne dich)"
+  },
+  {
+   "vi": "chơi",
+   "de": "spielen; ausgehen, sich vergnügen"
+  },
+  {
+   "vi": "chơi game",
+   "de": "gamen"
+  },
+  {
+   "vi": "chơi ở ngoài sân",
+   "de": "draussen im Hof spielen"
+  },
+  {
+   "vi": "chưa",
+   "de": "noch nicht; Fragepartikel: schon?"
+  },
+  {
+   "vi": "chả giò",
+   "de": "Chả giò (frittierte Frühlingsrollen, Süden)"
+  },
+  {
+   "vi": "chất lượng",
+   "de": "Qualität"
+  },
+  {
+   "vi": "chất lượng cao",
+   "de": "hochwertig"
+  },
+  {
+   "vi": "chật",
+   "de": "eng"
+  },
+  {
+   "vi": "chắc là",
+   "de": "wahrscheinlich"
+  },
+  {
+   "vi": "chẳng hạn",
+   "de": "zum Beispiel"
+  },
+  {
+   "vi": "chỉ",
+   "de": "nur; im Süden auch: sie (= chị ấy)"
+  },
+  {
+   "vi": "chị",
+   "de": "du (zu einer älteren Frau); ältere Schwester"
+  },
+  {
+   "vi": "chị ấy",
+   "de": "sie"
+  },
+  {
+   "vi": "chỗ",
+   "de": "Ort, Stelle"
+  },
+  {
+   "vi": "chỗ thì ... chỗ thì",
+   "de": "an manchen Orten ..., an anderen ..."
+  },
+  {
+   "vi": "chờ",
+   "de": "warten"
+  },
+  {
+   "vi": "chứ",
+   "de": "natürlich, doch (am Satzende, bestätigend)"
+  },
+  {
+   "vi": "coi",
+   "de": "schauen (Süden)"
+  },
+  {
+   "vi": "coi phim",
+   "de": "einen Film schauen (Süden)"
+  },
+  {
+   "vi": "coi tivi",
+   "de": "fernsehen"
+  },
+  {
+   "vi": "con",
+   "de": "Kind; ich (Kind zu Eltern, Lehrperson); du (Eltern zu Kind); Klassifikator für Tiere"
+  },
+  {
+   "vi": "cuối tuần",
+   "de": "Wochenende"
+  },
+  {
+   "vi": "cuốn",
+   "de": "Klassifikator für Bücher"
+  },
+  {
+   "vi": "cuốn sách",
+   "de": "Buch"
+  },
+  {
+   "vi": "cà phê",
+   "de": "Kaffee"
+  },
+  {
+   "vi": "càng",
+   "de": "desto, umso"
+  },
+  {
+   "vi": "càng ... càng",
+   "de": "je ... desto"
+  },
+  {
+   "vi": "càng lúc càng",
+   "de": "immer (mehr), zunehmend"
+  },
+  {
+   "vi": "càng ngày càng",
+   "de": "von Tag zu Tag mehr, immer (mehr)"
+  },
+  {
+   "vi": "các",
+   "de": "die (Mehrzahl)"
+  },
+  {
+   "vi": "cái",
+   "de": "Klassifikator für Gegenstände; mit Adjektiv: macht ein Nomen (cái đẹp = das Schöne)"
+  },
+  {
+   "vi": "cái gì đó",
+   "de": "irgendetwas"
+  },
+  {
+   "vi": "cái kia",
+   "de": "jenes (Ding) dort"
+  },
+  {
+   "vi": "còn",
+   "de": "noch; und, hingegen"
+  },
+  {
+   "vi": "còn ... nữa",
+   "de": "auch noch"
+  },
+  {
+   "vi": "có",
+   "de": "haben; es gibt"
+  },
+  {
+   "vi": "có ... không",
+   "de": "Frage: ...?"
+  },
+  {
+   "vi": "có chứ",
+   "de": "aber klar"
+  },
+  {
+   "vi": "cô",
+   "de": "du/Sie (zu einer Frau, Lehrerin); Frau (Anrede); Tante"
+  },
+  {
+   "vi": "cô giáo",
+   "de": "Lehrerin"
+  },
+  {
+   "vi": "cô ấy",
+   "de": "sie"
+  },
+  {
+   "vi": "công ty",
+   "de": "Firma"
+  },
+  {
+   "vi": "công việc",
+   "de": "Arbeit, Stelle"
+  },
+  {
+   "vi": "cùng",
+   "de": "zusammen mit"
+  },
+  {
+   "vi": "căn",
+   "de": "Klassifikator für Wohnungen, Häuser"
+  },
+  {
+   "vi": "căn cước",
+   "de": "ID, Identitätskarte"
+  },
+  {
+   "vi": "căn hộ",
+   "de": "Wohnung"
+  },
+  {
+   "vi": "căn nhà",
+   "de": "Haus, Wohnung"
+  },
+  {
+   "vi": "cũ",
+   "de": "alt (nicht neu)"
+  },
+  {
+   "vi": "cũng",
+   "de": "auch"
+  },
+  {
+   "vi": "cơm",
+   "de": "Reis (gekocht); Essen"
+  },
+  {
+   "vi": "cả",
+   "de": "ganz, alle"
+  },
+  {
+   "vi": "cả lớp",
+   "de": "die ganze Klasse"
+  },
+  {
+   "vi": "cả ngày",
+   "de": "den ganzen Tag"
+  },
+  {
+   "vi": "cả nhà",
+   "de": "die ganze Familie"
+  },
+  {
+   "vi": "cần",
+   "de": "brauchen"
+  },
+  {
+   "vi": "cần phải",
+   "de": "müssen"
+  },
+  {
+   "vi": "cẩn thận",
+   "de": "vorsichtig"
+  },
+  {
+   "vi": "cố gắng",
+   "de": "sich anstrengen, sich bemühen"
+  },
+  {
+   "vi": "cổ",
+   "de": "sie (Süden, = cô ấy); auch: Hals"
+  },
+  {
+   "vi": "của",
+   "de": "von (Besitz)"
+  },
+  {
+   "vi": "danh lam thắng cảnh",
+   "de": "Sehenswürdigkeit"
+  },
+  {
+   "vi": "du lịch",
+   "de": "Reise, Tourismus"
+  },
+  {
+   "vi": "dù",
+   "de": "obwohl"
+  },
+  {
+   "vi": "dẫn",
+   "de": "führen, mitnehmen"
+  },
+  {
+   "vi": "em",
+   "de": "du (zu Jüngeren); ich (zu Älteren); jüngeres Geschwister"
+  },
+  {
+   "vi": "game",
+   "de": "Game"
+  },
+  {
+   "vi": "gia đình",
+   "de": "Familie"
+  },
+  {
+   "vi": "giá",
+   "de": "Preis"
+  },
+  {
+   "vi": "giám đốc",
+   "de": "Direktor, Direktorin"
+  },
+  {
+   "vi": "giỏi",
+   "de": "gut, begabt (in etwas)"
+  },
+  {
+   "vi": "giờ",
+   "de": "Uhr, Stunde"
+  },
+  {
+   "vi": "gì",
+   "de": "was"
+  },
+  {
+   "vi": "gì đó",
+   "de": "irgendetwas"
+  },
+  {
+   "vi": "gầy",
+   "de": "dünn, schlank"
+  },
+  {
+   "vi": "gặp",
+   "de": "treffen"
+  },
+  {
+   "vi": "gọi lại",
+   "de": "zurückrufen"
+  },
+  {
+   "vi": "hai",
+   "de": "zwei"
+  },
+  {
+   "vi": "hay",
+   "de": "gut, interessant; oder"
+  },
+  {
+   "vi": "hiếm khi",
+   "de": "selten"
+  },
+  {
+   "vi": "hiểu",
+   "de": "verstehen"
+  },
+  {
+   "vi": "hoa",
+   "de": "Hoa (Name)"
+  },
+  {
+   "vi": "hoạt bát",
+   "de": "aufgeweckt, lebhaft"
+  },
+  {
+   "vi": "hà nội",
+   "de": "Hà Nội (Hauptstadt)"
+  },
+  {
+   "vi": "hàn quốc",
+   "de": "Korea"
+  },
+  {
+   "vi": "hàng ngày",
+   "de": "täglich, wie jeden Tag"
+  },
+  {
+   "vi": "hãy",
+   "de": "Aufforderung: (tu es) doch!"
+  },
+  {
+   "vi": "hè",
+   "de": "Sommer"
+  },
+  {
+   "vi": "hình như",
+   "de": "anscheinend, es scheint"
+  },
+  {
+   "vi": "hôm nay",
+   "de": "heute"
+  },
+  {
+   "vi": "hôm qua",
+   "de": "gestern"
+  },
+  {
+   "vi": "hơi",
+   "de": "etwas, ein bisschen"
+  },
+  {
+   "vi": "hơn",
+   "de": "mehr; als (Vergleich)"
+  },
+  {
+   "vi": "hạn hán",
+   "de": "Dürre"
+  },
+  {
+   "vi": "hạnh phúc",
+   "de": "glücklich"
+  },
+  {
+   "vi": "hả",
+   "de": "Fragepartikel: echt?, oder?"
+  },
+  {
+   "vi": "hải sản",
+   "de": "Meeresfrüchte"
+  },
+  {
+   "vi": "hẹn gặp lại",
+   "de": "bis bald, auf Wiedersehen"
+  },
+  {
+   "vi": "hết",
+   "de": "alle, ganz; mit Verneinung: überhaupt nicht"
+  },
+  {
+   "vi": "họ",
+   "de": "sie (Mehrzahl)"
+  },
+  {
+   "vi": "học",
+   "de": "lernen, studieren"
+  },
+  {
+   "vi": "học bài",
+   "de": "lernen (für die Schule)"
+  },
+  {
+   "vi": "học giỏi",
+   "de": "gut in der Schule"
+  },
+  {
+   "vi": "họp",
+   "de": "Sitzung, sich treffen"
+  },
+  {
+   "vi": "khen",
+   "de": "loben"
+  },
+  {
+   "vi": "khi",
+   "de": "wenn, als"
+  },
+  {
+   "vi": "khoảng",
+   "de": "ungefähr, etwa"
+  },
+  {
+   "vi": "khu chung cư",
+   "de": "Wohnblock, Wohnsiedlung"
+  },
+  {
+   "vi": "khuya",
+   "de": "spät in der Nacht"
+  },
+  {
+   "vi": "khám",
+   "de": "untersuchen"
+  },
+  {
+   "vi": "khám bác sĩ",
+   "de": "zum Arzt gehen"
+  },
+  {
+   "vi": "khó chịu",
+   "de": "unwohl; unangenehm"
+  },
+  {
+   "vi": "khó tính",
+   "de": "schwierig, heikel (Charakter)"
+  },
+  {
+   "vi": "không",
+   "de": "nicht; Fragepartikel am Satzende"
+  },
+  {
+   "vi": "không ... cho lắm",
+   "de": "nicht besonders"
+  },
+  {
+   "vi": "không ai",
+   "de": "niemand"
+  },
+  {
+   "vi": "không bao giờ",
+   "de": "nie"
+  },
+  {
+   "vi": "không những ... mà còn",
+   "de": "nicht nur ..., sondern auch"
+  },
+  {
+   "vi": "không nên",
+   "de": "sollte nicht"
+  },
+  {
+   "vi": "không quen ai hết",
+   "de": "niemanden kennen"
+  },
+  {
+   "vi": "không đi đâu hết",
+   "de": "nirgendwohin gehen"
+  },
+  {
+   "vi": "không đâu bằng",
+   "de": "nirgends so ... wie hier"
+  },
+  {
+   "vi": "không được vui lắm",
+   "de": "nicht so gut drauf"
+  },
+  {
+   "vi": "kia",
+   "de": "jener, dort"
+  },
+  {
+   "vi": "kinh khủng",
+   "de": "schrecklich, extrem"
+  },
+  {
+   "vi": "kiểm tra",
+   "de": "prüfen, testen"
+  },
+  {
+   "vi": "ký",
+   "de": "Kilo"
+  },
+  {
+   "vi": "kết hôn",
+   "de": "heiraten"
+  },
+  {
+   "vi": "kể",
+   "de": "erzählen"
+  },
+  {
+   "vi": "la",
+   "de": "schimpfen"
+  },
+  {
+   "vi": "lan",
+   "de": "Lan (Name)"
+  },
+  {
+   "vi": "linh",
+   "de": "Linh (Name)"
+  },
+  {
+   "vi": "long",
+   "de": "Long (Name)"
+  },
+  {
+   "vi": "loại",
+   "de": "Sorte, Art"
+  },
+  {
+   "vi": "luôn luôn",
+   "de": "immer"
+  },
+  {
+   "vi": "ly",
+   "de": "Ly (Name)"
+  },
+  {
+   "vi": "là",
+   "de": "sein (A ist B)"
+  },
+  {
+   "vi": "làm",
+   "de": "machen, arbeiten"
+  },
+  {
+   "vi": "làm việc",
+   "de": "arbeiten"
+  },
+  {
+   "vi": "làm ơn",
+   "de": "bitte (höflich)"
+  },
+  {
+   "vi": "lái xe",
+   "de": "Auto fahren"
+  },
+  {
+   "vi": "lên",
+   "de": "hinauf; nhanh lên: beeil dich"
+  },
+  {
+   "vi": "lúc",
+   "de": "um (Uhrzeit), Zeitpunkt"
+  },
+  {
+   "vi": "lại",
+   "de": "wieder; doch, trotzdem"
+  },
+  {
+   "vi": "lần",
+   "de": "Mal"
+  },
+  {
+   "vi": "lắm",
+   "de": "sehr (nach dem Adjektiv)"
+  },
+  {
+   "vi": "lịch sử",
+   "de": "Geschichte"
+  },
+  {
+   "vi": "lớn",
+   "de": "gross, stark"
+  },
+  {
+   "vi": "lớp",
+   "de": "Klasse"
+  },
+  {
+   "vi": "lớp trưởng",
+   "de": "Klassensprecher"
+  },
+  {
+   "vi": "mai",
+   "de": "morgen (kurz für ngày mai); Mai (Name)"
+  },
+  {
+   "vi": "mang theo",
+   "de": "mitnehmen"
+  },
+  {
+   "vi": "minh",
+   "de": "Minh (Name)"
+  },
+  {
+   "vi": "mua",
+   "de": "kaufen"
+  },
+  {
+   "vi": "muốn",
+   "de": "wollen, möchten"
+  },
+  {
+   "vi": "my",
+   "de": "My (Name)"
+  },
+  {
+   "vi": "mà",
+   "de": "aber, sondern; und trotzdem"
+  },
+  {
+   "vi": "máy",
+   "de": "Gerät, Maschine"
+  },
+  {
+   "vi": "máy nghe nhạc",
+   "de": "Musikplayer"
+  },
+  {
+   "vi": "máy tính",
+   "de": "Computer"
+  },
+  {
+   "vi": "mì",
+   "de": "Nudeln"
+  },
+  {
+   "vi": "mình",
+   "de": "ich; wir; sich selbst"
+  },
+  {
+   "vi": "món",
+   "de": "Gericht, Speise"
+  },
+  {
+   "vi": "món hàn",
+   "de": "koreanisches Essen"
+  },
+  {
+   "vi": "món trung",
+   "de": "chinesisches Essen"
+  },
+  {
+   "vi": "món việt",
+   "de": "vietnamesisches Essen"
+  },
+  {
+   "vi": "món ăn",
+   "de": "Gericht"
+  },
+  {
+   "vi": "mưa",
+   "de": "Regen, regnen"
+  },
+  {
+   "vi": "mưa lũ",
+   "de": "Überschwemmung, Starkregen"
+  },
+  {
+   "vi": "mất",
+   "de": "verlieren"
+  },
+  {
+   "vi": "mắc",
+   "de": "teuer (Süden)"
+  },
+  {
+   "vi": "mắt",
+   "de": "Auge"
+  },
+  {
+   "vi": "mặc dù",
+   "de": "obwohl"
+  },
+  {
+   "vi": "mẹ",
+   "de": "Mutter"
+  },
+  {
+   "vi": "mệt",
+   "de": "müde, erschöpft"
+  },
+  {
+   "vi": "mọi",
+   "de": "alle, jede"
+  },
+  {
+   "vi": "mọi người",
+   "de": "alle (Leute)"
+  },
+  {
+   "vi": "mỗi",
+   "de": "jeder"
+  },
+  {
+   "vi": "một",
+   "de": "ein, eins"
+  },
+  {
+   "vi": "một chút",
+   "de": "ein bisschen"
+  },
+  {
+   "vi": "mới",
+   "de": "neu; erst"
+  },
+  {
+   "vi": "mời",
+   "de": "einladen"
+  },
+  {
+   "vi": "nam",
+   "de": "Nam (Name)"
+  },
+  {
+   "vi": "nay",
+   "de": "heute, jetzt (in Zusammensetzungen)"
+  },
+  {
+   "vi": "nem chua",
+   "de": "Nem chua (fermentierte Schweinswurst)"
+  },
+  {
+   "vi": "nghe",
+   "de": "hören"
+  },
+  {
+   "vi": "nghe kể",
+   "de": "erzählen hören"
+  },
+  {
+   "vi": "nghe nói",
+   "de": "gehört haben, dass"
+  },
+  {
+   "vi": "nghèo",
+   "de": "arm"
+  },
+  {
+   "vi": "nghỉ",
+   "de": "frei haben, ausruhen"
+  },
+  {
+   "vi": "nghỉ hè",
+   "de": "Sommerferien"
+  },
+  {
+   "vi": "ngon",
+   "de": "lecker"
+  },
+  {
+   "vi": "ngoài",
+   "de": "ausser; draussen"
+  },
+  {
+   "vi": "ngoài ... ra",
+   "de": "ausser ..."
+  },
+  {
+   "vi": "ngoài ra",
+   "de": "ausserdem"
+  },
+  {
+   "vi": "ngày",
+   "de": "Tag"
+  },
+  {
+   "vi": "ngày mai",
+   "de": "morgen"
+  },
+  {
+   "vi": "ngày nào ... cũng",
+   "de": "jeden Tag"
+  },
+  {
+   "vi": "ngôi nhà",
+   "de": "Haus"
+  },
+  {
+   "vi": "người",
+   "de": "Mensch, Person"
+  },
+  {
+   "vi": "người yêu cũ",
+   "de": "Ex-Freund, Ex-Freundin"
+  },
+  {
+   "vi": "ngồi",
+   "de": "sitzen"
+  },
+  {
+   "vi": "ngủ",
+   "de": "schlafen"
+  },
+  {
+   "vi": "ngủ quên",
+   "de": "verschlafen"
+  },
+  {
+   "vi": "ngủ trễ",
+   "de": "spät schlafen gehen"
+  },
+  {
+   "vi": "nha",
+   "de": "am Satzende: gell, okay?"
+  },
+  {
+   "vi": "nhanh",
+   "de": "schnell"
+  },
+  {
+   "vi": "nhanh lên",
+   "de": "beeil dich"
+  },
+  {
+   "vi": "nhau",
+   "de": "einander"
+  },
+  {
+   "vi": "nhiều",
+   "de": "viel"
+  },
+  {
+   "vi": "nhà",
+   "de": "Haus, Zuhause"
+  },
+  {
+   "vi": "nhà bếp",
+   "de": "Küche"
+  },
+  {
+   "vi": "nhà hàng",
+   "de": "Restaurant"
+  },
+  {
+   "vi": "nhút nhát",
+   "de": "schüchtern"
+  },
+  {
+   "vi": "như",
+   "de": "wie"
+  },
+  {
+   "vi": "như vậy",
+   "de": "so"
+  },
+  {
+   "vi": "nhưng",
+   "de": "aber"
+  },
+  {
+   "vi": "nhạc",
+   "de": "Musik"
+  },
+  {
+   "vi": "nhất là",
+   "de": "vor allem"
+  },
+  {
+   "vi": "nhật bản",
+   "de": "Japan"
+  },
+  {
+   "vi": "nhỏ",
+   "de": "klein"
+  },
+  {
+   "vi": "nhớ",
+   "de": "denken an, sich erinnern; vermissen"
+  },
+  {
+   "vi": "những",
+   "de": "(Mehrzahl)"
+  },
+  {
+   "vi": "nào",
+   "de": "welcher; ngày nào: jeden Tag"
+  },
+  {
+   "vi": "này",
+   "de": "dieser, diese, dieses (hier)"
+  },
+  {
+   "vi": "nên",
+   "de": "darum, deshalb; sollte"
+  },
+  {
+   "vi": "nó",
+   "de": "er, sie, es (vertraut, für Kinder)"
+  },
+  {
+   "vi": "nói",
+   "de": "sprechen, sagen"
+  },
+  {
+   "vi": "nói chuyện",
+   "de": "sich unterhalten"
+  },
+  {
+   "vi": "năm",
+   "de": "Jahr; fünf"
+  },
+  {
+   "vi": "năm 1930",
+   "de": "im Jahr 1930"
+  },
+  {
+   "vi": "năng lực",
+   "de": "Fähigkeit, Kompetenz"
+  },
+  {
+   "vi": "nơi",
+   "de": "Ort"
+  },
+  {
+   "vi": "nước",
+   "de": "Land; Wasser"
+  },
+  {
+   "vi": "nước ngoài",
+   "de": "Ausland"
+  },
+  {
+   "vi": "nấu",
+   "de": "kochen"
+  },
+  {
+   "vi": "nấu ăn",
+   "de": "kochen"
+  },
+  {
+   "vi": "nắng",
+   "de": "Sonne, sonnig"
+  },
+  {
+   "vi": "nằm",
+   "de": "liegen"
+  },
+  {
+   "vi": "nổi tiếng",
+   "de": "berühmt"
+  },
+  {
+   "vi": "nữa",
+   "de": "noch, mehr; auch"
+  },
+  {
+   "vi": "phim",
+   "de": "Film"
+  },
+  {
+   "vi": "pháp",
+   "de": "Frankreich"
+  },
+  {
+   "vi": "phòng",
+   "de": "Zimmer, Raum"
+  },
+  {
+   "vi": "phòng ngủ",
+   "de": "Schlafzimmer"
+  },
+  {
+   "vi": "phòng tắm",
+   "de": "Badezimmer"
+  },
+  {
+   "vi": "phù hợp",
+   "de": "passend"
+  },
+  {
+   "vi": "phải",
+   "de": "müssen"
+  },
+  {
+   "vi": "phở",
+   "de": "Phở (Nudelsuppe)"
+  },
+  {
+   "vi": "qua",
+   "de": "vergangen; hinüber"
+  },
+  {
+   "vi": "quan tâm",
+   "de": "sich kümmern um, achten auf"
+  },
+  {
+   "vi": "quen",
+   "de": "kennen"
+  },
+  {
+   "vi": "quà",
+   "de": "Geschenk"
+  },
+  {
+   "vi": "quá",
+   "de": "zu, sehr"
+  },
+  {
+   "vi": "quê",
+   "de": "Heimat, Heimatdorf"
+  },
+  {
+   "vi": "quên",
+   "de": "vergessen"
+  },
+  {
+   "vi": "ra",
+   "de": "hinaus, heraus"
+  },
+  {
+   "vi": "ra ngoài",
+   "de": "hinausgehen"
+  },
+  {
+   "vi": "rất",
+   "de": "sehr"
+  },
+  {
+   "vi": "rẻ",
+   "de": "billig, günstig"
+  },
+  {
+   "vi": "rồi",
+   "de": "schon; dann; am Satzende: bereits"
+  },
+  {
+   "vi": "rộng",
+   "de": "geräumig, weit"
+  },
+  {
+   "vi": "samsung",
+   "de": "Samsung (Name)"
+  },
+  {
+   "vi": "sao",
+   "de": "warum; wie"
+  },
+  {
+   "vi": "sau",
+   "de": "nach, später; hinten"
+  },
+  {
+   "vi": "sinh nhật",
+   "de": "Geburtstag"
+  },
+  {
+   "vi": "siêng",
+   "de": "fleissig"
+  },
+  {
+   "vi": "siêng năng",
+   "de": "fleissig"
+  },
+  {
+   "vi": "sony",
+   "de": "Sony (Name)"
+  },
+  {
+   "vi": "sách",
+   "de": "Buch"
+  },
+  {
+   "vi": "sáng",
+   "de": "Morgen; hell"
+  },
+  {
+   "vi": "sáng nay",
+   "de": "heute Morgen"
+  },
+  {
+   "vi": "sân",
+   "de": "Hof"
+  },
+  {
+   "vi": "sầu riêng",
+   "de": "Durian"
+  },
+  {
+   "vi": "sắp",
+   "de": "bald, gleich"
+  },
+  {
+   "vi": "sắp tới",
+   "de": "demnächst"
+  },
+  {
+   "vi": "sẽ",
+   "de": "Zukunft (werden)"
+  },
+  {
+   "vi": "sếp",
+   "de": "Chef, Chefin"
+  },
+  {
+   "vi": "sốt",
+   "de": "Fieber"
+  },
+  {
+   "vi": "sớm",
+   "de": "früh"
+  },
+  {
+   "vi": "tham quan",
+   "de": "besichtigen"
+  },
+  {
+   "vi": "tháng sau",
+   "de": "nächster Monat"
+  },
+  {
+   "vi": "thì",
+   "de": "(betont das Thema); dann"
+  },
+  {
+   "vi": "thích",
+   "de": "mögen, gern tun"
+  },
+  {
+   "vi": "thông minh",
+   "de": "klug, intelligent"
+  },
+  {
+   "vi": "thăm",
+   "de": "besuchen"
+  },
+  {
+   "vi": "thường",
+   "de": "normalerweise, oft"
+  },
+  {
+   "vi": "thấy",
+   "de": "sehen; finden, fühlen"
+  },
+  {
+   "vi": "thằng",
+   "de": "der Typ (abwertend, für Männer)"
+  },
+  {
+   "vi": "thế nào",
+   "de": "wie"
+  },
+  {
+   "vi": "thỉnh thoảng",
+   "de": "manchmal"
+  },
+  {
+   "vi": "thủy",
+   "de": "Thủy (Name)"
+  },
+  {
+   "vi": "thức",
+   "de": "wach sein, aufbleiben"
+  },
+  {
+   "vi": "thức dậy",
+   "de": "aufstehen, aufwachen"
+  },
+  {
+   "vi": "thức khuya",
+   "de": "lange aufbleiben"
+  },
+  {
+   "vi": "tivi",
+   "de": "Fernseher"
+  },
+  {
+   "vi": "tiếng",
+   "de": "Sprache; Stunde"
+  },
+  {
+   "vi": "tiếng anh",
+   "de": "Englisch"
+  },
+  {
+   "vi": "tiếng hàn quốc",
+   "de": "Koreanisch"
+  },
+  {
+   "vi": "tiếng pháp",
+   "de": "Französisch"
+  },
+  {
+   "vi": "tiếng việt",
+   "de": "Vietnamesisch"
+  },
+  {
+   "vi": "tiền",
+   "de": "Geld"
+  },
+  {
+   "vi": "tiệc",
+   "de": "Party, Fest"
+  },
+  {
+   "vi": "tiện nghi",
+   "de": "komfortabel, gut ausgestattet"
+  },
+  {
+   "vi": "trong",
+   "de": "in"
+  },
+  {
+   "vi": "truyện",
+   "de": "Geschichte, Comic"
+  },
+  {
+   "vi": "trái cây",
+   "de": "Früchte, Obst"
+  },
+  {
+   "vi": "trên",
+   "de": "auf, über"
+  },
+  {
+   "vi": "trước",
+   "de": "vor; zuerst"
+  },
+  {
+   "vi": "trường",
+   "de": "Schule"
+  },
+  {
+   "vi": "trễ",
+   "de": "spät, verspätet"
+  },
+  {
+   "vi": "trễ giờ",
+   "de": "zu spät kommen"
+  },
+  {
+   "vi": "trời",
+   "de": "Himmel; Wetter (trời mưa: es regnet)"
+  },
+  {
+   "vi": "trừ",
+   "de": "ausser"
+  },
+  {
+   "vi": "tui",
+   "de": "ich (Süden)"
+  },
+  {
+   "vi": "tuy",
+   "de": "obwohl"
+  },
+  {
+   "vi": "tuy ... nhưng",
+   "de": "obwohl ..., (so) doch"
+  },
+  {
+   "vi": "tuy rằng",
+   "de": "obwohl"
+  },
+  {
+   "vi": "tuần",
+   "de": "Woche"
+  },
+  {
+   "vi": "tuần sau",
+   "de": "nächste Woche"
+  },
+  {
+   "vi": "tuổi",
+   "de": "Jahre alt"
+  },
+  {
+   "vi": "tài giỏi",
+   "de": "talentiert"
+  },
+  {
+   "vi": "tìm",
+   "de": "suchen"
+  },
+  {
+   "vi": "tìm được",
+   "de": "finden"
+  },
+  {
+   "vi": "tóc",
+   "de": "Haare"
+  },
+  {
+   "vi": "tôi",
+   "de": "ich"
+  },
+  {
+   "vi": "tại sao",
+   "de": "warum"
+  },
+  {
+   "vi": "tất cả",
+   "de": "alle, alles"
+  },
+  {
+   "vi": "tầng",
+   "de": "Stockwerk"
+  },
+  {
+   "vi": "tập",
+   "de": "üben"
+  },
+  {
+   "vi": "tập thể dục",
+   "de": "Sport machen"
+  },
+  {
+   "vi": "tặng",
+   "de": "schenken"
+  },
+  {
+   "vi": "tệ",
+   "de": "schlecht"
+  },
+  {
+   "vi": "tối",
+   "de": "Abend"
+  },
+  {
+   "vi": "tối hôm qua",
+   "de": "gestern Abend"
+  },
+  {
+   "vi": "tối nay",
+   "de": "heute Abend"
+  },
+  {
+   "vi": "tối qua",
+   "de": "gestern Abend"
+  },
+  {
+   "vi": "tốt",
+   "de": "gut"
+  },
+  {
+   "vi": "tốt bụng",
+   "de": "gutherzig"
+  },
+  {
+   "vi": "tới",
+   "de": "kommen, bis; nächste"
+  },
+  {
+   "vi": "tụi mình",
+   "de": "wir (inklusive dich, Süden)"
+  },
+  {
+   "vi": "tụi tôi",
+   "de": "wir (Süden)"
+  },
+  {
+   "vi": "từ",
+   "de": "seit; von"
+  },
+  {
+   "vi": "từ trước",
+   "de": "schon vor"
+  },
+  {
+   "vi": "tự",
+   "de": "selbst"
+  },
+  {
+   "vi": "uống",
+   "de": "trinken"
+  },
+  {
+   "vi": "việc",
+   "de": "Arbeit, Sache"
+  },
+  {
+   "vi": "việt nam",
+   "de": "Vietnam"
+  },
+  {
+   "vi": "vui",
+   "de": "froh, fröhlich"
+  },
+  {
+   "vi": "và",
+   "de": "und"
+  },
+  {
+   "vi": "vào",
+   "de": "hinein; an, um (Zeit)"
+  },
+  {
+   "vi": "vì",
+   "de": "weil"
+  },
+  {
+   "vi": "vì ... nên",
+   "de": "weil ..., darum"
+  },
+  {
+   "vi": "ví dụ",
+   "de": "Beispiel"
+  },
+  {
+   "vi": "ví dụ như",
+   "de": "zum Beispiel"
+  },
+  {
+   "vi": "vũng tàu",
+   "de": "Vũng Tàu (Küstenstadt)"
+  },
+  {
+   "vi": "vẫn",
+   "de": "immer noch, trotzdem"
+  },
+  {
+   "vi": "vậy",
+   "de": "so; am Satzende: denn"
+  },
+  {
+   "vi": "vậy mà",
+   "de": "und trotzdem"
+  },
+  {
+   "vi": "vắng mặt",
+   "de": "abwesend, fehlen"
+  },
+  {
+   "vi": "về",
+   "de": "zurück; über"
+  },
+  {
+   "vi": "về nhà",
+   "de": "nach Hause"
+  },
+  {
+   "vi": "về quê",
+   "de": "in die Heimat fahren"
+  },
+  {
+   "vi": "với",
+   "de": "mit"
+  },
+  {
+   "vi": "vừa",
+   "de": "gerade eben"
+  },
+  {
+   "vi": "vừa ... vừa",
+   "de": "sowohl ... als auch; gleichzeitig"
+  },
+  {
+   "vi": "xa",
+   "de": "weit"
+  },
+  {
+   "vi": "xe",
+   "de": "Fahrzeug, Auto, Motorrad"
+  },
+  {
+   "vi": "xinh đẹp",
+   "de": "hübsch"
+  },
+  {
+   "vi": "xong",
+   "de": "fertig"
+  },
+  {
+   "vi": "xoài",
+   "de": "Mango"
+  },
+  {
+   "vi": "xây dựng",
+   "de": "bauen"
+  },
+  {
+   "vi": "yêu",
+   "de": "lieben"
+  },
+  {
+   "vi": "áo",
+   "de": "Oberteil, Hemd"
+  },
+  {
+   "vi": "âm thanh",
+   "de": "Ton, Klang"
+  },
+  {
+   "vi": "ôn bài",
+   "de": "repetieren, Stoff wiederholen"
+  },
+  {
+   "vi": "ông",
+   "de": "Herr, Grossvater"
+  },
+  {
+   "vi": "ăn",
+   "de": "essen"
+  },
+  {
+   "vi": "ăn cơm",
+   "de": "essen (wörtlich: Reis essen)"
+  },
+  {
+   "vi": "ăn được",
+   "de": "essen können"
+  },
+  {
+   "vi": "đang",
+   "de": "gerade (Verlaufsform)"
+  },
+  {
+   "vi": "đau",
+   "de": "Schmerz, weh tun"
+  },
+  {
+   "vi": "đau bụng",
+   "de": "Bauchschmerzen"
+  },
+  {
+   "vi": "đem theo",
+   "de": "mitnehmen"
+  },
+  {
+   "vi": "đen",
+   "de": "schwarz"
+  },
+  {
+   "vi": "đi",
+   "de": "gehen; am Satzende: Aufforderung (doch!)"
+  },
+  {
+   "vi": "đi chơi",
+   "de": "ausgehen"
+  },
+  {
+   "vi": "đi du lịch",
+   "de": "reisen, verreisen"
+  },
+  {
+   "vi": "đi dạo",
+   "de": "spazieren gehen"
+  },
+  {
+   "vi": "đi học",
+   "de": "zur Schule gehen"
+  },
+  {
+   "vi": "đi làm",
+   "de": "zur Arbeit gehen"
+  },
+  {
+   "vi": "điện thoại",
+   "de": "Telefon, Handy"
+  },
+  {
+   "vi": "đà lạt",
+   "de": "Đà Lạt (Stadt im Hochland)"
+  },
+  {
+   "vi": "đâu",
+   "de": "wo; mit không: nirgends; am Satzende: verstärkt die Verneinung"
+  },
+  {
+   "vi": "đây",
+   "de": "hier; das hier"
+  },
+  {
+   "vi": "đã",
+   "de": "Vergangenheit (hat ... getan); zuerst (am Satzende)"
+  },
+  {
+   "vi": "đó",
+   "de": "dort, das; am Satzende: betont"
+  },
+  {
+   "vi": "đúng giờ",
+   "de": "pünktlich"
+  },
+  {
+   "vi": "đưa",
+   "de": "bringen"
+  },
+  {
+   "vi": "được",
+   "de": "können; dürfen; Passiv-Marker für etwas Angenehmes (bekommen)"
+  },
+  {
+   "vi": "đại học",
+   "de": "Universität"
+  },
+  {
+   "vi": "đẹp",
+   "de": "schön"
+  },
+  {
+   "vi": "đẹp không đâu bằng",
+   "de": "nirgends so schön"
+  },
+  {
+   "vi": "đẹp trai",
+   "de": "gut aussehend (Mann)"
+  },
+  {
+   "vi": "đến",
+   "de": "kommen, ankommen; zu, bis"
+  },
+  {
+   "vi": "đều",
+   "de": "alle, beide (gleichermassen)"
+  },
+  {
+   "vi": "để",
+   "de": "um zu"
+  },
+  {
+   "vi": "đọc",
+   "de": "lesen"
+  },
+  {
+   "vi": "đồng ý",
+   "de": "einverstanden sein"
+  },
+  {
+   "vi": "ạ",
+   "de": "höfliche Partikel am Satzende (gegenüber Älteren)"
+  },
+  {
+   "vi": "ảnh",
+   "de": "er (Süden, = anh ấy); auch: Foto"
+  },
+  {
+   "vi": "ẻm",
+   "de": "sie/er (Süden, = em ấy)"
+  },
+  {
+   "vi": "ế",
+   "de": "Single bleiben (umgangssprachlich)"
+  },
+  {
+   "vi": "ốm",
+   "de": "dünn (Süden); krank (Norden)"
+  },
+  {
+   "vi": "ổng",
+   "de": "er (Süden, = ông ấy)"
+  },
+  {
+   "vi": "ở",
+   "de": "in, an, bei; wohnen"
+  },
+  {
+   "vi": "ở ngoài",
+   "de": "draussen"
+  },
+  {
+   "vi": "ở trên",
+   "de": "auf, oben"
+  },
+  {
+   "vi": "ở đây",
+   "de": "hier"
+  },
+  {
+   "vi": "ủa",
+   "de": "hä?, nanu?"
+  }
+ ]
+}
