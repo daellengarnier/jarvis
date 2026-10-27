@@ -1,0 +1,957 @@
+{
+ "kurs": "SVFF Complete Vietnamese Course – Level 02 – Southern",
+ "karten": [
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Xoài này bao nhiêu một ký vậy cô?",
+   "rueckseite": "Wie viel kostet ein Kilo von diesen Mangos?",
+   "zusatz": "Struktur: Preis fragen"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Cái áo này giá bao nhiêu vậy anh?",
+   "rueckseite": "Wie viel kostet dieses Hemd?",
+   "zusatz": "Struktur: Preis fragen"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Cái máy tính này không những chất lượng cao mà còn đẹp nữa.",
+   "rueckseite": "Dieser Computer ist nicht nur hochwertig, sondern auch schön.",
+   "zusatz": "Struktur: không những ... mà còn ... = nicht nur ... sondern auch"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Bánh xèo ăn không những ngon mà giá còn rẻ nữa.",
+   "rueckseite": "Bánh xèo ist nicht nur lecker, sondern auch günstig.",
+   "zusatz": "Struktur: không những ... mà còn ... = nicht nur ... sondern auch"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Cái tivi Samsung này mắc hơn cái tivi Sony kia.",
+   "rueckseite": "Dieser Samsung-Fernseher ist teurer als der Sony dort.",
+   "zusatz": "Struktur: Adj + hơn = Komparativ"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Cuốn sách này đọc hay hơn cuốn sách đó.",
+   "rueckseite": "Dieses Buch liest sich besser als jenes.",
+   "zusatz": "Struktur: Adj + hơn = Komparativ"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Chất lượng âm thanh cái máy nghe nhạc này tệ hơn cái kia.",
+   "rueckseite": "Die Tonqualität dieses Musikplayers ist schlechter als die vom anderen.",
+   "zusatz": "Struktur: Adj + hơn = Komparativ"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Anh đã ăn nem chua bao giờ chưa?",
+   "rueckseite": "Hast du schon mal Nem chua gegessen?",
+   "zusatz": "Struktur: đã ... bao giờ chưa? = schon einmal?"
+  },
+  {
+   "lektion": 1,
+   "deck": "Bài 01 – Anh muốn mua gì vậy?",
+   "vorderseite": "Anh có muốn đi du lịch cùng chúng tôi không? – Có chứ!",
+   "rueckseite": "Willst du mit uns verreisen? – Aber klar!",
+   "zusatz": "Struktur: chứ = Bekräftigung"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Anh Nam bị chóng mặt và buồn nôn nên mọi người đã đưa ảnh tới bệnh viện.",
+   "rueckseite": "Nam war schwindlig und übel, darum haben ihn alle ins Spital gebracht.",
+   "zusatz": "Struktur: Symptome beschreiben"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Chị Lan phải đi khám bác sĩ vì chỉ bị đau bụng từ hôm qua.",
+   "rueckseite": "Lan muss zum Arzt, weil sie seit gestern Bauchschmerzen hat.",
+   "zusatz": "Struktur: Symptome beschreiben"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Trời đang mưa nên chắc là anh ấy không tới đâu.",
+   "rueckseite": "Es regnet, also kommt er wahrscheinlich nicht.",
+   "zusatz": "Struktur: chắc là = wahrscheinlich"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Cuối tuần này tôi có nhiều việc nên chắc là không đi du lịch được.",
+   "rueckseite": "Dieses Wochenende habe ich viel zu tun, ich kann also wahrscheinlich nicht verreisen.",
+   "zusatz": "Struktur: chắc là = wahrscheinlich"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Nhanh lên, chắc là mọi người đang chờ tụi mình đó.",
+   "rueckseite": "Beeil dich, wahrscheinlich warten alle schon auf uns.",
+   "zusatz": "Struktur: chắc là = wahrscheinlich"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Chi thấy rất vui khi gặp Lan.",
+   "rueckseite": "Chi freut sich sehr, Lan zu treffen.",
+   "zusatz": "Struktur: thấy + Adj = sich ... fühlen"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Hôm nay làm việc cả ngày nên anh thấy mệt quá.",
+   "rueckseite": "Heute habe ich den ganzen Tag gearbeitet, darum bin ich so müde.",
+   "zusatz": "Struktur: thấy + Adj = sich ... fühlen"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Tôi thấy hơi đau bụng.",
+   "rueckseite": "Ich habe etwas Bauchweh.",
+   "zusatz": "Struktur: thấy + Adj = sich ... fühlen"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Lan được bạn tặng quà vào ngày sinh nhật.",
+   "rueckseite": "Lan hat zum Geburtstag von einer Freundin ein Geschenk bekommen.",
+   "zusatz": "Struktur: được = etwas Gutes widerfährt"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Tôi được ba mẹ dẫn đi du lịch.",
+   "rueckseite": "Meine Eltern haben mich auf eine Reise mitgenommen.",
+   "zusatz": "Struktur: được = etwas Gutes widerfährt"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Ảnh được giám đốc khen.",
+   "rueckseite": "Er wurde vom Direktor gelobt.",
+   "zusatz": "Struktur: được = etwas Gutes widerfährt"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Tôi bị đau bụng từ tối hôm qua.",
+   "rueckseite": "Ich habe seit gestern Abend Bauchschmerzen.",
+   "zusatz": "Struktur: bị = etwas Schlechtes widerfährt"
+  },
+  {
+   "lektion": 2,
+   "deck": "Bài 02 – Hôm nay anh nhìn có vẻ mệt",
+   "vorderseite": "Cô ấy bị mất tiền.",
+   "rueckseite": "Sie hat Geld verloren.",
+   "zusatz": "Struktur: bị = etwas Schlechtes widerfährt"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Làm ơn cho tôi nói chuyện với cô Thủy.",
+   "rueckseite": "Bitte verbinden Sie mich mit Frau Thủy.",
+   "zusatz": "Struktur: Telefonieren"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "A lô! Chào cô! Cô cho con gặp bạn Minh ạ!",
+   "rueckseite": "Hallo! Guten Tag! Kann ich bitte mit Minh sprechen?",
+   "zusatz": "Struktur: Telefonieren"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Hình như sáng nay cô Lan không được vui lắm! Tôi thấy cô ấy không chào mọi người như hàng ngày.",
+   "rueckseite": "Anscheinend ist Frau Lan heute Morgen nicht so gut drauf. Sie hat nicht wie sonst alle begrüsst.",
+   "zusatz": "Struktur: hình như = anscheinend"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Em nghe sếp nói hình như tuần sau công ty tụi mình đi du lịch.",
+   "rueckseite": "Ich habe den Chef sagen hören, dass unsere Firma nächste Woche anscheinend einen Ausflug macht.",
+   "zusatz": "Struktur: hình như = anscheinend"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Hình như trời sắp mưa rồi.",
+   "rueckseite": "Es sieht so aus, als würde es gleich regnen.",
+   "zusatz": "Struktur: hình như = anscheinend"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Vì làm việc xa nhà nên mỗi năm chị Hoa chỉ về quê thăm gia đình 2 lần.",
+   "rueckseite": "Weil sie weit weg von zu Hause arbeitet, besucht Hoa ihre Familie nur zweimal im Jahr.",
+   "zusatz": "Struktur: vì ... nên ... = weil ... deshalb"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Vì ngày mai có bài kiểm tra nên tối nay em phải học bài tới khuya.",
+   "rueckseite": "Weil morgen ein Test ist, muss ich heute Abend bis spät lernen.",
+   "zusatz": "Struktur: vì ... nên ... = weil ... deshalb"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Vì bận họp nên tôi không đi chơi được.",
+   "rueckseite": "Weil ich eine Sitzung habe, kann ich nicht ausgehen.",
+   "zusatz": "Struktur: vì ... nên ... = weil ... deshalb"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Con coi phim đã. Rồi con ăn cơm.",
+   "rueckseite": "Ich schaue zuerst noch den Film, dann esse ich.",
+   "zusatz": "Struktur: V + đã = zuerst kurz"
+  },
+  {
+   "lektion": 3,
+   "deck": "Bài 03 – Anh có nhắn gì không?",
+   "vorderseite": "Tôi sẽ gọi lại sau.",
+   "rueckseite": "Ich rufe später zurück.",
+   "zusatz": "Struktur: V + lại = nochmals, zurück"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Tháng sau anh sẽ đi du lịch Đà Lạt và tham quan nhiều nơi nổi tiếng ở đó.",
+   "rueckseite": "Nächsten Monat reise ich nach Đà Lạt und besichtige dort viele berühmte Orte.",
+   "zusatz": "Struktur: Über Reisen sprechen"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Cô Lan thích đi Hà Nội vì không những được đi tham quan nhiều danh lam thắng cảnh mà cô còn được nghe kể về lịch sử Việt Nam.",
+   "rueckseite": "Frau Lan reist gern nach Hà Nội, weil sie dort nicht nur viele Sehenswürdigkeiten besichtigen, sondern auch etwas über die Geschichte Vietnams hören kann.",
+   "zusatz": "Struktur: Über Reisen sprechen"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Em thấy món này chị nấu ngon lắm!",
+   "rueckseite": "Ich finde das Gericht, das du gekocht hast, sehr lecker!",
+   "zusatz": "Struktur: thấy = finden (Meinung)"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Cô thấy bài kiểm tra này em làm chưa tốt.",
+   "rueckseite": "Ich finde, diesen Test hast du noch nicht gut gemacht.",
+   "zusatz": "Struktur: thấy = finden (Meinung)"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Anh thấy món ăn này thế nào?",
+   "rueckseite": "Wie findest du dieses Gericht?",
+   "zusatz": "Struktur: thấy = finden (Meinung)"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Nghe nói chị Linh sắp kết hôn rồi đó!",
+   "rueckseite": "Ich habe gehört, Linh heiratet bald!",
+   "zusatz": "Struktur: nghe nói = ich habe gehört"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Em nghe nói nhà hàng này ăn ngon lắm!",
+   "rueckseite": "Ich habe gehört, das Essen in diesem Restaurant ist sehr gut!",
+   "zusatz": "Struktur: nghe nói = ich habe gehört"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Tôi nghe nói cổ sắp đi du lịch Pháp.",
+   "rueckseite": "Ich habe gehört, sie reist bald nach Frankreich.",
+   "zusatz": "Struktur: nghe nói = ich habe gehört"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Tại sao sáng nay con không đi học mà ở nhà?",
+   "rueckseite": "Warum bist du heute Morgen nicht zur Schule gegangen, sondern zu Hause geblieben?",
+   "zusatz": "Struktur: mà = entgegen der Erwartung"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Bé My không ăn cơm mà chỉ coi tivi.",
+   "rueckseite": "Die kleine My isst nicht, sondern schaut nur fern.",
+   "zusatz": "Struktur: mà = entgegen der Erwartung"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Bộ quần áo đó đẹp như vậy mà chị không thích hả?",
+   "rueckseite": "Das Outfit ist so schön, und du magst es nicht?",
+   "zusatz": "Struktur: mà = entgegen der Erwartung"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Chị đã đi du lịch nước ngoài bao giờ chưa?",
+   "rueckseite": "Bist du schon mal ins Ausland gereist?",
+   "zusatz": "Struktur: đã ... bao giờ chưa? = schon einmal?"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Anh đã bao giờ ăn sầu riêng chưa?",
+   "rueckseite": "Hast du schon mal Durian gegessen?",
+   "zusatz": "Struktur: đã bao giờ ... chưa? = schon einmal?"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Anh đã gặp cổ bao giờ chưa?",
+   "rueckseite": "Hast du sie schon einmal getroffen?",
+   "zusatz": "Struktur: đã ... bao giờ chưa? = schon einmal?"
+  },
+  {
+   "lektion": 4,
+   "deck": "Bài 04 – Anh đã đi Hà Nội bao giờ chưa?",
+   "vorderseite": "Mai nghỉ hả?",
+   "rueckseite": "Morgen ist frei, echt?",
+   "zusatz": "Struktur: hả = echt?"
+  },
+  {
+   "lektion": 5,
+   "deck": "Bài 05 – Phòng loại một bao nhiêu một đêm?",
+   "vorderseite": "Tuy giá ở đây rất mắc nhưng tụi tôi vẫn rất thích ăn ở nhà hàng này.",
+   "rueckseite": "Obwohl es hier sehr teuer ist, essen wir trotzdem sehr gern in diesem Restaurant.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 5,
+   "deck": "Bài 05 – Phòng loại một bao nhiêu một đêm?",
+   "vorderseite": "Tuy rất mệt nhưng chị Mai vẫn phải cố gắng làm xong việc.",
+   "rueckseite": "Obwohl Mai sehr müde ist, muss sie sich trotzdem anstrengen, die Arbeit fertig zu machen.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 5,
+   "deck": "Bài 05 – Phòng loại một bao nhiêu một đêm?",
+   "vorderseite": "Ổng đồng ý, tuy rằng ổng không muốn cho lắm.",
+   "rueckseite": "Er war einverstanden, obwohl er nicht wirklich wollte.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 5,
+   "deck": "Bài 05 – Phòng loại một bao nhiêu một đêm?",
+   "vorderseite": "Cuốn sách của con nằm ở trên bàn.",
+   "rueckseite": "Dein Buch liegt auf dem Tisch.",
+   "zusatz": "Struktur: Position angeben"
+  },
+  {
+   "lektion": 5,
+   "deck": "Bài 05 – Phòng loại một bao nhiêu một đêm?",
+   "vorderseite": "Con chó của tôi đang chơi ở ngoài sân.",
+   "rueckseite": "Mein Hund spielt draussen im Hof.",
+   "zusatz": "Struktur: Position angeben"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Tôi được mời đi đến tiệc sinh nhật của người bạn thân.",
+   "rueckseite": "Ich wurde zur Geburtstagsparty eines guten Freundes eingeladen.",
+   "zusatz": "Struktur: được = etwas Gutes widerfährt"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Tuần sau bé Bi bắt đầu được nghỉ hè nên bé rất vui.",
+   "rueckseite": "Nächste Woche beginnen für den kleinen Bi die Sommerferien, darum freut er sich sehr.",
+   "zusatz": "Struktur: được = etwas Gutes widerfährt"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Anh ấy bị trễ giờ vì ảnh ngủ quên.",
+   "rueckseite": "Er kam zu spät, weil er verschlafen hat.",
+   "zusatz": "Struktur: bị = etwas Schlechtes widerfährt"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Lan bị cô giáo la vì ẻm quên làm bài tập về nhà.",
+   "rueckseite": "Lan wurde von der Lehrerin geschimpft, weil sie die Hausaufgaben vergessen hat.",
+   "zusatz": "Struktur: bị = etwas Schlechtes widerfährt"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Tôi thấy hơi khó chịu. Chắc là tôi bị bệnh rồi.",
+   "rueckseite": "Ich fühle mich etwas unwohl. Wahrscheinlich bin ich krank.",
+   "zusatz": "Struktur: chắc là = wahrscheinlich"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Trời mưa rồi! Chắc là chiều nay ảnh không tới được đâu.",
+   "rueckseite": "Es regnet! Wahrscheinlich kann er heute Nachmittag nicht kommen.",
+   "zusatz": "Struktur: chắc là = wahrscheinlich"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Hình như em quên đem theo tiền rồi.",
+   "rueckseite": "Ich glaube, ich habe vergessen, Geld mitzunehmen.",
+   "zusatz": "Struktur: hình như = anscheinend"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Hình như ngày mai là sinh nhật của anh Nam đó!",
+   "rueckseite": "Anscheinend hat Nam morgen Geburtstag!",
+   "zusatz": "Struktur: hình như = anscheinend"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Vì bây giờ còn sớm nên tôi muốn ra ngoài đi dạo.",
+   "rueckseite": "Weil es noch früh ist, will ich einen Spaziergang machen.",
+   "zusatz": "Struktur: vì ... nên ... = weil ... deshalb"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Vì hôm qua ngủ trễ nên hôm nay tôi thức dậy trễ.",
+   "rueckseite": "Weil ich gestern spät ins Bett ging, bin ich heute spät aufgewacht.",
+   "zusatz": "Struktur: vì ... nên ... = weil ... deshalb"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Anh Nam không những giỏi tiếng Anh mà còn giỏi tiếng Pháp nữa.",
+   "rueckseite": "Nam ist nicht nur gut in Englisch, sondern auch in Französisch.",
+   "zusatz": "Struktur: không những ... mà còn ... = nicht nur ... sondern auch"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Cái điện thoại này không những không tốt mà còn mắc nữa.",
+   "rueckseite": "Dieses Handy ist nicht nur schlecht, sondern auch teuer.",
+   "zusatz": "Struktur: không những ... mà còn ... = nicht nur ... sondern auch"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Cô ấy không những thông minh mà còn siêng năng nữa.",
+   "rueckseite": "Sie ist nicht nur klug, sondern auch fleissig.",
+   "zusatz": "Struktur: không những ... mà còn ... = nicht nur ... sondern auch"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Tuy nhà tôi nhỏ nhưng bên trong rất tiện nghi.",
+   "rueckseite": "Obwohl mein Haus klein ist, ist es innen sehr komfortabel.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 6,
+   "deck": "Bài 06 – Chị ấy làm nghề gì vậy?",
+   "vorderseite": "Tuy nhà xa trường nhưng ngày nào bé Hoa cũng đi học đúng giờ.",
+   "rueckseite": "Obwohl ihr Haus weit von der Schule weg ist, kommt die kleine Hoa jeden Tag pünktlich.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Người em thì rất siêng học, còn người anh thì thích chơi game hơn học.",
+   "rueckseite": "Der Jüngere lernt sehr fleissig, der Ältere gamet hingegen lieber, als zu lernen.",
+   "zusatz": "Struktur: A thì ..., còn B thì ... = Gegenüberstellung"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Phòng tắm thì rộng, còn phòng ngủ thì chật.",
+   "rueckseite": "Das Bad ist geräumig, das Schlafzimmer hingegen eng.",
+   "zusatz": "Struktur: A thì ..., còn B thì ... = Gegenüberstellung"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Chị tui thì hoạt bát lắm, còn anh tui thì nhút nhát kinh khủng.",
+   "rueckseite": "Meine Schwester ist sehr aufgeweckt, mein Bruder hingegen extrem schüchtern.",
+   "zusatz": "Struktur: A thì ..., còn B thì ... = Gegenüberstellung"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Nhà của tôi có 4 phòng: 2 phòng ngủ, 1 nhà bếp và 1 phòng tắm.",
+   "rueckseite": "Mein Haus hat 4 Räume: 2 Schlafzimmer, 1 Küche und 1 Bad.",
+   "zusatz": "Struktur: Über die Wohnung sprechen"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Căn nhà của chị Mai nằm ở tầng 5 một khu chung cư.",
+   "rueckseite": "Mais Wohnung liegt im 5. Stock eines Wohnblocks.",
+   "zusatz": "Struktur: Über die Wohnung sprechen"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Tất cả các ngôi nhà ở đây đều được xây dựng từ trước năm 1930.",
+   "rueckseite": "Alle Häuser hier wurden vor 1930 gebaut.",
+   "zusatz": "Struktur: các / những = Plural"
+  },
+  {
+   "lektion": 7,
+   "deck": "Bài 07 – Tôi thích nhà này nhưng...",
+   "vorderseite": "Mình đang tìm một căn hộ nhỏ nhưng tiện nghi.",
+   "rueckseite": "Ich suche eine kleine, aber gut ausgestattete Wohnung.",
+   "zusatz": "Struktur: căn / ngôi / tòa = Zählwörter für Gebäude"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Cô ấy tự mua cho mình một cái áo vào ngày sinh nhật của cổ.",
+   "rueckseite": "Sie hat sich an ihrem Geburtstag selbst ein Oberteil gekauft.",
+   "zusatz": "Struktur: mình = sich selbst / ich (locker)"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Cô ấy bị bệnh vì cổ đã không quan tâm đến bản thân mình.",
+   "rueckseite": "Sie ist krank geworden, weil sie nicht auf sich selbst geachtet hat.",
+   "zusatz": "Struktur: mình = sich selbst / ich (locker)"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Mình đi trước nha, hẹn gặp lại.",
+   "rueckseite": "Ich gehe schon mal, bis bald.",
+   "zusatz": "Struktur: mình = sich selbst / ich (locker)"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Cuối tuần này cả nhà tôi sẽ đi du lịch.",
+   "rueckseite": "Dieses Wochenende verreist meine ganze Familie.",
+   "zusatz": "Struktur: cả = ganz, gesamt"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Cả lớp đang làm bài kiểm tra.",
+   "rueckseite": "Die ganze Klasse schreibt gerade einen Test.",
+   "zusatz": "Struktur: cả = ganz, gesamt"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Ngày mai, cả lớp đi Vũng Tàu.",
+   "rueckseite": "Morgen fährt die ganze Klasse nach Vũng Tàu.",
+   "zusatz": "Struktur: cả = ganz, gesamt"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Tất cả các bạn nhớ mang theo căn cước nha.",
+   "rueckseite": "Denkt alle daran, eure ID mitzunehmen.",
+   "zusatz": "Struktur: tất cả = alle"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Sầu riêng càng ăn càng thấy ngon.",
+   "rueckseite": "Je mehr man Durian isst, desto besser schmeckt sie.",
+   "zusatz": "Struktur: càng ... càng ... = je mehr ... desto"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Trời mưa càng ngày càng lớn nên tôi không đi ra ngoài được.",
+   "rueckseite": "Der Regen wird immer stärker, darum kann ich nicht rausgehen.",
+   "zusatz": "Struktur: càng ... càng ... = je mehr ... desto"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Càng ngày họ càng hiểu nhau hơn.",
+   "rueckseite": "Sie verstehen sich von Tag zu Tag besser.",
+   "zusatz": "Struktur: càng ... càng ... = je mehr ... desto"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Tôi luôn luôn thức dậy lúc 6 giờ sáng để tập thể dục.",
+   "rueckseite": "Ich stehe immer um 6 Uhr auf, um Sport zu machen.",
+   "zusatz": "Struktur: Häufigkeit: luôn luôn = immer"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Chị ấy thường đi làm vào lúc 8 giờ sáng.",
+   "rueckseite": "Sie geht normalerweise um 8 Uhr zur Arbeit.",
+   "zusatz": "Struktur: Häufigkeit: thường = normalerweise"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Anh ấy thỉnh thoảng đi du lịch vào cuối tuần.",
+   "rueckseite": "Er verreist manchmal am Wochenende.",
+   "zusatz": "Struktur: Häufigkeit: thỉnh thoảng = manchmal"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Tôi hiếm khi uống cà phê vào buổi tối.",
+   "rueckseite": "Ich trinke selten abends Kaffee.",
+   "zusatz": "Struktur: Häufigkeit: hiếm khi = selten"
+  },
+  {
+   "lektion": 8,
+   "deck": "Bài 08 – Lúc rảnh anh hay làm gì?",
+   "vorderseite": "Tôi không bao giờ bỏ bữa sáng.",
+   "rueckseite": "Ich lasse nie das Frühstück aus.",
+   "zusatz": "Struktur: Häufigkeit: không bao giờ = nie"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Trời đang mưa. Hãy cẩn thận khi lái xe!",
+   "rueckseite": "Es regnet. Fahr vorsichtig!",
+   "zusatz": "Struktur: hãy + V = Imperativ"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Anh hãy nói cho em biết đi!",
+   "rueckseite": "Sag es mir doch!",
+   "zusatz": "Struktur: hãy + V = Imperativ"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Anh hãy đi ra đi!",
+   "rueckseite": "Geh raus!",
+   "zusatz": "Struktur: hãy + V = Imperativ"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Em đang muốn ăn gì đó, bánh xèo chẳng hạn.",
+   "rueckseite": "Ich hätte Lust auf etwas, zum Beispiel Bánh xèo.",
+   "zusatz": "Struktur: chẳng hạn = zum Beispiel"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Sắp tới tui sẽ đi du lịch nhiều nơi, ví dụ như đi Đà Lạt chẳng hạn.",
+   "rueckseite": "Demnächst reise ich an viele Orte, zum Beispiel nach Đà Lạt.",
+   "zusatz": "Struktur: chẳng hạn = zum Beispiel"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Tui muốn ăn cái gì đó, mì chẳng hạn.",
+   "rueckseite": "Ich will etwas essen, zum Beispiel Nudeln.",
+   "zusatz": "Struktur: chẳng hạn = zum Beispiel"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Ngoài học ra, anh cần phải tập nói tiếng Việt nhiều hơn nữa.",
+   "rueckseite": "Ausser zu lernen musst du auch mehr Vietnamesisch sprechen üben.",
+   "zusatz": "Struktur: ngoài ... ra = ausser ... (noch)"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Cổ thích ăn món Hàn, món Trung, ngoài ra còn có món Việt nữa.",
+   "rueckseite": "Sie isst gern koreanisch und chinesisch, ausserdem auch vietnamesisch.",
+   "zusatz": "Struktur: ngoài ra = ausserdem"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Ngoài tui ra, còn có năm người nữa ở đây.",
+   "rueckseite": "Ausser mir sind noch fünf andere Leute hier.",
+   "zusatz": "Struktur: ngoài ... ra = ausser ... (noch)"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Hôm nay, cả lớp đều đi học, trừ My.",
+   "rueckseite": "Heute sind alle in der Schule, ausser My.",
+   "zusatz": "Struktur: trừ = ausser"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Tôi thích tất cả các loại trái cây, trừ sầu riêng.",
+   "rueckseite": "Ich mag alle Früchte, ausser Durian.",
+   "zusatz": "Struktur: trừ = ausser"
+  },
+  {
+   "lektion": 9,
+   "deck": "Bài 09 – Em thích mọi thứ trừ...",
+   "vorderseite": "Mình mời hết mọi người đi tiệc rồi, trừ thằng người yêu cũ của mình.",
+   "rueckseite": "Ich habe alle zur Party eingeladen, ausser meinen Ex.",
+   "zusatz": "Struktur: trừ = ausser"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Ủa? Cuối tuần mà anh không đi ra ngoài chơi hả?",
+   "rueckseite": "Hä? Es ist Wochenende und du gehst nicht raus?",
+   "zusatz": "Struktur: hả / sao = überraschte Rückfrage"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Chị thấy món này ăn không ngon sao?",
+   "rueckseite": "Du findest das Gericht nicht lecker?",
+   "zusatz": "Struktur: hả / sao = überraschte Rückfrage"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Tối qua bạn không đi coi phim sao?",
+   "rueckseite": "Du warst gestern Abend nicht im Kino?",
+   "zusatz": "Struktur: hả / sao = überraschte Rückfrage"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Sao anh lại nói với chỉ như vậy? Chỉ buồn đó!",
+   "rueckseite": "Warum sagst du so etwas zu ihr? Sie ist traurig!",
+   "zusatz": "Struktur: lại + V = entgegen der Erwartung"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Món này ngon vậy mà ảnh lại không thích.",
+   "rueckseite": "Das Gericht ist so lecker, und trotzdem mag er es nicht.",
+   "zusatz": "Struktur: lại + V = entgegen der Erwartung"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Nắng vậy sao lại ra sân ngồi?",
+   "rueckseite": "Bei der Sonne, warum sitzt du draussen im Hof?",
+   "zusatz": "Struktur: lại + V = entgegen der Erwartung"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Mặc dù học rất giỏi ở đại học nhưng cổ không tìm được một công việc phù hợp.",
+   "rueckseite": "Obwohl sie an der Uni sehr gut war, findet sie keine passende Stelle.",
+   "zusatz": "Struktur: mặc dù ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Mặc dù bị sốt nhưng tôi vẫn phải đến trường để làm bài kiểm tra.",
+   "rueckseite": "Obwohl ich Fieber habe, muss ich trotzdem zur Schule, um den Test zu schreiben.",
+   "zusatz": "Struktur: mặc dù ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 10,
+   "deck": "Bài 10 – Tôi không còn làm ở đó nữa",
+   "vorderseite": "Mặc dù ảnh đẹp trai nhưng vẫn ế.",
+   "rueckseite": "Obwohl er gut aussieht, ist er immer noch Single.",
+   "zusatz": "Struktur: mặc dù ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Cuối tuần này tui không đi đâu hết.",
+   "rueckseite": "Dieses Wochenende gehe ich nirgendwohin.",
+   "zusatz": "Struktur: không ... hết = absolute Verneinung"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Ở trường mới, anh ấy không quen ai hết.",
+   "rueckseite": "An der neuen Schule kennt er niemanden.",
+   "zusatz": "Struktur: không ... hết = absolute Verneinung"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Không ngày nào cô ấy vắng mặt.",
+   "rueckseite": "Sie fehlt keinen einzigen Tag.",
+   "zusatz": "Struktur: không N nào = kein einziges"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Mẹ la bé Bi vì nó vừa đọc truyện vừa ăn cơm.",
+   "rueckseite": "Mama schimpft mit dem kleinen Bi, weil er beim Essen liest.",
+   "zusatz": "Struktur: vừa ... vừa ... = gleichzeitig"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Anh Nam là một người vừa đẹp trai vừa tài giỏi.",
+   "rueckseite": "Nam ist gutaussehend und talentiert zugleich.",
+   "zusatz": "Struktur: vừa ... vừa ... = sowohl ... als auch"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Ông giám đốc đó vừa khó tính vừa không có năng lực.",
+   "rueckseite": "Dieser Direktor ist sowohl schwierig als auch inkompetent.",
+   "zusatz": "Struktur: vừa ... vừa ... = sowohl ... als auch"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Chị Linh khoảng 26 tuổi, hơi cao và gầy.",
+   "rueckseite": "Linh ist etwa 26, eher gross und schlank.",
+   "zusatz": "Struktur: Aussehen beschreiben"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Anh Long rất đẹp trai. Ảnh cao và hơi ốm, tóc và mắt đều đen.",
+   "rueckseite": "Long sieht sehr gut aus. Er ist gross und eher schlank, Haare und Augen sind schwarz.",
+   "zusatz": "Struktur: Aussehen beschreiben"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Tui và Lan cao bằng nhau.",
+   "rueckseite": "Lan und ich sind gleich gross.",
+   "zusatz": "Struktur: bằng = gleich ... wie"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Không ai nấu ăn ngon bằng mẹ tui, nhất là món bún thịt nướng.",
+   "rueckseite": "Niemand kocht so gut wie meine Mutter, vor allem Bún thịt nướng.",
+   "zusatz": "Struktur: không ai ... bằng = niemand so ... wie"
+  },
+  {
+   "lektion": 11,
+   "deck": "Bài 11 – Ảnh là người như thế nào?",
+   "vorderseite": "Biển này đẹp không đâu bằng.",
+   "rueckseite": "Nirgends ist das Meer so schön wie hier.",
+   "zusatz": "Struktur: không đâu bằng = nirgends so ... wie"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Nhà tôi thì rộng, còn phòng ngủ tôi thì nhỏ.",
+   "rueckseite": "Mein Haus ist geräumig, mein Schlafzimmer hingegen klein.",
+   "zusatz": "Struktur: A thì ..., còn B thì ... = Gegenüberstellung"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Anh trai em thích học, còn em thì thích đi chơi.",
+   "rueckseite": "Mein älterer Bruder lernt gern, ich hingegen gehe lieber aus.",
+   "zusatz": "Struktur: A thì ..., còn B thì ... = Gegenüberstellung"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Chỗ thì mưa lũ, chỗ thì hạn hán.",
+   "rueckseite": "An manchen Orten gibt es Überschwemmungen, an anderen Dürre.",
+   "zusatz": "Struktur: N thì ..., N thì ... = die einen ..., die anderen"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Ảnh lái xe càng lúc càng nhanh.",
+   "rueckseite": "Er fährt immer schneller.",
+   "zusatz": "Struktur: càng ... càng ... = immer mehr"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Chị ấy học càng ngày càng giỏi.",
+   "rueckseite": "Sie wird beim Lernen immer besser.",
+   "zusatz": "Struktur: càng ... càng ... = immer mehr"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Chúng ta không nên vừa ăn vừa coi điện thoại.",
+   "rueckseite": "Wir sollten nicht gleichzeitig essen und aufs Handy schauen.",
+   "zusatz": "Struktur: vừa ... vừa ... = gleichzeitig"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Chị Ly vừa xinh đẹp vừa tốt bụng.",
+   "rueckseite": "Ly ist hübsch und gutherzig zugleich.",
+   "zusatz": "Struktur: vừa ... vừa ... = sowohl ... als auch"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Mặc dù rất buồn ngủ nhưng anh Minh phải thức khuya để ôn bài.",
+   "rueckseite": "Obwohl er sehr müde ist, muss Minh lange aufbleiben, um zu repetieren.",
+   "zusatz": "Struktur: mặc dù ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Tuy bây giờ còn rất sớm nhưng chị My phải thức dậy để đi làm.",
+   "rueckseite": "Obwohl es noch sehr früh ist, muss My aufstehen, um zur Arbeit zu gehen.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Gia đình họ tuy nghèo nhưng hạnh phúc.",
+   "rueckseite": "Ihre Familie ist zwar arm, aber glücklich.",
+   "zusatz": "Struktur: tuy ... nhưng ... = obwohl"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Ngoài chả giò ra, tui còn thích ăn bánh xèo, bánh mì và phở nữa.",
+   "rueckseite": "Ausser Chả giò esse ich auch gern Bánh xèo, Bánh mì und Phở.",
+   "zusatz": "Struktur: ngoài ... ra = ausser ... (noch)"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Cô Hoa đã đi du lịch nhiều nước ở châu Á như Hàn Quốc, Nhật Bản... Ngoài ra, cô còn đi du lịch ở châu Âu nữa.",
+   "rueckseite": "Frau Hoa ist in viele Länder Asiens gereist, etwa Korea und Japan. Ausserdem war sie auch in Europa.",
+   "zusatz": "Struktur: ngoài ra = ausserdem"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Ảnh học tiếng Anh, tiếng Pháp. Ngoài ra, ảnh còn học tiếng Hàn Quốc.",
+   "rueckseite": "Er lernt Englisch und Französisch. Ausserdem lernt er Koreanisch.",
+   "zusatz": "Struktur: ngoài ra = ausserdem"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Tôi thích tất cả các bạn trong lớp, trừ lớp trưởng.",
+   "rueckseite": "Ich mag alle in der Klasse, ausser den Klassensprecher.",
+   "zusatz": "Struktur: trừ = ausser"
+  },
+  {
+   "lektion": 12,
+   "deck": "Bài 12 – Mặc dù không có nhiều thời gian, nhưng...",
+   "vorderseite": "Tôi ăn được tất cả các món, trừ hải sản.",
+   "rueckseite": "Ich kann alles essen, ausser Meeresfrüchte.",
+   "zusatz": "Struktur: trừ = ausser"
+  }
+ ]
+}

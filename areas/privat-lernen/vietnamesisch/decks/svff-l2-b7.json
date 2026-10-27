@@ -1,0 +1,145 @@
+{
+  "deck": {
+    "id": "svff-l2-b7",
+    "title": "Bài 7: Tôi thích nhà này nhưng...",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 7
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "ban công",
+      "back_de": "Balkon",
+      "back_en": "balcony"
+    },
+    {
+      "type": "vocab",
+      "front": "đằng kia",
+      "back_de": "dort drüben",
+      "back_en": "over there"
+    },
+    {
+      "type": "vocab",
+      "front": "nhà tắm",
+      "back_de": "Badezimmer",
+      "back_en": "bathroom"
+    },
+    {
+      "type": "vocab",
+      "front": "chật",
+      "back_de": "eng",
+      "back_en": "cramped, tight"
+    },
+    {
+      "type": "vocab",
+      "front": "sẵn sàng",
+      "back_de": "bereit",
+      "back_en": "ready"
+    },
+    {
+      "type": "vocab",
+      "front": "tự nhiên",
+      "back_de": "natürlich, spontan",
+      "back_en": "natural"
+    },
+    {
+      "type": "vocab",
+      "front": "thư giãn",
+      "back_de": "entspannen",
+      "back_en": "to relax"
+    },
+    {
+      "type": "vocab",
+      "front": "biệt thự",
+      "back_de": "Villa",
+      "back_en": "villa"
+    },
+    {
+      "type": "vocab",
+      "front": "diện tích",
+      "back_de": "Fläche",
+      "back_en": "area"
+    },
+    {
+      "type": "vocab",
+      "front": "trang trí",
+      "back_de": "dekorieren",
+      "back_en": "to decorate"
+    },
+    {
+      "type": "vocab",
+      "front": "ở mặt tiền đường",
+      "back_de": "direkt an der Strasse gelegen",
+      "back_en": "on the street front"
+    },
+    {
+      "type": "vocab",
+      "front": "ngôi chùa",
+      "back_de": "Pagode",
+      "back_en": "pagoda"
+    },
+    {
+      "type": "vocab",
+      "front": "phòng khách",
+      "back_de": "Wohnzimmer",
+      "back_en": "living room"
+    },
+    {
+      "type": "vocab",
+      "front": "phòng ngủ",
+      "back_de": "Schlafzimmer",
+      "back_en": "bedroom"
+    },
+    {
+      "type": "vocab",
+      "front": "nhà vệ sinh",
+      "back_de": "Toilette",
+      "back_en": "toilet"
+    },
+    {
+      "type": "sentence",
+      "front": "Người em thì rất siêng học, còn người anh thì thích chơi game hơn học.",
+      "back_de": "Der Jüngere lernt sehr fleissig, der Ältere gamet hingegen lieber, als zu lernen.",
+      "note": "A thì ..., còn B thì ... = Gegenüberstellung"
+    },
+    {
+      "type": "sentence",
+      "front": "Phòng tắm thì rộng, còn phòng ngủ thì chật.",
+      "back_de": "Das Bad ist geräumig, das Schlafzimmer hingegen eng.",
+      "note": "A thì ..., còn B thì ... = Gegenüberstellung"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị tui thì hoạt bát lắm, còn anh tui thì nhút nhát kinh khủng.",
+      "back_de": "Meine Schwester ist sehr aufgeweckt, mein Bruder hingegen extrem schüchtern.",
+      "note": "A thì ..., còn B thì ... = Gegenüberstellung"
+    },
+    {
+      "type": "sentence",
+      "front": "Nhà của tôi có 4 phòng: 2 phòng ngủ, 1 nhà bếp và 1 phòng tắm.",
+      "back_de": "Mein Haus hat 4 Räume: 2 Schlafzimmer, 1 Küche und 1 Bad.",
+      "note": "Über die Wohnung sprechen"
+    },
+    {
+      "type": "sentence",
+      "front": "Căn nhà của chị Mai nằm ở tầng 5 một khu chung cư.",
+      "back_de": "Mais Wohnung liegt im 5. Stock eines Wohnblocks.",
+      "note": "Über die Wohnung sprechen"
+    },
+    {
+      "type": "sentence",
+      "front": "Tất cả các ngôi nhà ở đây đều được xây dựng từ trước năm 1930.",
+      "back_de": "Alle Häuser hier wurden vor 1930 gebaut.",
+      "note": "các / những = Plural"
+    },
+    {
+      "type": "sentence",
+      "front": "Mình đang tìm một căn hộ nhỏ nhưng tiện nghi.",
+      "back_de": "Ich suche eine kleine, aber gut ausgestattete Wohnung.",
+      "note": "căn / ngôi / tòa = Zählwörter für Gebäude"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "deck": {
+    "id": "svff-l2-b4",
+    "title": "Bài 4: Anh đã đi Hà Nội bao giờ chưa?",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 4
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "khí hậu",
+      "back_de": "Klima",
+      "back_en": "climate"
+    },
+    {
+      "type": "vocab",
+      "front": "hành lý",
+      "back_de": "Gepäck",
+      "back_en": "luggage"
+    },
+    {
+      "type": "vocab",
+      "front": "thú vị",
+      "back_de": "interessant, spannend",
+      "back_en": "interesting"
+    },
+    {
+      "type": "vocab",
+      "front": "đảo",
+      "back_de": "Insel",
+      "back_en": "island"
+    },
+    {
+      "type": "vocab",
+      "front": "mát mẻ",
+      "back_de": "angenehm kühl",
+      "back_en": "pleasantly cool"
+    },
+    {
+      "type": "vocab",
+      "front": "bình yên",
+      "back_de": "friedlich, ruhig",
+      "back_en": "peaceful"
+    },
+    {
+      "type": "vocab",
+      "front": "giúp / phụ",
+      "back_de": "helfen",
+      "back_en": "to help"
+    },
+    {
+      "type": "vocab",
+      "front": "bảo tàng",
+      "back_de": "Museum",
+      "back_en": "museum"
+    },
+    {
+      "type": "vocab",
+      "front": "đặc biệt",
+      "back_de": "besonders",
+      "back_en": "special"
+    },
+    {
+      "type": "vocab",
+      "front": "nổi tiếng",
+      "back_de": "berühmt",
+      "back_en": "famous"
+    },
+    {
+      "type": "vocab",
+      "front": "nghỉ mát",
+      "back_de": "Ferien machen (am Meer, in den Bergen)",
+      "back_en": "to go on holiday"
+    },
+    {
+      "type": "vocab",
+      "front": "lịch sử",
+      "back_de": "Geschichte",
+      "back_en": "history"
+    },
+    {
+      "type": "vocab",
+      "front": "có dịp",
+      "back_de": "Gelegenheit haben",
+      "back_en": "to have the chance"
+    },
+    {
+      "type": "vocab",
+      "front": "tham quan",
+      "back_de": "besichtigen",
+      "back_en": "to go sightseeing"
+    },
+    {
+      "type": "vocab",
+      "front": "hướng dẫn",
+      "back_de": "anleiten, führen, erklären",
+      "back_en": "to guide, instruct"
+    },
+    {
+      "type": "vocab",
+      "front": "danh lam thắng cảnh",
+      "back_de": "Sehenswürdigkeit (landschaftlich)",
+      "back_en": "scenic spot"
+    },
+    {
+      "type": "vocab",
+      "front": "di tích văn hóa",
+      "back_de": "Kulturdenkmal",
+      "back_en": "cultural relic"
+    },
+    {
+      "type": "sentence",
+      "front": "Tháng sau anh sẽ đi du lịch Đà Lạt và tham quan nhiều nơi nổi tiếng ở đó.",
+      "back_de": "Nächsten Monat reise ich nach Đà Lạt und besichtige dort viele berühmte Orte.",
+      "note": "Über Reisen sprechen"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô Lan thích đi Hà Nội vì không những được đi tham quan nhiều danh lam thắng cảnh mà cô còn được nghe kể về lịch sử Việt Nam.",
+      "back_de": "Frau Lan reist gern nach Hà Nội, weil sie dort nicht nur viele Sehenswürdigkeiten besichtigen, sondern auch etwas über die Geschichte Vietnams hören kann.",
+      "note": "Über Reisen sprechen"
+    },
+    {
+      "type": "sentence",
+      "front": "Em thấy món này chị nấu ngon lắm!",
+      "back_de": "Ich finde das Gericht, das du gekocht hast, sehr lecker!",
+      "note": "thấy = finden (Meinung)"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô thấy bài kiểm tra này em làm chưa tốt.",
+      "back_de": "Ich finde, diesen Test hast du noch nicht gut gemacht.",
+      "note": "thấy = finden (Meinung)"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh thấy món ăn này thế nào?",
+      "back_de": "Wie findest du dieses Gericht?",
+      "note": "thấy = finden (Meinung)"
+    },
+    {
+      "type": "sentence",
+      "front": "Nghe nói chị Linh sắp kết hôn rồi đó!",
+      "back_de": "Ich habe gehört, Linh heiratet bald!",
+      "note": "nghe nói = ich habe gehört"
+    },
+    {
+      "type": "sentence",
+      "front": "Em nghe nói nhà hàng này ăn ngon lắm!",
+      "back_de": "Ich habe gehört, das Essen in diesem Restaurant ist sehr gut!",
+      "note": "nghe nói = ich habe gehört"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi nghe nói cổ sắp đi du lịch Pháp.",
+      "back_de": "Ich habe gehört, sie reist bald nach Frankreich.",
+      "note": "nghe nói = ich habe gehört"
+    },
+    {
+      "type": "sentence",
+      "front": "Tại sao sáng nay con không đi học mà ở nhà?",
+      "back_de": "Warum bist du heute Morgen nicht zur Schule gegangen, sondern zu Hause geblieben?",
+      "note": "mà = entgegen der Erwartung"
+    },
+    {
+      "type": "sentence",
+      "front": "Bé My không ăn cơm mà chỉ coi tivi.",
+      "back_de": "Die kleine My isst nicht, sondern schaut nur fern.",
+      "note": "mà = entgegen der Erwartung"
+    },
+    {
+      "type": "sentence",
+      "front": "Bộ quần áo đó đẹp như vậy mà chị không thích hả?",
+      "back_de": "Das Outfit ist so schön, und du magst es nicht?",
+      "note": "mà = entgegen der Erwartung"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị đã đi du lịch nước ngoài bao giờ chưa?",
+      "back_de": "Bist du schon mal ins Ausland gereist?",
+      "note": "đã ... bao giờ chưa? = schon einmal?"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh đã bao giờ ăn sầu riêng chưa?",
+      "back_de": "Hast du schon mal Durian gegessen?",
+      "note": "đã bao giờ ... chưa? = schon einmal?"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh đã gặp cổ bao giờ chưa?",
+      "back_de": "Hast du sie schon einmal getroffen?",
+      "note": "đã ... bao giờ chưa? = schon einmal?"
+    },
+    {
+      "type": "sentence",
+      "front": "Mai nghỉ hả?",
+      "back_de": "Morgen ist frei, echt?",
+      "note": "hả = echt?"
+    }
+  ]
+}

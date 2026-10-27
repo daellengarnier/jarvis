@@ -1,0 +1,151 @@
+{
+  "deck": {
+    "id": "svff-l2-b11",
+    "title": "Bài 11: Ảnh là người như thế nào?",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 11
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "hài hước",
+      "back_de": "humorvoll, lustig",
+      "back_en": "funny"
+    },
+    {
+      "type": "vocab",
+      "front": "quầy tiếp tân",
+      "back_de": "Empfang, Rezeption",
+      "back_en": "front desk"
+    },
+    {
+      "type": "vocab",
+      "front": "sang trọng",
+      "back_de": "luxuriös, elegant",
+      "back_en": "luxurious"
+    },
+    {
+      "type": "vocab",
+      "front": "vui tính",
+      "back_de": "fröhlich, gut gelaunt (Charakter)",
+      "back_en": "cheerful"
+    },
+    {
+      "type": "vocab",
+      "front": "tính tình",
+      "back_de": "Charakter, Temperament",
+      "back_en": "personality"
+    },
+    {
+      "type": "vocab",
+      "front": "lời khen",
+      "back_de": "Kompliment",
+      "back_en": "compliment"
+    },
+    {
+      "type": "vocab",
+      "front": "tóc vàng",
+      "back_de": "blonde Haare",
+      "back_en": "blond hair"
+    },
+    {
+      "type": "vocab",
+      "front": "cao",
+      "back_de": "gross (Körper), hoch",
+      "back_en": "tall"
+    },
+    {
+      "type": "vocab",
+      "front": "nói thiệt",
+      "back_de": "ehrlich gesagt (Süden)",
+      "back_en": "to be honest"
+    },
+    {
+      "type": "vocab",
+      "front": "mắt xanh",
+      "back_de": "blaue Augen",
+      "back_en": "blue eyes"
+    },
+    {
+      "type": "vocab",
+      "front": "mập",
+      "back_de": "dick",
+      "back_en": "fat"
+    },
+    {
+      "type": "vocab",
+      "front": "thái độ",
+      "back_de": "Haltung, Einstellung",
+      "back_en": "attitude"
+    },
+    {
+      "type": "sentence",
+      "front": "Cuối tuần này tui không đi đâu hết.",
+      "back_de": "Dieses Wochenende gehe ich nirgendwohin.",
+      "note": "không ... hết = absolute Verneinung"
+    },
+    {
+      "type": "sentence",
+      "front": "Ở trường mới, anh ấy không quen ai hết.",
+      "back_de": "An der neuen Schule kennt er niemanden.",
+      "note": "không ... hết = absolute Verneinung"
+    },
+    {
+      "type": "sentence",
+      "front": "Không ngày nào cô ấy vắng mặt.",
+      "back_de": "Sie fehlt keinen einzigen Tag.",
+      "note": "không N nào = kein einziges"
+    },
+    {
+      "type": "sentence",
+      "front": "Mẹ la bé Bi vì nó vừa đọc truyện vừa ăn cơm.",
+      "back_de": "Mama schimpft mit dem kleinen Bi, weil er beim Essen liest.",
+      "note": "vừa ... vừa ... = gleichzeitig"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh Nam là một người vừa đẹp trai vừa tài giỏi.",
+      "back_de": "Nam ist gutaussehend und talentiert zugleich.",
+      "note": "vừa ... vừa ... = sowohl ... als auch"
+    },
+    {
+      "type": "sentence",
+      "front": "Ông giám đốc đó vừa khó tính vừa không có năng lực.",
+      "back_de": "Dieser Direktor ist sowohl schwierig als auch inkompetent.",
+      "note": "vừa ... vừa ... = sowohl ... als auch"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị Linh khoảng 26 tuổi, hơi cao và gầy.",
+      "back_de": "Linh ist etwa 26, eher gross und schlank.",
+      "note": "Aussehen beschreiben"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh Long rất đẹp trai. Ảnh cao và hơi ốm, tóc và mắt đều đen.",
+      "back_de": "Long sieht sehr gut aus. Er ist gross und eher schlank, Haare und Augen sind schwarz.",
+      "note": "Aussehen beschreiben"
+    },
+    {
+      "type": "sentence",
+      "front": "Tui và Lan cao bằng nhau.",
+      "back_de": "Lan und ich sind gleich gross.",
+      "note": "bằng = gleich ... wie"
+    },
+    {
+      "type": "sentence",
+      "front": "Không ai nấu ăn ngon bằng mẹ tui, nhất là món bún thịt nướng.",
+      "back_de": "Niemand kocht so gut wie meine Mutter, vor allem Bún thịt nướng.",
+      "note": "không ai ... bằng = niemand so ... wie"
+    },
+    {
+      "type": "sentence",
+      "front": "Biển này đẹp không đâu bằng.",
+      "back_de": "Nirgends ist das Meer so schön wie hier.",
+      "note": "không đâu bằng = nirgends so ... wie"
+    }
+  ]
+}

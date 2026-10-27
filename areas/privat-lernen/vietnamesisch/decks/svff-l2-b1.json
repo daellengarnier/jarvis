@@ -5,43 +5,275 @@
     "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
     "level": "A2",
     "topic": "Einkaufen, Preise, Früchte, Vergleiche",
-    "source": "https://svff.online/learn/lesson/74/overview?course=4&module=6"
+    "source": "https://svff.online/learn/lesson/74/overview?course=4&module=6",
+    "position": 1
   },
   "cards": [
-    { "type": "vocab", "front": "chục", "back_de": "zehn (ein Zehner, beim Zählen in Zehnergruppen)", "back_en": "ten", "pos": "noun", "category": "Zahlen" },
-    { "type": "vocab", "front": "người mua", "back_de": "Käufer/in", "back_en": "buyer", "pos": "noun", "category": "Einkaufen" },
-    { "type": "vocab", "front": "đồng ý", "back_de": "einverstanden sein, zustimmen", "back_en": "to agree", "pos": "verb", "category": "Einkaufen" },
-    { "type": "vocab", "front": "loại", "back_de": "Sorte, Art, Typ", "back_en": "type, kind", "pos": "noun", "category": "Einkaufen" },
-    { "type": "vocab", "front": "bảo hành", "back_de": "Garantie", "back_en": "warranty", "pos": "noun", "category": "Einkaufen" },
-    { "type": "vocab", "front": "ngon", "back_de": "lecker (umgangssprachlich auch: attraktiv, eher vulgär)", "back_en": "delicious; slang: attractive", "pos": "adjective", "category": "Eigenschaften" },
-    { "type": "vocab", "front": "rộng", "back_de": "weit, breit, geräumig", "back_en": "wide, spacious", "pos": "adjective", "category": "Eigenschaften" },
-    { "type": "vocab", "front": "áo sơ mi", "back_de": "Hemd", "back_en": "shirt", "pos": "noun", "category": "Kleidung" },
-    { "type": "vocab", "front": "áo dài", "back_de": "Áo dài, traditionelles vietnamesisches Gewand", "back_en": "traditional Vietnamese dress", "pos": "noun", "category": "Kleidung" },
-    { "type": "vocab", "front": "đồng hồ", "back_de": "Uhr", "back_en": "clock, watch", "pos": "noun", "category": "Gegenstände" },
-    { "type": "vocab", "front": "đồng hồ treo tường", "back_de": "Wanduhr", "back_en": "wall clock", "pos": "noun", "category": "Gegenstände" },
-    { "type": "vocab", "front": "tủ lạnh", "back_de": "Kühlschrank", "back_en": "refrigerator", "pos": "noun", "category": "Gegenstände" },
-    { "type": "vocab", "front": "máy ảnh", "back_de": "Fotokamera", "back_en": "camera", "pos": "noun", "category": "Gegenstände" },
-    { "type": "vocab", "front": "tivi", "back_de": "Fernseher", "back_en": "TV", "pos": "noun", "category": "Gegenstände" },
-    { "type": "vocab", "front": "sầu riêng", "back_de": "Durian (Stinkfrucht)", "back_en": "durian", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "chôm chôm", "back_de": "Rambutan", "back_en": "rambutan", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "thơm / dứa", "back_de": "Ananas (im Süden meist thơm)", "back_en": "pineapple", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "chuối", "back_de": "Banane", "back_en": "banana", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "xoài", "back_de": "Mango", "back_en": "mango", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "bưởi", "back_de": "Pomelo", "back_en": "pomelo / grapefruit", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "ổi", "back_de": "Guave", "back_en": "guava", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "mãng cầu xiêm", "back_de": "Stachelannone (Soursop)", "back_en": "soursop", "pos": "noun", "category": "Früchte" },
-    { "type": "vocab", "front": "măng cụt", "back_de": "Mangostane", "back_en": "mangosteen", "pos": "noun", "category": "Früchte" },
-
-    { "type": "grammar", "front": "đã ... bao giờ chưa? / đã ... lần nào chưa?", "back_de": "Hast du schon jemals ...? Frage nach Erfahrung, v.a. wenn die Handlung für den Gefragten eher ungewöhnlich ist.", "example_vi": "Anh đã ăn nem chua bao giờ chưa?", "example_de": "Hast du schon mal nem chua gegessen?" },
-    { "type": "grammar", "front": "... chứ (am Satzende)", "back_de": "Betont Gewissheit/Bestätigung in der gesprochenen Sprache, etwa: aber klar, natürlich.", "example_vi": "Anh có muốn đi du lịch cùng chúng tôi không? → Có chứ!", "example_de": "Willst du mit uns reisen? → Na klar!" },
-    { "type": "grammar", "front": "cái + Adjektiv/Verb (Nominalisierer)", "back_de": "Macht aus einer Eigenschaft ein abstraktes Nomen (cái đẹp = das Schöne, cái khó = die Schwierigkeit). Nicht verwechseln mit dem Klassifikator cái für Gegenstände.", "example_vi": "Cái đẹp", "example_de": "Das Schöne, die Schönheit" },
-    { "type": "grammar", "front": "A + Adjektiv + hơn + B", "back_de": "Komparativ: A ist [Adjektiv]-er als B. Verstärker (nhiều, một chút, hẳn) kommen nach hơn.", "example_vi": "Chất lượng âm thanh cái máy nghe nhạc này tệ hơn cái kia.", "example_de": "Die Tonqualität dieses Musikplayers ist schlechter als die von jenem." },
-
-    { "type": "phrase", "front": "Nach dem Preis fragen", "back_vi": "Xoài này bao nhiêu một ký vậy cô?", "back_de": "Wie viel kostet ein Kilo von dieser Mango?" },
-    { "type": "phrase", "front": "Nach dem Preis fragen (Gegenstand)", "back_vi": "Cái áo này giá bao nhiêu vậy anh?", "back_de": "Wie viel kostet dieses Oberteil?" },
-    { "type": "phrase", "front": "không những ... mà còn ... (nicht nur ... sondern auch)", "back_vi": "Cái máy tính này không những chất lượng cao mà còn đẹp nữa.", "back_de": "Dieser Computer ist nicht nur hochwertig, sondern auch schön." },
-    { "type": "phrase", "front": "không những ... mà còn ... (Beispiel 2)", "back_vi": "Bánh xèo ăn không những ngon mà giá còn rẻ nữa.", "back_de": "Bánh xèo ist nicht nur lecker, sondern auch günstig." },
-    { "type": "phrase", "front": "Vergleich mit hơn", "back_vi": "Cái tivi Samsung này mắc hơn cái tivi Sony kia.", "back_de": "Dieser Samsung-Fernseher ist teurer als jener Sony-Fernseher. (mắc = teuer, südlich)" },
-    { "type": "phrase", "front": "Vergleich mit hơn (Beispiel 2)", "back_vi": "Cuốn sách này đọc hay hơn cuốn sách đó.", "back_de": "Dieses Buch liest sich besser als jenes." }
+    {
+      "type": "vocab",
+      "front": "chục",
+      "back_de": "zehn (ein Zehner, beim Zählen in Zehnergruppen)",
+      "back_en": "ten",
+      "pos": "noun",
+      "category": "Zahlen"
+    },
+    {
+      "type": "vocab",
+      "front": "người mua",
+      "back_de": "Käufer/in",
+      "back_en": "buyer",
+      "pos": "noun",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "đồng ý",
+      "back_de": "einverstanden sein, zustimmen",
+      "back_en": "to agree",
+      "pos": "verb",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "loại",
+      "back_de": "Sorte, Art, Typ",
+      "back_en": "type, kind",
+      "pos": "noun",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "bảo hành",
+      "back_de": "Garantie",
+      "back_en": "warranty",
+      "pos": "noun",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "ngon",
+      "back_de": "lecker (umgangssprachlich auch: attraktiv, eher vulgär)",
+      "back_en": "delicious; slang: attractive",
+      "pos": "adjective",
+      "category": "Eigenschaften"
+    },
+    {
+      "type": "vocab",
+      "front": "rộng",
+      "back_de": "weit, breit, geräumig",
+      "back_en": "wide, spacious",
+      "pos": "adjective",
+      "category": "Eigenschaften"
+    },
+    {
+      "type": "vocab",
+      "front": "áo sơ mi",
+      "back_de": "Hemd",
+      "back_en": "shirt",
+      "pos": "noun",
+      "category": "Kleidung"
+    },
+    {
+      "type": "vocab",
+      "front": "áo dài",
+      "back_de": "Áo dài, traditionelles vietnamesisches Gewand",
+      "back_en": "traditional Vietnamese dress",
+      "pos": "noun",
+      "category": "Kleidung"
+    },
+    {
+      "type": "vocab",
+      "front": "đồng hồ",
+      "back_de": "Uhr",
+      "back_en": "clock, watch",
+      "pos": "noun",
+      "category": "Gegenstände"
+    },
+    {
+      "type": "vocab",
+      "front": "đồng hồ treo tường",
+      "back_de": "Wanduhr",
+      "back_en": "wall clock",
+      "pos": "noun",
+      "category": "Gegenstände"
+    },
+    {
+      "type": "vocab",
+      "front": "tủ lạnh",
+      "back_de": "Kühlschrank",
+      "back_en": "refrigerator",
+      "pos": "noun",
+      "category": "Gegenstände"
+    },
+    {
+      "type": "vocab",
+      "front": "máy ảnh",
+      "back_de": "Fotokamera",
+      "back_en": "camera",
+      "pos": "noun",
+      "category": "Gegenstände"
+    },
+    {
+      "type": "vocab",
+      "front": "tivi",
+      "back_de": "Fernseher",
+      "back_en": "TV",
+      "pos": "noun",
+      "category": "Gegenstände"
+    },
+    {
+      "type": "vocab",
+      "front": "sầu riêng",
+      "back_de": "Durian (Stinkfrucht)",
+      "back_en": "durian",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "chôm chôm",
+      "back_de": "Rambutan",
+      "back_en": "rambutan",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "thơm / dứa",
+      "back_de": "Ananas (im Süden meist thơm)",
+      "back_en": "pineapple",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "chuối",
+      "back_de": "Banane",
+      "back_en": "banana",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "xoài",
+      "back_de": "Mango",
+      "back_en": "mango",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "bưởi",
+      "back_de": "Pomelo",
+      "back_en": "pomelo / grapefruit",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "ổi",
+      "back_de": "Guave",
+      "back_en": "guava",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "mãng cầu xiêm",
+      "back_de": "Stachelannone (Soursop)",
+      "back_en": "soursop",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "măng cụt",
+      "back_de": "Mangostane",
+      "back_en": "mangosteen",
+      "pos": "noun",
+      "category": "Früchte"
+    },
+    {
+      "type": "grammar",
+      "front": "đã ... bao giờ chưa? / đã ... lần nào chưa?",
+      "back_de": "Hast du schon jemals ...? Frage nach Erfahrung, v.a. wenn die Handlung für den Gefragten eher ungewöhnlich ist.",
+      "example_vi": "Anh đã ăn nem chua bao giờ chưa?",
+      "example_de": "Hast du schon mal nem chua gegessen?"
+    },
+    {
+      "type": "grammar",
+      "front": "... chứ (am Satzende)",
+      "back_de": "Betont Gewissheit/Bestätigung in der gesprochenen Sprache, etwa: aber klar, natürlich.",
+      "example_vi": "Anh có muốn đi du lịch cùng chúng tôi không? → Có chứ!",
+      "example_de": "Willst du mit uns reisen? → Na klar!"
+    },
+    {
+      "type": "grammar",
+      "front": "cái + Adjektiv/Verb (Nominalisierer)",
+      "back_de": "Macht aus einer Eigenschaft ein abstraktes Nomen (cái đẹp = das Schöne, cái khó = die Schwierigkeit). Nicht verwechseln mit dem Klassifikator cái für Gegenstände.",
+      "example_vi": "Cái đẹp",
+      "example_de": "Das Schöne, die Schönheit"
+    },
+    {
+      "type": "grammar",
+      "front": "A + Adjektiv + hơn + B",
+      "back_de": "Komparativ: A ist [Adjektiv]-er als B. Verstärker (nhiều, một chút, hẳn) kommen nach hơn.",
+      "example_vi": "Chất lượng âm thanh cái máy nghe nhạc này tệ hơn cái kia.",
+      "example_de": "Die Tonqualität dieses Musikplayers ist schlechter als die von jenem."
+    },
+    {
+      "type": "phrase",
+      "front": "Nach dem Preis fragen",
+      "back_vi": "Xoài này bao nhiêu một ký vậy cô?",
+      "back_de": "Wie viel kostet ein Kilo von dieser Mango?"
+    },
+    {
+      "type": "phrase",
+      "front": "Nach dem Preis fragen (Gegenstand)",
+      "back_vi": "Cái áo này giá bao nhiêu vậy anh?",
+      "back_de": "Wie viel kostet dieses Oberteil?"
+    },
+    {
+      "type": "phrase",
+      "front": "không những ... mà còn ... (nicht nur ... sondern auch)",
+      "back_vi": "Cái máy tính này không những chất lượng cao mà còn đẹp nữa.",
+      "back_de": "Dieser Computer ist nicht nur hochwertig, sondern auch schön."
+    },
+    {
+      "type": "phrase",
+      "front": "không những ... mà còn ... (Beispiel 2)",
+      "back_vi": "Bánh xèo ăn không những ngon mà giá còn rẻ nữa.",
+      "back_de": "Bánh xèo ist nicht nur lecker, sondern auch günstig."
+    },
+    {
+      "type": "phrase",
+      "front": "Vergleich mit hơn",
+      "back_vi": "Cái tivi Samsung này mắc hơn cái tivi Sony kia.",
+      "back_de": "Dieser Samsung-Fernseher ist teurer als jener Sony-Fernseher. (mắc = teuer, südlich)"
+    },
+    {
+      "type": "phrase",
+      "front": "Vergleich mit hơn (Beispiel 2)",
+      "back_vi": "Cuốn sách này đọc hay hơn cuốn sách đó.",
+      "back_de": "Dieses Buch liest sich besser als jenes."
+    },
+    {
+      "type": "sentence",
+      "front": "Chất lượng âm thanh cái máy nghe nhạc này tệ hơn cái kia.",
+      "back_de": "Die Tonqualität dieses Musikplayers ist schlechter als die vom anderen.",
+      "note": "Adj + hơn = Komparativ"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh đã ăn nem chua bao giờ chưa?",
+      "back_de": "Hast du schon mal Nem chua gegessen?",
+      "note": "đã ... bao giờ chưa? = schon einmal?"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh có muốn đi du lịch cùng chúng tôi không? – Có chứ!",
+      "back_de": "Willst du mit uns verreisen? – Aber klar!",
+      "note": "chứ = Bekräftigung"
+    }
   ]
 }

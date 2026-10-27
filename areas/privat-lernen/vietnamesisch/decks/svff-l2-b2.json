@@ -1,0 +1,163 @@
+{
+  "deck": {
+    "id": "svff-l2-b2",
+    "title": "Bài 2: Hôm nay anh nhìn có vẻ mệt",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 2
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "khó chịu",
+      "back_de": "unwohl, unangenehm",
+      "back_en": "uncomfortable"
+    },
+    {
+      "type": "vocab",
+      "front": "dễ chịu",
+      "back_de": "angenehm, wohlig",
+      "back_en": "pleasant, comfortable"
+    },
+    {
+      "type": "vocab",
+      "front": "đau bụng",
+      "back_de": "Bauchschmerzen",
+      "back_en": "stomachache"
+    },
+    {
+      "type": "vocab",
+      "front": "cảm thấy",
+      "back_de": "fühlen, empfinden",
+      "back_en": "to feel"
+    },
+    {
+      "type": "vocab",
+      "front": "đau đầu / nhức đầu",
+      "back_de": "Kopfschmerzen",
+      "back_en": "headache"
+    },
+    {
+      "type": "vocab",
+      "front": "khó thở",
+      "back_de": "Atemnot, schwer atmen",
+      "back_en": "shortness of breath"
+    },
+    {
+      "type": "vocab",
+      "front": "bị bệnh",
+      "back_de": "krank sein",
+      "back_en": "to be sick"
+    },
+    {
+      "type": "vocab",
+      "front": "bệnh nhân",
+      "back_de": "Patient/in",
+      "back_en": "patient"
+    },
+    {
+      "type": "vocab",
+      "front": "phòng khám tư",
+      "back_de": "Privatklinik, Privatpraxis",
+      "back_en": "private clinic"
+    },
+    {
+      "type": "vocab",
+      "front": "khám bệnh",
+      "back_de": "zum Arzt gehen, untersucht werden",
+      "back_en": "to see a doctor"
+    },
+    {
+      "type": "vocab",
+      "front": "như thế nào",
+      "back_de": "wie (Art und Weise, Zustand)",
+      "back_en": "how"
+    },
+    {
+      "type": "vocab",
+      "front": "viên",
+      "back_de": "Zähleinheit für Tabletten, Bonbons",
+      "back_en": "classifier for pills"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh Nam bị chóng mặt và buồn nôn nên mọi người đã đưa ảnh tới bệnh viện.",
+      "back_de": "Nam war schwindlig und übel, darum haben ihn alle ins Spital gebracht.",
+      "note": "Symptome beschreiben"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị Lan phải đi khám bác sĩ vì chỉ bị đau bụng từ hôm qua.",
+      "back_de": "Lan muss zum Arzt, weil sie seit gestern Bauchschmerzen hat.",
+      "note": "Symptome beschreiben"
+    },
+    {
+      "type": "sentence",
+      "front": "Trời đang mưa nên chắc là anh ấy không tới đâu.",
+      "back_de": "Es regnet, also kommt er wahrscheinlich nicht.",
+      "note": "chắc là = wahrscheinlich"
+    },
+    {
+      "type": "sentence",
+      "front": "Cuối tuần này tôi có nhiều việc nên chắc là không đi du lịch được.",
+      "back_de": "Dieses Wochenende habe ich viel zu tun, ich kann also wahrscheinlich nicht verreisen.",
+      "note": "chắc là = wahrscheinlich"
+    },
+    {
+      "type": "sentence",
+      "front": "Nhanh lên, chắc là mọi người đang chờ tụi mình đó.",
+      "back_de": "Beeil dich, wahrscheinlich warten alle schon auf uns.",
+      "note": "chắc là = wahrscheinlich"
+    },
+    {
+      "type": "sentence",
+      "front": "Chi thấy rất vui khi gặp Lan.",
+      "back_de": "Chi freut sich sehr, Lan zu treffen.",
+      "note": "thấy + Adj = sich ... fühlen"
+    },
+    {
+      "type": "sentence",
+      "front": "Hôm nay làm việc cả ngày nên anh thấy mệt quá.",
+      "back_de": "Heute habe ich den ganzen Tag gearbeitet, darum bin ich so müde.",
+      "note": "thấy + Adj = sich ... fühlen"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi thấy hơi đau bụng.",
+      "back_de": "Ich habe etwas Bauchweh.",
+      "note": "thấy + Adj = sich ... fühlen"
+    },
+    {
+      "type": "sentence",
+      "front": "Lan được bạn tặng quà vào ngày sinh nhật.",
+      "back_de": "Lan hat zum Geburtstag von einer Freundin ein Geschenk bekommen.",
+      "note": "được = etwas Gutes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi được ba mẹ dẫn đi du lịch.",
+      "back_de": "Meine Eltern haben mich auf eine Reise mitgenommen.",
+      "note": "được = etwas Gutes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Ảnh được giám đốc khen.",
+      "back_de": "Er wurde vom Direktor gelobt.",
+      "note": "được = etwas Gutes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi bị đau bụng từ tối hôm qua.",
+      "back_de": "Ich habe seit gestern Abend Bauchschmerzen.",
+      "note": "bị = etwas Schlechtes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô ấy bị mất tiền.",
+      "back_de": "Sie hat Geld verloren.",
+      "note": "bị = etwas Schlechtes widerfährt"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "deck": {
+    "id": "svff-l2-b10",
+    "title": "Bài 10: Tôi không còn làm ở đó nữa",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 10
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "năng suất",
+      "back_de": "Produktivität",
+      "back_en": "productivity"
+    },
+    {
+      "type": "vocab",
+      "front": "cử nhân",
+      "back_de": "Bachelor (Abschluss)",
+      "back_en": "bachelor's degree"
+    },
+    {
+      "type": "vocab",
+      "front": "vô dụng",
+      "back_de": "nutzlos",
+      "back_en": "useless"
+    },
+    {
+      "type": "vocab",
+      "front": "kinh nghiệm",
+      "back_de": "Erfahrung",
+      "back_en": "experience"
+    },
+    {
+      "type": "vocab",
+      "front": "đồng nghiệp",
+      "back_de": "Arbeitskolleg/in",
+      "back_en": "colleague"
+    },
+    {
+      "type": "vocab",
+      "front": "vất vả",
+      "back_de": "anstrengend, mühsam",
+      "back_en": "toilsome, hard"
+    },
+    {
+      "type": "vocab",
+      "front": "thăng tiến",
+      "back_de": "befördert werden, aufsteigen",
+      "back_en": "to get promoted"
+    },
+    {
+      "type": "vocab",
+      "front": "ổn định",
+      "back_de": "stabil, sicher",
+      "back_en": "stable"
+    },
+    {
+      "type": "vocab",
+      "front": "căng thẳng",
+      "back_de": "Stress, gestresst",
+      "back_en": "stress"
+    },
+    {
+      "type": "vocab",
+      "front": "kế toán",
+      "back_de": "Buchhalter/in",
+      "back_en": "accountant"
+    },
+    {
+      "type": "vocab",
+      "front": "khó tính",
+      "back_de": "schwierig, pingelig",
+      "back_en": "hard to please"
+    },
+    {
+      "type": "vocab",
+      "front": "chứng chỉ",
+      "back_de": "Zertifikat",
+      "back_en": "certificate"
+    },
+    {
+      "type": "vocab",
+      "front": "căng",
+      "back_de": "stressig, angespannt (Süden)",
+      "back_en": "tense, stressful"
+    },
+    {
+      "type": "vocab",
+      "front": "áp lực",
+      "back_de": "Druck",
+      "back_en": "pressure"
+    },
+    {
+      "type": "vocab",
+      "front": "chuyên môn",
+      "back_de": "Fachgebiet, Fachkompetenz",
+      "back_en": "expertise"
+    },
+    {
+      "type": "vocab",
+      "front": "chuyển",
+      "back_de": "wechseln, verschieben, überweisen",
+      "back_en": "to move, transfer"
+    },
+    {
+      "type": "vocab",
+      "front": "mặc dù",
+      "back_de": "obwohl",
+      "back_en": "although"
+    },
+    {
+      "type": "vocab",
+      "front": "lương bổng",
+      "back_de": "Lohn, Gehalt",
+      "back_en": "salary"
+    },
+    {
+      "type": "vocab",
+      "front": "mất việc",
+      "back_de": "den Job verlieren",
+      "back_en": "to lose one's job"
+    },
+    {
+      "type": "sentence",
+      "front": "Ủa? Cuối tuần mà anh không đi ra ngoài chơi hả?",
+      "back_de": "Hä? Es ist Wochenende und du gehst nicht raus?",
+      "note": "hả / sao = überraschte Rückfrage"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị thấy món này ăn không ngon sao?",
+      "back_de": "Du findest das Gericht nicht lecker?",
+      "note": "hả / sao = überraschte Rückfrage"
+    },
+    {
+      "type": "sentence",
+      "front": "Tối qua bạn không đi coi phim sao?",
+      "back_de": "Du warst gestern Abend nicht im Kino?",
+      "note": "hả / sao = überraschte Rückfrage"
+    },
+    {
+      "type": "sentence",
+      "front": "Sao anh lại nói với chỉ như vậy? Chỉ buồn đó!",
+      "back_de": "Warum sagst du so etwas zu ihr? Sie ist traurig!",
+      "note": "lại + V = entgegen der Erwartung"
+    },
+    {
+      "type": "sentence",
+      "front": "Món này ngon vậy mà ảnh lại không thích.",
+      "back_de": "Das Gericht ist so lecker, und trotzdem mag er es nicht.",
+      "note": "lại + V = entgegen der Erwartung"
+    },
+    {
+      "type": "sentence",
+      "front": "Nắng vậy sao lại ra sân ngồi?",
+      "back_de": "Bei der Sonne, warum sitzt du draussen im Hof?",
+      "note": "lại + V = entgegen der Erwartung"
+    },
+    {
+      "type": "sentence",
+      "front": "Mặc dù học rất giỏi ở đại học nhưng cổ không tìm được một công việc phù hợp.",
+      "back_de": "Obwohl sie an der Uni sehr gut war, findet sie keine passende Stelle.",
+      "note": "mặc dù ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Mặc dù bị sốt nhưng tôi vẫn phải đến trường để làm bài kiểm tra.",
+      "back_de": "Obwohl ich Fieber habe, muss ich trotzdem zur Schule, um den Test zu schreiben.",
+      "note": "mặc dù ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Mặc dù ảnh đẹp trai nhưng vẫn ế.",
+      "back_de": "Obwohl er gut aussieht, ist er immer noch Single.",
+      "note": "mặc dù ... nhưng ... = obwohl"
+    }
+  ]
+}

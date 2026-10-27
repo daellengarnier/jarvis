@@ -1,0 +1,175 @@
+{
+  "deck": {
+    "id": "svff-l2-b9",
+    "title": "Bài 9: Em thích mọi thứ trừ...",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 9
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "phóng viên",
+      "back_de": "Journalist/in",
+      "back_en": "journalist"
+    },
+    {
+      "type": "vocab",
+      "front": "sưu tầm",
+      "back_de": "sammeln",
+      "back_en": "to collect"
+    },
+    {
+      "type": "vocab",
+      "front": "cuối cùng",
+      "back_de": "schliesslich, endlich",
+      "back_en": "finally"
+    },
+    {
+      "type": "vocab",
+      "front": "kế hoạch",
+      "back_de": "Plan",
+      "back_en": "plan"
+    },
+    {
+      "type": "vocab",
+      "front": "phỏng vấn",
+      "back_de": "interviewen",
+      "back_en": "to interview"
+    },
+    {
+      "type": "vocab",
+      "front": "chẳng hạn",
+      "back_de": "zum Beispiel",
+      "back_en": "for example"
+    },
+    {
+      "type": "vocab",
+      "front": "tâm lý",
+      "back_de": "Psychologie, Gemütszustand",
+      "back_en": "psychology, mindset"
+    },
+    {
+      "type": "vocab",
+      "front": "xã hội",
+      "back_de": "Gesellschaft",
+      "back_en": "society"
+    },
+    {
+      "type": "vocab",
+      "front": "thói quen",
+      "back_de": "Gewohnheit",
+      "back_en": "habit"
+    },
+    {
+      "type": "vocab",
+      "front": "sở thích",
+      "back_de": "Hobby",
+      "back_en": "hobby"
+    },
+    {
+      "type": "vocab",
+      "front": "truyện ngắn",
+      "back_de": "Kurzgeschichte",
+      "back_en": "short story"
+    },
+    {
+      "type": "vocab",
+      "front": "âm nhạc",
+      "back_de": "Musik",
+      "back_en": "music"
+    },
+    {
+      "type": "vocab",
+      "front": "trường quay",
+      "back_de": "Filmstudio",
+      "back_en": "studio"
+    },
+    {
+      "type": "vocab",
+      "front": "nhạc nhẹ",
+      "back_de": "leichte Musik, Softmusik",
+      "back_en": "light music"
+    },
+    {
+      "type": "vocab",
+      "front": "diễn viên",
+      "back_de": "Schauspieler/in",
+      "back_en": "actor"
+    },
+    {
+      "type": "sentence",
+      "front": "Trời đang mưa. Hãy cẩn thận khi lái xe!",
+      "back_de": "Es regnet. Fahr vorsichtig!",
+      "note": "hãy + V = Imperativ"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh hãy nói cho em biết đi!",
+      "back_de": "Sag es mir doch!",
+      "note": "hãy + V = Imperativ"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh hãy đi ra đi!",
+      "back_de": "Geh raus!",
+      "note": "hãy + V = Imperativ"
+    },
+    {
+      "type": "sentence",
+      "front": "Em đang muốn ăn gì đó, bánh xèo chẳng hạn.",
+      "back_de": "Ich hätte Lust auf etwas, zum Beispiel Bánh xèo.",
+      "note": "chẳng hạn = zum Beispiel"
+    },
+    {
+      "type": "sentence",
+      "front": "Sắp tới tui sẽ đi du lịch nhiều nơi, ví dụ như đi Đà Lạt chẳng hạn.",
+      "back_de": "Demnächst reise ich an viele Orte, zum Beispiel nach Đà Lạt.",
+      "note": "chẳng hạn = zum Beispiel"
+    },
+    {
+      "type": "sentence",
+      "front": "Tui muốn ăn cái gì đó, mì chẳng hạn.",
+      "back_de": "Ich will etwas essen, zum Beispiel Nudeln.",
+      "note": "chẳng hạn = zum Beispiel"
+    },
+    {
+      "type": "sentence",
+      "front": "Ngoài học ra, anh cần phải tập nói tiếng Việt nhiều hơn nữa.",
+      "back_de": "Ausser zu lernen musst du auch mehr Vietnamesisch sprechen üben.",
+      "note": "ngoài ... ra = ausser ... (noch)"
+    },
+    {
+      "type": "sentence",
+      "front": "Cổ thích ăn món Hàn, món Trung, ngoài ra còn có món Việt nữa.",
+      "back_de": "Sie isst gern koreanisch und chinesisch, ausserdem auch vietnamesisch.",
+      "note": "ngoài ra = ausserdem"
+    },
+    {
+      "type": "sentence",
+      "front": "Ngoài tui ra, còn có năm người nữa ở đây.",
+      "back_de": "Ausser mir sind noch fünf andere Leute hier.",
+      "note": "ngoài ... ra = ausser ... (noch)"
+    },
+    {
+      "type": "sentence",
+      "front": "Hôm nay, cả lớp đều đi học, trừ My.",
+      "back_de": "Heute sind alle in der Schule, ausser My.",
+      "note": "trừ = ausser"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi thích tất cả các loại trái cây, trừ sầu riêng.",
+      "back_de": "Ich mag alle Früchte, ausser Durian.",
+      "note": "trừ = ausser"
+    },
+    {
+      "type": "sentence",
+      "front": "Mình mời hết mọi người đi tiệc rồi, trừ thằng người yêu cũ của mình.",
+      "back_de": "Ich habe alle zur Party eingeladen, ausser meinen Ex.",
+      "note": "trừ = ausser"
+    }
+  ]
+}

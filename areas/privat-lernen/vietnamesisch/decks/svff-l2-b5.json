@@ -1,0 +1,127 @@
+{
+  "deck": {
+    "id": "svff-l2-b5",
+    "title": "Bài 5: Phòng loại một bao nhiêu một đêm?",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 5
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "tiện nghi",
+      "back_de": "komfortabel, gut ausgestattet",
+      "back_en": "well-equipped, convenient"
+    },
+    {
+      "type": "vocab",
+      "front": "dưới",
+      "back_de": "unter, unten",
+      "back_en": "below, under"
+    },
+    {
+      "type": "vocab",
+      "front": "giặt đồ",
+      "back_de": "Wäsche waschen",
+      "back_en": "to do laundry"
+    },
+    {
+      "type": "vocab",
+      "front": "nhận phòng / trả phòng",
+      "back_de": "einchecken / auschecken",
+      "back_en": "check in / check out"
+    },
+    {
+      "type": "vocab",
+      "front": "miễn phí",
+      "back_de": "gratis",
+      "back_en": "free of charge"
+    },
+    {
+      "type": "vocab",
+      "front": "phòng đôi",
+      "back_de": "Doppelzimmer",
+      "back_en": "double room"
+    },
+    {
+      "type": "vocab",
+      "front": "thuê",
+      "back_de": "mieten",
+      "back_en": "to rent"
+    },
+    {
+      "type": "vocab",
+      "front": "máy lạnh",
+      "back_de": "Klimaanlage (Süden)",
+      "back_en": "air conditioner"
+    },
+    {
+      "type": "vocab",
+      "front": "trên",
+      "back_de": "auf, über, oben",
+      "back_en": "on, above"
+    },
+    {
+      "type": "vocab",
+      "front": "sạch sẽ",
+      "back_de": "sauber",
+      "back_en": "clean"
+    },
+    {
+      "type": "vocab",
+      "front": "ngoài",
+      "back_de": "ausserhalb, draussen",
+      "back_en": "outside"
+    },
+    {
+      "type": "vocab",
+      "front": "thoáng mát",
+      "back_de": "luftig und kühl",
+      "back_en": "airy, cool"
+    },
+    {
+      "type": "vocab",
+      "front": "tất cả",
+      "back_de": "alle, alles",
+      "back_en": "all"
+    },
+    {
+      "type": "vocab",
+      "front": "phục vụ",
+      "back_de": "bedienen, servieren",
+      "back_en": "to serve"
+    },
+    {
+      "type": "sentence",
+      "front": "Tuy giá ở đây rất mắc nhưng tụi tôi vẫn rất thích ăn ở nhà hàng này.",
+      "back_de": "Obwohl es hier sehr teuer ist, essen wir trotzdem sehr gern in diesem Restaurant.",
+      "note": "tuy ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Tuy rất mệt nhưng chị Mai vẫn phải cố gắng làm xong việc.",
+      "back_de": "Obwohl Mai sehr müde ist, muss sie sich trotzdem anstrengen, die Arbeit fertig zu machen.",
+      "note": "tuy ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Ổng đồng ý, tuy rằng ổng không muốn cho lắm.",
+      "back_de": "Er war einverstanden, obwohl er nicht wirklich wollte.",
+      "note": "tuy ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Cuốn sách của con nằm ở trên bàn.",
+      "back_de": "Dein Buch liegt auf dem Tisch.",
+      "note": "Position angeben"
+    },
+    {
+      "type": "sentence",
+      "front": "Con chó của tôi đang chơi ở ngoài sân.",
+      "back_de": "Mein Hund spielt draussen im Hof.",
+      "note": "Position angeben"
+    }
+  ]
+}
