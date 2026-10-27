@@ -49,7 +49,7 @@ Zuletzt aktualisiert: 2026-10-18
   - 2026-10-21 Neues Design: drei Richtungen für den Heute-Screen als Entwurf (A Klar, B Nacht, C Zwei Welten), https://claude.ai/artifact/643oM9Ub2WrEQJQKs8c6wR. Alain hat C gewählt (2026-10-21), umgesetzt auf dem Branch `claude/shared-org-app-umbau` (Commit 222ca7e), live seit 2026-10-22.
   - 2026-10-27 Phase 4 Lernkarten gebaut, Branch `claude/shared-org-app-lernen` (Commit 9c31a2b), live seit 2026-10-27 nach ausdrücklicher Erlaubnis von Alain. Details bei privat-lernen.
   - 2026-10-27 Lernen ausgebaut (Lektionen 2 bis 12, Sätze mit Tipps, Richtung wählbar, Einstellungen, Push-Erinnerungen) und App-Icon "AL", Commit d24dd0d, live seit 2026-10-27 (Erlaubnis Alain). Schriften jetzt per Fontsource im Paket, weil next/font/google den Docker-Build brach.
-  - 2026-10-27 Kapitel des Tages und Spinnerei-Einkaufsliste entfernt (Einträge laufen in der normalen Liste), Branch `claude/shared-org-app-kapitel`, noch nicht live.
+  - 2026-10-27 Kapitel des Tages und Spinnerei-Einkaufsliste entfernt (Einträge laufen in der normalen Liste), live seit 2026-10-27 (Commit e722297, Erlaubnis Alain).
   - Nicht in Phase 1: Einkauf, Aktivitäten, Ziele hängen noch am alten JSON-Block (scope-Felder intern noch vorhanden, in der Oberfläche ausgeblendet). Kommt in Phase 3.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
