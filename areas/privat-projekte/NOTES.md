@@ -51,6 +51,7 @@ Zuletzt aktualisiert: 2026-10-18
   - 2026-10-27 Lernen ausgebaut (Lektionen 2 bis 12, Sätze mit Tipps, Richtung wählbar, Einstellungen, Push-Erinnerungen) und App-Icon "AL", Commit d24dd0d, live seit 2026-10-27 (Erlaubnis Alain). Schriften jetzt per Fontsource im Paket, weil next/font/google den Docker-Build brach.
   - 2026-10-27 Kapitel des Tages und Spinnerei-Einkaufsliste entfernt (Einträge laufen in der normalen Liste), live seit 2026-10-27 (Commit e722297, Erlaubnis Alain).
   - 2026-10-27 Heute: Welt-Kacheln zeigen alle offenen Todos chronologisch (scrollbar), ohne Bereich zählt als Privat. Branch `claude/shared-org-app-welten` (Commit d897f3d), noch nicht live.
+  - 2026-10-27 Lernen-Zählung bereinigt: heute geübte Karten nicht mehr fällig, Auffrischen nur freiwillig und ohne neue Karten, Lektionen zeigen "N× durchgearbeitet" statt % pro Richtung, Einstellungen nur noch Erinnerung. Gleicher Branch (Commit a402356), noch nicht live.
   - Nicht in Phase 1: Einkauf, Aktivitäten, Ziele hängen noch am alten JSON-Block (scope-Felder intern noch vorhanden, in der Oberfläche ausgeblendet). Kommt in Phase 3.
 - [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
 
