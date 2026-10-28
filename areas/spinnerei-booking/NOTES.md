@@ -62,6 +62,9 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
   - King Gizzard & The Lizard Wizard (AU): Booking Europa/UK laut bookingagentinfo bei Mother Artists (London), Mail unbekannt. Früher Kirmes, Powerline (ck@powerline-agency.com). Management Michelle Cable. Label p(doom). Spielen Hallen (Olympia Paris), zu gross für die Spinnerei. Idee Alain 2026-10-27: Show in der Grossen Halle der Reitschule (Yves, Alains Bruder, arbeitet dort; laut Alain ca. 1500 Plätze, Factsheet grossehalle.ch April 2026: 2300 Personen, ca. 1400 m², Halle wird an Veranstaltende vermietet). Entwurf entsprechend umgeschrieben 2026-10-27, auf Deutsch an Kirmes (ck@powerline-agency.com, früherer EU-Agent der Band) mit Bitte um Weiterleitung. Morgan-Delt-Entwurf geht auch an ihn: nicht in derselben Woche senden. Vor dem Senden mit Yves klären, ob die Grosse Halle mitmacht.
   - Maya Ongaku: Label Guruguru Brain (nur Kontaktformular Bandcamp), linktr.ee/maya.ongaku.overseas, Kontakt per DM. Sehr realistisch, nächste EU-Tour vermutlich Herbst 2027. Go Kurosawa (Kikagaku Moyo, Solo-Album soft shakes 2025) führt Guruguru Brain und plant die EU-Touren von Maya Ongaku mit. Gemeinsame Anfrage Go solo und Maya Ongaku an gurugurubrain@gmail.com (laut Label-Kontaktseite und gokurosawa.com) als Entwurf angelegt 2026-10-27, Senden nach Ja. Maya Ongaku Nordamerika: Joe Price, Ground Control Touring.
 
+- Programm Feb bis Jun 2027: Arbeitsstand in `programm-2027-h1.md` (2026-10-28), Frist Mitte November.
+- Super Jet Kinoko (JP, Annibale, luca@annibale.eu): Fr 04.06. oder 11.06.2027, 2000 EUR, Alain hat am 27.10. zugesagt, Luca klärt Festival Le Mans.
+
 ## Offene Punkte
 
 - [ ] Die Vorschlagsliste in der Programmübersicht (Dirty Sound Magnet, La Luz, Harvey Rushmore usw.) ist von 2025, aktueller Stand unklar.
