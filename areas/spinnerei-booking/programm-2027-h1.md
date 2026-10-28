@@ -11,11 +11,11 @@ Quelle: Kalender info@, events/, NOTES, Gmail-Label "Interessant" und Agentur-An
 ## In Verhandlung
 
 - Super Jet Kinoko (JP, Annibale, luca@): Fr 04.06. oder Fr 11.06., 2000 EUR wie Thun, Alain hat am 27.10. zugesagt. Luca klärt Festival Le Mans.
-- Doom Gong (US, Ya Ya Yeah): Fr 28.05. vorgeschlagen, Jonas klärt.
-- Acid Pauli (T S Agency): April, Wunsch Sa 10., 17. oder 24.04. Offer als Entwurf.
-- Upupayāma (IT, Fuzz Club, Annibale, gab@): One-off an einem Samstag Jan bis Mai. Nicht frei: 6.2., 6.3., 13.3., 17.4. Gab wartet auf unsere freien Samstage.
-- Magma Ocean (CH, Sixteentimes): Sa 15.05., Entscheid Kollektiv offen.
-- Stone Sober Ersatzband (Annibale, filippo@): 18./19.03., offen.
+- Doom Gong (US, Ya Ya Yeah): Fenster 9. bis 13.05., 15. bis 19.05., 23.05. bis 02.06. Alain schlug Fr 28.05. vor (09.10.). Jonas 12.10.: meldet sich, ob 28.05. geht, fragt nach Alternativen im Mai/Anfang Juni (Feiertage). Keine Gage abgemacht. Seither nichts.
+- Acid Pauli (T S Agency): Offer gesendet 2026-10-21 an Kenza: 800 EUR plus 15%, Zug gegen Beleg, Gästezimmer bis 2 Nächte, Sa 10., 17. oder 24.04., Offer-Deadline Fr 13.11.2026. Warten auf Antwort.
+- Upupayāma (IT, Fuzz Club, Annibale, gab@): One-off an einem Samstag, Alain sieht März/April. Nicht frei bei ihnen: 6.3., 13.3., 17.4. Bei uns belegt: 20.03. Rauschen, April-Samstage evtl. Acid Pauli. Kandidaten: Sa 27.03., Sa 03.04. Gab wartet auf unsere Samstage.
+- Magma Ocean: nein (Alain 2026-10-28), Absage an Kerstin offen.
+- Stone Sober weg. Ersatzangebot Filippo = The Cutter (Manchester, Indie/Goth, ffo New Order, Cocteau Twins), Do 18.03. oder Fr 19.03. Alain prüft.
 
 ## Kandidaten aus "Interessant" und Angeboten (Fenster Feb bis Jun 2027)
 
