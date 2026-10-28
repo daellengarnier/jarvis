@@ -21,7 +21,7 @@ Zuletzt aktualisiert: 2026-10-28
 ## Offene Punkte
 
 - [ ] Spinnerei-App, Sicherheit: /api/auth/unclaimed ist öffentlich und /api/auth/register übernimmt ein vorbereitetes Profil allein über den Namen, inkl. Admin-Rolle. Ohne gesetzten REGISTRATION_CODE kann so jede:r ein Admin-Profil übernehmen. Ob REGISTRATION_CODE auf dem VPS gesetzt ist: unbekannt.
-- [ ] Spinnerei-App: Branch hq-cockpit (HQ als Vereins-Cockpit, Sitzungsprotokoll, Traktanden übernehmen, HQ-Ressorts anlegen) lokal getestet, wartet auf Alains Ja zum Merge auf main (geht sofort live, Migration 0031).
+- [ ] Spinnerei-App: Branch hq-cockpit (HQ als Vereins-Cockpit, Sitzungsprotokoll, Traktanden übernehmen, HQ-Ressorts anlegen, Desktop-Layout für die ganze App) lokal getestet, wartet auf Alains Ja zum Merge auf main (geht sofort live, Migration 0031).
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 
 ## Nächster Schritt
