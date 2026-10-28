@@ -24,7 +24,7 @@ Zuletzt aktualisiert: 2026-10-28
 - [x] Spinnerei-App: HQ-Cockpit und Desktop-Layout am 2026-10-28 auf main gemergt, Deploy-Run 76 grün.
 - [ ] Spinnerei-App: Migration 0031 (sitzungen.protokoll) auf dem VPS nicht verifiziert. Jarvis erreicht die Live-Seite nicht (Proxy) und darf die Diagnose-Action nicht starten (403). Alain prüft: HQ öffnet ohne Fehler, Protokoll speichern geht.
 - [x] Spinnerei-App: am 2026-10-28 auf main gemergt (Deploy-Run 77): hq-sitzungsbuch (eigenes HQ-Design, Sitzungsbuch mit Pendenzen als Todos, Import Sitzungen 06.05./28.09./26.10.2026 + nächste 27.11. 20:30 per Migration 0033) Quelle: Drive-Ordner «Sitzungen 2026». Datei «26_05_06» trägt im Kopf fälschlich 24.04.
-- [ ] Spinnerei-App: Branch hq-sitzung-detail (Sitzung als eigene Seite nach Vorbild VIA-App: Protokoll pro Traktandum, Pendenzen im Traktandum, Leitung/Protokoll/Anwesende, Migrationen 0034/0035) wartet auf Alains Ja zum Merge.
+- [x] Spinnerei-App: am 2026-10-28 gemergt (Deploy-Run 78): hq-sitzung-detail (Sitzung als eigene Seite nach Vorbild VIA-App: Protokoll pro Traktandum, Pendenzen im Traktandum, Leitung/Protokoll/Anwesende, Migrationen 0034/0035). Push auf main ist in .claude/settings.json erlaubt, Merge trotzdem nur nach Ja.
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 
 ## Nächster Schritt
