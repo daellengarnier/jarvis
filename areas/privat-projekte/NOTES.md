@@ -1,9 +1,15 @@
 # NOTES: privat-projekte
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-28
 
 ## Aktueller Stand
+
+### Spinnerei-Orga-App
+
+- Repo: github.com/daellengarnier/spinnerei, live auf https://spinnerei.al-daellen.ch. Next.js 16, Postgres/Drizzle, Docker, Deploy per GitHub Actions bei Push auf main.
+- Anlässe mit Ressorts, Todos, Acts, Finanzen/Abrechnung, Sitzungen, Einkauf, Inbox, PETZI-Webhook, Google-Login nur @kulturspinnerei.ch.
+- Nicht verwechseln: spinnplan (alt, Supabase) und spinnplan-v2 (Rewrite Schichtplanung).
 
 ### Stand laut Alain, zu prüfen
 
@@ -14,7 +20,8 @@ Zuletzt aktualisiert: 2026-10-06
 
 ## Offene Punkte
 
-- [ ] Keine erfasst.
+- [ ] Spinnerei-App, Sicherheit: /api/auth/unclaimed ist öffentlich und /api/auth/register übernimmt ein vorbereitetes Profil allein über den Namen, inkl. Admin-Rolle. Ohne gesetzten REGISTRATION_CODE kann so jede:r ein Admin-Profil übernehmen. Ob REGISTRATION_CODE auf dem VPS gesetzt ist: unbekannt.
+- [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 
 ## Nächster Schritt
 
