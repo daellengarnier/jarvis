@@ -48,6 +48,7 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 
 - Mail-Zuordnung nach Konto: Mails an oder von info@kulturspinnerei.ch gehören zur Spinnerei, Mails im privaten Gmail-Konto (alaingarnier.ch@gmail.com) zu Privat.
 - Vor jeder Mail-Arbeit prüfen, welches Konto der Gmail-Connector gerade hat (Parameter `authuser` in den `viewUrl`s). Erst danach Spinnerei oder Privat zuordnen. "Gmail-Connector" heisst nicht automatisch privat.
+- Signatur: In info@ ist eine Signatur hinterlegt. Neue Entwürfe immer mit `includeSignature: true` anlegen, keine eigene Signatur von Hand in den Text kopieren (Wunsch Alain, 2026-10-28). `update_draft` kann die Signatur nicht anhängen: Bei einem Entwurf, der sie braucht, neu anlegen.
 - Du sendest nie aus dem falschen Konto. Im Zweifel fragst du, welches Konto.
 - Werbe-Newsletter: Abmelden darfst du vorschlagen, nicht selbst ausführen.
 - Abgearbeitete Werbemails archivieren, nie löschen.
