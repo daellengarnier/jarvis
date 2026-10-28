@@ -1,4 +1,9 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/user/spinnerei push origin *:main)"
+    ]
+  },
   "hooks": {
     "SessionStart": [
       {
