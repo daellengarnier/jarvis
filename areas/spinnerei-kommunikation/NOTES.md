@@ -1,7 +1,7 @@
 # NOTES: spinnerei-kommunikation
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-22
+Zuletzt aktualisiert: 2026-11-01
 
 ## Aktueller Stand
 
@@ -21,7 +21,7 @@ Zuletzt aktualisiert: 2026-10-22
 
 ## Offene Punkte
 
-- [x] Anfrage Anna Benteli (anna.benteli@bluewin.ch, Kontaktformular 2026-10-19): Barrierefreiheit, Zugang mit Elektrorollstuhl. Antwort von Ambar gesendet aus info@ (2026-10-19): nicht barrierefrei, kein Lift, Unterstützung nach Absprache.  Quelle zum Lift weiterhin nur alter Webtext und Antwort an SAJV, Zugang vor Ort (Stufen, Eingang, WC) nie geprüft.
+- [ ] Anfrage Anna Benteli (anna.benteli@bluewin.ch, Kontaktformular 2026-10-19): Barrierefreiheit, Zugang mit Elektrorollstuhl. Antwort von Ambar gesendet aus info@ (2026-10-19): nicht barrierefrei, kein Lift, Unterstützung nach Absprache.  Quelle zum Lift weiterhin nur alter Webtext und Antwort an SAJV, Zugang vor Ort (Stufen, Eingang, WC) nie geprüft. 2026-10-22: Anna möchte vor Ort vorbeischauen. Antwort als Entwurf (Ambar, 2026-11-01): Mo 2.11. 16:00 oder Di 3.11. 14:00 bis 16:00. Senden offen.
 - [ ] Anfrage Vorspiel Kollektiv (vorspiel.kollektiv@gmail.com, Kontaktformular 2026-10-16): Queer Orgy / Workshop, Jan/Feb 2027, Sa oder So, 20+3 Personen, braucht volle Privatsphäre, Dusche, Pausenraum. Absage als Entwurf in info@ (2026-10-21): Privatsphäre nicht gewährleistet, weil Bewohnende durch den Veranstaltungsbereich zu Waschküchen und Kellern gehen, und keine Dusche im Haus oder in der Nähe. Senden nur nach Ja.
 - [ ] Facebook-Events Herbst 2026: Texte vorbereitet in `facebook-events-herbst-2026.md` (2026-10-09). Anlegen macht Jarvis über Claude in Chrome in einer Session in der Claude-App am Computer (Entscheid 2026-10-09), Veröffentlichen nur nach Ja. Mothers Cake mit Sixteentimes Music als Co-Gastgeber (Kerstin zugesagt).
 
