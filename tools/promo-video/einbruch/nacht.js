@@ -344,26 +344,36 @@ function sTuer(lb) {
 }
 
 // 7: alle Zugänge
+// Ansichten aus dem Architekturplan (Via-App), Türen nach Alains Markierungen (Koordinaten im Planausschnitt)
+const PLAN_N = new Image(); PLAN_N.src = 'plan_nord.png';
+const PLAN_O = new Image(); PLAN_O.src = 'plan_ost.png';
+const DOORS_N = [[176, 176], [231, 182], [274, 183], [413, 175], [443, 176], [181, 232], [318, 230], [362, 230], [440, 234], [225, 296], [300, 304], [366, 306], [420, 299], [458, 296]], DOORS_O = [[956, 152], [1034, 153], [1114, 156], [1164, 147], [1220, 155], [960, 214], [986, 204], [1062, 202], [1096, 208], [1194, 206], [1222, 208], [948, 276], [998, 284], [1032, 269], [1128, 273], [1161, 266], [1218, 274]];
+const PN = { x: 70, y: 330, s: 940 / 1370 }, PO = { x: 70, y: 760, s: 940 / 1576 };
+const pN = ([x, y]) => [PN.x + (x - 15) * 2 * PN.s, PN.y + (y - 60) * 2 * PN.s];
+const pO = ([x, y]) => [PO.x + (x - 700) * 2 * PO.s, PO.y + (y - 55) * 2 * PO.s];
 function sZugang(lb) {
-  const ox = 175, gy = 1030, sc = 0.84, pt = (x, y) => viaPt(ox, gy, sc, x, y);
   const items = [
-    { t: 'UNTEN: Eingangstür', at: [pt(155, 95)] },
-    { t: 'OBEN: Feuertreppe', at: [pt(10, -80), pt(200, -228)] },
-    { t: 'Türen auf jedem Stock', at: VIA_DOORS.map(([x, y]) => pt(x + 18, y - 50)) },
-    { t: 'Keller und Waschküche', at: [pt(590, 95)] },
+    { t: 'UNTEN: Eingangstür', at: [pN([104, 290])] },
+    { t: 'OBEN: Feuertreppe', at: [pN([497, 250]), pO([862, 225])] },
+    { t: 'Türen auf jedem Stock', at: [...DOORS_N.map(pN), ...DOORS_O.map(pO)] },
+    { t: 'Keller und Waschküche', at: [pO([1090, 300])] },
   ];
-  const keys = [[0, W / 2, 800, 520]];
-  keys.push([0.75, ...items[0].at[0], 230], [1.6, ...items[0].at[0], 230], [1.75, ...items[1].at[0], 230], [2.6, ...items[1].at[0], 230], [2.9, W / 2, 870, 460], [4.8, W / 2, 870, 460], [5.0, ...items[3].at[0], 230], [5.7, ...items[3].at[0], 230], [6.4, W / 2, 1450, 560]);
-  const [bx, by, br] = kf(lb, keys); beam(bx, by, br);
+  const [bx, by, br] = kf(lb, [[0, W / 2, 700, 520], [0.75, ...items[0].at[0], 200], [1.6, ...items[0].at[0], 200], [1.8, ...items[1].at[0], 220], [2.3, ...items[1].at[0], 220], [2.6, ...items[1].at[1], 220], [2.9, W / 2, 550, 380], [3.8, W / 2, 900, 380], [4.8, W / 2, 900, 420], [5.0, ...items[3].at[0], 230], [5.7, ...items[3].at[0], 230], [6.4, W / 2, 1450, 560]]);
+  beam(bx, by, br); AMB_ART = 0.2;
   use('txt'); typew('Alle Zugänge zu:', M, 290, 40, P(lb, 0, 0.5));
-  via(ox, gy, sc, (k, n) => 0.35 + 0.15 * hash(k));
+  use('art');
+  if (PLAN_N.complete) ctx.drawImage(PLAN_N, PN.x, PN.y, 1370 * PN.s, 540 * PN.s);
+  if (PLAN_O.complete) ctx.drawImage(PLAN_O, PO.x, PO.y, 1576 * PO.s, 530 * PO.s);
   use('txt');
-  T('OBEN', ...pt(-120, -330), 30, { fam: TYPE, w: 'bold' });
-  T('UNTEN', ...pt(-120, 120), 30, { fam: TYPE, w: 'bold' });
-  T('Keller', ...pt(330, 110), 28, { fam: TYPE, w: 'normal' });
+  T('Nord', W - M, PN.y + 20, 26, { fam: TYPE, w: 'normal', align: 'right' });
+  T('Ost', W - M, PO.y + 20, 26, { fam: TYPE, w: 'normal', align: 'right' });
+  T('UNTEN', pN([104, 290])[0] - 40, pN([104, 290])[1] + 52, 24, { fam: TYPE, w: 'bold' });
+  T('OBEN', pN([497, 250])[0] - 70, pN([497, 250])[1] - 70, 24, { fam: TYPE, w: 'bold' });
+  T('Keller', pO([1090, 300])[0] - 40, pO([1090, 300])[1] + 44, 24, { fam: TYPE, w: 'normal' });
   items.forEach((it, k) => {
-    const p = P(lb, k === 3 ? 5 : k === 2 ? 4.8 : 1 + k, 0.25), ty = 1390 + k * 62;
-    use('glow'); it.at.forEach(([x, y], j) => check(x, y, k === 2 ? 30 : 40, P(lb, (k === 3 ? 5 : 1 + k) + j * (k === 2 ? 0.125 : 0.25), 0.2)));
+    const t0 = [1, 2, 3, 5][k], step = k === 2 ? 1.7 / it.at.length : 0.4;
+    const p = P(lb, k === 2 ? 4.8 : t0, 0.25), ty = 1390 + k * 62;
+    use('glow'); it.at.forEach(([x, y], j) => check(x, y, k === 2 ? 22 : 34, P(lb, t0 + j * step, 0.2)));
     use('art'); stroke(2.5); ctx.strokeRect(M, ty - 30, 34, 34);
     use('glow'); check(M + 17, ty - 13, 30, p);
     use('txt'); appear(it.t, M + 60, ty, 40, P(lb, 0.5 + k * 0.1, 0.5), { fam: TYPE, w: 'normal' });
@@ -477,7 +487,7 @@ function render(time, frame) {
 window.TOTAL_FRAMES = Math.ceil(END_BEATS * BEAT * FPS);
 window.FPS = FPS;
 window.renderFrame = f => render(f / FPS, f);
-window.ready = document.fonts.load(`bold 100px "Bitstream Charter"`)
+window.ready = Promise.all([PLAN_N.decode(), PLAN_O.decode()]).then(() => document.fonts.load(`bold 100px "Bitstream Charter"`))
   .then(() => document.fonts.load(`italic bold 100px "Bitstream Charter"`))
   .then(() => document.fonts.load(`100px "Courier 10 Pitch"`))
   .then(() => document.fonts.load(`bold 100px "Courier 10 Pitch"`))
