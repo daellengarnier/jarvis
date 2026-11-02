@@ -249,13 +249,13 @@ function sQuote(lb) {
 
 // 6: Türen zu
 function sTuer(lb) {
-  const [bx, by, br] = kf(lb, [[0, 540, 760, 420], [1.8, 540, 760, 420], [2.4, 560, 1120, 640]]);
+  const [bx, by, br] = kf(lb, [[0, 540, 760, 420], [4.6, 540, 760, 420], [5.4, 560, 1120, 640]]);
   beam(bx, by, br);
-  // Tür knallt auf 0.5: Licht fällt kurz aus und flackert wieder an
-  if (lb > 0.5 && lb < 0.62) LIGHTS = 0;
-  else if (lb >= 0.62 && lb < 0.95) LIGHTS = hash(FRAME * 3) > 0.35 ? 1 : 0.2;
-  SHAKE = lb > 0.5 ? Math.exp(-(lb - 0.5) * 5) * 18 : 0;
-  const x0 = 300, y0 = 360, w = 480, h = 800, open = lb < 0.5 ? 1 - eIn(lb / 0.5) : 0;
+  // Tür knallt auf lb 1, genau wenn die Musik wegbricht: Licht fällt aus und flackert wieder an
+  if (lb > 1 && lb < 1.15) LIGHTS = 0;
+  else if (lb >= 1.15 && lb < 1.6) LIGHTS = hash(FRAME * 3) > 0.35 ? 1 : 0.2;
+  SHAKE = lb > 1 ? Math.exp(-(lb - 1) * 4) * 18 : 0;
+  const x0 = 300, y0 = 360, w = 480, h = 800, open = lb < 1 ? 1 - eIn((lb - 0.2) / 0.8) : 0;
   use('art'); ctx.save(); stroke(5);
   ctx.strokeRect(x0 - 10, y0 - 10, w + 20, h + 20);
   const a = open * 1.25, dw = Math.max(10, w * Math.cos(a)), sk = h * 0.09 * Math.sin(a);
@@ -263,20 +263,20 @@ function sTuer(lb) {
   for (let k = 0; k < 3; k++) { ctx.lineWidth = 2; ctx.strokeRect(x0 + dw * 0.12, y0 + 60 + k * 240, dw * 0.76, 190); }
   ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(x0 + dw * 0.86, y0 + h * 0.5 - 30); ctx.lineTo(x0 + dw * 0.86, y0 + h * 0.5 + 30); ctx.stroke();
   ctx.restore();
-  if (lb >= 1.95) {
-    use('glow'); const c = eOut(P(lb, 2, 0.2)), px = x0 + w * 0.86, py = y0 + h * 0.5 + 150, s = 100;
+  if (lb >= 4.95) {
+    use('glow'); const c = eOut(P(lb, 5, 0.2)), px = x0 + w * 0.86, py = y0 + h * 0.5 + 150, s = 100;
     ctx.save(); ctx.strokeStyle = RED; ctx.fillStyle = RED; ctx.lineWidth = 15;
     ctx.beginPath(); ctx.arc(px, py - s * 0.35 - (1 - c) * 30, s * 0.3, Math.PI, 0); ctx.stroke();
     ctx.fillRect(px - s * 0.48, py - s * 0.3, s * 0.96, s * 0.78); ctx.restore();
   }
-  if (lb >= 0.62) {
+  if (lb >= 1.15) {
     const s = 220;
     use('txt'); T('Türen', M, 1400, s); const tw = measure('Türen ', s, {});
     use('glow'); T('zu.', M + tw, 1400, s, { col: RED });
   }
   use('txt');
-  typew('Eingangstür nie offen lassen.', M, 1490, 36, P(lb, 2.1, 0.8));
-  typew('Auch nicht kurz.', M, 1545, 36, P(lb, 3, 0.5));
+  typew('Eingangstür nie offen lassen.', M, 1490, 36, P(lb, 2.2, 1));
+  typew('Auch nicht kurz.', M, 1545, 36, P(lb, 3.5, 0.6));
   chrome(4);
 }
 
@@ -354,7 +354,7 @@ function sOutro(lb) {
 
 const SECTIONS = [
   { s: 0, f: sIntro }, { s: 8, f: sWann }, { s: 16, f: sBern }, { s: 24, f: sBeute }, { s: 32, f: sQuote },
-  { s: 40, f: sTuer }, { s: 48, f: sZugang }, { s: 56, f: sMelden }, { s: 64, f: sOutro },
+  { s: 39, f: sTuer }, { s: 48, f: sZugang }, { s: 56, f: sMelden }, { s: 64, f: sOutro },
 ];
 
 // ---------- Komposition ----------
@@ -412,7 +412,7 @@ function render(time, frame) {
   out.save(); out.globalAlpha = 0.05; out.imageSmoothingEnabled = false;
   out.drawImage(grains[frame % grains.length], -((frame * 37) % 60), -((frame * 53) % 60), 1200, 2040); out.restore();
   // ausblenden am Schluss
-  const fade = clamp((B - (END_BEATS - 2)) / 2);
+  const fade = clamp((B - (END_BEATS - 3)) / 3);
   if (fade > 0) { out.fillStyle = `rgba(0,0,0,${fade})`; out.fillRect(0, 0, W, H); }
 }
 
