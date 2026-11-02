@@ -88,6 +88,10 @@ let FRAME = 0, AF = { kick: 0, hat: 0, low: 0, rms: 0 };
 const NF = F.kick.length;
 const KC = []; F.kick.reduce((a, v, i) => (KC[i] = a + v / 27), 0);
 const kickCum = fr => KC[clamp(fr, 0, NF - 1)];
+const specAt = (fr, b) => (fr < 0 ? 0 : (F.spec[Math.min(fr, NF - 1) * 32 + clamp(b, 0, 31)] || 0) / 99);
+const waveAt = (fr, k) => (fr < 0 ? 0 : (F.wave[Math.min(fr, NF - 1) * 96 + clamp(k, 0, 95)] || 0) / 99);
+const kicksUntil = fr => { let n = 0; for (const k of F.kicks) { if (k <= fr) n++; else break; } return n; };
+const sinceKick = fr => { let d = 1e9; for (const k of F.kicks) { if (k <= fr) d = fr - k; else break; } return d; };
 function feat(frame) { FRAME = frame; const i = clamp(frame, 0, NF - 1); for (const k in AF) AF[k] = F[k][i] || 0; }
 
 // ---------- Szenen-Zustand ----------
@@ -99,9 +103,22 @@ function beam(x, y, r) { BEAM = { x, y, r }; }
 function chrome(idx) {
   use('txt');
   T('Hausinfo, Herbst 2026', M, 120, 28, { fam: TYPE, w: 'normal' });
-  if (idx >= 0) T(`${idx + 1}/7`, W - M, 120, 28, { fam: TYPE, w: 'normal', align: 'right' });
+  if (idx >= 0) T(`${idx + 1}/7`, W - M - 70, 120, 28, { fam: TYPE, w: 'normal', align: 'right' });
+  { const cx = W - M - 22, cy = 110, r = 22, a = kicksUntil(FRAME) * Math.PI / 30 - Math.PI / 2 + Math.PI / 30 * Math.exp(-sinceKick(FRAME) / 3) * 0;
+    ctx.strokeStyle = LIGHT; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+    use('glow'); ctx.strokeStyle = RED; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(a) * r * 0.85, cy + Math.sin(a) * r * 0.85); ctx.stroke(); use('txt'); }
   ctx.fillStyle = LIGHT; ctx.globalAlpha = 0.5; ctx.fillRect(M, H - 170, W - 2 * M, 1.5); ctx.globalAlpha = 1;
   T('Quelle: Berner Zeitung / Der Bund', M, H - 125, 26, { fam: TYPE, w: 'normal' });
+  // Seismograf: zeichnet den Ton der letzten Sekunden auf, rote Feder rechts
+  const sy = H - 215, n = 160, x1 = W - M;
+  ctx.save(); ctx.strokeStyle = LIGHT; ctx.lineWidth = 1.6; ctx.globalAlpha = 0.8; ctx.beginPath();
+  for (let i = 0; i < n; i++) {
+    const fr = FRAME - (n - 1 - i), v = (F.rms[clamp(fr, 0, NF - 1)] || 0) * (fr < 0 ? 0 : 1);
+    const y = sy - waveAt(fr, (i * 7) % 96) * 34 * v - (F.kick[clamp(fr, 0, NF - 1)] || 0) * 6 * (fr < 0 ? 0 : 1);
+    const x = M + (x1 - M) * i / (n - 1); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  ctx.stroke(); ctx.restore();
+  use('glow'); ctx.fillStyle = RED; ctx.beginPath(); ctx.arc(x1, sy - waveAt(FRAME, 0) * 34 * AF.rms - AF.kick * 6, 5, 0, Math.PI * 2); ctx.fill(); use('txt');
 }
 function stroke(lw = 4) { ctx.strokeStyle = LIGHT; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; }
 
@@ -141,7 +158,7 @@ function sIntro(lb) {
   const l = lb - 4;
   const [bx, by, br] = kf(l, [[0, 150, 700, 260], [2.4, 930, 700, 300], [3.4, 540, 1300, 520]]);
   beam(bx, by, br);
-  house(330, 580, 420, 380, k => clamp(1 - (l - 0.2 - k * 0.2) * 4));
+  house(330, 580, 420, 380, k => clamp(1 - (l - 0.2 - k * 0.2) * 4) * (0.8 + 0.2 * hash(FRAME + k) * clamp(AF.hat)));
   use('txt');
   typew('Es ist wieder', M, 1180, 42, P(l, 0.3, 0.6));
   const s = fit('Einbruch-Saison.', W - 2 * M, {}, 140);
@@ -175,6 +192,7 @@ function sWann(lb) {
   const hh = lerp(9, 17, eInOut(P(lb, 2.9, 1.1)));
   stroke(10); ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(toA(hh)) * r * 0.5, cy + Math.sin(toA(hh)) * r * 0.5); ctx.stroke();
   stroke(5); ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(toA(hh * 12)) * r * 0.78, cy + Math.sin(toA(hh * 12)) * r * 0.78); ctx.stroke();
+  { const sa = kicksUntil(FRAME) * Math.PI / 30 - Math.PI / 2; use('glow'); ctx.strokeStyle = RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(cx - Math.cos(sa) * 30, cy - Math.sin(sa) * 30); ctx.lineTo(cx + Math.cos(sa) * r * 0.9, cy + Math.sin(sa) * r * 0.9); ctx.stroke(); ctx.fillStyle = RED; ctx.beginPath(); ctx.arc(cx, cy, 8, 0, Math.PI * 2); ctx.fill(); use('art'); }
   use('txt');
   appear('Zwischen 17 und 18 Uhr.', M, 1450, fit('Zwischen 17 und 18 Uhr.', W - 2 * M, {}, 110), P(lb, 4.3, 0.7));
   typew('am häufigsten (Bundesamt für Statistik)', M, 1520, 30, P(lb, 4.8, 0.8));
@@ -194,7 +212,7 @@ function sBern(lb) {
     const x = M + (i % cols) * sx + sx / 2, y = y0 + Math.floor(i / cols) * sx, k = hot.indexOf(i);
     if (k >= 0 && lb > 1.8 + k * 0.2) {
       use('glow'); ctx.fillStyle = RED; ctx.beginPath(); ctx.arc(x, y, 3 + 6 * eOut(P(lb, 1.8 + k * 0.2, 0.3)) * (1 + 0.2 * clamp(AF.kick, 0, 1.2)), 0, Math.PI * 2); ctx.fill();
-    } else { use('art'); ctx.fillStyle = LIGHT; ctx.beginPath(); ctx.arc(x, y, 2.6, 0, Math.PI * 2); ctx.fill(); }
+    } else { const c = i % cols, rr = Math.floor(i / cols), v = specAt(FRAME, Math.floor(c * 32 / cols)), on = (rows - rr) / rows < v * 1.1; use('art'); ctx.fillStyle = LIGHT; ctx.beginPath(); ctx.arc(x, y, on ? 4.2 : 2.2, 0, Math.PI * 2); ctx.fill(); }
   }
   use('txt'); appear('Rund 1 von 100.', M, 1440, 130, P(lb, 4.2, 0.7), { it: true });
   chrome(1);
@@ -223,7 +241,7 @@ function sBeute(lb) {
   ['Schmuck', 'Bargeld', 'Velos', 'E-Bikes'].forEach((w, k) => {
     const p = P(lb, 0.5 + k * 0.45, 0.6);
     use('glow'); if (p > 0) T(String(k + 1).padStart(2, '0'), M, 470 + k * 150, 34, { fam: TYPE, w: 'bold', col: RED });
-    use('txt'); appear(w, M + 90, 480 + k * 150, 130, p);
+    use('txt'); ctx.save(); const z = 1 + 0.025 * clamp(AF.kick, 0, 1.2) * (p >= 1); ctx.translate(M + 90, 480 + k * 150); ctx.scale(z, z); appear(w, 0, 0, 130, p); ctx.restore();
   });
   bike(lerp(-400, 560, eOut(P(lb, 2.2, 1))), 1300, 360, kickCum(FRAME) * 1.6);
   use('txt'); typew('Velos und E-Bikes oft aus dem Keller.', M, 1570, 32, P(lb, 3.3, 0.9));
@@ -237,7 +255,7 @@ function sQuote(lb) {
   use('txt'); typew('Aufgeklärt werden nur', M, 300, 40, P(lb, 0, 0.6));
   const cx = W / 2, cy = 730, r = 300, p = eOut(P(lb, 0.5, 1.5)) * 0.22;
   use('art'); stroke(3); ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
-  for (let k = 0; k < 100; k++) { const a = k / 100 * Math.PI * 2 - Math.PI / 2; ctx.lineWidth = k % 10 ? 1.5 : 3; ctx.beginPath(); ctx.moveTo(cx + Math.cos(a) * (r - 14), cy + Math.sin(a) * (r - 14)); ctx.lineTo(cx + Math.cos(a) * (r - (k % 10 ? 26 : 40)), cy + Math.sin(a) * (r - (k % 10 ? 26 : 40))); ctx.stroke(); }
+  for (let k = 0; k < 100; k++) { const a = k / 100 * Math.PI * 2 - Math.PI / 2; const v = specAt(FRAME, Math.floor(Math.abs(k - 50) / 50 * 31)), len = (k % 10 ? 22 : 36) + v * 60; ctx.lineWidth = k % 10 ? 1.5 : 3; ctx.beginPath(); ctx.moveTo(cx + Math.cos(a) * (r - 14), cy + Math.sin(a) * (r - 14)); ctx.lineTo(cx + Math.cos(a) * (r - 14 - len), cy + Math.sin(a) * (r - 14 - len)); ctx.stroke(); }
   use('glow'); ctx.save(); ctx.strokeStyle = RED; ctx.lineWidth = 22; ctx.beginPath(); ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * p); ctx.stroke(); ctx.restore();
   T(Math.round(p * 100) + ' %', cx, cy + 75, 210, { col: RED, align: 'center' });
   use('txt');
@@ -257,7 +275,7 @@ function sTuer(lb) {
   SHAKE = lb > 1 ? Math.exp(-(lb - 1) * 4) * 18 : 0;
   const x0 = 300, y0 = 360, w = 480, h = 800, open = lb < 1 ? 1 - eIn((lb - 0.2) / 0.8) : 0;
   use('art'); ctx.save(); stroke(5);
-  ctx.strokeRect(x0 - 10, y0 - 10, w + 20, h + 20);
+  ctx.lineWidth = 5 + 5 * clamp(AF.low, 0, 1.2); ctx.strokeRect(x0 - 10, y0 - 10, w + 20, h + 20); ctx.lineWidth = 5;
   const a = open * 1.25, dw = Math.max(10, w * Math.cos(a)), sk = h * 0.09 * Math.sin(a);
   ctx.fillStyle = NIGHT; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x0 + dw, y0 - sk); ctx.lineTo(x0 + dw, y0 + h + sk); ctx.lineTo(x0, y0 + h); ctx.closePath(); ctx.fill(); ctx.stroke();
   for (let k = 0; k < 3; k++) { ctx.lineWidth = 2; ctx.strokeRect(x0 + dw * 0.12, y0 + 60 + k * 240, dw * 0.76, 190); }
@@ -285,7 +303,7 @@ function sZugang(lb) {
   const bx0 = 170, bx1 = 720, gy = 1110, fh = 160;
   const spots = [[455, gy - 60], [230, gy + 85], [800, gy - 2.5 * fh], [bx0 + 505, gy + 85]];
   const keys = [[0, W / 2, 800, 520]];
-  spots.forEach(([x, y], k) => { keys.push([0.8 + k * 0.8, x, y, 230]); keys.push([1.35 + k * 0.8, x, y, 230]); });
+  spots.forEach(([x, y], k) => { keys.push([0.75 + k, x, y, 230]); keys.push([1.6 + k, x, y, 230]); });
   keys.push([4.6, W / 2, 1450, 560]);
   const [bx, by, br] = kf(lb, keys); beam(bx, by, br);
   use('txt'); typew('Alle Zugänge zu:', M, 290, 40, P(lb, 0, 0.5));
@@ -309,7 +327,7 @@ function sZugang(lb) {
   use('txt'); T('Keller', bx0 + 280, gy + 95, 30, { fam: TYPE, w: 'normal' }); T('Feuertreppe', bx1 + 85, gy - 4 * fh - 25, 26, { fam: TYPE, w: 'normal', align: 'center' });
   const items = ['Eingangstür', 'Untere Türen und Wege', 'Türen zur Feuertreppe', 'Keller und Waschküche'];
   items.forEach((t, k) => {
-    const p = P(lb, 1.05 + k * 0.8, 0.3), ty = 1390 + k * 62;
+    const p = P(lb, 1 + k, 0.25), ty = 1390 + k * 62;
     use('glow'); doors[k].forEach(([x, y, w, h]) => check(x + w / 2, y + h / 2, 44, p));
     use('art'); stroke(2.5); ctx.strokeRect(M, ty - 30, 34, 34);
     use('glow'); check(M + 17, ty - 13, 30, p);
@@ -323,11 +341,11 @@ function sMelden(lb) {
   const [bx, by, br] = kf(lb, [[0, W / 2, 340, 380], [0.8, W / 2, 860, 460], [3, W / 2, 1150, 460], [3.6, W / 2, 1420, 520]]);
   beam(bx, by, br);
   use('txt'); appear('Verdächtiges bemerkt?', M, 340, fit('Verdächtiges bemerkt?', W - 2 * M, {}, 110), P(lb, 0, 0.6));
-  const p = P(lb, 0.7, 0.5), odd = lb > 1.2 && Math.floor(lb) % 2 === 1;
+  const p = P(lb, 0.7, 0.5), kk = clamp(AF.kick, 0, 1.2);
   if (p > 0) {
     use('glow');
-    if (odd) { const g = ctx.createRadialGradient(W / 2, 760, 0, W / 2, 760, 520); g.addColorStop(0, 'rgba(232,64,47,0.35)'); g.addColorStop(1, 'rgba(232,64,47,0)'); ctx.fillStyle = g; ctx.fillRect(0, 300, W, 900); }
-    ctx.save(); ctx.globalAlpha = eOut(p) * (odd ? 1 : 0.8); T('117', W / 2, 930, 480, { col: RED, align: 'center', ls: -0.02 }); ctx.restore();
+    const g = ctx.createRadialGradient(W / 2, 760, 0, W / 2, 760, 380 + 220 * kk); g.addColorStop(0, `rgba(232,64,47,${0.1 + 0.3 * kk})`); g.addColorStop(1, 'rgba(232,64,47,0)'); ctx.fillStyle = g; ctx.fillRect(0, 300, W, 900);
+    ctx.save(); ctx.globalAlpha = eOut(p) * (0.75 + 0.25 * kk); T('117', W / 2, 930, 480, { col: RED, align: 'center', ls: -0.02 }); ctx.restore();
   }
   use('txt');
   appear('Polizei', M, 1100, 120, P(lb, 1.3, 0.7), { it: true });
@@ -342,7 +360,7 @@ function sMelden(lb) {
 function sOutro(lb) {
   beam(W / 2, lerp(700, 860, eOut(P(lb, 0, 3))), lerp(380, 560, eOut(P(lb, 0, 3))));
   AMB_TXT = 0.85;
-  house(370, 520, 340, 300, k => eOut(P(lb, 0.3 + k * 0.18, 0.4)));
+  house(370, 520, 340, 300, k => eOut(P(lb, 0.5 + k * 0.5, 0.15)) * (0.85 + 0.15 * clamp(AF.kick, 0, 1)));
   use('txt');
   const s = fit('Passt aufeinander', W - 2 * M, {}, 150);
   appear('Passt aufeinander', M, 1150, s, P(lb, 0.4, 0.8));
@@ -378,8 +396,9 @@ function compose(k, B, target) {
   const t = target.getContext('2d');
   t.setTransform(1, 0, 0, 1, 0, 0); t.globalAlpha = 1; t.globalCompositeOperation = 'source-over';
   t.fillStyle = SKY; t.fillRect(0, 0, W, H);
-  const fl = LIGHTS * (0.9 + 0.1 * clamp(AF.kick, 0, 1.2) - 0.08 * hash(FRAME) * clamp(AF.hat - 0.7, 0, 1));
-  const r = BEAM.r * (1 + 0.012 * Math.sin(B * 5.3));
+  const fl = LIGHTS * (0.8 + 0.28 * clamp(AF.kick, 0, 1.2) - 0.1 * hash(FRAME) * clamp(AF.hat - 0.6, 0, 1));
+  const r = BEAM.r * (1 + 0.012 * Math.sin(B * 5.3) + 0.05 * clamp(AF.kick, 0, 1.2));
+  BEAM.x += (hash(FRAME * 7) - 0.5) * 7 * clamp(AF.hat, 0, 1.3); BEAM.y += (hash(FRAME * 11) - 0.5) * 7 * clamp(AF.hat, 0, 1.3);
   // Lichtkegel auf der Wand
   if (r > 20) {
     const g = t.createRadialGradient(BEAM.x, BEAM.y, 0, BEAM.x, BEAM.y, r * 1.3);
@@ -387,7 +406,7 @@ function compose(k, B, target) {
     t.fillStyle = g; t.fillRect(0, 0, W, H);
     // Staub im Licht
     for (let i = 0; i < 40; i++) {
-      const a = hash(i) * 6.283 + B * 0.1 * (hash(i + 4) - 0.5), d = Math.sqrt(hash(i + 7)) * r;
+      const a = hash(i) * 6.283 + B * (0.1 + 0.4 * AF.rms) * (hash(i + 4) - 0.5), d = Math.sqrt(hash(i + 7)) * r;
       t.fillStyle = `rgba(242,233,212,${0.25 * fl * (1 - d / r)})`; t.fillRect(BEAM.x + Math.cos(a) * d, BEAM.y + Math.sin(a) * d + ((B * 8 + i * 13) % 40) - 20, 2, 2);
     }
   }

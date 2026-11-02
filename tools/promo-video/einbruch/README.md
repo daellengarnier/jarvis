@@ -13,3 +13,5 @@ Rendern (im Ordner): `python3 audio.py music.wav`, `python3 ../features.py music
 Track "Clockwork Creep" (Suno, von Alain), 80.0 BPM, Beat 0.74995 s. Ausschnitt ab 72.18 s (Beat 96 des Songs), 57 s, Ausblenden über die letzten 3 s. Jede Szene 2 Takte (8 Beats). Die Tür knallt auf Beat 136 des Songs (102.18 s), wo die Musik einen Takt lang wegbricht; das Schloss rastet auf Beat 140 ein, wenn der Groove zurückkommt. "Nur 22 %" liegt auf dem grossen Drop (96.18 s). Der eigene Soundtrack `audio.py` ist damit Reserve.
 
 Schneiden: `ffmpeg -ss 72.17993 -i Clockwork_Creep.wav -t 56.99610 -af "asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st=53.99631:d=2.99979" cc_cut.wav`, dann `python3 ../features.py cc_cut.wav 0.7499487 76 39 '[]'`. Der Track liegt nicht im Repo.
+
+Sound-Bezug (2026-11-02, Wunsch Alain): Lichtkegel heller und weiter auf dem Kick, zittert auf Hi-Hats. Seismograf in der Fusszeile zeichnet den Ton auf. Sekundenzeiger (Kopfzeile, Uhr in "Wann") springen auf jedem Kick. Punkteraster Bern als Spektrum, Skala am 22-%-Ring nach Frequenzen, Häkchen der Zugänge auf den Beats, 117 glüht auf dem Kick, Fenster am Schluss gehen auf den Beats an.
