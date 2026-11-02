@@ -148,7 +148,9 @@ function via(ox, gy, s, lit = () => 0, o = {}) {
   lw(1); for (let x = 772; x < 880; x += 14) { ctx.beginPath(); ctx.moveTo(x, -6); ctx.lineTo(x, -470 + (Math.abs(x - 820) > 50 ? 25 : 0)); ctx.globalAlpha = 0.35; ctx.stroke(); ctx.globalAlpha = 1; }
   // Fenster und Türen
   lw(2.2); VIA_WIN.forEach(([x, y, w, h]) => ctx.strokeRect(x, y, w, h));
-  for (const x of [165, 325, 490, 645]) ctx.strokeRect(x, -100, 40, 100);
+  for (const x of [165, 490]) ctx.strokeRect(x, -100, 40, 100);
+  lw(3); for (const [x, y] of VIA_DOORS) { ctx.strokeRect(x, y - 100, 40, 100); ctx.beginPath(); ctx.moveTo(x + 32, y - 55); ctx.lineTo(x + 32, y - 42); ctx.stroke(); }
+  lw(2.2);
   // Laubengänge mit Geländer
   for (const y of [-150, -300]) {
     lw(4); ctx.beginPath(); ctx.moveTo(120, y); ctx.lineTo(745, y); ctx.stroke();
@@ -170,6 +172,8 @@ function via(ox, gy, s, lit = () => 0, o = {}) {
   ctx.restore(); use('art');
 }
 const viaPt = (ox, gy, s, x, y) => [ox + x * s, gy + y * s];
+// Türen auf die Laubengänge, je zwei pro Stock: [x, Boden-y]
+const VIA_DOORS = [[325, 0], [645, 0], [232, -150], [672, -150], [232, -300], [672, -300]];
 
 // 1: Die Tage werden kürzer, Einbruch-Saison
 function sIntro(lb) {
@@ -338,10 +342,11 @@ function sZugang(lb) {
   const items = [
     { t: 'UNTEN: Eingangstür', at: [pt(155, 95)] },
     { t: 'OBEN: Feuertreppe', at: [pt(10, -80), pt(200, -228)] },
+    { t: 'Türen auf jedem Stock', at: VIA_DOORS.map(([x, y]) => pt(x + 20, y - 50)) },
     { t: 'Keller und Waschküche', at: [pt(590, 95)] },
   ];
   const keys = [[0, W / 2, 800, 520]];
-  items.forEach((it, k) => { const [x, y] = it.at[0]; keys.push([0.75 + k * 1.3, x, y, 230]); keys.push([1.7 + k * 1.3, x, y, 230]); });
+  items.forEach((it, k) => { const [x, y] = it.at[0]; keys.push([0.75 + k, x, y, k === 2 ? 380 : 230]); keys.push([1.6 + k, k === 2 ? W / 2 : x, k === 2 ? 870 : y, k === 2 ? 420 : 230]); });
   keys.push([4.6, W / 2, 1450, 560]);
   const [bx, by, br] = kf(lb, keys); beam(bx, by, br);
   use('txt'); typew('Alle Zugänge zu:', M, 290, 40, P(lb, 0, 0.5));
@@ -351,8 +356,8 @@ function sZugang(lb) {
   T('UNTEN', ...pt(-120, 120), 30, { fam: TYPE, w: 'bold' });
   T('Keller', ...pt(330, 110), 28, { fam: TYPE, w: 'normal' });
   items.forEach((it, k) => {
-    const p = P(lb, 1 + k * 1.3, 0.25), ty = 1400 + k * 66;
-    use('glow'); it.at.forEach(([x, y]) => check(x, y, 46, p));
+    const p = P(lb, 1 + k, 0.25), ty = 1390 + k * 62;
+    use('glow'); it.at.forEach(([x, y], j) => check(x, y, 40, P(lb, 1 + k + j * (k === 2 ? 0.125 : 0.25), 0.2)));
     use('art'); stroke(2.5); ctx.strokeRect(M, ty - 30, 34, 34);
     use('glow'); check(M + 17, ty - 13, 30, p);
     use('txt'); appear(it.t, M + 60, ty, 40, P(lb, 0.5 + k * 0.1, 0.5), { fam: TYPE, w: 'normal' });
