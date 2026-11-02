@@ -336,13 +336,12 @@ function sTuer(lb) {
 function sZugang(lb) {
   const ox = 175, gy = 1030, sc = 0.84, pt = (x, y) => viaPt(ox, gy, sc, x, y);
   const items = [
-    { t: 'Eingangstür', at: [pt(510, -50)] },
+    { t: 'UNTEN: Eingangstür', at: [pt(155, 95)] },
     { t: 'OBEN: Feuertreppe', at: [pt(10, -80), pt(200, -228)] },
-    { t: 'UNTEN: Türen und Wege', at: [pt(155, 95)] },
     { t: 'Keller und Waschküche', at: [pt(590, 95)] },
   ];
   const keys = [[0, W / 2, 800, 520]];
-  items.forEach((it, k) => { const [x, y] = it.at[0]; keys.push([0.75 + k, x, y, 230]); keys.push([1.6 + k, x, y, 230]); });
+  items.forEach((it, k) => { const [x, y] = it.at[0]; keys.push([0.75 + k * 1.3, x, y, 230]); keys.push([1.7 + k * 1.3, x, y, 230]); });
   keys.push([4.6, W / 2, 1450, 560]);
   const [bx, by, br] = kf(lb, keys); beam(bx, by, br);
   use('txt'); typew('Alle Zugänge zu:', M, 290, 40, P(lb, 0, 0.5));
@@ -352,7 +351,7 @@ function sZugang(lb) {
   T('UNTEN', ...pt(-120, 120), 30, { fam: TYPE, w: 'bold' });
   T('Keller', ...pt(330, 110), 28, { fam: TYPE, w: 'normal' });
   items.forEach((it, k) => {
-    const p = P(lb, 1 + k, 0.25), ty = 1390 + k * 62;
+    const p = P(lb, 1 + k * 1.3, 0.25), ty = 1400 + k * 66;
     use('glow'); it.at.forEach(([x, y]) => check(x, y, 46, p));
     use('art'); stroke(2.5); ctx.strokeRect(M, ty - 30, 34, 34);
     use('glow'); check(M + 17, ty - 13, 30, p);
