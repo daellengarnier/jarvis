@@ -125,12 +125,17 @@ function stroke(lw = 4) { ctx.strokeStyle = LIGHT; ctx.lineWidth = lw; ctx.lineJ
 // Unser Haus, Spinnereiweg 17, nach der Ostansicht: breites Dach mit Kamin, drei Geschosse,
 // zwei Laubengänge, Feuertreppe aussen links, runder Turm rechts, unten Keller und Saal.
 // Ursprung = Boden links vom Haupthaus, Masse in Planeinheiten, s = Massstab. lit(k, n) für Fenster.
-const VIA_WIN = (() => {
-  const w = [];
-  for (const fy of [-300, -450]) for (const x of [150, 290, 430, 570]) { w.push([x, fy + 40, 28, 58]); w.push([x + 36, fy + 40, 28, 58]); }
-  for (const fy of [-150, -300]) for (const x of [785, 830]) w.push([x, fy - 110, 22, 52]);
-  return w;
-})();
+const BAY_X = [100, 232, 364, 496, 628], BAY_W = 132, FLOORS = [0, -150, -300];
+// Türseite pro Feld und Stock (0 = Tür links im Feld, 1 = rechts), wie im Plan
+const DOOR_SIDE = { 0: [0, 1, 0, 1, 0], '-150': [0, 1, 0, 1, 1], '-300': [0, 0, 1, 0, 1] };
+const VIA_DOORS = [], VIA_WIN = [];
+for (const fy of FLOORS) BAY_X.forEach((bx, i) => {
+  const side = DOOR_SIDE[fy][i], dx = side ? bx + BAY_W - 18 - 36 : bx + 18;
+  VIA_DOORS.push([dx, fy]);
+  const wx = side ? bx + 16 : bx + 62, wy = fy === 0 ? fy - 92 : fy - 108, wh = fy === 0 ? 44 : 60;
+  VIA_WIN.push([wx, wy, 26, wh]); VIA_WIN.push([wx + 30, wy, 26, wh]);
+});
+for (const fy of [-150, -300]) for (const x of [785, 830]) VIA_WIN.push([x, fy - 110, 22, 52]);
 function via(ox, gy, s, lit = () => 0, o = {}) {
   use('art'); ctx.save(); ctx.translate(ox, gy); ctx.scale(s, s);
   const lw = v => (ctx.lineWidth = v / s);
@@ -148,8 +153,9 @@ function via(ox, gy, s, lit = () => 0, o = {}) {
   lw(1); for (let x = 772; x < 880; x += 14) { ctx.beginPath(); ctx.moveTo(x, -6); ctx.lineTo(x, -470 + (Math.abs(x - 820) > 50 ? 25 : 0)); ctx.globalAlpha = 0.35; ctx.stroke(); ctx.globalAlpha = 1; }
   // Fenster und Türen
   lw(2.2); VIA_WIN.forEach(([x, y, w, h]) => ctx.strokeRect(x, y, w, h));
-  for (const x of [165, 490]) ctx.strokeRect(x, -100, 40, 100);
-  lw(3); for (const [x, y] of VIA_DOORS) { ctx.strokeRect(x, y - 100, 40, 100); ctx.beginPath(); ctx.moveTo(x + 32, y - 55); ctx.lineTo(x + 32, y - 42); ctx.stroke(); }
+  lw(3); for (const [x, y] of VIA_DOORS) { ctx.strokeRect(x, y - 100, 36, 100); ctx.beginPath(); ctx.moveTo(x + 29, y - 55); ctx.lineTo(x + 29, y - 42); ctx.stroke(); }
+  // Stützen zwischen den Feldern
+  lw(1.2); ctx.globalAlpha = 0.45; for (const x of [...BAY_X.slice(1), 760]) { ctx.beginPath(); ctx.moveTo(x, -450); ctx.lineTo(x, 0); ctx.stroke(); } ctx.globalAlpha = 1;
   lw(2.2);
   // Laubengänge mit Geländer
   for (const y of [-150, -300]) {
@@ -172,8 +178,6 @@ function via(ox, gy, s, lit = () => 0, o = {}) {
   ctx.restore(); use('art');
 }
 const viaPt = (ox, gy, s, x, y) => [ox + x * s, gy + y * s];
-// Türen auf die Laubengänge, je zwei pro Stock: [x, Boden-y]
-const VIA_DOORS = [[325, 0], [645, 0], [232, -150], [672, -150], [232, -300], [672, -300]];
 
 // 1: Die Tage werden kürzer, Einbruch-Saison
 function sIntro(lb) {
@@ -272,7 +276,7 @@ function bike(cx, cy, s, rot) {
   ctx.stroke(); ctx.restore();
 }
 function sBeute(lb) {
-  const [bx, by, br] = kf(lb, [[0, 380, 520, 260], [2.2, 380, 860, 300], [2.9, 560, 1290, 360], [4.5, 560, 1330, 420]]);
+  const [bx, by, br] = kf(lb, [[0, 380, 520, 260], [2.2, 380, 860, 300], [2.9, 560, 1340, 330], [4.5, 560, 1360, 400], [5.1, 480, 1050, 440]]);
   beam(bx, by, br);
   use('txt'); typew('Gesucht wird vor allem:', M, 300, 40, P(lb, 0, 0.6));
   ['Schmuck', 'Bargeld', 'Velos', 'E-Bikes'].forEach((w, k) => {
@@ -280,8 +284,11 @@ function sBeute(lb) {
     use('glow'); if (p > 0) T(String(k + 1).padStart(2, '0'), M, 470 + k * 150, 34, { fam: TYPE, w: 'bold', col: RED });
     use('txt'); ctx.save(); const z = 1 + 0.025 * clamp(AF.kick, 0, 1.2) * (p >= 1); ctx.translate(M + 90, 480 + k * 150); ctx.scale(z, z); appear(w, 0, 0, 130, p); ctx.restore();
   });
-  bike(lerp(-400, 560, eOut(P(lb, 2.2, 1))), 1300, 360, kickCum(FRAME) * 1.6);
+  bike(lerp(-400, 560, eOut(P(lb, 2.2, 1))), 1385, 290, kickCum(FRAME) * 1.6);
   use('txt'); typew('Velos und E-Bikes oft aus dem Keller.', M, 1570, 32, P(lb, 3.3, 0.9));
+  appear('Und bei uns sicher auch:', M, 1035, 44, P(lb, 4.8, 0.6), { it: true });
+  typew('Chillies, Schlagzeuge, Kaffeemaschinen,', M, 1085, 30, P(lb, 5.2, 0.8));
+  typew('Fixleintücher.', M, 1123, 30, P(lb, 6, 0.4));
   chrome(2);
 }
 
@@ -342,12 +349,11 @@ function sZugang(lb) {
   const items = [
     { t: 'UNTEN: Eingangstür', at: [pt(155, 95)] },
     { t: 'OBEN: Feuertreppe', at: [pt(10, -80), pt(200, -228)] },
-    { t: 'Türen auf jedem Stock', at: VIA_DOORS.map(([x, y]) => pt(x + 20, y - 50)) },
+    { t: 'Türen auf jedem Stock', at: VIA_DOORS.map(([x, y]) => pt(x + 18, y - 50)) },
     { t: 'Keller und Waschküche', at: [pt(590, 95)] },
   ];
   const keys = [[0, W / 2, 800, 520]];
-  items.forEach((it, k) => { const [x, y] = it.at[0]; keys.push([0.75 + k, x, y, k === 2 ? 380 : 230]); keys.push([1.6 + k, k === 2 ? W / 2 : x, k === 2 ? 870 : y, k === 2 ? 420 : 230]); });
-  keys.push([4.6, W / 2, 1450, 560]);
+  keys.push([0.75, ...items[0].at[0], 230], [1.6, ...items[0].at[0], 230], [1.75, ...items[1].at[0], 230], [2.6, ...items[1].at[0], 230], [2.9, W / 2, 870, 460], [4.8, W / 2, 870, 460], [5.0, ...items[3].at[0], 230], [5.7, ...items[3].at[0], 230], [6.4, W / 2, 1450, 560]);
   const [bx, by, br] = kf(lb, keys); beam(bx, by, br);
   use('txt'); typew('Alle Zugänge zu:', M, 290, 40, P(lb, 0, 0.5));
   via(ox, gy, sc, (k, n) => 0.35 + 0.15 * hash(k));
@@ -356,8 +362,8 @@ function sZugang(lb) {
   T('UNTEN', ...pt(-120, 120), 30, { fam: TYPE, w: 'bold' });
   T('Keller', ...pt(330, 110), 28, { fam: TYPE, w: 'normal' });
   items.forEach((it, k) => {
-    const p = P(lb, 1 + k, 0.25), ty = 1390 + k * 62;
-    use('glow'); it.at.forEach(([x, y], j) => check(x, y, 40, P(lb, 1 + k + j * (k === 2 ? 0.125 : 0.25), 0.2)));
+    const p = P(lb, k === 3 ? 5 : k === 2 ? 4.8 : 1 + k, 0.25), ty = 1390 + k * 62;
+    use('glow'); it.at.forEach(([x, y], j) => check(x, y, k === 2 ? 30 : 40, P(lb, (k === 3 ? 5 : 1 + k) + j * (k === 2 ? 0.125 : 0.25), 0.2)));
     use('art'); stroke(2.5); ctx.strokeRect(M, ty - 30, 34, 34);
     use('glow'); check(M + 17, ty - 13, 30, p);
     use('txt'); appear(it.t, M + 60, ty, 40, P(lb, 0.5 + k * 0.1, 0.5), { fam: TYPE, w: 'normal' });
