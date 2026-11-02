@@ -102,7 +102,7 @@ function reset() {
 function beam(x, y, r) { BEAM = { x, y, r }; }
 function chrome(idx) {
   use('txt');
-  T('Hausinfo, Herbst 2026', M, 120, 28, { fam: TYPE, w: 'normal' });
+  T('Via 1, Herbst 2026', M, 120, 28, { fam: TYPE, w: 'normal' });
   if (idx >= 0) T(`${idx + 1}/7`, W - M - 70, 120, 28, { fam: TYPE, w: 'normal', align: 'right' });
   { const cx = W - M - 22, cy = 110, r = 22, a = kicksUntil(FRAME) * Math.PI / 30 - Math.PI / 2 + Math.PI / 30 * Math.exp(-sinceKick(FRAME) / 3) * 0;
     ctx.strokeStyle = LIGHT; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
@@ -122,21 +122,54 @@ function chrome(idx) {
 }
 function stroke(lw = 4) { ctx.strokeStyle = LIGHT; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; }
 
-function house(x0, y0, w, h, lit) {
-  use('art'); ctx.save(); stroke(4);
-  ctx.beginPath(); ctx.moveTo(x0 - 30, y0); ctx.lineTo(x0 + w / 2, y0 - h * 0.32); ctx.lineTo(x0 + w + 30, y0); ctx.stroke();
-  ctx.strokeRect(x0, y0, w, h);
-  const cw = w / 3, rh = h / 3;
-  for (let r = 0; r < 3; r++) for (let c = 0; c < 3; c++) {
-    const k = r * 3 + c, x = x0 + c * cw + cw * 0.28, y = y0 + r * rh + rh * 0.25;
-    use('art');
-    if (r === 2 && c === 1) { ctx.strokeRect(x0 + cw * 1.25, y0 + 2 * rh + rh * 0.15, cw * 0.5, rh * 0.85); continue; }
-    ctx.strokeRect(x, y, cw * 0.44, rh * 0.5);
-    const l = lit(k);
-    if (l > 0) { use('glow'); ctx.fillStyle = `rgba(242,233,212,${0.85 * l})`; ctx.fillRect(x, y, cw * 0.44, rh * 0.5); }
+// Unser Haus, Spinnereiweg 17, nach der Ostansicht: breites Dach mit Kamin, drei Geschosse,
+// zwei Laubengänge, Feuertreppe aussen links, runder Turm rechts, unten Keller und Saal.
+// Ursprung = Boden links vom Haupthaus, Masse in Planeinheiten, s = Massstab. lit(k, n) für Fenster.
+const VIA_WIN = (() => {
+  const w = [];
+  for (const fy of [-300, -450]) for (const x of [150, 290, 430, 570]) { w.push([x, fy + 40, 28, 58]); w.push([x + 36, fy + 40, 28, 58]); }
+  for (const fy of [-150, -300]) for (const x of [785, 830]) w.push([x, fy - 110, 22, 52]);
+  return w;
+})();
+function via(ox, gy, s, lit = () => 0, o = {}) {
+  use('art'); ctx.save(); ctx.translate(ox, gy); ctx.scale(s, s);
+  const lw = v => (ctx.lineWidth = v / s);
+  ctx.strokeStyle = LIGHT; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+  lw(3); ctx.beginPath(); ctx.moveTo(-130, 0); ctx.lineTo(1010, 0); ctx.stroke();
+  lw(4); ctx.strokeRect(100, -450, 660, 450);
+  // Dach mit Vordach und Kamin
+  ctx.beginPath(); ctx.moveTo(40, -440); ctx.lineTo(210, -565); ctx.lineTo(650, -565); ctx.lineTo(820, -440); ctx.closePath(); ctx.stroke();
+  lw(2); ctx.beginPath(); ctx.moveTo(60, -455); ctx.lineTo(800, -455); ctx.stroke();
+  lw(3); ctx.strokeRect(410, -615, 42, 50); ctx.strokeRect(404, -622, 54, 8);
+  // Geschossdecken
+  lw(1.5); for (const y of [-150, -300]) { ctx.beginPath(); ctx.moveTo(100, y); ctx.lineTo(760, y); ctx.stroke(); }
+  // Turm rechts
+  lw(3.5); ctx.beginPath(); ctx.moveTo(760, 0); ctx.lineTo(760, -470); ctx.arc(820, -470, 60, Math.PI, 0); ctx.lineTo(880, 0); ctx.stroke();
+  lw(1); for (let x = 772; x < 880; x += 14) { ctx.beginPath(); ctx.moveTo(x, -6); ctx.lineTo(x, -470 + (Math.abs(x - 820) > 50 ? 25 : 0)); ctx.globalAlpha = 0.35; ctx.stroke(); ctx.globalAlpha = 1; }
+  // Fenster und Türen
+  lw(2.2); VIA_WIN.forEach(([x, y, w, h]) => ctx.strokeRect(x, y, w, h));
+  for (const x of [165, 325, 490, 645]) ctx.strokeRect(x, -100, 40, 100);
+  // Laubengänge mit Geländer
+  for (const y of [-150, -300]) {
+    lw(4); ctx.beginPath(); ctx.moveTo(120, y); ctx.lineTo(745, y); ctx.stroke();
+    lw(2); ctx.beginPath(); ctx.moveTo(120, y - 46); ctx.lineTo(745, y - 46); ctx.stroke();
+    lw(0.8); ctx.globalAlpha = 0.5; for (let x = 128; x < 745; x += 11) { ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y - 46); ctx.stroke(); } ctx.globalAlpha = 1;
   }
-  use('art'); ctx.restore();
+  // Feuertreppe aussen links: Boden bis 1. OG, dann bis 2. OG
+  const flight = (x0, y0, x1, y1, n) => {
+    lw(3); ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.moveTo(x0, y0 - 44); ctx.lineTo(x1, y1 - 44); ctx.stroke();
+    lw(1.5); for (let k = 1; k < n; k++) { const t = k / n, x = lerp(x0, x1, t), y = lerp(y0, y1, t); ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + 14, y); ctx.stroke(); }
+  };
+  flight(-110, 0, 120, -150, 12); flight(120, -150, 280, -300, 11);
+  // unten: Keller und Saal unter dem Boden
+  if (o.under !== false) { lw(2); ctx.setLineDash([10 / s, 9 / s]); ctx.strokeRect(100, 6, 660, 165); ctx.setLineDash([]); ctx.strokeRect(130, 40, 50, 110); ctx.strokeRect(560, 40, 60, 110); }
+  ctx.restore();
+  // leuchtende Fenster
+  use('glow'); ctx.save(); ctx.translate(ox, gy); ctx.scale(s, s);
+  VIA_WIN.forEach(([x, y, w, h], k) => { const l = lit(k, VIA_WIN.length); if (l > 0) { ctx.fillStyle = `rgba(242,233,212,${0.85 * l})`; ctx.fillRect(x, y, w, h); } });
+  ctx.restore(); use('art');
 }
+const viaPt = (ox, gy, s, x, y) => [ox + x * s, gy + y * s];
 
 // 1: Die Tage werden kürzer, Einbruch-Saison
 function sIntro(lb) {
@@ -156,11 +189,11 @@ function sIntro(lb) {
     return;
   }
   const l = lb - 4;
-  const [bx, by, br] = kf(l, [[0, 150, 700, 260], [2.4, 930, 700, 300], [3.4, 540, 1300, 520]]);
+  const [bx, by, br] = kf(l, [[0, 180, 760, 280], [2.4, 900, 760, 320], [3.4, 540, 1300, 520]]);
   beam(bx, by, br);
-  house(330, 580, 420, 380, k => clamp(1 - (l - 0.2 - k * 0.2) * 4) * (0.8 + 0.2 * hash(FRAME + k) * clamp(AF.hat)));
+  via(150, 1000, 0.8, (k, n) => clamp(1 - (l - 0.2 - hash(k * 3.1) * 2) * 4) * (0.8 + 0.2 * hash(FRAME + k) * clamp(AF.hat)), { under: false });
   use('txt');
-  typew('Es ist wieder', M, 1180, 42, P(l, 0.3, 0.6));
+  typew('Es ist wieder', M, 1190, 42, P(l, 0.3, 0.6));
   const s = fit('Einbruch-Saison.', W - 2 * M, {}, 140);
   appear('Einbruch-Saison.', M, 1180 + s * 1.15, s, P(l, 1, 0.8));
   use('glow'); ctx.save(); ctx.strokeStyle = RED; ctx.lineWidth = 7; ctx.lineCap = 'round';
@@ -273,7 +306,7 @@ function sTuer(lb) {
   if (lb > 1 && lb < 1.15) LIGHTS = 0;
   else if (lb >= 1.15 && lb < 1.6) LIGHTS = hash(FRAME * 3) > 0.35 ? 1 : 0.2;
   SHAKE = lb > 1 ? Math.exp(-(lb - 1) * 4) * 18 : 0;
-  const x0 = 300, y0 = 360, w = 480, h = 800, open = lb < 1 ? 1 - eIn((lb - 0.2) / 0.8) : 0;
+  const x0 = 320, y0 = 300, w = 440, h = 740, open = lb < 1 ? 1 - eIn((lb - 0.2) / 0.8) : 0;
   use('art'); ctx.save(); stroke(5);
   ctx.lineWidth = 5 + 5 * clamp(AF.low, 0, 1.2); ctx.strokeRect(x0 - 10, y0 - 10, w + 20, h + 20); ctx.lineWidth = 5;
   const a = open * 1.25, dw = Math.max(10, w * Math.cos(a)), sk = h * 0.09 * Math.sin(a);
@@ -288,85 +321,81 @@ function sTuer(lb) {
     ctx.fillRect(px - s * 0.48, py - s * 0.3, s * 0.96, s * 0.78); ctx.restore();
   }
   if (lb >= 1.15) {
+    use('txt'); T('Fischöiglers,', M, 1215, 90, { it: true });
     const s = 220;
-    use('txt'); T('Türen', M, 1400, s); const tw = measure('Türen ', s, {});
-    use('glow'); T('zu.', M + tw, 1400, s, { col: RED });
+    use('txt'); T('Türen', M, 1420, s); const tw = measure('Türen ', s, {});
+    use('glow'); T('zu.', M + tw, 1420, s, { col: RED });
   }
   use('txt');
-  typew('Eingangstür nie offen lassen.', M, 1490, 36, P(lb, 2.2, 1));
-  typew('Auch nicht kurz.', M, 1545, 36, P(lb, 3.5, 0.6));
+  typew('Eingangstür nie offen lassen.', M, 1510, 36, P(lb, 2.2, 1));
+  typew('Sie schliesst nicht immer von selbst.', M, 1565, 36, P(lb, 3.5, 1));
   chrome(4);
 }
 
 // 7: alle Zugänge
 function sZugang(lb) {
-  const bx0 = 170, bx1 = 720, gy = 1110, fh = 160;
-  const spots = [[455, gy - 60], [230, gy + 85], [800, gy - 2.5 * fh], [bx0 + 505, gy + 85]];
+  const ox = 175, gy = 1030, sc = 0.84, pt = (x, y) => viaPt(ox, gy, sc, x, y);
+  const items = [
+    { t: 'Eingangstür', at: [pt(510, -50)] },
+    { t: 'OBEN: Feuertreppe', at: [pt(10, -80), pt(200, -228)] },
+    { t: 'UNTEN: Türen und Wege', at: [pt(155, 95)] },
+    { t: 'Keller und Waschküche', at: [pt(590, 95)] },
+  ];
   const keys = [[0, W / 2, 800, 520]];
-  spots.forEach(([x, y], k) => { keys.push([0.75 + k, x, y, 230]); keys.push([1.6 + k, x, y, 230]); });
+  items.forEach((it, k) => { const [x, y] = it.at[0]; keys.push([0.75 + k, x, y, 230]); keys.push([1.6 + k, x, y, 230]); });
   keys.push([4.6, W / 2, 1450, 560]);
   const [bx, by, br] = kf(lb, keys); beam(bx, by, br);
   use('txt'); typew('Alle Zugänge zu:', M, 290, 40, P(lb, 0, 0.5));
-  use('art'); ctx.save(); stroke(4);
-  ctx.strokeRect(bx0, gy - 4 * fh, bx1 - bx0, 4 * fh);
-  ctx.beginPath(); ctx.moveTo(bx0 - 25, gy - 4 * fh); ctx.lineTo((bx0 + bx1) / 2, gy - 4 * fh - 110); ctx.lineTo(bx1 + 25, gy - 4 * fh); ctx.stroke();
-  ctx.lineWidth = 2;
-  for (let f = 1; f < 4; f++) { ctx.beginPath(); ctx.moveTo(bx0, gy - f * fh); ctx.lineTo(bx1, gy - f * fh); ctx.stroke(); }
-  for (let f = 1; f <= 3; f++) for (let c = 0; c < 3; c++) ctx.strokeRect(bx0 + 60 + c * 150, gy - f * fh - 120, 80, 66);
-  ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(0, gy); ctx.lineTo(W, gy); ctx.stroke();
-  ctx.setLineDash([10, 9]); ctx.strokeRect(bx0, gy + 4, bx1 - bx0, 150); ctx.setLineDash([]);
-  ctx.lineWidth = 3;
-  for (let f = 0; f < 4; f++) {
-    const y = gy - f * fh;
-    ctx.beginPath(); ctx.moveTo(bx1, y - fh + 2); ctx.lineTo(bx1 + 170, y - fh + 2); ctx.stroke();
-    ctx.beginPath(); for (let k = 0; k <= 6; k++) { const x = f % 2 ? bx1 + 20 + k * 25 : bx1 + 170 - k * 25, yy = y - k * (fh / 6); k ? ctx.lineTo(x, yy) : ctx.moveTo(x, yy); } ctx.stroke();
-  }
-  const doors = [[[420, gy - 120, 70, 120]], [[200, gy + 30, 60, 110]], [0, 1, 2, 3].map(f => [bx1 - 48, gy - f * fh - 115, 44, 105]), [[bx0 + 470, gy + 30, 70, 110]]];
-  ctx.lineWidth = 3; doors.flat().forEach(([x, y, w, h]) => ctx.strokeRect(x, y, w, h));
-  ctx.restore();
-  use('txt'); T('Keller', bx0 + 280, gy + 95, 30, { fam: TYPE, w: 'normal' }); T('Feuertreppe', bx1 + 85, gy - 4 * fh - 25, 26, { fam: TYPE, w: 'normal', align: 'center' });
-  const items = ['Eingangstür', 'Untere Türen und Wege', 'Türen zur Feuertreppe', 'Keller und Waschküche'];
-  items.forEach((t, k) => {
+  via(ox, gy, sc, (k, n) => 0.35 + 0.15 * hash(k));
+  use('txt');
+  T('OBEN', ...pt(-120, -330), 30, { fam: TYPE, w: 'bold' });
+  T('UNTEN', ...pt(-120, 120), 30, { fam: TYPE, w: 'bold' });
+  T('Keller', ...pt(330, 110), 28, { fam: TYPE, w: 'normal' });
+  items.forEach((it, k) => {
     const p = P(lb, 1 + k, 0.25), ty = 1390 + k * 62;
-    use('glow'); doors[k].forEach(([x, y, w, h]) => check(x + w / 2, y + h / 2, 44, p));
+    use('glow'); it.at.forEach(([x, y]) => check(x, y, 46, p));
     use('art'); stroke(2.5); ctx.strokeRect(M, ty - 30, 34, 34);
     use('glow'); check(M + 17, ty - 13, 30, p);
-    use('txt'); appear(t, M + 60, ty, 40, P(lb, 0.5 + k * 0.1, 0.5), { fam: TYPE, w: 'normal' });
+    use('txt'); appear(it.t, M + 60, ty, 40, P(lb, 0.5 + k * 0.1, 0.5), { fam: TYPE, w: 'normal' });
   });
   chrome(5);
 }
 
 // 8: Polizei 117
 function sMelden(lb) {
-  const [bx, by, br] = kf(lb, [[0, W / 2, 340, 380], [0.8, W / 2, 860, 460], [3, W / 2, 1150, 460], [3.6, W / 2, 1420, 520]]);
+  const [bx, by, br] = kf(lb, [[0, W / 2, 340, 380], [0.8, W / 2, 560, 420], [1.6, W / 2, 900, 460], [3, W / 2, 1180, 460], [3.6, W / 2, 1420, 520]]);
   beam(bx, by, br);
-  use('txt'); appear('Verdächtiges bemerkt?', M, 340, fit('Verdächtiges bemerkt?', W - 2 * M, {}, 110), P(lb, 0, 0.6));
-  const p = P(lb, 0.7, 0.5), kk = clamp(AF.kick, 0, 1.2);
+  use('txt'); appear('Verdächtiges bemerkt?', M, 330, fit('Verdächtiges bemerkt?', W - 2 * M, {}, 110), P(lb, 0, 0.6));
+  appear('Reto holen', M, 560, 170, P(lb, 0.7, 0.7), { it: true });
+  typew('oder die Polizei anrufen:', M, 650, 36, P(lb, 1.3, 0.6));
+  const p = P(lb, 1.8, 0.5), kk = clamp(AF.kick, 0, 1.2);
   if (p > 0) {
     use('glow');
-    const g = ctx.createRadialGradient(W / 2, 760, 0, W / 2, 760, 380 + 220 * kk); g.addColorStop(0, `rgba(232,64,47,${0.1 + 0.3 * kk})`); g.addColorStop(1, 'rgba(232,64,47,0)'); ctx.fillStyle = g; ctx.fillRect(0, 300, W, 900);
-    ctx.save(); ctx.globalAlpha = eOut(p) * (0.75 + 0.25 * kk); T('117', W / 2, 930, 480, { col: RED, align: 'center', ls: -0.02 }); ctx.restore();
+    const g = ctx.createRadialGradient(W / 2, 880, 0, W / 2, 880, 360 + 200 * kk); g.addColorStop(0, `rgba(232,64,47,${0.1 + 0.3 * kk})`); g.addColorStop(1, 'rgba(232,64,47,0)'); ctx.fillStyle = g; ctx.fillRect(0, 500, W, 800);
+    ctx.save(); ctx.globalAlpha = eOut(p) * (0.75 + 0.25 * kk); T('117', W / 2, 1030, 400, { col: RED, align: 'center', ls: -0.02 }); ctx.restore();
   }
   use('txt');
-  appear('Polizei', M, 1100, 120, P(lb, 1.3, 0.7), { it: true });
-  typew('Fremde im Haus? Komische Geräusche?', M, 1180, 32, P(lb, 1.9, 0.9));
-  const s = fit('den Nachbar:innen.', W - 2 * M, {}, 110);
-  appear('Und sag es', M, 1390, s, P(lb, 3.3, 0.7));
-  appear('den Nachbar:innen.', M, 1390 + s * 1.05, s, P(lb, 3.6, 0.7));
+  typew('Fremde im Haus? Komische Geräusche?', M, 1150, 32, P(lb, 2.4, 0.9));
+  const s = fit('den Nachbar:innen.', W - 2 * M, {}, 100);
+  appear('Und sag es', M, 1400, s, P(lb, 3.4, 0.7));
+  appear('den Nachbar:innen.', M, 1400 + s * 1.05, s, P(lb, 3.7, 0.7));
   chrome(6);
 }
 
 // 9: Passt aufeinander auf
 function sOutro(lb) {
-  beam(W / 2, lerp(700, 860, eOut(P(lb, 0, 3))), lerp(380, 560, eOut(P(lb, 0, 3))));
+  beam(W / 2, lerp(640, 760, eOut(P(lb, 0, 3))), lerp(380, 600, eOut(P(lb, 0, 3))));
   AMB_TXT = 0.85;
-  house(370, 520, 340, 300, k => eOut(P(lb, 0.5 + k * 0.5, 0.15)) * (0.85 + 0.15 * clamp(AF.kick, 0, 1)));
+  via(190, 800, 0.62, (k, n) => eOut(P(lb, 0.4 + hash(k * 7.7) * 3, 0.15)) * (0.85 + 0.15 * clamp(AF.kick, 0, 1)), { under: false });
   use('txt');
-  const s = fit('Passt aufeinander', W - 2 * M, {}, 150);
-  appear('Passt aufeinander', M, 1150, s, P(lb, 0.4, 0.8));
-  appear('auf.', M, 1150 + s * 1.05, s, P(lb, 0.8, 0.8), { it: true });
-  typew('Quellen: Berner Zeitung / Der Bund,', M, 1470, 28, P(lb, 2, 0.6));
-  typew('Kantonspolizei Bern, BFS, Mobiliar', M, 1512, 28, P(lb, 2.5, 0.6));
+  const s = fit('richtig trennen.', W - 2 * M, {}, 140);
+  appear('Türen zu und', M, 1000, s, P(lb, 0.4, 0.8));
+  appear('Abfall', M, 1000 + s * 1.05, s, P(lb, 0.8, 0.8));
+  appear('richtig trennen.', M, 1000 + s * 2.1, s, P(lb, 1.1, 0.8));
+  use('glow'); appear('Das Einzige, was hilft.', M, 1000 + s * 2.1 + 90, 46, P(lb, 2, 0.8), { it: true, col: RED });
+  use('txt');
+  typew('Quellen: Berner Zeitung / Der Bund,', M, 1500, 28, P(lb, 2.8, 0.6));
+  typew('Kantonspolizei Bern, BFS, Mobiliar', M, 1542, 28, P(lb, 3.2, 0.6));
   chrome(-1);
 }
 

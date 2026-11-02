@@ -37,7 +37,7 @@ Zuletzt aktualisiert: 2026-11-01
 - Kalenderabo Website: iCal-Feed der Website (The Events Calendar) funktioniert, nur öffentliche Anlässe: https://kulturspinnerei.ch/?post_type=tribe_events&ical=1&eventDisplay=list (webcal:// für Apple/Outlook, Google über calendar.google.com/calendar/render?cid=<URL-kodiert>). Getestet 2026-10-21.
 - Promo-Video Programm Herbst 26 (9:16, s/w), Code in `tools/promo-video/`. Fassung 1: 6 Anlässe, eigener Beat. Fassung 2: ohne Kinderdisco, zu Alains Track "Sombras danzantes" (Suno), Songende. Fassung 3: wie 2, psychedelisch und vom Sound gesteuert. Fassung 4 (2026-10-22): wie 3, Ausschnitt vom Songanfang (Drop beim ersten Anlass). Drive-Ordner "Promo-Video Programm Herbst 2026" im Programm-Ordner angelegt: https://drive.google.com/drive/folders/1B9mw4wTY1QMEk0OsJTVKgOcAmMx8FH5s. Videos muss Alain selbst hochladen (Drive-Connector kann keine grossen Binärdateien). Noch nicht gepostet.
 
-- Info-Video "Einbruch-Saison" fürs Haus (9:16, s/w, 37 s, eigener Soundtrack) gebaut 2026-11-02, Code in `tools/promo-video/einbruch/`. Zahlen aus BZ/Bund-Karussell. Kanal und Absender offen, noch nicht verschickt.
+- Info-Video "Einbruch-Saison" für die Via 1 (9:16, 57 s, Track "Clockwork Creep" von Alain), eigener Nacht-Stil, Haus nach dem Architekturplan der Via-App, Code in `tools/promo-video/einbruch/` (2026-11-02). Anrede "Fischöiglers", Reto als Ansprechperson bei Verdacht (wer Reto ist, nicht im Repo). Kanal offen, noch nicht verschickt.
 
 ## Nächster Schritt
 
