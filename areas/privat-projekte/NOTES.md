@@ -31,6 +31,7 @@ Zuletzt aktualisiert: 2026-11-14
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 - [x] Spinnerei-App, Standard-Checkliste pro Anlass: am 2026-11-14 nach Alains Ja auf main gemergt (Commit 02220e1, Deploy-Run 81 grün). Tab «Checkliste» im Anlass, Admin › Checkliste für die Vorlage, Migrationen 0037/0038, 34 Punkte. Bestehende Anlässe übernehmen per Knopf. Auf dem Handy passen 6 Tabs nicht ganz, Alain will es so lassen.
 - [x] Spinnerei-App, Checkliste «Ich mach's» (sich für einen Punkt einschreiben, Spalte uebernommenVon, Migration 0039): am 2026-11-14 auf main (Commit ba047a5), Deploy-Run 82 grün.
+- [x] Spinnerei-App, Checkliste aktualisiert sich selbst (Polling alle 10 s und beim Zurückkehren): am 2026-11-14 direkt auf main (Commit 1a75645), Deploy-Run 83 grün.
 - [ ] Spinnerei-App: Checkliste live prüfen (Jarvis erreicht die Live-Seite nicht): Tab öffnen, Vorlage übernehmen, abhaken. Beschreibungen der übrigen Punkte ergänzt Alain in Admin › Checkliste.
 
 ## Nächster Schritt
