@@ -29,7 +29,7 @@ Zuletzt aktualisiert: 2026-11-14
 - [ ] Spinnerei-App: Alain verbindet Drive (Admin › Belege & Sicherung, info@kulturspinnerei.ch) und legt bisherige Belege ab. Achtung: GitHub-Secrets GOOGLE_CLIENT_ID/SECRET und GOOGLE_API_KEY waren im Deploy leer; ob sie in der .env auf dem VPS stehen, ist unbekannt. Meldet die App «nicht eingerichtet», fehlen sie.
 - [ ] Spinnerei-App: Sicherungen liegen nur auf dem VPS. Off-Site-Kopie (z. B. nächtlich ins Drive) offen.
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
-- [ ] Spinnerei-App, Standard-Checkliste pro Anlass (2026-11-14): gebaut und lokal mit Postgres getestet (Tab «Checkliste» im Anlass, Admin › Checkliste für die Vorlage, Migrationen 0037/0038, 34 Punkte). Push scheiterte: Session hatte nur Lesezugriff auf daellengarnier/spinnerei. Commit als Patch in `patches/2026-11-14-spinnerei-standard-checkliste.patch` (anwenden mit `git am`, Ziel-Branch claude/standard-checkliste). Nach dem Push Patch hier löschen. Merge auf main nur nach Ja.
+- [ ] Spinnerei-App, Standard-Checkliste pro Anlass (2026-11-14): gebaut, lokal mit Postgres getestet, gepusht auf Branch claude/standard-checkliste (Tab «Checkliste» im Anlass, Admin › Checkliste für die Vorlage, Migrationen 0037/0038, 34 Punkte). Alain schaut es an. Merge auf main (= Deploy) nur nach Ja. Auf dem Handy passen 6 Tabs nicht ganz, Alain will es so lassen.
 
 ## Nächster Schritt
 
