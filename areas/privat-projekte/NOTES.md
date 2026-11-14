@@ -1,7 +1,7 @@
 # NOTES: privat-projekte
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-28
+Zuletzt aktualisiert: 2026-11-14
 
 ## Aktueller Stand
 
@@ -28,6 +28,8 @@ Zuletzt aktualisiert: 2026-10-28
 - [x] Spinnerei-App: belege-drive-sicherung am 2026-11-02 gemergt (Deploy-Run 80). Erste Sicherungen auf dem VPS: backups/spinnerei_20261102_180736.sql.gz und ..._180854_vor-deploy.sql.gz (je 11 MB). DB: 3 Abrechnungen, 2 Ausgaben mit Beleg.
 - [ ] Spinnerei-App: Alain verbindet Drive (Admin › Belege & Sicherung, info@kulturspinnerei.ch) und legt bisherige Belege ab. Achtung: GitHub-Secrets GOOGLE_CLIENT_ID/SECRET und GOOGLE_API_KEY waren im Deploy leer; ob sie in der .env auf dem VPS stehen, ist unbekannt. Meldet die App «nicht eingerichtet», fehlen sie.
 - [ ] Spinnerei-App: Sicherungen liegen nur auf dem VPS. Off-Site-Kopie (z. B. nächtlich ins Drive) offen.
+- [ ] Spinnerei-App: Branch putzen-checkliste (2026-11-14), noch nicht gemergt. Neues Standard-Ressort «Putzen & Vorbereitung» mit Tab Checkliste: gemeinsame Vorlage, pflegbar von allen Mitgliedern (für Ambar, ohne Admin). Neue Anlässe bekommen die Punkte als Todos, bestehende per Knopf. Migration 0037 ergänzt das Ressort bei kommenden Anlässen. Lokal getestet. Checkliste startet leer, Ambar füllt sie. Erledigt damit die Pendenz vom 26.10. «Abschnitt Putzen/Vorbereitung pro Anlass in der App einrichten». Merge nur nach Ja.
+- [ ] Spinnerei-App: Ambar ist Mitglied, nicht Admin. Für Anlässe, Ressorts, Budget, Benutzer bräuchte sie Admin (Alain: Admin › Benutzer › Zu Admin machen).
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 
 ## Nächster Schritt
