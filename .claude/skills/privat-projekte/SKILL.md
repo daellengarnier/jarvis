@@ -19,4 +19,11 @@ Privat-Konto: Gmail (alaingarnier.ch@gmail.com). Nie aus info@kulturspinnerei.ch
 
 ## Wissen
 
-Noch keins. Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.
+### Spinnerei-App (github.com/daellengarnier/spinnerei)
+
+- Änderungen direkt auf main committen und pushen, keinen Feature-Branch anlegen und nicht vorher nach einem Merge-Ja fragen (Alain, 2026-11-14). Push auf main deployt live.
+- Vor dem Push: `npx tsc --noEmit` und eslint auf die geänderten Dateien, bei Schema- oder API-Änderungen lokal mit Postgres testen.
+- Nach dem Push den Deploy-Run (deploy.yml) prüfen und Alain das Ergebnis melden.
+- Weiterhin ⚠️ vorher fragen bei Migrationen, die Daten löschen oder überschreiben (Hausregel Löschen).
+
+Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.
