@@ -18,7 +18,7 @@ Zuletzt aktualisiert: 2026-11-16
 ## Booking (spinnerei-booking)
 
 - [x] Termin bestätigt (Luca, Mail 2026-11-16)
-- [ ] Bestätigung an Luca senden (Entwurf in info@ liegt bereit)
+- [x] Bestätigung an Luca gesendet (2026-11-16, aus info@, cc Gabriele). Nach Vertrag, Ridern, Anzahl Personen gefragt.
 - [ ] Vertrag / Deal-Memo vorhanden (Link)
 - [ ] Rider erhalten (Link)
 - [ ] Anreise, Unterkunft, Verpflegung geklärt (Anzahl Personen offen)
@@ -52,7 +52,7 @@ Zuletzt aktualisiert: 2026-11-16
 
 ## Links (Drive)
 
-- Orga-App: Anlass per Migration 0040 auf Branch anlass-super-jet-kinoko (Repo daellengarnier/spinnerei), live erst nach Merge.
+- Orga-App: Anlass per Migration 0040, auf main gemergt 2026-11-16 (Deploy-Run 84).
 
 ## Verlauf
 
@@ -60,3 +60,4 @@ Zuletzt aktualisiert: 2026-11-16
 - 2026-10-23: Luca bringt den 11. Juni ins Spiel, Alain: beide gehen.
 - 2026-10-27: Gage 2000 EUR vereinbart (wie Thun).
 - 2026-11-16: Luca bestätigt 11. Juni, 2000 EUR, Unterkunft, Catering. Antwortentwurf in info@ angelegt, Anlass in der Orga-App vorbereitet.
+- 2026-11-16: Zusage an Luca gesendet. Anlass in der Orga-App auf main gemergt.

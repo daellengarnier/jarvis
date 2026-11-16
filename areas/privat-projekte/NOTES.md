@@ -29,7 +29,7 @@ Zuletzt aktualisiert: 2026-11-16
 - [ ] Spinnerei-App: Alain verbindet Drive (Admin › Belege & Sicherung, info@kulturspinnerei.ch) und legt bisherige Belege ab. Achtung: GitHub-Secrets GOOGLE_CLIENT_ID/SECRET und GOOGLE_API_KEY waren im Deploy leer; ob sie in der .env auf dem VPS stehen, ist unbekannt. Meldet die App «nicht eingerichtet», fehlen sie.
 - [ ] Spinnerei-App: Sicherungen liegen nur auf dem VPS. Off-Site-Kopie (z. B. nächtlich ins Drive) offen.
 - [ ] Spinnerei-App: Branch putzen-checkliste ist überholt. Auf main gibt es seit 2026-11 eine eigene Checkliste (Migrationen 0037 bis 0039, Vorlage mit Vorbereitung/Nachbereitung). Branch löschen nach Alains Ja.
-- [ ] Spinnerei-App: Branch anlass-super-jet-kinoko (2026-11-16): Migration 0040 legt Anlass Super Jet Kinoko 11.06.2027 an (Standard-Ressorts, Checkliste, Act). Lokal getestet, idempotent. Merge nur nach Ja.
+- [x] Spinnerei-App: Migration 0040 (Anlass Super Jet Kinoko 11.06.2027, Standard-Ressorts, Checkliste, Act) am 2026-11-16 auf main gemergt, Deploy-Run 84.
 - [ ] Spinnerei-App: Ambar ist Mitglied, nicht Admin. Für Anlässe, Ressorts, Budget, Benutzer bräuchte sie Admin (Alain: Admin › Benutzer › Zu Admin machen).
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 
