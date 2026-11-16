@@ -2,12 +2,20 @@
  "quelle": "Jarvis, erstellt 2026-10-27 aus den Sätzen SVFF Level 02, Lektionen 1 bis 12. Vokabelkarten haben in der App Vorrang.",
  "eintraege": [
   {
+   "vi": "425k",
+   "de": "425'000 Đồng"
+  },
+  {
    "vi": "a lô",
    "de": "hallo (am Telefon)"
   },
   {
    "vi": "ai",
    "de": "wer; mit không: niemand"
+  },
+  {
+   "vi": "alain",
+   "de": "Alain (Name)"
   },
   {
    "vi": "anh",
@@ -98,6 +106,10 @@
    "de": "Arzt, Ärztin"
   },
   {
+   "vi": "bán",
+   "de": "verkaufen"
+  },
+  {
    "vi": "bánh mì",
    "de": "Bánh mì (Baguette-Sandwich), Brot"
   },
@@ -158,6 +170,10 @@
    "de": "gleich (gross, viel)"
   },
   {
+   "vi": "bến thành",
+   "de": "Bến Thành (Markt in Saigon)"
+  },
+  {
    "vi": "bệnh",
    "de": "krank; Krankheit"
   },
@@ -208,6 +224,10 @@
   {
    "vi": "cho",
    "de": "geben; für; lassen"
+  },
+  {
+   "vi": "cho con",
+   "de": "gib mir (als Jüngerer zu Älteren)"
   },
   {
    "vi": "cho con gặp",
@@ -306,12 +326,24 @@
    "de": "Ort, Stelle"
   },
   {
+   "vi": "chỗ bán",
+   "de": "Verkaufsstand, Ort zum Kaufen"
+  },
+  {
    "vi": "chỗ thì ... chỗ thì",
    "de": "an manchen Orten ..., an anderen ..."
   },
   {
    "vi": "chờ",
    "de": "warten"
+  },
+  {
+   "vi": "chợ",
+   "de": "Markt"
+  },
+  {
+   "vi": "chợ bến thành",
+   "de": "Bến-Thành-Markt (Saigon)"
   },
   {
    "vi": "chứ",
@@ -490,6 +522,10 @@
    "de": "sie (Süden, = cô ấy); auch: Hals"
   },
   {
+   "vi": "củ chi",
+   "de": "Củ Chi (Bezirk bei Saigon)"
+  },
+  {
    "vi": "của",
    "de": "von (Besitz)"
   },
@@ -508,6 +544,14 @@
   {
    "vi": "dẫn",
    "de": "führen, mitnehmen"
+  },
+  {
+   "vi": "dữ",
+   "de": "heftig; dữ vậy: so sehr (Süden, Erstaunen)"
+  },
+  {
+   "vi": "dữ vậy",
+   "de": "so sehr, so (Süden, Erstaunen)"
   },
   {
    "vi": "em",
@@ -536,6 +580,10 @@
   {
    "vi": "giờ",
    "de": "Uhr, Stunde"
+  },
+  {
+   "vi": "guitar",
+   "de": "Gitarre"
   },
   {
    "vi": "gì",
@@ -934,6 +982,14 @@
    "de": "teuer (Süden)"
   },
   {
+   "vi": "mắc dữ vậy",
+   "de": "so teuer?! (Süden)"
+  },
+  {
+   "vi": "mắc quá",
+   "de": "zu teuer"
+  },
+  {
    "vi": "mắt",
    "de": "Auge"
   },
@@ -968,6 +1024,10 @@
   {
    "vi": "một chút",
    "de": "ein bisschen"
+  },
+  {
+   "vi": "một tháng",
+   "de": "einen Monat"
   },
   {
    "vi": "mới",
@@ -1174,6 +1234,10 @@
    "de": "im Jahr 1930"
   },
   {
+   "vi": "năm nay",
+   "de": "dieses Jahr"
+  },
+  {
    "vi": "năng lực",
    "de": "Fähigkeit, Kompetenz"
   },
@@ -1372,6 +1436,10 @@
   {
    "vi": "tham quan",
    "de": "besichtigen"
+  },
+  {
+   "vi": "tháng",
+   "de": "Monat"
   },
   {
    "vi": "tháng sau",

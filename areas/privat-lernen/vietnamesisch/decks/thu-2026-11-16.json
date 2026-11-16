@@ -1,0 +1,575 @@
+{
+  "deck": {
+    "id": "thu-2026-11-16",
+    "title": "Thư 16.11.: Kennenlernen und Einkaufen",
+    "course": "SVFF Privatstunde mit Thư (Hồ Lý Anh Thư), Süden",
+    "level": "A2",
+    "topic": "Sich vorstellen, phải không?, auf dem Markt einkaufen und handeln",
+    "source": "Google Doc der Lehrerin: https://docs.google.com/document/d/1jNpzFp2TvfzKuk8zZXIAE1FpTdht3QEgfmQ8uMLYooE",
+    "position": 13
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "tên",
+      "back_de": "Name",
+      "back_en": "name",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "tuổi",
+      "back_de": "Alter; Jahre alt",
+      "back_en": "age",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "năm sinh",
+      "back_de": "Geburtsjahr",
+      "back_en": "year of birth",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "sống ở",
+      "back_de": "wohnen in",
+      "back_en": "to live in",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "nơi ở / nơi sống",
+      "back_de": "Wohnort",
+      "back_en": "place of residence",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "quốc tịch",
+      "back_de": "Nationalität",
+      "back_en": "nationality",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "Thụy Sĩ",
+      "back_de": "Schweiz",
+      "back_en": "Switzerland",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "thủ đô",
+      "back_de": "Hauptstadt",
+      "back_en": "capital",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "công việc",
+      "back_de": "Arbeit, Beruf",
+      "back_en": "job",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "quản lý dự án",
+      "back_de": "Projektleitung, Projektleiter",
+      "back_en": "project management",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "giáo viên",
+      "back_de": "Lehrer, Lehrerin",
+      "back_en": "teacher",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "đồ ăn",
+      "back_de": "Essen (als Sache)",
+      "back_en": "food",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "mua sắm",
+      "back_de": "einkaufen, shoppen",
+      "back_en": "shopping",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "lý do",
+      "back_de": "Grund",
+      "back_en": "reason",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "họ hàng",
+      "back_de": "Verwandte",
+      "back_en": "relatives",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "trình độ",
+      "back_de": "Niveau, Stufe",
+      "back_en": "level",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "hiện tại",
+      "back_de": "aktuell, jetzig",
+      "back_en": "current",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "từng",
+      "back_de": "schon einmal (früher)",
+      "back_en": "used to, once",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "quên hết",
+      "back_de": "alles vergessen",
+      "back_en": "to forget everything",
+      "category": "Kennenlernen"
+    },
+    {
+      "type": "vocab",
+      "front": "phải không / phải hong / đúng hong",
+      "back_de": "nicht wahr?, oder? (am Satzende)",
+      "back_en": "right?, isn't it?",
+      "category": "Fragen",
+      "note": "hong = Süden für không"
+    },
+    {
+      "type": "vocab",
+      "front": "chính xác",
+      "back_de": "genau, exakt",
+      "back_en": "exactly",
+      "category": "Fragen"
+    },
+    {
+      "type": "vocab",
+      "front": "đúng rồi",
+      "back_de": "richtig, stimmt",
+      "back_en": "that's right",
+      "category": "Fragen"
+    },
+    {
+      "type": "vocab",
+      "front": "dạ phải / vâng",
+      "back_de": "ja (höflich)",
+      "back_en": "yes (polite)",
+      "category": "Fragen",
+      "note": "vâng eher Norden"
+    },
+    {
+      "type": "vocab",
+      "front": "không phải / dạ hong phải",
+      "back_de": "nein, stimmt nicht",
+      "back_en": "no, that's not right",
+      "category": "Fragen"
+    },
+    {
+      "type": "vocab",
+      "front": "mua",
+      "back_de": "kaufen",
+      "back_en": "to buy",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "người bán",
+      "back_de": "Verkäufer, Verkäuferin",
+      "back_en": "seller",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "giá",
+      "back_de": "Preis",
+      "back_en": "price",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "hỏi giá",
+      "back_de": "nach dem Preis fragen",
+      "back_en": "to ask the price",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "mắc",
+      "back_de": "teuer (Süden)",
+      "back_en": "expensive",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "chất lượng cao",
+      "back_de": "hochwertig",
+      "back_en": "high quality",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "thời gian bảo hành",
+      "back_de": "Garantiezeit",
+      "back_en": "warranty period",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "cũ",
+      "back_de": "alt, gebraucht",
+      "back_en": "old, used",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "mới",
+      "back_de": "neu",
+      "back_en": "new",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "coi thử",
+      "back_de": "mal anschauen, ausprobieren",
+      "back_en": "to take a look, to try",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "mở lên",
+      "back_de": "einschalten",
+      "back_en": "to turn on",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "nói thách",
+      "back_de": "einen überhöhten Preis nennen",
+      "back_en": "to overprice",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "bớt",
+      "back_de": "Rabatt geben, mit dem Preis runtergehen",
+      "back_en": "to give a discount",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "ngoài kia",
+      "back_de": "da draussen, dort drüben",
+      "back_en": "out there",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "nải",
+      "back_de": "Büschel (Bananen)",
+      "back_en": "hand, bunch (of bananas)",
+      "category": "Mengen",
+      "example_vi": "một nải chuối",
+      "example_de": "ein Büschel Bananen"
+    },
+    {
+      "type": "vocab",
+      "front": "chùm",
+      "back_de": "Traube, Bündel (z.B. Trauben)",
+      "back_en": "bunch (of grapes)",
+      "category": "Mengen",
+      "example_vi": "một chùm nho",
+      "example_de": "eine Traube Weintrauben"
+    },
+    {
+      "type": "vocab",
+      "front": "trái",
+      "back_de": "Klassifikator für Früchte (Süden); Frucht",
+      "back_en": "classifier for fruit",
+      "category": "Mengen",
+      "example_vi": "một trái dừa",
+      "example_de": "eine Kokosnuss"
+    },
+    {
+      "type": "vocab",
+      "front": "ký / kí",
+      "back_de": "Kilo",
+      "back_en": "kilogram",
+      "category": "Mengen",
+      "example_vi": "một ký măng cụt",
+      "example_de": "ein Kilo Mangostanen"
+    },
+    {
+      "type": "vocab",
+      "front": "thùng",
+      "back_de": "Kiste, Karton",
+      "back_en": "box, carton",
+      "category": "Mengen",
+      "example_vi": "425K một thùng",
+      "example_de": "425'000 Đồng pro Kiste"
+    },
+    {
+      "type": "vocab",
+      "front": "ngàn",
+      "back_de": "tausend (Süden), abgekürzt K",
+      "back_en": "thousand",
+      "category": "Mengen",
+      "example_vi": "25.000 đồng một ký",
+      "example_de": "25'000 Đồng pro Kilo"
+    },
+    {
+      "type": "vocab",
+      "front": "triệu",
+      "back_de": "Million",
+      "back_en": "million",
+      "category": "Mengen"
+    },
+    {
+      "type": "vocab",
+      "front": "đồng",
+      "back_de": "Đồng (Währung)",
+      "back_en": "dong (currency)",
+      "category": "Mengen"
+    },
+    {
+      "type": "vocab",
+      "front": "trái cây",
+      "back_de": "Früchte, Obst",
+      "back_en": "fruit",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "dừa",
+      "back_de": "Kokosnuss",
+      "back_en": "coconut",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "cam",
+      "back_de": "Orange",
+      "back_en": "orange",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "dưa hấu",
+      "back_de": "Wassermelone",
+      "back_en": "watermelon",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "dâu",
+      "back_de": "Erdbeere",
+      "back_en": "strawberry",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "táo",
+      "back_de": "Apfel",
+      "back_en": "apple",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "nho",
+      "back_de": "Weintraube",
+      "back_en": "grape",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "vải",
+      "back_de": "Litschi",
+      "back_en": "lychee",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "đu đủ",
+      "back_de": "Papaya",
+      "back_en": "papaya",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "me",
+      "back_de": "Tamarinde",
+      "back_en": "tamarind",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "bơ",
+      "back_de": "Avocado",
+      "back_en": "avocado",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "tươi",
+      "back_de": "frisch",
+      "back_en": "fresh",
+      "category": "Früchte",
+      "example_vi": "Xoài này tươi hơn.",
+      "example_de": "Diese Mango ist frischer."
+    },
+    {
+      "type": "vocab",
+      "front": "chín",
+      "back_de": "reif",
+      "back_en": "ripe",
+      "category": "Früchte",
+      "example_vi": "Chuối này chín hơn.",
+      "example_de": "Diese Banane ist reifer."
+    },
+    {
+      "type": "grammar",
+      "front": "... phải không? / ... phải hong? / ... đúng hong? / ... hả?",
+      "back_de": "..., nicht wahr? Fragt nach Bestätigung einer Annahme. phải hong und đúng hong sind südlich und locker, hả noch lockerer.",
+      "example_vi": "Anh sống ở chợ Bến Thành phải hong?",
+      "example_de": "Du wohnst beim Bến-Thành-Markt, oder?"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh sống ở chợ Bến Thành phải hong?",
+      "back_de": "Du wohnst beim Bến-Thành-Markt, oder?",
+      "note": "phải hong = nicht wahr? (Süden)"
+    },
+    {
+      "type": "sentence",
+      "front": "Dạ hong phải, anh sống ở Củ Chi.",
+      "back_de": "Nein, ich wohne in Củ Chi.",
+      "note": "dạ hong phải = nein, stimmt nicht (höflich)"
+    },
+    {
+      "type": "sentence",
+      "front": "Dạ phải.",
+      "back_de": "Ja, genau. (höflich)"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh muốn mua trái cây.",
+      "back_de": "Ich möchte Obst kaufen. (als älterer Mann)",
+      "note": "muốn mua = kaufen wollen"
+    },
+    {
+      "type": "sentence",
+      "front": "Bao nhiêu tiền?",
+      "back_de": "Wie viel kostet das?",
+      "note": "nach dem Preis fragen"
+    },
+    {
+      "type": "sentence",
+      "front": "Giá bao nhiêu?",
+      "back_de": "Was ist der Preis?",
+      "note": "giá = Preis"
+    },
+    {
+      "type": "sentence",
+      "front": "Mắc quá vậy, bớt cho con đi.",
+      "back_de": "Das ist zu teuer, geben Sie mir doch einen Rabatt.",
+      "note": "bớt = mit dem Preis runtergehen; con: du als Jüngerer zur Verkäuferin"
+    },
+    {
+      "type": "sentence",
+      "front": "Mắc dữ vậy? Ngoài kia có chỗ bán rẻ hơn.",
+      "back_de": "So teuer? Da draussen gibt es einen Stand, der billiger ist.",
+      "note": "dữ vậy = so sehr (Süden, Erstaunen)"
+    },
+    {
+      "type": "sentence",
+      "front": "Không bớt, tui đi.",
+      "back_de": "Wenn Sie nicht runtergehen, gehe ich. (aggressiv)",
+      "note": "tui = ich (Süden)"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh coi thử được không?",
+      "back_de": "Darf ich mal schauen?",
+      "note": "coi thử = mal anschauen"
+    },
+    {
+      "type": "sentence",
+      "front": "Cho con một nải chuối.",
+      "back_de": "Ich hätte gern ein Büschel Bananen.",
+      "note": "cho con = gib mir (als Jüngerer)"
+    },
+    {
+      "type": "sentence",
+      "front": "Một ký măng cụt bao nhiêu tiền?",
+      "back_de": "Wie viel kostet ein Kilo Mangostanen?"
+    },
+    {
+      "type": "sentence",
+      "front": "Xoài này có tươi không?",
+      "back_de": "Ist diese Mango frisch?",
+      "note": "có ... không = Ja/Nein-Frage"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi tên là Alain.",
+      "back_de": "Ich heisse Alain.",
+      "note": "Selbstvorstellung, gebildet von Jarvis aus deinen Angaben"
+    },
+    {
+      "type": "sentence",
+      "front": "Năm nay tôi 34 tuổi.",
+      "back_de": "Ich bin dieses Jahr 34.",
+      "note": "năm nay = dieses Jahr; gebildet von Jarvis"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi sống ở thủ đô Thụy Sĩ.",
+      "back_de": "Ich wohne in der Hauptstadt der Schweiz.",
+      "note": "gebildet von Jarvis"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi làm quản lý dự án.",
+      "back_de": "Ich arbeite als Projektleiter.",
+      "note": "làm + Beruf; gebildet von Jarvis"
+    },
+    {
+      "type": "sentence",
+      "front": "Sở thích của tôi là nhạc, guitar, đi du lịch và đồ ăn.",
+      "back_de": "Meine Hobbys sind Musik, Gitarre, Reisen und Essen.",
+      "note": "gebildet von Jarvis"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi đã đi du lịch 15 nước.",
+      "back_de": "Ich bin in 15 Länder gereist.",
+      "note": "gebildet von Jarvis"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi học tiếng Việt vì tôi có họ hàng ở Việt Nam.",
+      "back_de": "Ich lerne Vietnamesisch, weil ich Verwandte in Vietnam habe.",
+      "note": "vì = weil; gebildet von Jarvis"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi từng học tiếng Việt một tháng nhưng tôi quên hết rồi.",
+      "back_de": "Ich habe schon einmal einen Monat Vietnamesisch gelernt, aber alles vergessen.",
+      "note": "từng = schon einmal; quên hết rồi = alles vergessen"
+    }
+  ]
+}

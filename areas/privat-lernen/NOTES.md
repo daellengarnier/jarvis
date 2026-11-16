@@ -1,7 +1,7 @@
 # NOTES: privat-lernen
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-27
+Zuletzt aktualisiert: 2026-11-16
 
 ## Aktueller Stand
 
@@ -35,3 +35,4 @@ Zuletzt aktualisiert: 2026-10-27
 ## Nächster Schritt
 
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
+- 2026-11-16 Privatstunde mit Thư (Hồ Lý Anh Thư, Lehrerin SVFF, Süden). Ihr Google Doc pro Stunde: https://docs.google.com/document/d/1jNpzFp2TvfzKuk8zZXIAE1FpTdht3QEgfmQ8uMLYooE (Konto info@ kann es lesen). Daraus Deck `decks/thu-2026-11-16.json` (81 Karten: Kennenlernen, phải không, Einkaufen und Handeln, Mengen, Früchte, Selbstvorstellung von Jarvis gebildet). Wunsch Alain: nichts doppelt, Karten aus SVFF L2 werden weggelassen. In der App als Lektion 13 per Migration 0008.
