@@ -1,184 +1,14 @@
 {
   "deck": {
     "id": "thu-2026-11-16",
-    "title": "Thư 16.11.: Kennenlernen und Einkaufen",
+    "title": "Thư 16.11.: Einkaufen auf dem Markt",
     "course": "SVFF Privatstunde mit Thư (Hồ Lý Anh Thư), Süden",
     "level": "A2",
-    "topic": "Sich vorstellen, phải không?, auf dem Markt einkaufen und handeln",
+    "topic": "Auf dem Markt einkaufen und handeln, Mengen, Früchte, Selbstvorstellung",
     "source": "Google Doc der Lehrerin: https://docs.google.com/document/d/1jNpzFp2TvfzKuk8zZXIAE1FpTdht3QEgfmQ8uMLYooE",
     "position": 13
   },
   "cards": [
-    {
-      "type": "vocab",
-      "front": "tên",
-      "back_de": "Name",
-      "back_en": "name",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "tuổi",
-      "back_de": "Alter; Jahre alt",
-      "back_en": "age",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "năm sinh",
-      "back_de": "Geburtsjahr",
-      "back_en": "year of birth",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "sống ở",
-      "back_de": "wohnen in",
-      "back_en": "to live in",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "nơi ở / nơi sống",
-      "back_de": "Wohnort",
-      "back_en": "place of residence",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "quốc tịch",
-      "back_de": "Nationalität",
-      "back_en": "nationality",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "Thụy Sĩ",
-      "back_de": "Schweiz",
-      "back_en": "Switzerland",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "thủ đô",
-      "back_de": "Hauptstadt",
-      "back_en": "capital",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "công việc",
-      "back_de": "Arbeit, Beruf",
-      "back_en": "job",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "quản lý dự án",
-      "back_de": "Projektleitung, Projektleiter",
-      "back_en": "project management",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "giáo viên",
-      "back_de": "Lehrer, Lehrerin",
-      "back_en": "teacher",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "đồ ăn",
-      "back_de": "Essen (als Sache)",
-      "back_en": "food",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "mua sắm",
-      "back_de": "einkaufen, shoppen",
-      "back_en": "shopping",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "lý do",
-      "back_de": "Grund",
-      "back_en": "reason",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "họ hàng",
-      "back_de": "Verwandte",
-      "back_en": "relatives",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "trình độ",
-      "back_de": "Niveau, Stufe",
-      "back_en": "level",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "hiện tại",
-      "back_de": "aktuell, jetzig",
-      "back_en": "current",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "từng",
-      "back_de": "schon einmal (früher)",
-      "back_en": "used to, once",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "quên hết",
-      "back_de": "alles vergessen",
-      "back_en": "to forget everything",
-      "category": "Kennenlernen"
-    },
-    {
-      "type": "vocab",
-      "front": "phải không / phải hong / đúng hong",
-      "back_de": "nicht wahr?, oder? (am Satzende)",
-      "back_en": "right?, isn't it?",
-      "category": "Fragen",
-      "note": "hong = Süden für không"
-    },
-    {
-      "type": "vocab",
-      "front": "chính xác",
-      "back_de": "genau, exakt",
-      "back_en": "exactly",
-      "category": "Fragen"
-    },
-    {
-      "type": "vocab",
-      "front": "đúng rồi",
-      "back_de": "richtig, stimmt",
-      "back_en": "that's right",
-      "category": "Fragen"
-    },
-    {
-      "type": "vocab",
-      "front": "dạ phải / vâng",
-      "back_de": "ja (höflich)",
-      "back_en": "yes (polite)",
-      "category": "Fragen",
-      "note": "vâng eher Norden"
-    },
-    {
-      "type": "vocab",
-      "front": "không phải / dạ hong phải",
-      "back_de": "nein, stimmt nicht",
-      "back_en": "no, that's not right",
-      "category": "Fragen"
-    },
     {
       "type": "vocab",
       "front": "mua",
@@ -439,30 +269,6 @@
       "category": "Früchte",
       "example_vi": "Chuối này chín hơn.",
       "example_de": "Diese Banane ist reifer."
-    },
-    {
-      "type": "grammar",
-      "front": "... phải không? / ... phải hong? / ... đúng hong? / ... hả?",
-      "back_de": "..., nicht wahr? Fragt nach Bestätigung einer Annahme. phải hong und đúng hong sind südlich und locker, hả noch lockerer.",
-      "example_vi": "Anh sống ở chợ Bến Thành phải hong?",
-      "example_de": "Du wohnst beim Bến-Thành-Markt, oder?"
-    },
-    {
-      "type": "sentence",
-      "front": "Anh sống ở chợ Bến Thành phải hong?",
-      "back_de": "Du wohnst beim Bến-Thành-Markt, oder?",
-      "note": "phải hong = nicht wahr? (Süden)"
-    },
-    {
-      "type": "sentence",
-      "front": "Dạ hong phải, anh sống ở Củ Chi.",
-      "back_de": "Nein, ich wohne in Củ Chi.",
-      "note": "dạ hong phải = nein, stimmt nicht (höflich)"
-    },
-    {
-      "type": "sentence",
-      "front": "Dạ phải.",
-      "back_de": "Ja, genau. (höflich)"
     },
     {
       "type": "sentence",
