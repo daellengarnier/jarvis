@@ -1,7 +1,7 @@
 # NOTES: spinnerei-booking
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-11-16
 
 ## Aktueller Stand
 
@@ -9,6 +9,10 @@ Zuletzt aktualisiert: 2026-10-06
 
 - Alain macht die Artist-Bookings der Spinnerei.
 - Bisherige Bookings u.a.: Angine de Poitrine, Mystery Lights.
+
+### Bestätigt
+
+- Super Jet Kinoko, 11.06.2027, Annibale Booking (Luca Landi). Siehe events/2027-06-11-super-jet-kinoko/.
 
 ## Anfragen (noch ohne Event-Ordner)
 

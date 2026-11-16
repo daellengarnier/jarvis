@@ -53,8 +53,8 @@ Entwürfe anlegen ist erlaubt. Senden nicht ohne Ja.
 
 | Zweck | Konto / Tool | Stand |
 |---|---|---|
-| Spinnerei-Mail | info@kulturspinnerei.ch | ⚠️ OFFEN: ob und über welchen Connector erreichbar, ist ungeklärt. Kein Anbieter annehmen. |
-| Private Mail | Gmail, alaingarnier.ch@gmail.com | soweit verbunden |
+| Spinnerei-Mail | info@kulturspinnerei.ch | Über den Gmail-Connector erreichbar (festgestellt 2026-11-16: der Connector ist als info@kulturspinnerei.ch angemeldet). |
+| Private Mail | Gmail, alaingarnier.ch@gmail.com | ⚠️ Stand 2026-11-16 nicht verbunden: der Gmail-Connector zeigt info@. Vor privater Mail-Arbeit prüfen. |
 | Kalender | Google Calendar | soweit verbunden |
 | Dateien | Google Drive | soweit verbunden |
 | Browser | Chrome | soweit verbunden |
@@ -113,4 +113,5 @@ Struktur:
 
 ## Offene Punkte zu Jarvis selbst
 
-- [ ] info@kulturspinnerei.ch: Ist das Postfach über einen Connector erreichbar, und über welchen? Bis geklärt: nichts aus diesem Konto senden oder lesen behaupten.
+- [x] info@kulturspinnerei.ch: über den Gmail-Connector erreichbar (2026-11-16).
+- [ ] Privates Gmail alaingarnier.ch@gmail.com: aktuell kein Connector. Alain entscheidet, ob ein zweiter verbunden wird.
