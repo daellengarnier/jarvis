@@ -21,7 +21,7 @@ Zuletzt aktualisiert: 2026-11-17
 
 - [ ] Brandschutzbehandlung der Rinde war offen.
 - [ ] Status Installation LED und Photism unbekannt.
-- [ ] Aussensteckdose 2. Stock bei der Feuertreppe für Scheinwerfer auf den Vorplatz: Kabel an der Aussenwand hoch, Steckdose installieren lassen. 2026-11-17: Entwurf in info@ an yves@ angelegt (Machbarkeit, wer zuständig, Absprache Genossenschaft), nicht gesendet.
+- [ ] Aussensteckdose 2. Stock bei der Feuertreppe für Scheinwerfer auf den Vorplatz: Kabel an der Aussenwand hoch, Steckdose installieren lassen. 2026-11-17: Anfrage aus info@ an yves@ gesendet (Machbarkeit, wer zuständig, Absprache Genossenschaft). Warten auf Antwort.
 
 ## Nächster Schritt
 
