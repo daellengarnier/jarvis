@@ -1,7 +1,7 @@
 # NOTES: spinnerei-technik
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-11-17
 
 ## Aktueller Stand
 
@@ -21,6 +21,7 @@ Zuletzt aktualisiert: 2026-10-06
 
 - [ ] Brandschutzbehandlung der Rinde war offen.
 - [ ] Status Installation LED und Photism unbekannt.
+- [ ] Aussensteckdose 2. Stock bei der Feuertreppe für Scheinwerfer auf den Vorplatz: Kabel an der Aussenwand hoch, Steckdose installieren lassen. 2026-11-17: Entwurf in info@ an yves@ angelegt (Machbarkeit, wer zuständig, Absprache Genossenschaft), nicht gesendet.
 
 ## Nächster Schritt
 
