@@ -1,7 +1,7 @@
 # NOTES: spinnerei-booking
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-21
+Zuletzt aktualisiert: 2026-11-17
 
 ## Aktueller Stand
 
@@ -30,7 +30,7 @@ Lose Anfragen und Ideen. Sobald ein Termin bestätigt oder eine ernsthafte Optio
 - Acid Pauli (T S Agency, Kenza, kl@t-s-agency.com, cc dc@ und gl@): Anfrage für Herbst 2026 am 2026-02-23 gesendet. Antwort Kenza 2026-02-24: Offer-Formular ausfüllen (Datum, Gage, Zuschläge wie 15% Booking Fee, Reise, Hotel, Quellensteuer, Zeiten, Ticketpreise, Lineup, Exklusivität). Seither keine Antwort von uns. Alain will ihn für 2027 buchen (2026-10-21). Gmail-Thread 19c8b3bec63793a3. Eckdaten Alain 2026-10-21: April 2027, 800 EUR plus Anreise (Economy oder Zug gegen Beleg), Unterkunft im Gästezimmer mit eigenem Bad, bis 2 Nächte, bis 06:00, Ticket 20 CHF, 2 Gästeliste pro Artist, Main Act, weitere Acts offen. Offer gesendet 2026-10-21 (Wunschdaten Sa 10., 17. oder 24.04.2027, Deadline 13.11.2026). Quellensteuer: Angebot brutto, nicht netto (Alain 2026-10-21). Annahmen Türöffnung 22:00, Set 02:00 bis 04:00. Status: gesendet, warten auf Antwort.
 - Sturzflug (Drum & Bass): Anfrage. Herbst 2026 ist voll, eher Winter/Frühling oder Herbst 2027 (Protokoll 06.05. und 28.09.).
 - Drum & Bass Kollektiv (über Alvi): externer Anlass, Deal 1500 CHF Miete, "Herbst 2026" (Protokolle Jan. bis April). Nicht im Herbstprogramm. Ob identisch mit Sturzflug: unklar.
-- Silvester 2026: private Geburtstagsfeier, ca. 150 Personen. Dällen ruft Dani an (06.05.). Stand unbekannt.
+- Dani Grüter (dagrueter@gmail.com, 079 551 18 97): private Geburtstagsfeier, ca. 150 Personen. Silvester 2026 von Yves abgesagt (18.08.2026), Dani wünscht nun ein Märzwochenende 2027 und eine fixe Zusage, fragt seit April 2025 immer wieder nach. Antwort-Entwurf 2026-11-17 (Thread 1a15b35256751a11, cc Yves): Entschuldigung, Sa 06.03. oder Sa 13.03.2027 zur Wahl (laut Kalender info@ und programm-2027-h1 frei), Telefonat für Rahmenbedingungen, keine Miete genannt. Senden nach Ja.
 - Blip, Blap, Blop (über Alvi): Kinderevent zu den 5 Elementen, ab 3 Jahren. Datum im Herbst gesucht (Feb. 2026). Stand unbekannt.
 - Programm-Idee: Lost in a Detail (März bis Mai).
 - Doom Gong (US, Agentur YAYAYEAH, Jonas, jonas@yayayeahmusic.pt): Europatour Frühling 2027, Jonas fragt nach Daten 9. bis 31. Mai. Am 2026-10-06 gesendet: weiterhin interessiert, Wunschdaten Fr 14. oder Fr 21. Mai 2027, Konditionen erfragt. Antwort Jonas 2026-10-06: 14. und 21. Mai gehen nicht (Festivals), er meldet sich mit Weiterem. Status: Antwort von uns offen. Seit Jonas 12.10. nichts mehr. Nachfass-Entwurf 2026-10-30: Fr 28.05. erste Wahl, Alternative Sa 15.05. (frei, da Magma Ocean abgesagt), Konditionen erfragt. Senden nach Ja.
