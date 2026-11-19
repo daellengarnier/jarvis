@@ -1,7 +1,7 @@
 # NOTES: privat-projekte
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-28
+Zuletzt aktualisiert: 2026-11-19
 
 ## Aktueller Stand
 
@@ -10,6 +10,10 @@ Zuletzt aktualisiert: 2026-10-28
 - Repo: github.com/daellengarnier/spinnerei, live auf https://spinnerei.al-daellen.ch. Next.js 16, Postgres/Drizzle, Docker, Deploy per GitHub Actions bei Push auf main.
 - Anlässe mit Ressorts, Todos, Acts, Finanzen/Abrechnung, Sitzungen, Einkauf, Inbox, PETZI-Webhook, Google-Login nur @kulturspinnerei.ch.
 - Nicht verwechseln: spinnplan (alt, Supabase) und spinnplan-v2 (Rewrite Schichtplanung).
+
+### Erklärvideo "Börse für Oli"
+
+- 2-Minuten-Motion-Design-Video für Oli (Laie): Aktie, Börse, Schweiz (SIX, BX Swiss, FINMA), Börsengang, Voraussetzungen SIX, Ablauf, Gründe, Haken. Quellcode und Render-Anleitung: `areas/privat-projekte/boersen-erklaervideo/`. MP4 am 2026-11-19 an Alain geliefert, gehört ins Drive.
 
 ### Stand laut Alain, zu prüfen
 
@@ -28,6 +32,7 @@ Zuletzt aktualisiert: 2026-10-28
 - [x] Spinnerei-App: belege-drive-sicherung am 2026-11-02 gemergt (Deploy-Run 80). Erste Sicherungen auf dem VPS: backups/spinnerei_20261102_180736.sql.gz und ..._180854_vor-deploy.sql.gz (je 11 MB). DB: 3 Abrechnungen, 2 Ausgaben mit Beleg.
 - [ ] Spinnerei-App: Alain verbindet Drive (Admin › Belege & Sicherung, info@kulturspinnerei.ch) und legt bisherige Belege ab. Achtung: GitHub-Secrets GOOGLE_CLIENT_ID/SECRET und GOOGLE_API_KEY waren im Deploy leer; ob sie in der .env auf dem VPS stehen, ist unbekannt. Meldet die App «nicht eingerichtet», fehlen sie.
 - [ ] Spinnerei-App: Sicherungen liegen nur auf dem VPS. Off-Site-Kopie (z. B. nächtlich ins Drive) offen.
+- [ ] Erklärvideo: MP4 ins Google Drive legen (Alain), Link hier eintragen.
 - [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
 
 ## Nächster Schritt
