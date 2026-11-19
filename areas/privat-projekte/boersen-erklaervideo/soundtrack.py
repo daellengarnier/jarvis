@@ -69,7 +69,7 @@ for bar in range(int(DUR / 2)):
         j = int(te * SR); bass[j:j+len(tb)] += s
 tline = np.arange(N) / SR
 # Filterfahrt: Intro zu, Drop offen, Breakdown zu
-cut = np.interp(tline, [0, 7.9, 8, 107.9, 108, 114.9, 115, 120], [500, 2600, 3200, 3200, 700, 1800, 3200, 900])
+cut = np.interp(tline, [0, 7.9, 8, 39.0, 40.0, 41.5, 107.9, 108, 114.9, 115, 120], [500, 2600, 3200, 3200, 600, 3200, 3200, 700, 1800, 3200, 900])
 def sweep_lp(x):
     out = np.zeros_like(x); seg = SR // 10
     zi = None
@@ -101,18 +101,16 @@ def whoosh(d=0.5):
     t = tt(d); n = rng.standard_normal(len(t)); env = np.sin(np.pi * t / d) ** 2
     return lp(hp(n, 400), 4000) * env
 
-add(riser(4.0), 4.0, 0.5)
-for B in cues['bounds']:
-    add(whoosh(0.4), B - 0.38, 0.35, -0.4); add(impact(), B, 0.7)
-for x in cues['whoosh']: add(whoosh(0.6), x - 0.2, 0.3, 0.4)
+for r0, r1 in cues['risers']: add(riser(r1 - r0), r0, 0.45)
+for B in cues['hits']: add(impact(), B, 0.8)
+for x in cues['whoosh']: add(whoosh(0.7), x - 0.1, 0.32, 0.4 if int(x) % 2 else -0.4)
 for x in cues['ticks']: add(blip(1760, 0.08, 50), x, 0.22, 0.2)
 for k, x in enumerate(cues['checks']): add(blip(880 * 2 ** ((k * 2) / 12)) + blip(1320 * 2 ** ((k * 2) / 12)) * 0.5, x + 0.1, 0.2)
 for x in cues['pops']: add(blip(520, 0.14, 25), x, 0.3)
 for x in cues['coins']:
     for k in range(12): add(blip(2400 + 300 * (k % 3), 0.12, 30), x + k * 0.1, 0.08, (k % 3 - 1) * 0.5)
 for x in cues['stamp']: add(impact()[:int(0.5 * SR)], x, 0.6)
-for x in cues['final']: add(impact(), x, 0.5); add(riser(1.5), x - 1.5, 0.25)
-add(riser(2.0), 115.5, 0.3); add(impact(), 117.5, 0.9)
+for k, x in enumerate(cues['bars']): add(blip(660 * 2 ** (k / 12), 0.07, 45), x, 0.15, 0.3)
 
 # ---------- master ----------
 mix = np.stack([L, R], 1)

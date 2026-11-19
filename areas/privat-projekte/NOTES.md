@@ -13,7 +13,7 @@ Zuletzt aktualisiert: 2026-11-19
 
 ### Erklärvideo "Börse für Oli"
 
-- 2-Minuten-Motion-Design-Video für Oli (Laie): Aktie, Börse, Schweiz (SIX, BX Swiss, FINMA), Börsengang, Voraussetzungen SIX, Ablauf, Gründe, Haken. Quellcode und Render-Anleitung: `areas/privat-projekte/boersen-erklaervideo/`. MP4 am 2026-11-19 an Alain geliefert, gehört ins Drive.
+- 2-Minuten-Motion-Design-Video für Oli (Laie): Aktie, Börse, Schweiz (SIX, BX Swiss, FINMA), Börsengang, Voraussetzungen SIX, Ablauf, Gründe, Haken. Quellcode und Render-Anleitung: `areas/privat-projekte/boersen-erklaervideo/`. v1 (Folien-Stil) von Alain als zu langweilig verworfen. v2 als durchgehende Kamerafahrt mit rotem Faden und durchgehendem Held am 2026-11-19 geliefert. MP4 gehört ins Drive.
 
 ### Stand laut Alain, zu prüfen
 
