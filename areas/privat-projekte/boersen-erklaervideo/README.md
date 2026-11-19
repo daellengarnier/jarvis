@@ -1,6 +1,8 @@
 # Erklärvideo: Börse für Oli
 
-2:00, 1920x1080, 30 fps. Alles im Code gerendert, Ton synthetisch, kein Voiceover.
+Aktuell: **v3** im Ordner `v3/` (Vintage, auf Alains Musik geschnitten, siehe `v3/README.md`).
+
+Ältere Versionen: 2:00, 1920x1080, 30 fps, Ton synthetisch, kein Voiceover.
 
 v2 (aktuell, `video.html`): eine einzige Kamerafahrt durch eine zusammenhängende Welt. Held ist der Punkt aus dem "?" von "DIE BÖRSE?": er fällt heraus, wird zur Firma (Schoggi AG), zerfällt in 100 Aktien, eine Aktie wird zum Kurs-Kopf, Zoom durch die Aktie ins Rot = Schweizer Fahne, Rauszoomen zeigt die Firma mit Kreuz. Die Firma läuft durch die Tore der Voraussetzungen und sammelt dabei Attribute ein, geht auf Roadshow, ins Orderbuch, an den Handelstag. Eine rote Linie (der rote Faden) folgt ihr die ganze Zeit; am Schluss zeigt ein Rauszoomen den ganzen Weg, und der Held landet als Punkt im "?" von "Alles klar, Oli?".
 
