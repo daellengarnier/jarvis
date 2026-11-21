@@ -1,4 +1,4 @@
-# Explosionszeichnung Podest, nur Holzverbindungen. mm, intern x entlang Wand, y von der Wand weg, z hoch.
+# Explosionszeichnung Podest mit Pocket Holes (Rahmen, Belag), Nuten fuer Platten. mm, intern x entlang Wand, y von der Wand weg, z hoch.
 import json, cadquery as cq
 PL, PD, PH, BEL = 650, 580, 1000, 40
 P, RB, RH = 80, 60, 120
@@ -20,17 +20,29 @@ posts = {
 post = {k: box(x0, x1, y0, y1, 0, h) for k, (x0, x1, y0, y1, h, _) in posts.items()}
 zc0, zc1 = zRu + (RH-ZH)/2, zRu + (RH+ZH)/2
 # Rahmen mit Zapfen
-def rail_x(y0, y1):      # Rahmen entlang x zwischen x=P und PL-P, Zapfen in x-Richtung
-    yc = (y0+y1)/2
+import math
+A = math.radians(15)
+def hole(p, d, L=150, r=5):     # Bohrung als Zylinder ab Punkt p in Richtung d
+    return cq.Solid.makeCylinder(r, L, cq.Vector(*p), cq.Vector(*d))
+def rail_x(y0, y1, inner):      # Rahmen entlang x, stumpf zwischen den Pfosten, Pocket Holes auf der Innenseite
+    yc = (y0+y1)/2; sgn = 1 if inner > yc else -1
     r = box(P, PL-P, y0, y1, zRu, zRo)
-    r = r.union(box(P-ZL, P, yc-ZT/2, yc+ZT/2, zc0, zc1)).union(box(PL-P, PL-P+ZL, yc-ZT/2, yc+ZT/2, zc0, zc1))
+    for z in (zRu+35, zRu+85):
+        r = r.cut(cq.Workplane().add(hole((P+8, yc, z), (math.cos(A), sgn*math.sin(A), 0))))
+        r = r.cut(cq.Workplane().add(hole((PL-P-8, yc, z), (-math.cos(A), sgn*math.sin(A), 0))))
+    for x in (200, PL/2, PL-200):  # fuer den Belag, schraeg nach oben
+        r = r.cut(cq.Workplane().add(hole((x, yc, zRo-8), (0, sgn*math.sin(A), -math.cos(A)))))
     return r
-def rail_y(x0, x1):
-    xc = (x0+x1)/2
+def rail_y(x0, x1, inner):
+    xc = (x0+x1)/2; sgn = 1 if inner > xc else -1
     r = box(x0, x1, P, PD-P, zRu, zRo)
-    r = r.union(box(xc-ZT/2, xc+ZT/2, P-ZL, P, zc0, zc1)).union(box(xc-ZT/2, xc+ZT/2, PD-P, PD-P+ZL, zc0, zc1))
+    for z in (zRu+35, zRu+85):
+        r = r.cut(cq.Workplane().add(hole((xc, P+8, z), (sgn*math.sin(A), math.cos(A), 0))))
+        r = r.cut(cq.Workplane().add(hole((xc, PD-P-8, z), (sgn*math.sin(A), -math.cos(A), 0))))
+    for y in (180, PD-180):
+        r = r.cut(cq.Workplane().add(hole((xc, y, zRo-8), (sgn*math.sin(A), 0, -math.cos(A)))))
     return r
-rW = rail_x(0, RB); rV = rail_x(PD-RB, PD); rR = rail_y(PL-RB, PL)
+rW = rail_x(0, RB, PD); rV = rail_x(PD-RB, PD, 0); rR = rail_y(PL-RB, PL, 0)
 # Auflagerriegel links, 15 mm in die linken Pfosten eingelassen
 riegel = box(-RB+NT, NT, 0, PD, zRu, zRo)
 # Platten 40 mm in Nuten
@@ -45,13 +57,13 @@ for k in ("P_WR", "P_VR", "P_VL"):
     x0, x1, y0, y1, h, _ = posts[k]; bel = bel.cut(box(x0, x1, y0, y1, zRo, PH))
 add("P_WL", post["P_WL"], "L", posts["P_WL"][5]); add("P_VL", post["P_VL"], "L", posts["P_VL"][5])
 add("P_WR", post["P_WR"], "R", posts["P_WR"][5]); add("P_VR", post["P_VR"], "R", posts["P_VR"][5])
-add("Riegel", riegel, "RL", "Auflagerriegel 60 × 120, 15 mm in die Pfosten eingelassen,\nobere Wangen sitzen mit Klaue darauf")
+add("Riegel", riegel, "RL", "Auflagerriegel 60 × 120, 15 mm in die Pfosten eingelassen\n(trägt über Holz), obere Wangen mit Klaue darauf")
 add("Platte_links", pL, "L", "Platte links 40 mm in Nuten (steift quer zur Wand aus,\nliegt unter der oberen Treppe)")
-add("Rahmen_rechts", rR, "R", "Rahmen rechts 60 × 120 mit Zapfen 20 × 80 × 50")
-add("Rahmen_Wand", rW, "M", "Rahmen Wand 60 × 120, Zapfen 20 × 80 × 50,\nverleimt + Holznagel Eiche Ø 12")
-add("Rahmen_vorne", rV, "M", "Rahmen vorne 60 × 120 mit Zapfen")
+add("Rahmen_rechts", rR, "R", "Rahmen rechts 60 × 120, Pocket Holes innen")
+add("Rahmen_Wand", rW, "M", "Rahmen Wand 60 × 120: je 2 Pocket Holes pro Ende\n+ 3 für den Belag, alle auf der Innenseite, mit Leim")
+add("Rahmen_vorne", rV, "M", "Rahmen vorne 60 × 120, Pocket Holes innen")
 add("Platte_Wand", pW, "M", "Wandplatte 40 mm in Nuten (steift längs aus)")
-add("Belag", bel, "B", "Belag 40 mm, um die hohen Pfosten ausgeklinkt,\nverleimt + Holzdübel")
+add("Belag", bel, "B", "Belag 40 mm, um die hohen Pfosten ausgeklinkt,\nvon unten durch die Rahmen verschraubt: oben nichts sichtbar")
 OFF = {"L": (-450, 0, 0), "RL": (-700, 0, 0), "R": (450, 0, 0), "M": (0, 0, 0), "B": (0, 0, 650)}
 asm = cq.Assembly(name="Podest")
 labels = []
