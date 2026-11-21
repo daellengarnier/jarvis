@@ -24,6 +24,8 @@ Ersetzt die steile Metalltreppe im Zimmer. L-Treppe aus Holz mit Podest und Gel�
 
 - Befestigung oben, nur Holz (2026-11-20): 7 Varianten skizziert in `treppe/varianten_galerie.png` (1 Stütze, 2 hoher Wangenkopf, 3 Einhängeleiste Hartholz, 4 Tasche, 5 Schwalbenschwanz, 6 Klaue auf Balken, 7 Zapfen). Empfehlung Jarvis für Mietwohnung: 1 oder 3, mit Eingriff in Balken: 5. Entscheid Alain offen. Modell hat aktuell Variante 4.
 
+- Podest-Aufbau (Vorschlag Jarvis 2026-11-21, nur Holz): Rahmen 60 × 120 mit Schlitz und Zapfen 20 × 80 × 50 in die Pfosten, verleimt + Holznagel Eiche Ø 12. Auflagerriegel links 15 mm in die Pfosten eingelassen. Aussteifung: Wandplatte und neu auch Platte links (statt Strebe), je 40 mm in Nuten. Belag verleimt + Holzdübel. Filz/Kork unter Pfosten, Pfosten zuletzt auf Mass. Explosionszeichnung `treppe/podest_explosion.png`. Ins Hauptmodell noch nicht übernommen.
+
 ## Offene Punkte
 
 - [ ] Treppe: Galerie messen (Bodenaufbau, Randbalken direkt unter der Kante? Masse), bestehendes Galeriegeländer an der Treppe?, was mit dem Bambuskorb passiert. Unterschiedliche Steigungen oben 21,7 / unten 25 cm von Alain so gewählt (Podest 1 m, max. 3 Tritte).
