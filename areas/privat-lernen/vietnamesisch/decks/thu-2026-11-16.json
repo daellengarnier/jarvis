@@ -4,7 +4,7 @@
     "title": "Thư 16.11.: Einkaufen auf dem Markt",
     "course": "SVFF Privatstunde mit Thư (Hồ Lý Anh Thư), Süden",
     "level": "A2",
-    "topic": "Auf dem Markt einkaufen und handeln, Mengen, Früchte, Selbstvorstellung",
+    "topic": "Auf dem Markt einkaufen und handeln, Mengen, Früchte",
     "source": "Google Doc der Lehrerin: https://docs.google.com/document/d/1jNpzFp2TvfzKuk8zZXIAE1FpTdht3QEgfmQ8uMLYooE",
     "position": 13
   },
@@ -328,54 +328,6 @@
       "front": "Xoài này có tươi không?",
       "back_de": "Ist diese Mango frisch?",
       "note": "có ... không = Ja/Nein-Frage"
-    },
-    {
-      "type": "sentence",
-      "front": "Tôi tên là Alain.",
-      "back_de": "Ich heisse Alain.",
-      "note": "Selbstvorstellung, gebildet von Jarvis aus deinen Angaben"
-    },
-    {
-      "type": "sentence",
-      "front": "Năm nay tôi 34 tuổi.",
-      "back_de": "Ich bin dieses Jahr 34.",
-      "note": "năm nay = dieses Jahr; gebildet von Jarvis"
-    },
-    {
-      "type": "sentence",
-      "front": "Tôi sống ở thủ đô Thụy Sĩ.",
-      "back_de": "Ich wohne in der Hauptstadt der Schweiz.",
-      "note": "gebildet von Jarvis"
-    },
-    {
-      "type": "sentence",
-      "front": "Tôi làm quản lý dự án.",
-      "back_de": "Ich arbeite als Projektleiter.",
-      "note": "làm + Beruf; gebildet von Jarvis"
-    },
-    {
-      "type": "sentence",
-      "front": "Sở thích của tôi là nhạc, guitar, đi du lịch và đồ ăn.",
-      "back_de": "Meine Hobbys sind Musik, Gitarre, Reisen und Essen.",
-      "note": "gebildet von Jarvis"
-    },
-    {
-      "type": "sentence",
-      "front": "Tôi đã đi du lịch 15 nước.",
-      "back_de": "Ich bin in 15 Länder gereist.",
-      "note": "gebildet von Jarvis"
-    },
-    {
-      "type": "sentence",
-      "front": "Tôi học tiếng Việt vì tôi có họ hàng ở Việt Nam.",
-      "back_de": "Ich lerne Vietnamesisch, weil ich Verwandte in Vietnam habe.",
-      "note": "vì = weil; gebildet von Jarvis"
-    },
-    {
-      "type": "sentence",
-      "front": "Tôi từng học tiếng Việt một tháng nhưng tôi quên hết rồi.",
-      "back_de": "Ich habe schon einmal einen Monat Vietnamesisch gelernt, aber alles vergessen.",
-      "note": "từng = schon einmal; quên hết rồi = alles vergessen"
     }
   ]
 }

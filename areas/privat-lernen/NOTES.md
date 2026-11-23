@@ -1,7 +1,7 @@
 # NOTES: privat-lernen
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-11-16
+Zuletzt aktualisiert: 2026-11-23
 
 ## Aktueller Stand
 
