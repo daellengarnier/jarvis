@@ -1,0 +1,451 @@
+{
+  "deck": {
+    "id": "thu-2026-11-23",
+    "title": "Thư 23.11.: Geräte beschreiben und vergleichen",
+    "course": "SVFF Privatstunde mit Thư (Hồ Lý Anh Thư), Süden",
+    "level": "A2",
+    "topic": "Elektro- und Haushaltsgeräte, Eigenschaften, Klassifikatoren, hơn, không những ... mà còn, Verb + thử",
+    "source": "Google Doc der Lehrerin, Abschnitt 23/11/2026: https://docs.google.com/document/d/1jNpzFp2TvfzKuk8zZXIAE1FpTdht3QEgfmQ8uMLYooE",
+    "position": 14
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "máy giặt",
+      "back_de": "Waschmaschine",
+      "back_en": "washing machine",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "máy rửa chén",
+      "back_de": "Geschirrspüler",
+      "back_en": "dishwasher",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "lò vi sóng",
+      "back_de": "Mikrowelle",
+      "back_en": "microwave",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "bình đun siêu tốc",
+      "back_de": "Wasserkocher",
+      "back_en": "electric kettle",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "máy hút bụi",
+      "back_de": "Staubsauger",
+      "back_en": "vacuum cleaner",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "lò nướng",
+      "back_de": "Backofen",
+      "back_en": "oven",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "bàn ủi",
+      "back_de": "Bügeleisen (Süden)",
+      "back_en": "iron",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "quạt máy",
+      "back_de": "Ventilator",
+      "back_en": "fan",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "máy sưởi",
+      "back_de": "Heizgerät",
+      "back_en": "heater",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "máy chiếu",
+      "back_de": "Beamer",
+      "back_en": "projector",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "loa",
+      "back_de": "Lautsprecher",
+      "back_en": "speaker",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "đồ điện tử",
+      "back_de": "Elektronik, elektronische Geräte",
+      "back_en": "electronics",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "đồ gia dụng",
+      "back_de": "Haushaltsgeräte",
+      "back_en": "household appliances",
+      "category": "Geräte"
+    },
+    {
+      "type": "vocab",
+      "front": "đẹp",
+      "back_de": "schön",
+      "back_en": "beautiful",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "nhẹ",
+      "back_de": "leicht (Gewicht)",
+      "back_en": "light",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "nặng",
+      "back_de": "schwer (Gewicht)",
+      "back_en": "heavy",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "bền",
+      "back_de": "langlebig, robust",
+      "back_en": "durable",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "chắc chắn",
+      "back_de": "stabil, solide",
+      "back_en": "sturdy, solid",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "ồn",
+      "back_de": "laut",
+      "back_en": "noisy",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "hao điện",
+      "back_de": "braucht viel Strom",
+      "back_en": "power-hungry",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "lớn / bự",
+      "back_de": "gross (bự: Süden, umgangssprachlich)",
+      "back_en": "big",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "nhỏ",
+      "back_de": "klein",
+      "back_en": "small",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "dày",
+      "back_de": "dick (Buch, Stoff)",
+      "back_en": "thick",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "mỏng",
+      "back_de": "dünn (Buch, Stoff)",
+      "back_en": "thin",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "thấp",
+      "back_de": "niedrig, klein (Körper)",
+      "back_en": "low, short",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "rẻ",
+      "back_de": "billig, günstig",
+      "back_en": "cheap",
+      "category": "Beschreiben"
+    },
+    {
+      "type": "vocab",
+      "front": "cái",
+      "back_de": "Klassifikator für Gegenstände",
+      "back_en": "classifier for objects",
+      "category": "Klassifikatoren",
+      "example_vi": "cái bàn, cái ghế, cái ly",
+      "example_de": "der Tisch, der Stuhl, das Glas"
+    },
+    {
+      "type": "vocab",
+      "front": "con",
+      "back_de": "Klassifikator für Tiere",
+      "back_en": "classifier for animals",
+      "category": "Klassifikatoren",
+      "example_vi": "con chó, con mèo, con cá, con gà",
+      "example_de": "Hund, Katze, Fisch, Huhn"
+    },
+    {
+      "type": "vocab",
+      "front": "đôi",
+      "back_de": "ein Paar",
+      "back_en": "a pair",
+      "category": "Klassifikatoren",
+      "example_vi": "một đôi giày",
+      "example_de": "ein Paar Schuhe"
+    },
+    {
+      "type": "vocab",
+      "front": "bàn",
+      "back_de": "Tisch",
+      "back_en": "table",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "ghế",
+      "back_de": "Stuhl",
+      "back_en": "chair",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "nồi",
+      "back_de": "Kochtopf",
+      "back_en": "pot",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "ly",
+      "back_de": "Glas (Trinkglas)",
+      "back_en": "glass",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "mèo",
+      "back_de": "Katze",
+      "back_en": "cat",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "cá",
+      "back_de": "Fisch",
+      "back_en": "fish",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "gà",
+      "back_de": "Huhn",
+      "back_en": "chicken",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "giày",
+      "back_de": "Schuhe",
+      "back_en": "shoes",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "giày thể thao",
+      "back_de": "Turnschuhe, Sportschuhe",
+      "back_en": "sneakers",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "trứng",
+      "back_de": "Ei, Eier",
+      "back_en": "egg",
+      "category": "Klassifikatoren",
+      "example_vi": "một chục trứng",
+      "example_de": "zehn Eier"
+    },
+    {
+      "type": "vocab",
+      "front": "cà chua",
+      "back_de": "Tomate",
+      "back_en": "tomato",
+      "category": "Klassifikatoren",
+      "example_vi": "hai ký cà chua",
+      "example_de": "zwei Kilo Tomaten"
+    },
+    {
+      "type": "vocab",
+      "front": "túi",
+      "back_de": "Tasche",
+      "back_en": "bag",
+      "category": "Klassifikatoren"
+    },
+    {
+      "type": "vocab",
+      "front": "củ",
+      "back_de": "eine Million (Đồng, umgangssprachlich)",
+      "back_en": "a million (slang)",
+      "category": "Geld",
+      "example_vi": "1 triệu đồng = 1 củ",
+      "example_de": "eine Million Đồng"
+    },
+    {
+      "type": "vocab",
+      "front": "mặc thử",
+      "back_de": "anprobieren (Kleidung)",
+      "back_en": "to try on (clothes)",
+      "category": "thử"
+    },
+    {
+      "type": "vocab",
+      "front": "mang thử",
+      "back_de": "anprobieren (Schuhe)",
+      "back_en": "to try on (shoes)",
+      "category": "thử"
+    },
+    {
+      "type": "vocab",
+      "front": "ăn thử",
+      "back_de": "probieren (Essen)",
+      "back_en": "to taste",
+      "category": "thử"
+    },
+    {
+      "type": "vocab",
+      "front": "uống thử",
+      "back_de": "probieren (Getränk)",
+      "back_en": "to try (a drink)",
+      "category": "thử"
+    },
+    {
+      "type": "vocab",
+      "front": "nghe thử",
+      "back_de": "mal reinhören",
+      "back_en": "to try listening",
+      "category": "thử"
+    },
+    {
+      "type": "grammar",
+      "front": "Verb + thử",
+      "back_de": "etwas ausprobieren, mal versuchen: coi thử (mal anschauen), mặc thử (anprobieren), ăn thử (probieren).",
+      "example_vi": "Anh mặc thử cái áo này.",
+      "example_de": "Probier dieses Oberteil an."
+    },
+    {
+      "type": "sentence",
+      "front": "Cái túi B mắc hơn cái túi A.",
+      "back_de": "Tasche B ist teurer als Tasche A.",
+      "note": "A + Adjektiv + hơn + B"
+    },
+    {
+      "type": "sentence",
+      "front": "Cái túi A rẻ hơn cái túi B.",
+      "back_de": "Tasche A ist billiger als Tasche B.",
+      "note": "A + Adjektiv + hơn + B"
+    },
+    {
+      "type": "sentence",
+      "front": "Điện thoại này nhẹ hơn điện thoại kia.",
+      "back_de": "Dieses Handy ist leichter als jenes.",
+      "note": "A + Adjektiv + hơn + B"
+    },
+    {
+      "type": "sentence",
+      "front": "Cái áo này nhỏ hơn cái áo kia.",
+      "back_de": "Dieses Oberteil ist kleiner als jenes.",
+      "note": "A + Adjektiv + hơn + B"
+    },
+    {
+      "type": "sentence",
+      "front": "Cuốn sách này dày hơn cuốn sách kia.",
+      "back_de": "Dieses Buch ist dicker als jenes.",
+      "note": "A + Adjektiv + hơn + B"
+    },
+    {
+      "type": "sentence",
+      "front": "Điện thoại này không những đẹp mà còn nhẹ nữa.",
+      "back_de": "Dieses Handy ist nicht nur schön, sondern auch leicht.",
+      "note": "không những ... mà còn ... nữa"
+    },
+    {
+      "type": "sentence",
+      "front": "Nhà hàng này không những ngon mà còn rẻ.",
+      "back_de": "Dieses Restaurant ist nicht nur lecker, sondern auch günstig.",
+      "note": "không những ... mà còn"
+    },
+    {
+      "type": "sentence",
+      "front": "Máy lạnh này không những ồn mà còn hao điện.",
+      "back_de": "Diese Klimaanlage ist nicht nur laut, sondern braucht auch viel Strom.",
+      "note": "không những ... mà còn"
+    },
+    {
+      "type": "sentence",
+      "front": "Đôi giày thể thao đó không những nhẹ mà còn bền.",
+      "back_de": "Diese Turnschuhe sind nicht nur leicht, sondern auch langlebig.",
+      "note": "không những ... mà còn"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh mặc thử cái áo này.",
+      "back_de": "Probier dieses Oberteil an.",
+      "note": "Verb + thử"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh muốn mang thử đôi giày này không?",
+      "back_de": "Willst du diese Schuhe anprobieren?",
+      "note": "Verb + thử"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh đã ăn thử bao giờ chưa?",
+      "back_de": "Hast du das schon mal probiert?",
+      "note": "Verb + thử, đã ... bao giờ chưa"
+    },
+    {
+      "type": "sentence",
+      "front": "Mời anh uống thử.",
+      "back_de": "Bitte, probier mal (zu trinken).",
+      "note": "mời = bitte, ich lade ein"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi muốn đọc thử cuốn sách này.",
+      "back_de": "Ich möchte dieses Buch mal anlesen.",
+      "note": "Verb + thử"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị có muốn nghe thử không?",
+      "back_de": "Möchtest du mal reinhören?",
+      "note": "Verb + thử"
+    }
+  ]
+}
