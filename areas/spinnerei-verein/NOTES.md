@@ -1,7 +1,7 @@
 # NOTES: spinnerei-verein
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-12
+Zuletzt aktualisiert: 2026-11-24
 
 ## Aktueller Stand
 
@@ -29,6 +29,8 @@ Zuletzt aktualisiert: 2026-10-12
   - Bank: Vereinskonto CH19 0079 0016 9408 2010 4 (Clearing 790, vermutlich BEKB). Zeichnungsberechtigte nicht dokumentiert, bei der Bank prüfen.
   - UID CHE-407.617.936 (BFS, April 2025). Kein Handelsregistereintrag gefunden, in Zefix prüfen.
   - Genossenschaft Via Felsenau als Vermieterin: kein Dokument mit Simona als Kontakt gefunden.
+
+- [ ] Idee Spinnerei-Mitgliedschaft (2026-11-24, in Prüfung): Statuten Art. 4 kennen nur stimmberechtigte Aktivmitglieder, mind. die Hälfte aus der Via 1. Öffentliche Mitgliedschaft braucht neue Kategorie (Gönner/Passiv, ohne Stimmrecht, nicht mitgezählt), Statutenänderung mit 3/4 der Anwesenden an der GV. Empfehlung Jarvis: Start als Freundeskreis ohne Rabatte (keine Konflikte mit Door-Deals). Offen: Modell, Beitrag, Gegenleistung, wer die Liste führt.
 
 ## Nächster Schritt
 
