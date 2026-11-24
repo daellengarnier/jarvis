@@ -1,7 +1,7 @@
 # NOTES: spinnerei-ticketing
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-11-24
 
 ## Aktueller Stand
 
@@ -13,6 +13,8 @@ Zuletzt aktualisiert: 2026-10-06
 ## Offene Punkte
 
 - [ ] Ergebnis der Vertragsprüfung (Konditionen, Auffälligkeiten) ist im Repo noch nicht erfasst.
+
+- [ ] Kann PETZI Saisonkarten, Mehrfachtickets oder Mitgliederrabatte (Codes)? Unbestätigt: nur ein Anbieter-Vergleich (bookinea.app) nennt Saisonkarten, PETZI-Seiten aus der Session nicht erreichbar. Im PETZI-Backend nachsehen oder Support fragen. Hintergrund: Idee Spinnerei-Mitgliedschaft (siehe spinnerei-verein).
 
 ## Nächster Schritt
 
