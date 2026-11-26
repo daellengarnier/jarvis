@@ -50,7 +50,7 @@ Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
 
 ### Buchhaltung 2026 (angefangen 2026-11-26)
 
-Arbeitsstand, Quellen und Bargeld je Anlass: `buchhaltung-2026.md`. Gewinnübertrag, 256 Bankbewegungen und Kasse je Anlass gebucht (2026-11-26). Offen: 83 Bankzeilen, Korrektur 323.10 aus 2025, Hausfest, Silvester.
+Arbeitsstand, Quellen und Bargeld je Anlass: `buchhaltung-2026.md`. Gewinnübertrag, 256 Bankbewegungen und Kasse je Anlass gebucht (2026-11-26). Zweite Runde gebucht. Offen: 10 Bankzeilen (1240.06), Korrektur 323.10 aus 2025, Hausfest-Kasse, Silvester.
 
 ## Offene Punkte
 

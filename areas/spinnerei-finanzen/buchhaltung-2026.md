@@ -62,13 +62,21 @@ Ohne Abrechnung: Silvester 31.12.2025, Los Palms 23.05., Hausfest 05.09., Pluto 
 - Entscheide Alain 2026-11-26: Gagen aus der Hauptkasse. Charity Jamaica: Zappa-Blatt mit weniger Tickets gilt, 2'667 als Spende (auf 6559, weil Konten per API nicht angelegt werden können; eigenes Konto "Spenden" in bexio anlegen und umbuchen, falls gewünscht). Rauschen 1'242 an Thalhammer aufgeteilt: 5101 500, 5102 59, 661 200, 4400 483. QUM Flyer 229.17 und Coop 82.10 bar an Dällen ausbezahlt. Los Palms 23.05. abgesagt. Silvester noch nicht abgerechnet.
 - Saldo 1000 in bexio nach diesen Buchungen 29'936.33. Ziel 15'075.15 = offene Zeilen (83, netto -14'538.08) plus Korrektur 323.10 aus 2025.
 
+## Zweite Runde gebucht (2026-11-26, Ja von Alain)
+
+- Alle Vorschläge gebucht (Supermärkte 4202, Baumärkte/Galaxus/Material 602, LED 6101, Thomann 6102, SBB 5832).
+- SWISS-Flüge 27.09. (1'207.80) und Rückzahlung Yves 28.09. (1'207.80) gegeneinander auf 6559, netto 0.
+- Taktvoll 1'364.20 = Sicherheit Silvester (4400). Natalie 100 = Plakatkosten Los Palms (abgesagt), 661. Miss Miu 150 = Geschäftsessen, 6559.
+- Yves 702.70: 300 Bargeldvorschuss für Beamer (1510), 402.70 Autopanne beim Beamer holen (5832). Beamer NEC PX1005QL 1'800 laut Quittung, Rest 1'500 aus der Kasse (K26-045). Beamer auf 1510 aktiviert (Annahme wie Kaffeemaschine 2025).
+- Saldi danach: Bank 16'638.31, Kasse 5'036.13, Mobiliar 3'112.50.
+
 ## Noch offen
 
-- 83 Bankzeilen mit Status Vorschlag/Frage in Bankabgleich_2026_Vorschlag.xlsx (Supermärkte, Baumärkte, Galaxus, LED, Thomann, SWISS-Flüge 1'207.80 = Rückzahlung Yves 1'207.80, Yves Beamer & Pneu, Taktvoll, Ethereal 25.03., Natalie 100, diverse Kleinbeträge).
-- Korrektur 323.10 (Zahlung 14.04.2025).
-- Hausfest 05.09.: Kassen und Ausgaben stehen in der Hausfest-App hausfest.al-daellen.ch (Repo daellengarnier/hausfest26, API /api/abrechnung, /api/expenses). Host am 2026-11-26 in der Umgebung freigegeben, aber die Zugangsdaten der Orga-App und des Spinnplans funktionieren dort nicht.
-- Soirée 25.04.: Bar-Stöcke fehlen. Silvester: Abrechnung fehlt (PETZI 4'497.75 am 05.01. und SumUp 1'451.06 am 06.01. sind schon als Ertrag gebucht).
-- Feed-Zeilen in bexio (Okt./Nov., teils mehrfach) bleiben offen und können ignoriert werden.
+- Bank: 10 Zeilen, total 1'240.06: Ethereal 272.78 (25.03.), Electras-Vedor Kaffeemaschine 247, Eventfrog 230, Kulturbüro 170, Weezevent 103.08, Avia 90.80, Bollwerk-Apotheke 75, Orell Füssli 25.40, Apple 18, Habkern 8.
+- Korrektur 323.10 aus 2025. Danach Bank = 15'075.15.
+- Hausfest 05.09.: Kasse fehlt. Hausfest-App hausfest.al-daellen.ch (Repo daellengarnier/hausfest26): Host freigegeben, Zugangsdaten fehlen.
+- Soirée 25.04. Bar-Stöcke, Silvester-Abrechnung.
+- Jahresende: Abschreibung Mobiliar (Beamer neu).
 
 ## Bank-Import
 
