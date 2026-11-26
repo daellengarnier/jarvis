@@ -1,7 +1,7 @@
 # NOTES: spinnerei-finanzen
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-21
+Zuletzt aktualisiert: 2026-11-26
 
 ## Aktueller Stand
 
@@ -47,6 +47,10 @@ Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
 - Kulturstiftung der Burgergemeinde Bern: Konzerte und Kulturanlässe mit Bedeutung für Bern, Termintabelle auf bgbern.ch.
 - Migros-Kulturprozent Aare (Richtlinien im Drive), Ernst Göhner (Programm), Gesellschaft zu Mittellöwen.
 - Walk-in Förderberatung im Berner Generationenhaus (Stadt, Kanton, Burgergemeinde).
+
+### Buchhaltung 2026 (angefangen 2026-11-26)
+
+Arbeitsstand, Quellen und Bargeld je Anlass: `buchhaltung-2026.md`. Blockiert durch fehlenden BEKB-Export 01.01. bis 16.10.2026 und offene Fragen an Alain.
 
 ## Offene Punkte
 
