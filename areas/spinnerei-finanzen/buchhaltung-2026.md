@@ -1,6 +1,6 @@
 # Buchhaltung 2026 (VIVA VIA, bexio Mandant "Spinnerei")
 
-Arbeitsstand, angefangen 2026-11-26. Noch nichts in bexio gebucht ausser der Eröffnungsbilanz.
+Arbeitsstand, angefangen 2026-11-26.
 
 ## Regeln
 
@@ -54,7 +54,23 @@ Arbeitsstand, angefangen 2026-11-26. Noch nichts in bexio gebucht ausser der Er�
 
 Ohne Abrechnung: Silvester 31.12.2025, Los Palms 23.05., Hausfest 05.09., Pluto 30.10.
 
-## Blockiert
+## Gebucht in bexio (2026-11-26, nach Freigabe Alain)
+
+- M26-001 Gewinnverwendung 2025: 2891 an 2800, 9'512.24 (GV-Übertrag laut Alain).
+- B26-<Nr>: 256 Bankbewegungen (Nr = Zeile im BEKB-Export, chronologisch), plus Bancomat-Gebühren B26-071.5, 072.5, 274.5. Belegnummer und Drive-Dateiname stehen im Buchungstext.
+- K26-001 bis 044: Kasse je Anlass (Bar und Abendkasse bar auf 3200/3201, Bar-Gagen und Barauslagen aus der Hauptkasse). Kassenstand danach 6'536.13.
+- Entscheide Alain 2026-11-26: Gagen aus der Hauptkasse. Charity Jamaica: Zappa-Blatt mit weniger Tickets gilt, 2'667 als Spende (auf 6559, weil Konten per API nicht angelegt werden können; eigenes Konto "Spenden" in bexio anlegen und umbuchen, falls gewünscht). Rauschen 1'242 an Thalhammer aufgeteilt: 5101 500, 5102 59, 661 200, 4400 483. QUM Flyer 229.17 und Coop 82.10 bar an Dällen ausbezahlt. Los Palms 23.05. abgesagt. Silvester noch nicht abgerechnet.
+- Saldo 1000 in bexio nach diesen Buchungen 29'936.33. Ziel 15'075.15 = offene Zeilen (83, netto -14'538.08) plus Korrektur 323.10 aus 2025.
+
+## Noch offen
+
+- 83 Bankzeilen mit Status Vorschlag/Frage in Bankabgleich_2026_Vorschlag.xlsx (Supermärkte, Baumärkte, Galaxus, LED, Thomann, SWISS-Flüge 1'207.80 = Rückzahlung Yves 1'207.80, Yves Beamer & Pneu, Taktvoll, Ethereal 25.03., Natalie 100, diverse Kleinbeträge).
+- Korrektur 323.10 (Zahlung 14.04.2025).
+- Hausfest 05.09.: Kassen und Ausgaben stehen in der Hausfest-App hausfest.al-daellen.ch (Repo daellengarnier/hausfest26, API /api/abrechnung, /api/expenses). Host am 2026-11-26 in der Umgebung freigegeben, aber die Zugangsdaten der Orga-App und des Spinnplans funktionieren dort nicht.
+- Soirée 25.04.: Bar-Stöcke fehlen. Silvester: Abrechnung fehlt (PETZI 4'497.75 am 05.01. und SumUp 1'451.06 am 06.01. sind schon als Ertrag gebucht).
+- Feed-Zeilen in bexio (Okt./Nov., teils mehrfach) bleiben offen und können ignoriert werden.
+
+## Bank-Import
 
 - BEKB-Export erhalten 2026-11-26 (xlsx bis 26.11., camt.053 2024 bis 25.11.). Saldo stimmt: 6'200.17 + Bewegungen = 15'075.15.
 - Offene Fragen an Alain: siehe Session 2026-11-26.
