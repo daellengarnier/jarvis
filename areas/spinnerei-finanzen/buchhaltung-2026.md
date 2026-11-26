@@ -8,6 +8,20 @@ Arbeitsstand, angefangen 2026-11-26. Noch nichts in bexio gebucht ausser der Er�
 - Buchungsregeln aus dem Google Doc "Briefing Jahresabschluss & Steuern 2025 (VIVA VIA)" (Drive, 4 Finanzen/ Admin/2025/Jahresabschluss & Steuern 2025): RaiseNow/Twint = Umsatz (3200 bei Anlass, sonst 3202), Gagen nur in der Kasse, wenn wirklich bar bezahlt, Software-Abos auf 6570.
 - Muster 2025 pro Anlass: 1001/3200 Bar-Bargeld, 1001/3201 Abendkasse bar, 5101/1001 Gagen bar, 4202/1001 Essen. SumUp-Auszahlungen 1000/3200, PETZI-Auszahlungen 1000/3201.
 
+## Kontierung Bank (Stand 2026-11-26)
+
+- Kaffeeabo: regelmässige Eingänge von Hausbewohner:innen (Mike Gutierrez, Cyrill, Mara, Jascha, Nicolas, Davina, Raphael, Julia) sind das Kaffeeabo (laut Alain). Vorschlag Konto 3202 Hauskiosk, Kaffee von Rast auf 4201.
+- Bierkiosk Julio (Wenzinger) = Verkauf Harassen, 3202.
+- RaiseNow wöchentlich: Woche mit Anlass 3200, sonst 3202 (Briefing-Regel).
+- Bancomat-Bezüge in EUR 600 am 29.01., 03.03., 09.10. passen auf die Bar-Gagen The Macks (567), Lucy Kruger (564), TŌ YŌ (576).
+- Bancomat-Gebühren (2, 2, 5) sind im Bezug enthalten und im Excel-Export nicht separat: auf 6940 buchen.
+- Vorschlagsliste mit Status pro Zahlung: Bankabgleich_2026_Vorschlag.xlsx (an Alain gesendet 2026-11-26, nicht im Repo).
+
+## Differenz Bank 2025
+
+- BEKB laut camt.053 per 31.12.2025: 6'200.17. bexio Eröffnung 2026: 6'523.27. Differenz 323.10.
+- Ursache: Am 14.04.2025 belastete die Bank 646.20 (zwei Zahlungen à 323.10), in bexio ist nur eine gebucht. Feed-Transaktion 449 (323.10) blieb offen. 2025 ist abgeschlossen und deklariert, Korrektur in 2026 nötig (Gegenkonto mit Alain klären).
+
 ## Stand bexio (2026-11-26)
 
 - Geschäftsjahr 2026 offen, 2025 abgeschlossen. Eröffnung: Bank 6'523.27, Kasse 6'633.85, Mobiliar 1'312.50, Kapital 4'957.38, Gewinn 2025 9'512.24 (noch auf 2891).
@@ -42,5 +56,5 @@ Ohne Abrechnung: Silvester 31.12.2025, Los Palms 23.05., Hausfest 05.09., Pluto 
 
 ## Blockiert
 
-- BEKB-Export 01.01.2026 bis heute (camt.053 oder CSV mit Gegenpartei) fehlt.
+- BEKB-Export erhalten 2026-11-26 (xlsx bis 26.11., camt.053 2024 bis 25.11.). Saldo stimmt: 6'200.17 + Bewegungen = 15'075.15.
 - Offene Fragen an Alain: siehe Session 2026-11-26.

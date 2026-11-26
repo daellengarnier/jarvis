@@ -50,7 +50,7 @@ Weitere Quellen (nicht geprüft, Websites von hier nicht erreichbar):
 
 ### Buchhaltung 2026 (angefangen 2026-11-26)
 
-Arbeitsstand, Quellen und Bargeld je Anlass: `buchhaltung-2026.md`. Blockiert durch fehlenden BEKB-Export 01.01. bis 16.10.2026 und offene Fragen an Alain.
+Arbeitsstand, Quellen und Bargeld je Anlass: `buchhaltung-2026.md`. Bankauszug erhalten, Kontierungsvorschlag erstellt, wartet auf Antworten von Alain. Noch nichts gebucht.
 
 ## Offene Punkte
 
