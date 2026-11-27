@@ -72,7 +72,7 @@ Ohne Abrechnung: Silvester 31.12.2025, Los Palms 23.05., Hausfest 05.09., Pluto 
 
 ## Noch offen
 
-- Bank: 3 Zeilen, total 273.40: Eventfrog 230 (06.05.), Orell Füssli 25.40 (14.02.), Apple 18 (16.11.). Gebucht 2026-11-26: Electras 247 Reparatur Kaffeemaschine (6200), Kulturbüro 170 Miete Kamera (6570), Avia 90.80 Benzin Auto Yves (5832). Gebucht 2026-11-27: Ethereal 272.78 = Transport Amortalist Nemoralis (5102). Bollwerk-Apotheke 75 Apotheke auffüllen (4203), Weezevent 103.08 Teamausflug Mocca Thun (5880), Habkern 8 Parking Ausflug (5880).
+- Bank: 2 Zeilen, total 248.00: Eventfrog 230 (06.05.), Apple 18 (16.11.). Gebucht 2026-11-26: Electras 247 Reparatur Kaffeemaschine (6200), Kulturbüro 170 Miete Kamera (6570), Avia 90.80 Benzin Auto Yves (5832). Gebucht 2026-11-27: Ethereal 272.78 = Transport Amortalist Nemoralis (5102). Bollwerk-Apotheke 75 Apotheke auffüllen (4203), Weezevent 103.08 Teamausflug Mocca Thun (5880), Habkern 8 Parking Ausflug (5880). Orell Füssli 25.40 Spiel Teambildung (5880).
 - Korrektur 323.10 aus 2025. Danach Bank = 15'075.15.
 - Hausfest 05.09.: Kasse fehlt. Hausfest-App hausfest.al-daellen.ch (Repo daellengarnier/hausfest26): Host freigegeben, Zugangsdaten fehlen.
 - Soirée 25.04. Bar-Stöcke, Silvester-Abrechnung.
