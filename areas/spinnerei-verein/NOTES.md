@@ -1,7 +1,7 @@
 # NOTES: spinnerei-verein
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-12
+Zuletzt aktualisiert: 2026-11-27
 
 ## Aktueller Stand
 
@@ -14,7 +14,10 @@ Zuletzt aktualisiert: 2026-10-12
 - Mitglieder laut Alain (2026-10-12): Alain Garnier, Yves Garnier, Cäcilia Locher, Ambar Conca, Michael Gutierrez Pacheco (ehemals Michael Gygax), Alvaro Espinoza.
 - Nicht mehr Mitglied: Anja Hugentobler, Simona Schwarzenbach, Kaelan Wong, Yaron Schindler.
 - Cäcilia Locher ist laut Alain weiterhin Mitglied.
-- Präsidium und "GV machen" stehen als Pendenz in den Sitzungsprotokollen vom 28.09.2026 und 26.10.2026.
+- Sitzung 26.10.2026 (Protokoll Ambar): GV gilt für dieses Jahr als "gemacht". Präsidium: Bank-Infos und weiteres wechseln, Dällen mit Simä und Yves. Neu dabei: Lucien (Deko, Licht, evtl. Social Media) und Päde (Social Media, kleine ToDos, Deko).
+- Sitzung 27.11.2026 (Protokoll Ambar): Präsidium, Bank-Infos wechseln übernimmt jetzt Ambar mit Simä. Offene Frage: übergibt Päde Social Media an Ambar für die neue Saison?
+- Nächste Sitzung: 18.01.2027, 20:30.
+- Sitzungen 26.10. und 27.11. sind noch nicht in der Spinnerei-App (laut Alain, 2026-11-27). PDFs hat Alain im Chat geschickt, Ablage im Drive-Ordner "Sitzungen 2026" nicht geprüft.
 
 ## Offene Punkte
 
@@ -22,7 +25,8 @@ Zuletzt aktualisiert: 2026-10-12
 - [ ] Weitere Vorstandsmitglieder neben Ambar, Yves, Alain?
 - [ ] Protokoll der Mitgliederversammlung vom 06.12.2024 auffindbar?
 - [ ] Lücke Jahresrechnung 2024: an der MV vom 06.12.2024 genehmigt?
-- [ ] Präsidiumswechsel melden, wo Simona hinterlegt ist (Suche Drive und Mail 2026-10-12):
+- [ ] Pendenz Dällen (26.10./27.11.): Schild für den Einlass mit Nachtwache-Nummer vom Haus Felsenau.
+- [ ] Präsidiumswechsel melden (Bank: laut Sitzung 27.11. macht das Ambar mit Simä), wo Simona hinterlegt ist (Suche Drive und Mail 2026-10-12):
   - SUISA (Kunden-Nr. 0.1033.603, Vertrag 1.037.733): Simona ist Kontaktperson auf Rechnung, zuletzt in der Anmeldung April 2026 (Drive, SUISA/2026 GT K). Rechnung April 2026 ging an nina@.
   - Mobiliar Vereinsversicherung, Police G-1474-7841: Simona hat die Erneuerung 2024 ans Kollektiv weitergeleitet. Aktuellen Kontakt auf der Police prüfen.
   - Kultur Stadt Bern: Gesuche 2023 liefen auf Simona, seit 2025 auf Alain über info@.
