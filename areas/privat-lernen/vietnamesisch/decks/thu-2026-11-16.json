@@ -1,0 +1,333 @@
+{
+  "deck": {
+    "id": "thu-2026-11-16",
+    "title": "Thư 16.11.: Einkaufen auf dem Markt",
+    "course": "SVFF Privatstunde mit Thư (Hồ Lý Anh Thư), Süden",
+    "level": "A2",
+    "topic": "Auf dem Markt einkaufen und handeln, Mengen, Früchte",
+    "source": "Google Doc der Lehrerin: https://docs.google.com/document/d/1jNpzFp2TvfzKuk8zZXIAE1FpTdht3QEgfmQ8uMLYooE",
+    "position": 13
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "mua",
+      "back_de": "kaufen",
+      "back_en": "to buy",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "người bán",
+      "back_de": "Verkäufer, Verkäuferin",
+      "back_en": "seller",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "giá",
+      "back_de": "Preis",
+      "back_en": "price",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "hỏi giá",
+      "back_de": "nach dem Preis fragen",
+      "back_en": "to ask the price",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "mắc",
+      "back_de": "teuer (Süden)",
+      "back_en": "expensive",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "chất lượng cao",
+      "back_de": "hochwertig",
+      "back_en": "high quality",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "thời gian bảo hành",
+      "back_de": "Garantiezeit",
+      "back_en": "warranty period",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "cũ",
+      "back_de": "alt, gebraucht",
+      "back_en": "old, used",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "mới",
+      "back_de": "neu",
+      "back_en": "new",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "coi thử",
+      "back_de": "mal anschauen, ausprobieren",
+      "back_en": "to take a look, to try",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "mở lên",
+      "back_de": "einschalten",
+      "back_en": "to turn on",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "nói thách",
+      "back_de": "einen überhöhten Preis nennen",
+      "back_en": "to overprice",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "bớt",
+      "back_de": "Rabatt geben, mit dem Preis runtergehen",
+      "back_en": "to give a discount",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "ngoài kia",
+      "back_de": "da draussen, dort drüben",
+      "back_en": "out there",
+      "category": "Einkaufen"
+    },
+    {
+      "type": "vocab",
+      "front": "nải",
+      "back_de": "Büschel (Bananen)",
+      "back_en": "hand, bunch (of bananas)",
+      "category": "Mengen",
+      "example_vi": "một nải chuối",
+      "example_de": "ein Büschel Bananen"
+    },
+    {
+      "type": "vocab",
+      "front": "chùm",
+      "back_de": "Traube, Bündel (z.B. Trauben)",
+      "back_en": "bunch (of grapes)",
+      "category": "Mengen",
+      "example_vi": "một chùm nho",
+      "example_de": "eine Traube Weintrauben"
+    },
+    {
+      "type": "vocab",
+      "front": "trái",
+      "back_de": "Klassifikator für Früchte (Süden); Frucht",
+      "back_en": "classifier for fruit",
+      "category": "Mengen",
+      "example_vi": "một trái dừa",
+      "example_de": "eine Kokosnuss"
+    },
+    {
+      "type": "vocab",
+      "front": "ký / kí",
+      "back_de": "Kilo",
+      "back_en": "kilogram",
+      "category": "Mengen",
+      "example_vi": "một ký măng cụt",
+      "example_de": "ein Kilo Mangostanen"
+    },
+    {
+      "type": "vocab",
+      "front": "thùng",
+      "back_de": "Kiste, Karton",
+      "back_en": "box, carton",
+      "category": "Mengen",
+      "example_vi": "425K một thùng",
+      "example_de": "425'000 Đồng pro Kiste"
+    },
+    {
+      "type": "vocab",
+      "front": "ngàn",
+      "back_de": "tausend (Süden), abgekürzt K",
+      "back_en": "thousand",
+      "category": "Mengen",
+      "example_vi": "25.000 đồng một ký",
+      "example_de": "25'000 Đồng pro Kilo"
+    },
+    {
+      "type": "vocab",
+      "front": "triệu",
+      "back_de": "Million",
+      "back_en": "million",
+      "category": "Mengen"
+    },
+    {
+      "type": "vocab",
+      "front": "đồng",
+      "back_de": "Đồng (Währung)",
+      "back_en": "dong (currency)",
+      "category": "Mengen"
+    },
+    {
+      "type": "vocab",
+      "front": "trái cây",
+      "back_de": "Früchte, Obst",
+      "back_en": "fruit",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "dừa",
+      "back_de": "Kokosnuss",
+      "back_en": "coconut",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "cam",
+      "back_de": "Orange",
+      "back_en": "orange",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "dưa hấu",
+      "back_de": "Wassermelone",
+      "back_en": "watermelon",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "dâu",
+      "back_de": "Erdbeere",
+      "back_en": "strawberry",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "táo",
+      "back_de": "Apfel",
+      "back_en": "apple",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "nho",
+      "back_de": "Weintraube",
+      "back_en": "grape",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "vải",
+      "back_de": "Litschi",
+      "back_en": "lychee",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "đu đủ",
+      "back_de": "Papaya",
+      "back_en": "papaya",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "me",
+      "back_de": "Tamarinde",
+      "back_en": "tamarind",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "bơ",
+      "back_de": "Avocado",
+      "back_en": "avocado",
+      "category": "Früchte"
+    },
+    {
+      "type": "vocab",
+      "front": "tươi",
+      "back_de": "frisch",
+      "back_en": "fresh",
+      "category": "Früchte",
+      "example_vi": "Xoài này tươi hơn.",
+      "example_de": "Diese Mango ist frischer."
+    },
+    {
+      "type": "vocab",
+      "front": "chín",
+      "back_de": "reif",
+      "back_en": "ripe",
+      "category": "Früchte",
+      "example_vi": "Chuối này chín hơn.",
+      "example_de": "Diese Banane ist reifer."
+    },
+    {
+      "type": "sentence",
+      "front": "Anh muốn mua trái cây.",
+      "back_de": "Ich möchte Obst kaufen. (als älterer Mann)",
+      "note": "muốn mua = kaufen wollen"
+    },
+    {
+      "type": "sentence",
+      "front": "Bao nhiêu tiền?",
+      "back_de": "Wie viel kostet das?",
+      "note": "nach dem Preis fragen"
+    },
+    {
+      "type": "sentence",
+      "front": "Giá bao nhiêu?",
+      "back_de": "Was ist der Preis?",
+      "note": "giá = Preis"
+    },
+    {
+      "type": "sentence",
+      "front": "Mắc quá vậy, bớt cho con đi.",
+      "back_de": "Das ist zu teuer, geben Sie mir doch einen Rabatt.",
+      "note": "bớt = mit dem Preis runtergehen; con: du als Jüngerer zur Verkäuferin"
+    },
+    {
+      "type": "sentence",
+      "front": "Mắc dữ vậy? Ngoài kia có chỗ bán rẻ hơn.",
+      "back_de": "So teuer? Da draussen gibt es einen Stand, der billiger ist.",
+      "note": "dữ vậy = so sehr (Süden, Erstaunen)"
+    },
+    {
+      "type": "sentence",
+      "front": "Không bớt, tui đi.",
+      "back_de": "Wenn Sie nicht runtergehen, gehe ich. (aggressiv)",
+      "note": "tui = ich (Süden)"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh coi thử được không?",
+      "back_de": "Darf ich mal schauen?",
+      "note": "coi thử = mal anschauen"
+    },
+    {
+      "type": "sentence",
+      "front": "Cho con một nải chuối.",
+      "back_de": "Ich hätte gern ein Büschel Bananen.",
+      "note": "cho con = gib mir (als Jüngerer)"
+    },
+    {
+      "type": "sentence",
+      "front": "Một ký măng cụt bao nhiêu tiền?",
+      "back_de": "Wie viel kostet ein Kilo Mangostanen?"
+    },
+    {
+      "type": "sentence",
+      "front": "Xoài này có tươi không?",
+      "back_de": "Ist diese Mango frisch?",
+      "note": "có ... không = Ja/Nein-Frage"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # NOTES: spinnerei-technik
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-11-17
 
 ## Aktueller Stand
 
@@ -12,10 +12,16 @@ Zuletzt aktualisiert: 2026-10-06
 - Alain filmt und schneidet Konzerte.
 - Geplant: Rinde als Deko ausserhalb der Clubfläche.
 
+### Aus den Sitzungsprotokollen 2026
+
+- Lautstärke: nach The Macks (Jan.) zu laut. Schon beim Soundcheck darauf achten, Ton-Person hinweisen, Ohropax am Eingang oder an der Bar anbieten.
+- Licht macht meist Yves. Laurin wird eingeführt (für QUM 31.10.).
+
 ## Offene Punkte
 
 - [ ] Brandschutzbehandlung der Rinde war offen.
 - [ ] Status Installation LED und Photism unbekannt.
+- [ ] Aussensteckdose 2. Stock bei der Feuertreppe für Scheinwerfer auf den Vorplatz: Kabel an der Aussenwand hoch, Steckdose installieren lassen. 2026-11-17: Anfrage aus info@ an yves@ gesendet (Machbarkeit, wer zuständig, Absprache Genossenschaft). Warten auf Antwort.
 
 ## Nächster Schritt
 

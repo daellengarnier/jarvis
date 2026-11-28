@@ -19,4 +19,6 @@ Privat-Konto: Gmail (alaingarnier.ch@gmail.com). Nie aus info@kulturspinnerei.ch
 
 ## Wissen
 
-Noch keins. Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.
+- Spinnplan v1 (Netlify, spinnplan-23.netlify.app): Repo `daellengarnier/spinnplan`, App im Ordner `spinnplan-pwa_18`, kein Build. Deploy = Push auf main, Netlify baut automatisch. Vorher ⚠️ und Alains Ja, weil die Änderung sofort für alle Helfenden live ist. Danach mit dem Netlify-Connector prüfen: Projekt-ID `c65cffe8-03a9-4396-8f47-9629456d4f00`, `get-project` zeigt den aktuellen Deploy, `get-deploy-for-site` den Commit (`commit_ref`) und `state` ready. netlify.app selbst ist aus der Cloud-Umgebung gesperrt.
+
+Sonst noch wenig. Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.

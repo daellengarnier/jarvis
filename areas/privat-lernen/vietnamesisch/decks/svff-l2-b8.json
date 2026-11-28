@@ -1,0 +1,175 @@
+{
+  "deck": {
+    "id": "svff-l2-b8",
+    "title": "Bài 8: Lúc rảnh anh hay làm gì?",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 8
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "khó khăn",
+      "back_de": "Schwierigkeit, schwierig",
+      "back_en": "difficulty"
+    },
+    {
+      "type": "vocab",
+      "front": "đọc sách",
+      "back_de": "lesen",
+      "back_en": "to read"
+    },
+    {
+      "type": "vocab",
+      "front": "chơi thể thao",
+      "back_de": "Sport treiben",
+      "back_en": "to play sports"
+    },
+    {
+      "type": "vocab",
+      "front": "cãi nhau",
+      "back_de": "streiten",
+      "back_en": "to quarrel"
+    },
+    {
+      "type": "vocab",
+      "front": "đi mua sắm",
+      "back_de": "einkaufen gehen",
+      "back_en": "to go shopping"
+    },
+    {
+      "type": "vocab",
+      "front": "thưởng",
+      "back_de": "Bonus, Belohnung; belohnen",
+      "back_en": "bonus, reward"
+    },
+    {
+      "type": "vocab",
+      "front": "nghiên cứu",
+      "back_de": "forschen, recherchieren",
+      "back_en": "to research"
+    },
+    {
+      "type": "vocab",
+      "front": "luôn luôn",
+      "back_de": "immer",
+      "back_en": "always"
+    },
+    {
+      "type": "vocab",
+      "front": "gọi điện thoại",
+      "back_de": "anrufen",
+      "back_en": "to call"
+    },
+    {
+      "type": "vocab",
+      "front": "thăm",
+      "back_de": "besuchen",
+      "back_en": "to visit"
+    },
+    {
+      "type": "vocab",
+      "front": "tiểu thuyết",
+      "back_de": "Roman",
+      "back_en": "novel"
+    },
+    {
+      "type": "vocab",
+      "front": "phim hài",
+      "back_de": "Komödie",
+      "back_en": "comedy film"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô ấy tự mua cho mình một cái áo vào ngày sinh nhật của cổ.",
+      "back_de": "Sie hat sich an ihrem Geburtstag selbst ein Oberteil gekauft.",
+      "note": "mình = sich selbst / ich (locker)"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô ấy bị bệnh vì cổ đã không quan tâm đến bản thân mình.",
+      "back_de": "Sie ist krank geworden, weil sie nicht auf sich selbst geachtet hat.",
+      "note": "mình = sich selbst / ich (locker)"
+    },
+    {
+      "type": "sentence",
+      "front": "Mình đi trước nha, hẹn gặp lại.",
+      "back_de": "Ich gehe schon mal, bis bald.",
+      "note": "mình = sich selbst / ich (locker)"
+    },
+    {
+      "type": "sentence",
+      "front": "Cuối tuần này cả nhà tôi sẽ đi du lịch.",
+      "back_de": "Dieses Wochenende verreist meine ganze Familie.",
+      "note": "cả = ganz, gesamt"
+    },
+    {
+      "type": "sentence",
+      "front": "Cả lớp đang làm bài kiểm tra.",
+      "back_de": "Die ganze Klasse schreibt gerade einen Test.",
+      "note": "cả = ganz, gesamt"
+    },
+    {
+      "type": "sentence",
+      "front": "Ngày mai, cả lớp đi Vũng Tàu.",
+      "back_de": "Morgen fährt die ganze Klasse nach Vũng Tàu.",
+      "note": "cả = ganz, gesamt"
+    },
+    {
+      "type": "sentence",
+      "front": "Tất cả các bạn nhớ mang theo căn cước nha.",
+      "back_de": "Denkt alle daran, eure ID mitzunehmen.",
+      "note": "tất cả = alle"
+    },
+    {
+      "type": "sentence",
+      "front": "Sầu riêng càng ăn càng thấy ngon.",
+      "back_de": "Je mehr man Durian isst, desto besser schmeckt sie.",
+      "note": "càng ... càng ... = je mehr ... desto"
+    },
+    {
+      "type": "sentence",
+      "front": "Trời mưa càng ngày càng lớn nên tôi không đi ra ngoài được.",
+      "back_de": "Der Regen wird immer stärker, darum kann ich nicht rausgehen.",
+      "note": "càng ... càng ... = je mehr ... desto"
+    },
+    {
+      "type": "sentence",
+      "front": "Càng ngày họ càng hiểu nhau hơn.",
+      "back_de": "Sie verstehen sich von Tag zu Tag besser.",
+      "note": "càng ... càng ... = je mehr ... desto"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi luôn luôn thức dậy lúc 6 giờ sáng để tập thể dục.",
+      "back_de": "Ich stehe immer um 6 Uhr auf, um Sport zu machen.",
+      "note": "Häufigkeit: luôn luôn = immer"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị ấy thường đi làm vào lúc 8 giờ sáng.",
+      "back_de": "Sie geht normalerweise um 8 Uhr zur Arbeit.",
+      "note": "Häufigkeit: thường = normalerweise"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh ấy thỉnh thoảng đi du lịch vào cuối tuần.",
+      "back_de": "Er verreist manchmal am Wochenende.",
+      "note": "Häufigkeit: thỉnh thoảng = manchmal"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi hiếm khi uống cà phê vào buổi tối.",
+      "back_de": "Ich trinke selten abends Kaffee.",
+      "note": "Häufigkeit: hiếm khi = selten"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi không bao giờ bỏ bữa sáng.",
+      "back_de": "Ich lasse nie das Frühstück aus.",
+      "note": "Häufigkeit: không bao giờ = nie"
+    }
+  ]
+}

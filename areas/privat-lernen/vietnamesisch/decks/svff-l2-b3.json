@@ -1,0 +1,133 @@
+{
+  "deck": {
+    "id": "svff-l2-b3",
+    "title": "Bài 3: Anh có nhắn gì không?",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 3
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "coi phim",
+      "back_de": "einen Film schauen (Süden)",
+      "back_en": "to watch a movie"
+    },
+    {
+      "type": "vocab",
+      "front": "giùm / làm ơn",
+      "back_de": "bitte (giùm: locker, làm ơn: höflicher)",
+      "back_en": "please (help)"
+    },
+    {
+      "type": "vocab",
+      "front": "rảnh rỗi",
+      "back_de": "frei, Freizeit haben",
+      "back_en": "free, idle"
+    },
+    {
+      "type": "vocab",
+      "front": "xài",
+      "back_de": "benutzen; Geld ausgeben (Süden)",
+      "back_en": "to use, to spend"
+    },
+    {
+      "type": "vocab",
+      "front": "số điện thoại",
+      "back_de": "Telefonnummer",
+      "back_en": "phone number"
+    },
+    {
+      "type": "vocab",
+      "front": "bắt máy",
+      "back_de": "abnehmen (Telefon)",
+      "back_en": "to answer the phone"
+    },
+    {
+      "type": "vocab",
+      "front": "nhắn tin",
+      "back_de": "eine Nachricht schreiben",
+      "back_en": "to text"
+    },
+    {
+      "type": "vocab",
+      "front": "điện thoại bàn",
+      "back_de": "Festnetztelefon",
+      "back_en": "landline"
+    },
+    {
+      "type": "vocab",
+      "front": "ra ngoài",
+      "back_de": "rausgehen, draussen sein",
+      "back_en": "to go out"
+    },
+    {
+      "type": "vocab",
+      "front": "điện thoại di động",
+      "back_de": "Handy",
+      "back_en": "mobile phone"
+    },
+    {
+      "type": "sentence",
+      "front": "Làm ơn cho tôi nói chuyện với cô Thủy.",
+      "back_de": "Bitte verbinden Sie mich mit Frau Thủy.",
+      "note": "Telefonieren"
+    },
+    {
+      "type": "sentence",
+      "front": "A lô! Chào cô! Cô cho con gặp bạn Minh ạ!",
+      "back_de": "Hallo! Guten Tag! Kann ich bitte mit Minh sprechen?",
+      "note": "Telefonieren"
+    },
+    {
+      "type": "sentence",
+      "front": "Hình như sáng nay cô Lan không được vui lắm! Tôi thấy cô ấy không chào mọi người như hàng ngày.",
+      "back_de": "Anscheinend ist Frau Lan heute Morgen nicht so gut drauf. Sie hat nicht wie sonst alle begrüsst.",
+      "note": "hình như = anscheinend"
+    },
+    {
+      "type": "sentence",
+      "front": "Em nghe sếp nói hình như tuần sau công ty tụi mình đi du lịch.",
+      "back_de": "Ich habe den Chef sagen hören, dass unsere Firma nächste Woche anscheinend einen Ausflug macht.",
+      "note": "hình như = anscheinend"
+    },
+    {
+      "type": "sentence",
+      "front": "Hình như trời sắp mưa rồi.",
+      "back_de": "Es sieht so aus, als würde es gleich regnen.",
+      "note": "hình như = anscheinend"
+    },
+    {
+      "type": "sentence",
+      "front": "Vì làm việc xa nhà nên mỗi năm chị Hoa chỉ về quê thăm gia đình 2 lần.",
+      "back_de": "Weil sie weit weg von zu Hause arbeitet, besucht Hoa ihre Familie nur zweimal im Jahr.",
+      "note": "vì ... nên ... = weil ... deshalb"
+    },
+    {
+      "type": "sentence",
+      "front": "Vì ngày mai có bài kiểm tra nên tối nay em phải học bài tới khuya.",
+      "back_de": "Weil morgen ein Test ist, muss ich heute Abend bis spät lernen.",
+      "note": "vì ... nên ... = weil ... deshalb"
+    },
+    {
+      "type": "sentence",
+      "front": "Vì bận họp nên tôi không đi chơi được.",
+      "back_de": "Weil ich eine Sitzung habe, kann ich nicht ausgehen.",
+      "note": "vì ... nên ... = weil ... deshalb"
+    },
+    {
+      "type": "sentence",
+      "front": "Con coi phim đã. Rồi con ăn cơm.",
+      "back_de": "Ich schaue zuerst noch den Film, dann esse ich.",
+      "note": "V + đã = zuerst kurz"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi sẽ gọi lại sau.",
+      "back_de": "Ich rufe später zurück.",
+      "note": "V + lại = nochmals, zurück"
+    }
+  ]
+}

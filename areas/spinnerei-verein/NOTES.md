@@ -1,39 +1,49 @@
 # NOTES: spinnerei-verein
 
 Welt: Spinnerei  
-Zuletzt aktualisiert: 2026-11-27
+Zuletzt aktualisiert: 2026-11-28
 
 ## Aktueller Stand
 
-- Verein VIVA VIA. Statuten: Fassung vom 06.12.2024 (Drive, Ordner Statuten, "Statuten_angepasst_GV 2025 unterschrieben").
-- Letztes GV-Protokoll im Drive: GV vom 23.02.2024 ("Traktanden GV 2024", Ordner Sitzungen 2024). Damals Präsidentin Simona Schwarzenbach, STV Yves Garnier, Financier Alain Garnier.
-- GV 2026 fand im Juni 2026 statt (genauer Tag offen). Protokoll nachträglich erstellt, Protokollführer Alain: https://docs.google.com/document/d/1_IYQBt_FHh_1I_ZoJJTHWv7YO5MOq_s_dGRzCwDuA9g/edit (Ordner Sitzungen 2026). Vorversionen (Traktanden-Entwürfe) im Ordner Archiv neben Sitzungen 2024.
-- Beschlüsse GV 2026: Jahresrechnung 2025 genehmigt (Annahme: "die letzte Rechnung" = 2025), geplante Investition Bar ca. 2000 CHF.
-- VIVA VIA ist vermutlich nicht im Handelsregister (keine Fundstelle, Zefix nicht direkt prüfbar).
-- Ambar Conca ist seit GV Juni 2026 Präsidentin. Yves Garnier bleibt Stellvertretung (STV), Alain Garnier bleibt Financier.
-- Mitglieder laut Alain (2026-10-12): Alain Garnier, Yves Garnier, Cäcilia Locher, Ambar Conca, Michael Gutierrez Pacheco (ehemals Michael Gygax), Alvaro Espinoza.
-- Nicht mehr Mitglied: Anja Hugentobler, Simona Schwarzenbach, Kaelan Wong, Yaron Schindler.
-- Cäcilia Locher ist laut Alain weiterhin Mitglied.
-- Sitzung 26.10.2026 (Protokoll Ambar): GV gilt für dieses Jahr als "gemacht". Präsidium: Bank-Infos und weiteres wechseln, Dällen mit Simä und Yves. Neu dabei: Lucien (Deko, Licht, evtl. Social Media) und Päde (Social Media, kleine ToDos, Deko).
-- Sitzung 27.11.2026 (Protokoll Ambar): Präsidium, Bank-Infos wechseln übernimmt jetzt Ambar mit Simä. Offene Frage: übergibt Päde Social Media an Ambar für die neue Saison?
+### Stand laut Alain, zu prüfen
+
+- Verein VIVA VIA.
+- Präsidiumswechsel zu Ambar Conca vorbereitet.
+- "Dällen" in Protokollen, Mails und Orga-App ist Alain (bestätigt 2026-10-06).
+
+### Aus den Sitzungsprotokollen 2026
+
+Quelle: Sitzungsprotokolle 2026 im Drive, Ordner https://drive.google.com/drive/folders/1dj5AWgXy2UO1IuKNNBqzAmPsD_V5FJHn (gelesen 2026-10-06, neuestes vollständiges: 28.09.2026; 26.10. ist eine vorbereitete Vorlage).
+
+- Kollektiv laut Protokollen: Ambar, Dällen, Laurin, Mike, Mara, Nina, Alvi, Yves. Lucien und Päde sind interessiert einzusteigen (28.09.).
+- Sitzungen: Leitung meist Ambar. Früher erster Mittwoch im Monat 20:15. Nächste Sitzung: 26.10.2026, sofern die Neuen können.
+- Präsidium: Simona (Simä) will das Amt schnellstmöglich abgeben (24.04.). Dällen schaut die Aufgaben der Präsidentin an, Ambar würde übernehmen. Am 28.09. weiterhin Pendenz.
+- GV: "in Progress" (06.05.), am 28.09. weiterhin Pendenz "GV machen".
+- Suisa: Nina hat mit Simä die Anlässe ab 2025 erfasst (ohne DJ-Anlässe). Offen: ob Nina weitermacht, Onlinekonto (braucht Rechnungsnummer).
+- Info-Mail-Eingang checken: Dällen und Mike.
+- Helfende: gratis Eintritt am Abend und gratis Getränke während der Schicht (24.04., bleibt vorerst so).
+- Haus-Felsenau-Bewohnende: werden reingelassen, wenn sie zahlen können. Dällen schreibt Fabienne und fragt nach einer Notfallnummer (Nachtwache) des Heims. Am 28.09. noch Pendenz.
+- Gästezimmer Via3: immer mitteilen, dass dort andere wohnen. Wohnung nicht abschliessen, Küche nach Gebrauch putzen (07.01., nach Vorfall bei Dub Spencer).
+- Putzen/Vorbereitung: Ambar macht eine To-do-Liste, Dällen baut dafür einen Abschnitt pro Anlass in die Orga-App (28.09.).
+
+### Sitzungen 26.10. und 27.11.2026 (PDFs im Chat, 2026-11-27)
+
+- 26.10.: Anwesend Ambar, Dällen, Laurin, Päde, Lucien, Nina, Mike. GV für dieses Jahr "gemacht". Lucien (Deko, Licht, evtl. Social Media) und Päde (Social Media, kleine To-dos, Deko mit Lucien) steigen ein.
+- 27.11.: Anwesend Ambar, Dällen, Laurin, Lucien, Nina. Bank-Infos zum Präsidium macht jetzt Ambar mit Simä. Haus Felsenau: Dällen macht ein Schild für den Einlass mit der Nachtwache-Nummer. Offene Frage: übergibt Päde Social Media für die neue Saison an Ambar?
 - Nächste Sitzung: 18.01.2027, 20:30.
-- Sitzungen 26.10. und 27.11. sind noch nicht in der Spinnerei-App (laut Alain, 2026-11-27). PDFs hat Alain im Chat geschickt, Ablage im Drive-Ordner "Sitzungen 2026" nicht geprüft.
+- In der Orga-App: siehe privat-projekte (Migration 0041).
 
 ## Offene Punkte
 
-- [ ] Protokoll GV 2026 vervollständigen: Tag, Sitzungsleitung, Anwesende, Statuten, Mitgliederbeiträge, Vereinstätigkeiten, Varia.
-- [ ] Weitere Vorstandsmitglieder neben Ambar, Yves, Alain?
-- [ ] Protokoll der Mitgliederversammlung vom 06.12.2024 auffindbar?
-- [ ] Lücke Jahresrechnung 2024: an der MV vom 06.12.2024 genehmigt?
-- [ ] Pendenz Dällen (26.10./27.11.): Schild für den Einlass mit Nachtwache-Nummer vom Haus Felsenau.
-- [ ] Präsidiumswechsel melden (Bank: laut Sitzung 27.11. macht das Ambar mit Simä), wo Simona hinterlegt ist (Suche Drive und Mail 2026-10-12):
-  - SUISA (Kunden-Nr. 0.1033.603, Vertrag 1.037.733): Simona ist Kontaktperson auf Rechnung, zuletzt in der Anmeldung April 2026 (Drive, SUISA/2026 GT K). Rechnung April 2026 ging an nina@.
-  - Mobiliar Vereinsversicherung, Police G-1474-7841: Simona hat die Erneuerung 2024 ans Kollektiv weitergeleitet. Aktuellen Kontakt auf der Police prüfen.
-  - Kultur Stadt Bern: Gesuche 2023 liefen auf Simona, seit 2025 auf Alain über info@.
-  - Bank: Vereinskonto CH19 0079 0016 9408 2010 4 (Clearing 790, vermutlich BEKB). Zeichnungsberechtigte nicht dokumentiert, bei der Bank prüfen.
-  - UID CHE-407.617.936 (BFS, April 2025). Kein Handelsregistereintrag gefunden, in Zefix prüfen.
-  - Genossenschaft Via Felsenau als Vermieterin: kein Dokument mit Simona als Kontakt gefunden.
+- [ ] Präsidiumswechsel formell abschliessen. GV 2026 (Protokoll im Drive, Ordner Sitzungsprotokolle) wählt Ambar als Präsidentin, Yves STV, Alain Financier. Simona ist ausgetreten. Laut Sitzung 26.10.: Dällen macht mit Simä und Yves Bank-Infos und Weiteres. Laut Sitzung 27.11.: Bank-Infos macht Ambar mit Simä.
+  - Bank: BEKB (IBAN CH19 0079 0016 9408 2010 4, Clearing 790; Drive-Ordner "Konto BEKB"). Zeichnungsberechtigung Simä raus, Ambar rein. Welche Unterlagen die BEKB will: unbekannt.
+  - GV-Protokoll 2026 im Drive ist noch unvollständig (Datum "[Tag] Juni", Traktanden 10 bis 13 offen, nicht unterschrieben). Die Bank braucht vermutlich eine unterschriebene Fassung.
+  - Weitere Stellen mit Simä als Kontakt prüfen: Versicherung, Mietvertrag Genossenschaft, SUISA, PETZI, UID-Register.
+  - 2026-10-26: Entwurf in info@ an simona@ und yves@ (cc ambar@) angelegt, nicht gesendet. Ob simona@ nach ihrem Austritt noch gelesen wird: unbekannt.
+- [x] GV durchführen: laut Sitzung 26.10. für dieses Jahr gemacht.
+- [ ] Schild für den Einlass mit Nachtwache-Nummer Haus Felsenau (Dällen, Sitzung 27.11.).
+- [ ] Antwort an Fabienne (Haus Felsenau) zu Eintritt und Notfallnummer: laut Protokoll 26.10. zusätzlich fragen, was "unangepasstes Verhalten" konkret heisst und bei wem es nicht geht. Entwurf als Antwort auf ihre Mail vom 29.04. im Postfach info@ angelegt (2026-10-26, cc Susanne Pfyffer, mit Bitte, die Anlässe intern nicht zu bewerben). Alain sendet nicht via Jarvis (2026-10-26).
 
 ## Nächster Schritt
 
-- Offene Felder im Protokoll GV 2026 füllen, dann Meldungen des Präsidiumswechsels angehen.
+- Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.

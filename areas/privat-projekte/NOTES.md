@@ -1,36 +1,69 @@
 # NOTES: privat-projekte
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-28
+Zuletzt aktualisiert: 2026-10-18
 
 ## Aktueller Stand
-
-### Spinnerei-Orga-App
-
-- Repo: github.com/daellengarnier/spinnerei, live auf https://spinnerei.al-daellen.ch. Next.js 16, Postgres/Drizzle, Docker, Deploy per GitHub Actions bei Push auf main.
-- Anlässe mit Ressorts, Todos, Acts, Finanzen/Abrechnung, Sitzungen, Einkauf, Inbox, PETZI-Webhook, Google-Login nur @kulturspinnerei.ch.
-- Nicht verwechseln: spinnplan (alt, Supabase) und spinnplan-v2 (Rewrite Schichtplanung).
 
 ### Stand laut Alain, zu prüfen
 
 - Eigener VPS unter app.felsenau.org, SSH-Alias viapp, Apps je in /opt/<app>/ mit docker-compose.
 - Apps u.a.: Spinnplan, Life-Org-App, Spinnerei-Budget-Tracker.
+- Spinnerei Orga-App: spinnerei.al-daellen.ch, Repo daellengarnier/spinnerei (Next.js, Deploy per Push auf main über GitHub Actions).
 - 3D/Photogrammetrie-Karte des Spinnerei-Areals.
 - Motorrad.
 
+### Belegt vom VPS (2026-10-18)
+
+- `viapp` (app.felsenau.org) betreibt nur die via1-app (Organisations-App der WG Via 1, Repo `daellengarnier/via1-app`): Container app, db, nginx, certbot. Unter /opt nur `via1-app`, `backups`, `containerd`.
+- viapp hat die IP 185.143.100.53. Nicht auf viapp: ambardaellen-app, Spinnerei-Orga-App, Caddy.
+- Zweiter Server 179.237.68.22: Dorthin zeigen app.al-daellen.ch (ambardaellen-app) und spinnerei.al-daellen.ch (Orga-App). Dort läuft vermutlich auch der Caddy aus dem Stack `ambardaellen-app`, der beide Domains ausliefert. Zugang (SSH-Alias, Login) noch unbekannt, Deploy läuft über GitHub-Secrets.
+
+### Belegt aus GitHub (2026-10-06)
+
+- Spinnerei Orga-App: Repo `daellengarnier/spinnerei`, live auf https://spinnerei.al-daellen.ch. Next.js 16, Postgres, Drizzle, Docker. Auto-Deploy per GitHub Actions bei Push. Caddy im Stack `ambardaellen-app` auf demselben VPS.
+  - Anlässe mit Zeiten, Preisen, Drive-Link, PETZI-Link, Acts, Ressorts, Todos, Sitzungen, Abrechnung.
+  - Knopf "Publizieren": legt den Anlass als Entwurf auf kulturspinnerei.ch an (WordPress, The Events Calendar, REST mit Anwendungspasswort). Veröffentlicht wird von Hand in WordPress.
+  - Feld "Websitetext" pro Anlass (Commit 3e767e6, 2026-10-12): Einleitung vor den Promotexten der Acts beim Publizieren. Migration 0028.
+  - PETZI-Webhook (`/api/petzi/webhook`) zählt Tickets.
+  - Seed-Migration enthält die Anlässe Herbst 2026 ohne Soirée Tropicale 28.11. Diese ist inzwischen in der App (laut Notiz spinnerei-booking, 2026-10-06).
+- Spinnplan v2 (`daellengarnier/spinnplan-v2`): Schichtplan, Rewrite weg von Supabase/Netlify, Phase 1 von 3 (Stand README).
+- Spinnplan alt (`daellengarnier/spinnplan`): Supabase, noch aktiv bis Cutover. PWA, Supabase-Projekt `biyeggzutwajuueexcxl.supabase.co`. Tabelle `events` (Name, Datum, Zeiten, Rollen und Anzahl pro Rolle, `fixed_roles` für AV, BV, Licht, Ton, Kochen, Filmen), Tabelle `slots` für die Schichten. Anlässe anlegen und ändern dürfen per RLS nur Admins.
+
 ## Offene Punkte
 
-- [ ] Spinnerei-App, Sicherheit: /api/auth/unclaimed ist öffentlich und /api/auth/register übernimmt ein vorbereitetes Profil allein über den Namen, inkl. Admin-Rolle. Ohne gesetzten REGISTRATION_CODE kann so jede:r ein Admin-Profil übernehmen. Ob REGISTRATION_CODE auf dem VPS gesetzt ist: unbekannt.
-- [x] Spinnerei-App: HQ-Cockpit und Desktop-Layout am 2026-10-28 auf main gemergt, Deploy-Run 76 grün.
-- [ ] Spinnerei-App: Migration 0031 (sitzungen.protokoll) auf dem VPS nicht verifiziert. Jarvis erreicht die Live-Seite nicht (Proxy) und darf die Diagnose-Action nicht starten (403). Alain prüft: HQ öffnet ohne Fehler, Protokoll speichern geht.
-- [ ] Spinnerei-App: Sitzung 26.10.2026 war leer, weil 0033 Sitzungen am selben Datum überspringt (es gab schon eine). Fix: Migration 0041 füllt 26.10. und 27.11.2026 auf, Pendenzen mit Stand 27.11., nächste Sitzung 18.01.2027, Booking-Anfragen Tortoise/the sentis/Sturzflug. Lokal gegen Postgres 16 getestet (idempotent, überschreibt nichts). Branch sitzungen-protokolle-okt-nov konnte nicht gepusht werden (Repo nicht in den Quellen dieser Session), Patch liegt in areas/privat-projekte/patches/spinnerei-0041-sitzungen-okt-nov.patch. Anwenden mit git am, pushen, Merge nur nach Ja.
-- [x] Spinnerei-App: am 2026-10-28 auf main gemergt (Deploy-Run 77): hq-sitzungsbuch (eigenes HQ-Design, Sitzungsbuch mit Pendenzen als Todos, Import Sitzungen 06.05./28.09./26.10.2026 + nächste 27.11. 20:30 per Migration 0033) Quelle: Drive-Ordner «Sitzungen 2026». Datei «26_05_06» trägt im Kopf fälschlich 24.04.
-- [x] Spinnerei-App: am 2026-10-28 gemergt (Deploy-Run 78): hq-sitzung-detail (Sitzung als eigene Seite nach Vorbild VIA-App: Protokoll pro Traktandum, Pendenzen im Traktandum, Leitung/Protokoll/Anwesende, Migrationen 0034/0035). Push auf main ist in .claude/settings.json erlaubt, Merge trotzdem nur nach Ja.
-- [x] Spinnerei-App: belege-drive-sicherung am 2026-11-02 gemergt (Deploy-Run 80). Erste Sicherungen auf dem VPS: backups/spinnerei_20261102_180736.sql.gz und ..._180854_vor-deploy.sql.gz (je 11 MB). DB: 3 Abrechnungen, 2 Ausgaben mit Beleg.
-- [ ] Spinnerei-App: Alain verbindet Drive (Admin › Belege & Sicherung, info@kulturspinnerei.ch) und legt bisherige Belege ab. Achtung: GitHub-Secrets GOOGLE_CLIENT_ID/SECRET und GOOGLE_API_KEY waren im Deploy leer; ob sie in der .env auf dem VPS stehen, ist unbekannt. Meldet die App «nicht eingerichtet», fehlen sie.
-- [ ] Spinnerei-App: Sicherungen liegen nur auf dem VPS. Off-Site-Kopie (z. B. nächtlich ins Drive) offen.
-- [ ] Spinnerei-App: CI baut und deployt ohne Lint/Typecheck vorher.
+- [x] Netzzugang zu spinnerei.al-daellen.ch und kulturspinnerei.ch in der Cloud-Umgebung freigegeben (2026-10-06, getestet).
+- [x] Jarvis-Account in der Orga-App: Zugangsdaten als Umgebungsvariablen `SPINNEREI_APP_EMAIL` und `SPINNEREI_APP_PASSWORD`, Login über die API (siehe CLAUDE.md). Normaler Benutzer, kein Admin. Von einer Session am 2026-10-06 bereits genutzt.
+- [x] Push-Zugriff: Jarvis kann auf `daellengarnier/spinnerei`, `spinnplan` und `spinnplan-v2` pushen (geprüft 2026-10-08).
+- [x] Spinnplan: Jarvis hat vollen Zugriff, legt Anlässe selbst an und passt die App nach Bedarf an (Entscheid Alain, 2026-10-06, bestätigt 2026-10-08). Daten über den Supabase-Connector (Projekt "Spinnplan", `biyeggzutwajuueexcxl`), kein eigener App-Account nötig. Hinweis: Statements mit `drop` hängen im Connector (Timeout), `apply_migration` ebenso. DDL ohne `drop` per `execute_sql` geht.
+- [x] Spinnplan v1 live auf Netlify (spinnplan-23.netlify.app, Projekt-ID `c65cffe8-03a9-4396-8f47-9629456d4f00`). Seit 2026-10-08 mit `daellengarnier/spinnplan` verknüpft: Push auf main deployt automatisch (Ordner `spinnplan-pwa_18`, kein Build). v2 wird später migriert.
+- 2026-10-08 Supabase: Sicherheitslücke geschlossen. Vorher konnte sich jeder eingeloggte Benutzer per API selbst zum Admin machen. Jetzt: Trigger `guard_is_admin` (nur Admins ändern `is_admin`, Selbst-Insert immer false), Policy "Admins can update any profile", Funktion `is_admin_user()`, `handle_new_user` nicht mehr per API aufrufbar. Getestet (Rollback): Selbst-Admin blockiert, Namensänderung geht, Admin kann andere befördern. Offen aus den Supabase-Warnungen: `pg_net` im Schema public, Schutz gegen geleakte Passwörter aus, `notifications` und `push_subscriptions` sehr offen.
+- 2026-10-08 Kinderdisco 24.10.: Einlass auf 14:00 bis 16:00 (`role_dur_hours` Einlass 2), Rest unverändert.
+- 2026-10-08 Spinnplan: Anlässe 31.10. bis 12.12. (QUM, Jugendsession, Kitchen, Artlu, Soirée, Mothers Cake) per SQL angelegt, Slots wie `buildSlots` (`<Rolle>_<Block>`, `slot_index` 0..Anzahl-1). Direktes Insert löst keine Push-Notification "neuer Anlass" aus.
+- [x] Spinnplan v1: Dauer pro Schichtart auch im Formular für normale Anlässe. Commit ef2dec8 live seit 2026-10-08 20:08 UTC (Netlify-Deploy `6ac7f82f05fa07000827006c`, ready).
+- [ ] Life-App: Umbau der ambardaellen-app (app.al-daellen.ch, Repo `daellengarnier/ambardaellen-app`) zu Alains persönlicher Organisations-App mit Jarvis-Anbindung. Konzept: `life-app-konzept.md`.
+  - 2026-10-18 Phase 1 fertig auf Branch `claude/shared-org-app-umbau` (noch nicht live): Tabellen für Todos, Inbox, Tagesplan, Bereiche, API-Tokens; API v1 (`docs/API.md` im App-Repo); Screens Heute, Inbox, Todo, Mehr; Zyklus und Partner-Funktionen raus, Login nur Alain. Lokal getestet (Migration, API, Browser).
+  - Hinweis: Default-Branch des App-Repos ist `claude/shared-org-app-IYZYF`, nicht `main`. Push dorthin deployt live. Seit 2026-10-27 Dauerfreigabe von Alain: Jarvis deployt die Life-App ohne Nachfrage, sobald der CI-Build grün ist (siehe decisions.md). Der Branch `claude/shared-org-app-umbau` baut nur ein Image.
+  - 2026-10-22 live gemergt (Ja Alain): `claude/shared-org-app-IYZYF` auf 222ca7e (Phase 1 + Design C). Hinweis: Die Auto-Freigabe der Umgebung blockt Pushes auf diesen Branch als Produktions-Deploy, erst nach ausdrücklicher Erlaubnis von Alain ging es. Danach Token in der App erzeugen (Profil, Jarvis-Zugang) und als `LIFE_APP_TOKEN` in der Jarvis-Umgebung hinterlegen.
+  - Nach Livegang offen: `legacy_workspace_state` (Kopie der alten Daten inkl. Ambar und Zyklus) und Ambars Account löschen, nur nach ⚠️ und Ja.
+  - 2026-10-21 Neues Design: drei Richtungen für den Heute-Screen als Entwurf (A Klar, B Nacht, C Zwei Welten), https://claude.ai/artifact/643oM9Ub2WrEQJQKs8c6wR. Alain hat C gewählt (2026-10-21), umgesetzt auf dem Branch `claude/shared-org-app-umbau` (Commit 222ca7e), live seit 2026-10-22.
+  - 2026-10-27 Phase 4 Lernkarten gebaut, Branch `claude/shared-org-app-lernen` (Commit 9c31a2b), live seit 2026-10-27 nach ausdrücklicher Erlaubnis von Alain. Details bei privat-lernen.
+  - 2026-10-27 Lernen ausgebaut (Lektionen 2 bis 12, Sätze mit Tipps, Richtung wählbar, Einstellungen, Push-Erinnerungen) und App-Icon "AL", Commit d24dd0d, live seit 2026-10-27 (Erlaubnis Alain). Schriften jetzt per Fontsource im Paket, weil next/font/google den Docker-Build brach.
+  - 2026-10-27 Kapitel des Tages und Spinnerei-Einkaufsliste entfernt (Einträge laufen in der normalen Liste), live seit 2026-10-27 (Commit e722297, Erlaubnis Alain).
+  - 2026-10-27 Heute: Welt-Kacheln zeigen alle offenen Todos chronologisch (scrollbar), ohne Bereich zählt als Privat. Branch `claude/shared-org-app-welten` (Commit d897f3d), live seit 2026-10-27.
+  - 2026-10-27 Lernen-Zählung bereinigt: heute geübte Karten nicht mehr fällig, Auffrischen nur freiwillig und ohne neue Karten, Lektionen zeigen "N× durchgearbeitet" statt % pro Richtung, Einstellungen nur noch Erinnerung. Gleicher Branch (Commit a402356), live seit 2026-10-27.
+  - Nicht in Phase 1: Einkauf, Aktivitäten, Ziele hängen noch am alten JSON-Block (scope-Felder intern noch vorhanden, in der Oberfläche ausgeblendet). Kommt in Phase 3.
+- [ ] Orga-App: Abschnitt pro Anlass für die Putz-/Vorbereitungs-To-do-Liste von Ambar (Protokoll 28.09.).
+
+- [x] Telegram-Morgenbriefing: Bot @daellen_bot ("Jarvis"), Chat-ID Alain 732755112, Test ok (2026-10-08). Routine "Morgenroutine Alain" (`trig_01GD4CBsQy5mNftMr8VNbiE1`) von Alain im UI angelegt, Connectors dabei. Alte Tool-Routine gelöscht. Cron `30 6 * * *` ohne Zeitzone, also 06:30 UTC (08:30 Zürich im Sommer, 07:30 im Winter). So gewollt (Alain, 2026-10-08).
 
 ## Nächster Schritt
 
+- Life-App: Alain prüft Phase 1 und gibt den Livegang frei. Danach Phase 2 (Telegram-Eingang, Morgenroutine füllt "Heute").
+
+- 2026-10-21 Orga-App: öffentlicher iCal-Feed `/kalender/haus.ics` (src/app/kalender/haus.ics/route.ts), ab 60 Tagen zurück, privat anonymisiert. Live getestet.
+- Spinnplan: nächste Änderung per Push auf main, Deploy über Netlify-Connector kontrollieren.
 - Stand laut Alain mit ihm verifizieren und bestätigte Punkte aus "zu prüfen" lösen.
+- [x] 2026-10-21 Orga-App: Neue Anlässe bekommen die Standard-Ressorts (Acts, Bar, Essen, Licht, Ton, Promo, Sicherheit, Finanzen), Migration 0029 ergänzt sie bei Anlässen ohne Ressorts. Anlassliste mit Jahres-Trenner. Commits 834b6c1 und 7e7e578, live seit 2026-10-21.
+- [ ] Orga-App, Sitzungen 26.10. und 27.11.2026: 26.10. war in der App leer, weil 0033 Sitzungen am selben Datum überspringt. Migration 0041 füllt beide auf (ohne Erfasstes zu überschreiben), Pendenzen mit Stand 27.11., nächste Sitzung 18.01.2027, Booking-Anfragen Tortoise, the sentis, Sturzflug. Lokal gegen Postgres 16 getestet. Patch: areas/privat-projekte/patches/spinnerei-0041-sitzungen-okt-nov.patch, Branch sitzungen-protokolle-okt-nov (Push am 2026-11-27 blockiert). Merge nach Ja.
+- Zugang: Jarvis darf das Repo `daellengarnier/spinnerei` selbst mit `add_repo` anhängen und pushen (Erlaubnis in `.claude/settings.json`, von Alain eingetragen 2026-10-21). Push auf main deployt live: vorher ⚠️ und Ja.

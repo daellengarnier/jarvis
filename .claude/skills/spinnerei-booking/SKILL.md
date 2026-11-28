@@ -24,4 +24,13 @@ Spinnerei-Konto: info@kulturspinnerei.ch. Nie aus dem Gmail-Konto senden.
 
 ## Wissen
 
-Noch keins. Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.
+### Essen in der Orga-App (Wunsch Alain, 2026-10-09)
+
+Für jeden Anlass mit Essen, sobald Rider oder Infos zu den Acts da sind:
+
+1. Pro Act Anzahl Personen fürs Essen ermitteln: Musiker plus Crew und Driver laut Rider oder Mail. Driver in der Orga-App beim Act mit dem Häkchen "Driver" erfassen.
+2. Essgewohnheiten aus Hospitality Rider und Mails (vegetarisch, vegan, Allergien, Zeitpunkt, Wünsche). Unbekannt: "unbekannt, nachfragen" schreiben, nichts erfinden.
+3. In der Orga-App eintragen: pro Act eine Zeile "Essen: ..." in der Notiz, und im Ressort Essen des Anlasses die Beschreibung mit Total (ohne Team) und den Angaben pro Act. Quelle nennen.
+4. Widersprüche (z.B. Rider gegen Mail) beide nennen.
+
+Dieser Skill wird über den Skill `training` schrittweise ergänzt. Längeres Wissen kommt in `references/*.md`.

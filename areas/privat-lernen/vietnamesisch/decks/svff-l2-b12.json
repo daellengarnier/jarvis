@@ -1,0 +1,169 @@
+{
+  "deck": {
+    "id": "svff-l2-b12",
+    "title": "Bài 12: Mặc dù không có nhiều thời gian, nhưng...",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 12
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "quan trọng",
+      "back_de": "wichtig",
+      "back_en": "important"
+    },
+    {
+      "type": "vocab",
+      "front": "tự mình",
+      "back_de": "selbst, aus eigener Kraft",
+      "back_en": "by oneself"
+    },
+    {
+      "type": "vocab",
+      "front": "bài viết",
+      "back_de": "Text, Artikel",
+      "back_en": "article, piece of writing"
+    },
+    {
+      "type": "vocab",
+      "front": "giảm giá",
+      "back_de": "Rabatt, Preisnachlass",
+      "back_en": "discount"
+    },
+    {
+      "type": "vocab",
+      "front": "vị trí",
+      "back_de": "Lage, Position, Stelle",
+      "back_en": "location, position"
+    },
+    {
+      "type": "vocab",
+      "front": "quê hương",
+      "back_de": "Heimat",
+      "back_en": "hometown"
+    },
+    {
+      "type": "vocab",
+      "front": "nhà cho thuê",
+      "back_de": "Mietshaus, Haus zu vermieten",
+      "back_en": "house for rent"
+    },
+    {
+      "type": "vocab",
+      "front": "sắc đẹp",
+      "back_de": "Schönheit",
+      "back_en": "beauty"
+    },
+    {
+      "type": "vocab",
+      "front": "tương xứng",
+      "back_de": "angemessen, entsprechend",
+      "back_en": "proportionate"
+    },
+    {
+      "type": "vocab",
+      "front": "đóng cửa",
+      "back_de": "schliessen (Tür, Geschäft)",
+      "back_en": "to close"
+    },
+    {
+      "type": "vocab",
+      "front": "phim kinh dị",
+      "back_de": "Horrorfilm",
+      "back_en": "horror film"
+    },
+    {
+      "type": "sentence",
+      "front": "Nhà tôi thì rộng, còn phòng ngủ tôi thì nhỏ.",
+      "back_de": "Mein Haus ist geräumig, mein Schlafzimmer hingegen klein.",
+      "note": "A thì ..., còn B thì ... = Gegenüberstellung"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh trai em thích học, còn em thì thích đi chơi.",
+      "back_de": "Mein älterer Bruder lernt gern, ich hingegen gehe lieber aus.",
+      "note": "A thì ..., còn B thì ... = Gegenüberstellung"
+    },
+    {
+      "type": "sentence",
+      "front": "Chỗ thì mưa lũ, chỗ thì hạn hán.",
+      "back_de": "An manchen Orten gibt es Überschwemmungen, an anderen Dürre.",
+      "note": "N thì ..., N thì ... = die einen ..., die anderen"
+    },
+    {
+      "type": "sentence",
+      "front": "Ảnh lái xe càng lúc càng nhanh.",
+      "back_de": "Er fährt immer schneller.",
+      "note": "càng ... càng ... = immer mehr"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị ấy học càng ngày càng giỏi.",
+      "back_de": "Sie wird beim Lernen immer besser.",
+      "note": "càng ... càng ... = immer mehr"
+    },
+    {
+      "type": "sentence",
+      "front": "Chúng ta không nên vừa ăn vừa coi điện thoại.",
+      "back_de": "Wir sollten nicht gleichzeitig essen und aufs Handy schauen.",
+      "note": "vừa ... vừa ... = gleichzeitig"
+    },
+    {
+      "type": "sentence",
+      "front": "Chị Ly vừa xinh đẹp vừa tốt bụng.",
+      "back_de": "Ly ist hübsch und gutherzig zugleich.",
+      "note": "vừa ... vừa ... = sowohl ... als auch"
+    },
+    {
+      "type": "sentence",
+      "front": "Mặc dù rất buồn ngủ nhưng anh Minh phải thức khuya để ôn bài.",
+      "back_de": "Obwohl er sehr müde ist, muss Minh lange aufbleiben, um zu repetieren.",
+      "note": "mặc dù ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Tuy bây giờ còn rất sớm nhưng chị My phải thức dậy để đi làm.",
+      "back_de": "Obwohl es noch sehr früh ist, muss My aufstehen, um zur Arbeit zu gehen.",
+      "note": "tuy ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Gia đình họ tuy nghèo nhưng hạnh phúc.",
+      "back_de": "Ihre Familie ist zwar arm, aber glücklich.",
+      "note": "tuy ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Ngoài chả giò ra, tui còn thích ăn bánh xèo, bánh mì và phở nữa.",
+      "back_de": "Ausser Chả giò esse ich auch gern Bánh xèo, Bánh mì und Phở.",
+      "note": "ngoài ... ra = ausser ... (noch)"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô Hoa đã đi du lịch nhiều nước ở châu Á như Hàn Quốc, Nhật Bản... Ngoài ra, cô còn đi du lịch ở châu Âu nữa.",
+      "back_de": "Frau Hoa ist in viele Länder Asiens gereist, etwa Korea und Japan. Ausserdem war sie auch in Europa.",
+      "note": "ngoài ra = ausserdem"
+    },
+    {
+      "type": "sentence",
+      "front": "Ảnh học tiếng Anh, tiếng Pháp. Ngoài ra, ảnh còn học tiếng Hàn Quốc.",
+      "back_de": "Er lernt Englisch und Französisch. Ausserdem lernt er Koreanisch.",
+      "note": "ngoài ra = ausserdem"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi thích tất cả các bạn trong lớp, trừ lớp trưởng.",
+      "back_de": "Ich mag alle in der Klasse, ausser den Klassensprecher.",
+      "note": "trừ = ausser"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi ăn được tất cả các món, trừ hải sản.",
+      "back_de": "Ich kann alles essen, ausser Meeresfrüchte.",
+      "note": "trừ = ausser"
+    }
+  ]
+}

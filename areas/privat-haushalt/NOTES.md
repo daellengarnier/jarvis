@@ -1,7 +1,7 @@
 # NOTES: privat-haushalt
 
 Welt: Privat  
-Zuletzt aktualisiert: 2026-10-06
+Zuletzt aktualisiert: 2026-10-25
 
 ## Aktueller Stand
 
@@ -10,9 +10,26 @@ Zuletzt aktualisiert: 2026-10-06
 - Alain wohnt in einer WG.
 - Themen: Saugroboter, Beamer/Heimkino im Zimmer.
 
+### Projekt Holztreppe Galerie (ab 2026-10-25)
+
+Ersetzt die steile Metalltreppe im Zimmer. L-Treppe aus Holz mit Podest und Geländer.
+
+- Masse laut Alain: Galerie 2,30 m hoch. Podest beginnt 1,25 m (horizontal) nach dem heutigen Treppenstart oben. Wand bis Bambuskorb ca. 1,50 m (Bezugspunkt noch unklar).
+- Untere Treppe geht vom Podest rechtwinklig nach links in den Raum.
+- Befestigung nur oben am Galeriebalken und am Podest, Podest muss selbst stabil stehen.
+- Stand 2026-10-25 (aktuell, wie Alains KI-Bild): Podest auf 1,00 m, beginnt bei 1,25 m, 65 cm lang × 58 cm tief. Oben 6 Steigungen à 21,7 cm, 5 Tritte à 25 cm, 58 cm aussen / 50 cm zwischen den Wangen. Unten 4 Steigungen à 25 cm, 3 Tritte à 20 cm (60 cm), 65 cm breit, nach vorne in den Raum, ohne Geländer. Geländer: Raumseite oben mit Stäben, Podest rechts mit Stäben, Podestpfosten vorne und rechts als hohe Geländerpfosten. Tritte liegen ganz zwischen den Wangen (Wange 5 cm über Trittkante). Podestseite rechts offen (Alain), Aussteifung quer zur Wand mit Strebe auf der linken Seite unter der oberen Treppe. Ragt 1,18 m in den Raum.
+- 3D-Modell für Shapr3D: `areas/privat-haushalt/treppe/treppe_cq.py` (CadQuery, parametrisch, erzeugt treppe.step in mm, prüft beim Lauf, dass sich keine Teile überschneiden). Vorschauen im selben Ordner.
+- Konstruktion (Stand 2026-10-25, Neuaufbau nach Kritik Alain): 3 Podestpfosten 80 × 80 durchgehend vom Boden bis Geländer (vorne links bis Handlauf oben 2,15 m, rechts beide bis 2,00 m), Pfosten Wand links kurz unter dem Belag. Rahmen 60 × 120 zwischen den Pfosten, Belag 40 mm um die Pfosten ausgeklinkt. Obere Wangen sitzen mit einer Klaue auf einem Auflagerriegel 60 × 120, der aussen an die linken Pfosten geschraubt ist. Untere Wangen stehen unten auf dem Boden. Tritte 15 mm in die Wangen eingenutet. Material (Entscheid Alain 2026-10-25): alles Fichte, Plattenteile (Wangen, Tritte, Belag, Wandplatte, Handläufe, Stäbe 40 × 40) aus 1 Platte Fichte 1-Schicht GL/A 40 × 1220 × 5000 (OLWO), Zuschnittplan `treppe/zuschnitt.png`. Pfosten 80 × 80 und Rahmenholz 60 × 120 / 60 × 80 Fichte/Tanne. Tritte mit Hartwachsöl. Bei OLWO klären: Einzelplatte, Zuschnitt, Pfosten 80 × 80 sichtbar, Preise. Rechte Podestseite offen, Aussteifung: Platte an der Wand, Strebe links zwischen den Pfosten. Kein Stahl (Entscheid Alain 2026-10-25), nur versenkte Schrauben. Oben: Wange mit 30 mm Zunge in einer Tasche im Galerie-Randbalken, Auflager 40 mm über Balkenunterkante, oben bündig mit Galerieboden, 1 versenkte Vollgewindeschraube. Unten am Podest: untere Wangen in 20 mm Falz der vorderen Pfosten, Auflager auf 700, von innen verschraubt. Obere Wangen: Klaue auf Auflagerriegel (Stahllaschen entfernt). Holzkopf auf der Galerie verworfen (reisst aus). Schnitte: `treppe/schnitt_anschluesse.png`. Galerie im Modell als Bestand mit ANGENOMMENEN Massen (Boden 30 mm, Randbalken 120 × 200), am Bau messen.
+- Atlas Cloud (Bildgenerierung) verbunden über ATLASCLOUD_API_KEY. Ergebnis-Host atlas-media.oss-us-west-1.aliyuncs.com ist im Netzwerk noch gesperrt (Stand 2026-10-25).
+
+- Befestigung oben, nur Holz (2026-11-20): 7 Varianten skizziert in `treppe/varianten_galerie.png` (1 Stütze, 2 hoher Wangenkopf, 3 Einhängeleiste Hartholz, 4 Tasche, 5 Schwalbenschwanz, 6 Klaue auf Balken, 7 Zapfen). Empfehlung Jarvis für Mietwohnung: 1 oder 3, mit Eingriff in Balken: 5. Entscheid Alain offen. Modell hat aktuell Variante 4.
+
+- Podest-Aufbau (Vorschlag Jarvis 2026-11-21, nur Holz): Rahmen 60 × 120 mit Schlitz und Zapfen 20 × 80 × 50 in die Pfosten, verleimt + Holznagel Eiche Ø 12. Auflagerriegel links 15 mm in die Pfosten eingelassen. Aussteifung: Wandplatte und neu auch Platte links (statt Strebe), je 40 mm in Nuten. Belag verleimt + Holzdübel. Filz/Kork unter Pfosten, Pfosten zuletzt auf Mass. Explosionszeichnung `treppe/podest_explosion.png`. Variante mit Pocket Holes (2026-11-21): Rahmen an Pfosten (je 2 pro Ende, Leim), Belag von unten, Handlauf; Last weiter über Holz (Klaue, Einlass, Falz, Nuten, Platten). Zeichnung `treppe/podest_pocket_holes.png`. Entscheid Zapfen oder Pocket Holes offen. Ins Hauptmodell noch nicht übernommen.
+
 ## Offene Punkte
 
-- [ ] Keine erfasst.
+- [ ] Treppe: Galerie messen (Bodenaufbau, Randbalken direkt unter der Kante? Masse), bestehendes Galeriegeländer an der Treppe?, was mit dem Bambuskorb passiert. Unterschiedliche Steigungen oben 21,7 / unten 25 cm von Alain so gewählt (Podest 1 m, max. 3 Tritte).
+- [ ] Treppe: danach Bauplan mit Zuschnitt- und Materialliste.
 
 ## Nächster Schritt
 

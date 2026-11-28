@@ -1,0 +1,163 @@
+{
+  "deck": {
+    "id": "svff-l2-b6",
+    "title": "Bài 6: Chị ấy làm nghề gì vậy?",
+    "course": "SVFF Complete Vietnamese Course, Level 02, Southern",
+    "level": "A2",
+    "topic": "",
+    "source": "",
+    "position": 6
+  },
+  "cards": [
+    {
+      "type": "vocab",
+      "front": "trả giá",
+      "back_de": "feilschen",
+      "back_en": "to bargain"
+    },
+    {
+      "type": "vocab",
+      "front": "đề nghị",
+      "back_de": "vorschlagen, beantragen (formell)",
+      "back_en": "to propose"
+    },
+    {
+      "type": "vocab",
+      "front": "nông trại",
+      "back_de": "Bauernhof",
+      "back_en": "farm"
+    },
+    {
+      "type": "vocab",
+      "front": "tòa lâu đài",
+      "back_de": "Schloss, Burg",
+      "back_en": "castle"
+    },
+    {
+      "type": "vocab",
+      "front": "cuốn",
+      "back_de": "Zähleinheit für Bücher, Hefte",
+      "back_en": "classifier for books"
+    },
+    {
+      "type": "vocab",
+      "front": "xây",
+      "back_de": "bauen",
+      "back_en": "to build"
+    },
+    {
+      "type": "vocab",
+      "front": "bò sữa",
+      "back_de": "Milchkuh",
+      "back_en": "dairy cow"
+    },
+    {
+      "type": "vocab",
+      "front": "bức tranh",
+      "back_de": "Gemälde, Bild",
+      "back_en": "painting"
+    },
+    {
+      "type": "vocab",
+      "front": "làm ăn",
+      "back_de": "Geschäfte machen, seinen Lebensunterhalt verdienen",
+      "back_en": "to do business"
+    },
+    {
+      "type": "vocab",
+      "front": "hàng xóm",
+      "back_de": "Nachbar/in",
+      "back_en": "neighbour"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi được mời đi đến tiệc sinh nhật của người bạn thân.",
+      "back_de": "Ich wurde zur Geburtstagsparty eines guten Freundes eingeladen.",
+      "note": "được = etwas Gutes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Tuần sau bé Bi bắt đầu được nghỉ hè nên bé rất vui.",
+      "back_de": "Nächste Woche beginnen für den kleinen Bi die Sommerferien, darum freut er sich sehr.",
+      "note": "được = etwas Gutes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh ấy bị trễ giờ vì ảnh ngủ quên.",
+      "back_de": "Er kam zu spät, weil er verschlafen hat.",
+      "note": "bị = etwas Schlechtes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Lan bị cô giáo la vì ẻm quên làm bài tập về nhà.",
+      "back_de": "Lan wurde von der Lehrerin geschimpft, weil sie die Hausaufgaben vergessen hat.",
+      "note": "bị = etwas Schlechtes widerfährt"
+    },
+    {
+      "type": "sentence",
+      "front": "Tôi thấy hơi khó chịu. Chắc là tôi bị bệnh rồi.",
+      "back_de": "Ich fühle mich etwas unwohl. Wahrscheinlich bin ich krank.",
+      "note": "chắc là = wahrscheinlich"
+    },
+    {
+      "type": "sentence",
+      "front": "Trời mưa rồi! Chắc là chiều nay ảnh không tới được đâu.",
+      "back_de": "Es regnet! Wahrscheinlich kann er heute Nachmittag nicht kommen.",
+      "note": "chắc là = wahrscheinlich"
+    },
+    {
+      "type": "sentence",
+      "front": "Hình như em quên đem theo tiền rồi.",
+      "back_de": "Ich glaube, ich habe vergessen, Geld mitzunehmen.",
+      "note": "hình như = anscheinend"
+    },
+    {
+      "type": "sentence",
+      "front": "Hình như ngày mai là sinh nhật của anh Nam đó!",
+      "back_de": "Anscheinend hat Nam morgen Geburtstag!",
+      "note": "hình như = anscheinend"
+    },
+    {
+      "type": "sentence",
+      "front": "Vì bây giờ còn sớm nên tôi muốn ra ngoài đi dạo.",
+      "back_de": "Weil es noch früh ist, will ich einen Spaziergang machen.",
+      "note": "vì ... nên ... = weil ... deshalb"
+    },
+    {
+      "type": "sentence",
+      "front": "Vì hôm qua ngủ trễ nên hôm nay tôi thức dậy trễ.",
+      "back_de": "Weil ich gestern spät ins Bett ging, bin ich heute spät aufgewacht.",
+      "note": "vì ... nên ... = weil ... deshalb"
+    },
+    {
+      "type": "sentence",
+      "front": "Anh Nam không những giỏi tiếng Anh mà còn giỏi tiếng Pháp nữa.",
+      "back_de": "Nam ist nicht nur gut in Englisch, sondern auch in Französisch.",
+      "note": "không những ... mà còn ... = nicht nur ... sondern auch"
+    },
+    {
+      "type": "sentence",
+      "front": "Cái điện thoại này không những không tốt mà còn mắc nữa.",
+      "back_de": "Dieses Handy ist nicht nur schlecht, sondern auch teuer.",
+      "note": "không những ... mà còn ... = nicht nur ... sondern auch"
+    },
+    {
+      "type": "sentence",
+      "front": "Cô ấy không những thông minh mà còn siêng năng nữa.",
+      "back_de": "Sie ist nicht nur klug, sondern auch fleissig.",
+      "note": "không những ... mà còn ... = nicht nur ... sondern auch"
+    },
+    {
+      "type": "sentence",
+      "front": "Tuy nhà tôi nhỏ nhưng bên trong rất tiện nghi.",
+      "back_de": "Obwohl mein Haus klein ist, ist es innen sehr komfortabel.",
+      "note": "tuy ... nhưng ... = obwohl"
+    },
+    {
+      "type": "sentence",
+      "front": "Tuy nhà xa trường nhưng ngày nào bé Hoa cũng đi học đúng giờ.",
+      "back_de": "Obwohl ihr Haus weit von der Schule weg ist, kommt die kleine Hoa jeden Tag pünktlich.",
+      "note": "tuy ... nhưng ... = obwohl"
+    }
+  ]
+}
